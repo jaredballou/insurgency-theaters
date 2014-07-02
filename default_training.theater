@@ -715,6 +715,18 @@
 			"print_name"					"Suicide Bomb"
 			"print_desc"					"GO BEUM"
 		}
+		"weapon_f1"
+		{
+			"view_model"					"models/weapons/v_c4_ins.mdl"
+			"world_model"					"models/weapons/w_c4.mdl"
+			"weapon_cost"					"0"
+			"print_name"					"Suicide Bomb"
+			"print_desc"					"GO BEUM"
+			"explosives"
+			{
+				"entity"				"grenade_rgd5"
+			}
+		}
 		"weapon_akm"
 		{
 			"ballistics"  
@@ -1194,6 +1206,7 @@
 		}
 		"heavybarrel"
 		{
+			"class_restricted"	"0"
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_m249"
@@ -2042,13 +2055,12 @@
 				}
 			}
 		}
-		"optics_scope"
+		"optic_scope_mk4"
 		{
-			"import"					"base_optic_rail"
-			"print_name"					"#weapon_upgrade_scope_m40a1"
-			"print_desc"					"#weapon_upgrade_scope_m40a1_desc"
+			"class_restricted"				"0"
 			"allowed_weapons"
 			{
+				"weapon"			"weapon_m40a1"
 				"weapon"			"weapon_m14"
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_m249"
@@ -2056,19 +2068,65 @@
 			}
 			"viewmodel_attachments"
 			{
-				"Scope"
+				"scope_m40a1"
 				{
 					"model"					"models/weapons/upgrades/a_optic_m40.mdl"
-					"AnimIronSights"			"scope_zoom"
+					"AnimIronSights"		"scope_zoom"
 					"AnimIdle"				"scope_idle"
 					"Gesture"				"delta_scope"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_m40a1"
+					}
+				}
+				
+				"mk4scope_m14"
+				{
+					"model"				"models/weapons/upgrades/a_optic_m40_l.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"			"scope_idle"
+					"Gesture"			"delta_scope"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_m14"
+					}
+				}
+				"mk4scope_other"
+				{
+					"model"				"models/weapons/upgrades/a_optic_m40_l.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"			"scope_idle"
+					"Gesture"			"delta_scope"
+					
+					"excluded_weapons"
+					{
+						"weapon"			"weapon_m14"
+						"weapon"			"weapon_m40a1"
+					}
 				}
 			}
 			"optics_fov_override"
 			{
 				"fov_wpn_scope"				"10"
-				"fov_wpn_ironsight"			"46"
-				"fov_wpn_focus"				"50"
+				"fov_wpn_ironsight"			"50"
+				"fov_wpn_focus"				"57"
+				
+				"weapon_m40a1"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"46"
+					"fov_wpn_focus"				"50"
+				}
+				
+				"weapon_m14"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"57"
+				}
 			}
 			"world_attachments"
 			{
@@ -2077,31 +2135,51 @@
 					"model"					"models/weapons/upgrades/w_scope_m40.mdl"
 				}
 			}
-
 		}
-		"scope_m40a1"
+		"sec_bipod"
 		{
+			"import"						"base_bipod"
 			"upgrade_cost"					"0"
+			"class_restricted"				"0"
+			
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_m40a1"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"Bipod"
+				{
+					"model"					"models/weapons/upgrades/a_bipod_m40.mdl"
+				}			
+			}
 		}
+
 		"sec_flashlight"
 		{
 			"upgrade_cost"		"0"
+			"class_restricted"	"0"
 		}
 		"sec_flashlight_pistol"
 		{
 			"upgrade_cost"		"0"
+			"class_restricted"	"0"
 		}
 		"sec_foregrip"
 		{
 			"upgrade_cost"		"0"
+			"class_restricted"	"0"
 		}
 		"sec_foregrip2"
 		{
 			"upgrade_cost"		"0"
+			"class_restricted"	"0"
 		}
 		"sec_lasersight"
 		{
 			"upgrade_cost"		"0"
+			"class_restricted"	"0"
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_m16a4"
@@ -2119,9 +2197,11 @@
 		"sec_lasersight_pistol"
 		{
 			"upgrade_cost"		"0"
+			"class_restricted"	"0"
 		}
 		"sec_silencer"
 		{
+			"class_restricted"	"0"
 			"import"						"base_silencer"
 			"upgrade_cost"					"0"
 
@@ -2185,6 +2265,7 @@
 		}
 		"sec_silencer_pistol"
 		{
+			"class_restricted"	"0"
 			"upgrade_cost"		"0"
 		}
 	}
