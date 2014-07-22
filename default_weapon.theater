@@ -1119,7 +1119,7 @@
 			"print_name"					"#weapon_m14"
 			"print_desc"					"#weapon_m14_desc"
 			"view_model"					"models/weapons/v_m14.mdl"
-			"world_model"					"models/weapons/w_mini14.mdl"
+			"world_model"					"models/weapons/w_m14.mdl"
 			"rounds_per_minute"				"710"
 			"weapon_slot"					"primary"
 			"act_table"						"shortrifle"

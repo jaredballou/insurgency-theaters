@@ -1,0 +1,112 @@
+"#base" "default.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"insurgents"
+		{
+			"squads"
+			{
+				"#Cell_Alpha"	// assault team #1
+				{
+					"#Squad_Cell_SharpShooter"					"template_suicide_insurgent"
+				}
+				"#Cell_Bravo"	// assault team #2
+				{
+					"#Squad_Cell_SharpShooter"					"template_suicide_insurgent"
+				}
+				"#Cell_Charlie"	// support team
+				{
+					"#Squad_Cell_SharpShooter"					"template_suicide_insurgent"
+				}
+				"#Cell_Delta"	// heavy weapons team
+				{
+					"#Squad_Cell_SharpShooter"					"template_suicide_insurgent"
+				}
+				"#Cell_Echo"
+				{
+					"#Squad_Cell_SharpShooter"					"template_suicide_insurgent"
+				}
+				"#Cell_Foxtrot"
+				{
+					"#Squad_Cell_SharpShooter"					"template_suicide_insurgent"
+				}
+			}
+		}
+	}
+	"player_templates"
+	{
+		"template_suicide_insurgent"
+		{
+			"models"
+			{
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
+			}
+			"team"		"insurgents"
+			"buy_order" 
+			{
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_rgd5"
+			}
+			"allowed_weapons"
+			{
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_rgd5"
+			}
+		}
+	}
+	"explosives"
+	{
+		"grenade_rgd5"
+		{
+			"import"				"baseGrenade"
+			"entity_class"				"grenade_frag"
+			"Model"					"models/weapons/w_m67.mdl"
+			"DetonateDamage"			"250"
+			"DetonatePenetrationRadius" 		"80"
+			"DetonateDamageRadius"			"1500"
+			"FuseTime"				"0.1"
+			"RocketStartSpeed"			"2000"
+			
+			"Health"				"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"1"
+			
+			"Particles"
+			{
+				"DetonateParticle"		"ins_water_explosion"
+				"DetonateWaterParticle"		"ins_grenade_explosion"
+			}
+			"Sounds"
+			{
+				"DetonateSound"			"BaseGrenade.Explode"
+				"BounceSound"			"Weapon_M67.Bounce"
+			}
+		}
+	}
+	"weapons"
+	{
+		"weapon_rgd5"
+		{
+			"view_model"					"models/weapons/v_c4_ins.mdl"
+			"world_model"					"models/weapons/w_c4.mdl"
+			"weapon_cost"					"0"
+			"print_name"					"Suicide Bomb"
+			"print_desc"					"GO BEUM"
+		}
+		"weapon_f1"
+		{
+			"view_model"					"models/weapons/v_c4_ins.mdl"
+			"world_model"					"models/weapons/w_c4.mdl"
+			"weapon_cost"					"0"
+			"print_name"					"Suicide Bomb"
+			"print_desc"					"GO BEUM"
+			"explosives"
+			{
+				"entity"				"grenade_rgd5"
+			}
+		}
+	}
+}

@@ -1,0 +1,91 @@
+"#base" "default.theater"
+
+"theater"
+{
+	"player_gear"
+	{
+		"sec_chest_carrier"
+		{
+			"gear_weight"		"0" // 50 (5.0kg) + 50 encumbrance
+		}
+		"sec_chest_rig"
+		{
+			"gear_weight"   "0"
+		}
+		"sec_heavy_armor"
+		{
+			"gear_weight"   "0"
+		}
+		"sec_light_armor"
+		{
+			"gear_weight"   "0"
+		}
+	}
+	"weapons"
+	{
+		"weapon_anm14"
+		{
+			"weapon_weight"		"0"
+		}
+		"weapon_at4"
+		{
+			"weapon_weight"		"0"
+		}
+		"weapon_c4_clicker"
+		{
+			"weapon_weight"		"0"
+		}
+		"weapon_kabar"
+		{
+			"weapon_weight"		"0"
+		}
+		"weapon_m16a4"
+		{
+			"weapon_weight"		"0"
+		}
+		"weapon_m18"
+		{
+			"weapon_weight"		"0"
+		}
+		"weapon_m14"
+		{
+			"weapon_weight"					"0"
+		}
+		"weapon_m249"
+		{
+			"weapon_weight"		"0"
+		}
+		"weapon_m40a1"
+		{
+			"weapon_weight"		"0"
+		}
+		"weapon_mk18"
+		{
+			"weapon_weight"		"0"
+		}
+		"weapon_m590"
+		{
+			"weapon_weight"		"0"
+		}
+		"weapon_m67"
+		{
+			"weapon_weight"		"0"
+		}
+		"weapon_m84"
+		{
+			"weapon_weight"		"0"
+		}
+		"weapon_m9"
+		{
+			"weapon_weight"		"0"
+		}
+		"weapon_mp5"
+		{
+			"weapon_weight"		"0"
+		}
+		"weapon_ump45"
+		{
+			"weapon_weight"		"0"
+		}
+	}
+}

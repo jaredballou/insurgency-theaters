@@ -1,0 +1,24 @@
+"#base" "default.theater"
+
+"theater"
+{
+	"ammo"
+	{
+		"grenade_m67"
+		{
+			"carry"						"10"
+		}
+		"grenade_m18"
+		{
+			"carry"						"10"
+		}
+		"grenade_m84"
+		{
+			"carry"						"10"
+		}
+		"grenade_c4"
+		{
+			"carry"						"10"
+		}
+	}
+}

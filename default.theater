@@ -49,8 +49,6 @@
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_mini14"
 				"weapon"			"weapon_m84"
-				"weapon_upgrade"	"sec_foregrip"
-				"weapon_upgrade"	"sec_foregrip2"
 			}
 		}
 		"template_specialist_security"
@@ -85,8 +83,6 @@
 				"weapon"			"weapon_mini14"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_anm14"
-				"weapon_upgrade"	"sec_foregrip"
-				"weapon_upgrade"	"sec_foregrip2"
 				"weapon_upgrade"	"sec_silencer"
 				"weapon_upgrade"	"sec_silencer2"
 				"weapon_upgrade"	"sec_silencer_pistol"
@@ -122,8 +118,6 @@
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_anm14"
-				"weapon_upgrade"	"sec_foregrip"
-				"weapon_upgrade"	"sec_foregrip2"
 				"weapon_upgrade"	"sec_silencer"
 				"weapon_upgrade"	"sec_silencer2"
 				"weapon_upgrade"	"sec_silencer_pistol"
@@ -164,6 +158,14 @@
 				"weapon_upgrade"	"sec_silencer2"
 				"weapon_upgrade"	"sec_silencer_pistol"
 			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"sec_foregrip"	"1"
+					"sec_foregrip2" "1"
+				}
+			}
 		}
 		"template_breacher_security"
 		{	
@@ -195,8 +197,6 @@
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_anm14"
-				"weapon_upgrade"	"sec_foregrip"
-				"weapon_upgrade"	"sec_foregrip2"
 				"weapon_upgrade"	"sec_silencer"
 				"weapon_upgrade"	"sec_silencer2"
 				"weapon_upgrade"	"sec_silencer_pistol"
@@ -228,8 +228,6 @@
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m14"
 				"weapon"			"weapon_m84"
-				"weapon_upgrade"	"sec_foregrip"
-				"weapon_upgrade"	"sec_foregrip2"
 			}
 		}
 		"template_sniper_security"
@@ -268,6 +266,14 @@
 				"weapon_upgrade"	"sec_silencer2"
 				"weapon_upgrade"	"sec_silencer_pistol"
 			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"sec_foregrip"	"1"
+					"sec_foregrip2" "1"
+				}
+			}
 		}
 		"template_demolitions_security"
 		{	
@@ -297,8 +303,6 @@
 				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_at4"
 				"weapon"			"weapon_anm14"
-				"weapon_upgrade"	"sec_foregrip"
-				"weapon_upgrade"	"sec_foregrip2"
 			}
 		}
 		"template_escort_security"
@@ -330,6 +334,14 @@
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_anm14"
 			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"sec_foregrip"	"1"
+					"sec_foregrip2" "1"
+				}
+			}
 		}
 		"template_engineer_security"
 		{	
@@ -359,8 +371,6 @@
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_anm14"
-				"weapon_upgrade"	"sec_foregrip"
-				"weapon_upgrade"	"sec_foregrip2"
 			}
 		}
 		
@@ -395,10 +405,6 @@
 				"weapon"			"weapon_sks"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_molotov"
-				"weapon_upgrade"	"ins_foregrip1"
-				"weapon_upgrade"	"ins_foregrip2"
-				"weapon_upgrade"	"ins_woodgrip1"
-				"weapon_upgrade"	"ins_woodgrip2"
 			}
 		}
 		"template_specialist_insurgent"
@@ -430,10 +436,6 @@
 				"weapon"			"weapon_m1a1"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_molotov"
-				"weapon_upgrade"	"ins_foregrip1"
-				"weapon_upgrade"	"ins_foregrip2"
-				"weapon_upgrade"	"ins_woodgrip1"
-				"weapon_upgrade"	"ins_woodgrip2"
 				"weapon_upgrade"	"ins_silencer"
 				"weapon_upgrade"	"ins_silencer_pistol"
 			}
@@ -470,6 +472,16 @@
 				"weapon_upgrade"	"ins_silencer"
 				"weapon_upgrade"	"ins_silencer_pistol"
 			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"ins_foregrip1"	"1"
+					"ins_foregrip2"	"1"
+					"ins_woodgrip1"	"1"
+					"ins_woodgrip2" "1"
+				}
+			}
 		}
 		"template_sharpshooter_insurgent"
 		{	
@@ -504,6 +516,16 @@
 				"weapon_upgrade"	"ins_silencer"
 				"weapon_upgrade"	"ins_silencer_pistol"
 			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"ins_foregrip1"	"1"
+					"ins_foregrip2"	"1"
+					"ins_woodgrip1"	"1"
+					"ins_woodgrip2" "1"
+				}
+			}
 		}
 		"template_sapper_insurgent"
 		{	
@@ -533,10 +555,6 @@
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_c4_ied"
 				"weapon"			"weapon_molotov"
-				"weapon_upgrade"	"ins_foregrip1"
-				"weapon_upgrade"	"ins_foregrip2"
-				"weapon_upgrade"	"ins_woodgrip1"
-				"weapon_upgrade"	"ins_woodgrip2"
 				"weapon_upgrade"	"ins_silencer"
 				"weapon_upgrade"	"ins_silencer_pistol"
 			}
@@ -566,10 +584,6 @@
 				"weapon"			"weapon_rpk"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_m84"
-				"weapon_upgrade"	"ins_foregrip1"
-				"weapon_upgrade"	"ins_foregrip2"
-				"weapon_upgrade"	"ins_woodgrip1"
-				"weapon_upgrade"	"ins_woodgrip2"
 			}
 		}
 		"template_sniper_insurgent"
@@ -603,6 +617,16 @@
 				"weapon_upgrade"	"ins_silencer"
 				"weapon_upgrade"	"ins_silencer_pistol"
 			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"ins_foregrip1"	"1"
+					"ins_foregrip2"	"1"
+					"ins_woodgrip1"	"1"
+					"ins_woodgrip2" "1"
+				}
+			}
 		}
 		"template_striker_insurgent"
 		{	
@@ -632,10 +656,6 @@
 				"weapon"			"weapon_rpg7"
 				"weapon"			"weapon_c4_ied"
 				"weapon"			"weapon_molotov"
-				"weapon_upgrade"	"ins_foregrip1"
-				"weapon_upgrade"	"ins_foregrip2"
-				"weapon_upgrade"	"ins_woodgrip1"
-				"weapon_upgrade"	"ins_woodgrip2"
 			}
 		}		
 		"template_militant_insurgent"
@@ -668,10 +688,6 @@
 				"weapon"			"weapon_m1a1"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_molotov"
-				"weapon_upgrade"	"ins_foregrip1"
-				"weapon_upgrade"	"ins_foregrip2"
-				"weapon_upgrade"	"ins_woodgrip1"
-				"weapon_upgrade"	"ins_woodgrip2"
 			}
 		}
 		"template_bomber_insurgent"
@@ -703,10 +719,6 @@
 				"weapon"			"weapon_m1a1"
 				"weapon"			"weapon_c4_ied"
 				"weapon"			"weapon_molotov"
-				"weapon_upgrade"	"ins_foregrip1"
-				"weapon_upgrade"	"ins_foregrip2"
-				"weapon_upgrade"	"ins_woodgrip1"
-				"weapon_upgrade"	"ins_woodgrip2"
 			}
 		}
 

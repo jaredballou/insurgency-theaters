@@ -1,0 +1,20 @@
+"#base" "default.theater"
+
+"theater"
+{
+	"weapons"
+	{
+		"weapon_m590"
+		{
+			"weapon_slot"					"secondary"
+		}
+		"weapon_mp5"
+		{
+			"weapon_slot"		"secondary"
+		}
+		"weapon_ump45"
+		{
+			"weapon_slot"		"secondary"
+		}
+	}
+}

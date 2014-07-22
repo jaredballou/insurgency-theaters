@@ -1,0 +1,236 @@
+"#base" "default.theater"
+
+"theater"
+{
+	"player_gear"
+	{
+		"sec_chest_carrier"
+		{
+			"gear_cost"			"0"
+		}
+		"sec_chest_rig"
+		{
+			"gear_cost"	     "0"
+		}
+		"sec_heavy_armor"
+		{
+			"gear_cost"	     "0"
+		}
+		"sec_light_armor"
+		{
+			"gear_cost"	     "0"
+		}
+	}
+	"weapons"
+	{
+		"weapon_anm14"
+		{
+			"weapon_cost"		"0"
+		}
+		"weapon_at4"
+		{
+			"weapon_cost"		"0"
+		}
+		"weapon_c4_clicker"
+		{
+			"weapon_cost"		"0"
+		}
+		"weapon_kabar"
+		{
+			"weapon_cost"		"0"
+		}
+		"weapon_m16a4"
+		{
+			"weapon_cost"		"0"
+		}
+		"weapon_m18"
+		{
+			"weapon_cost"		"0"
+		}
+		"weapon_m14"
+		{
+			"weapon_cost"					"0"
+		}
+		"weapon_m249"
+		{
+			"weapon_cost"		"0"
+		}
+		"weapon_m40a1"
+		{
+			"weapon_cost"		"0"
+		}
+		"weapon_mk18"
+		{
+			"weapon_cost"		"0"
+		}
+		"weapon_m590"
+		{
+			"weapon_cost"		"0"
+		}
+		"weapon_m67"
+		{
+			"weapon_cost"		"0"
+		}
+		"weapon_m84"
+		{
+			"weapon_cost"		"0"
+		}
+		"weapon_m9"
+		{
+			"weapon_cost"		"0"
+		}
+		"weapon_mp5"
+		{
+			"weapon_cost"		"0"
+		}
+		"weapon_ump45"
+		{
+			"weapon_cost"		"0"
+		}
+	}
+	"weapon_upgrades"
+	{
+		"ammo_ap_m40a1"
+		{
+			"upgrade_cost"	  "0"
+		}
+		"heavybarrel"
+		{
+			"upgrade_cost"	  "0"
+		}
+		"ammo_ap_m14"
+		{
+			"upgrade_cost"		"0"
+		}
+		"ammo_ap_m16a4"
+		{
+			"upgrade_cost"		"0"
+		}
+		"ammo_ap_m249"
+		{
+			"upgrade_cost"		"0"
+		}
+		"ammo_ap_m4"
+		{
+			"upgrade_cost"		"0"
+		}
+		"ammo_ap_m9"
+		{
+			"upgrade_cost"		"0"
+		}
+		"ammo_ap_mp5"
+		{
+			"upgrade_cost"		"0"
+		}
+		"ammo_ap_ump45"
+		{
+			"upgrade_cost"		"0"
+		}
+		"ammo_hp_m16a4"
+		{
+			"upgrade_cost"		"0"
+		}
+		"ammo_hp_m249"
+		{
+			"upgrade_cost"		"0"
+		}
+		"ammo_hp_m4"
+		{
+			"upgrade_cost"		"0"
+		}
+		"ammo_hp_m9"
+		{
+			"upgrade_cost"		"0"
+		}
+		"ammo_hp_mp5"
+		{
+			"upgrade_cost"		"0"
+		}
+		"ammo_hp_ump45"
+		{
+			"upgrade_cost"		"0"
+		}
+		"ammo_slugs"
+		{
+			"upgrade_cost"		"0"
+		}
+		"ammo_tracer_m16a4"
+		{
+			"upgrade_cost"		"0"
+		}
+		"ammo_tracer_m4"
+		{
+			"upgrade_cost"		"0"
+		}
+		"ammo_tracer_mp5"
+		{
+			"upgrade_cost"		"0"
+		}
+		"ammo_tracer_ump45"
+		{
+			"upgrade_cost"		"0"
+		}
+		"optic_2xaimpoint"
+		{
+			"upgrade_cost"					"0"
+		}
+		
+		"optic_elcan"
+		{
+			"upgrade_cost"					"0"
+		}
+		"optic_eotech"
+		{
+			"upgrade_cost"					"0"
+		}	
+		
+		"optic_kobra"
+		{
+			"upgrade_cost"					"0"
+		}		
+		"optic_scope_mk4"
+		{
+			"upgrade_cost"					"0"
+		}
+		"sec_bipod"
+		{
+			"upgrade_cost"					"0"
+		}
+		"sec_flashlight"
+		{
+			"upgrade_cost"		"0"
+		}
+		"sec_flashlight_pistol"
+		{
+			"upgrade_cost"		"0"
+		}
+		"sec_foregrip"
+		{
+			"upgrade_cost"		"0"
+		}
+		"sec_foregrip2"
+		{
+			"upgrade_cost"		"0"
+		}
+		"sec_lasersight"
+		{
+			"upgrade_cost"		"0"
+		}
+		"sec_lasersight_pistol"
+		{
+			"upgrade_cost"		"0"
+		}
+		"sec_silencer"
+		{
+			"upgrade_cost"					"0"
+		}
+		"sec_silencer2"
+		{
+			"upgrade_cost"					"0"
+		}
+		"sec_silencer_pistol"
+		{
+			"upgrade_cost"		"0"
+		}
+	}
+}

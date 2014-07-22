@@ -1,0 +1,175 @@
+"#base" "default.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				// assault squad
+				"#Fireteam_Alpha"	// small arms
+				{
+					"#Squad_Fireteam_Leader_Recon"					"template_recon_security_training"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security_training"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security_training"
+					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_training"
+					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_training"
+					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_training"
+					"#Squad_Fireteam_Support"					"template_support_security_training"
+					"#Squad_Fireteam_Support"					"template_support_security_training"
+				}
+				"#Fireteam_Bravo"	// small arms
+				{
+					"#Squad_Fireteam_Leader_Recon"					"template_recon_security_training"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security_training"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security_training"
+					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_training"
+					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_training"
+					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_training"
+					"#Squad_Fireteam_Support"					"template_support_security_training"
+					"#Squad_Fireteam_Support"					"template_support_security_training"
+				}
+			}
+		}
+	}
+	"player_templates"
+	{
+		"template_recon_security_training"
+		{
+			"models"
+			{
+				"player"				"models/characters/security_light.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+			}
+			"team"			"security"
+			"buy_order"
+			{
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_carrier"
+				"weapon"			"weapon_m14"
+				"weapon"			"weapon_m9"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_kabar"
+			}
+			"allowed_weapons"
+			{
+				"weapon"			"weapon_at4"
+				"weapon"			"weapon_c4_clicker"
+				"weapon"			"weapon_m14"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_m16a4"
+				"weapon"			"weapon_m18"
+				"weapon"			"weapon_mk18"
+				"weapon"			"weapon_m590"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m9"
+				"weapon"			"weapon_mp5"
+				"weapon"			"weapon_ump45"
+			}
+		}
+		"template_specialist_security_training"
+		{
+			"models"
+			{
+				"player"				"models/characters/security_specialist.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+			}
+			"team"			"security"
+			"buy_order"
+			{
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_carrier"
+				"weapon"			"weapon_m14"
+				"weapon"			"weapon_m9"
+				"weapon"			"weapon_at4"
+				"weapon"			"weapon_kabar"
+			}
+			"allowed_weapons"
+			{
+				"weapon"			"weapon_at4"
+				"weapon"			"weapon_c4_clicker"
+				"weapon"			"weapon_m14"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_mk18"
+				"weapon"			"weapon_m40a1"
+				"weapon"			"weapon_m590"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_m9"
+				"weapon"			"weapon_mp5"
+				"weapon"			"weapon_ump45"
+			}
+		}
+		"template_rifleman_security_training"
+		{
+			"models"
+			{
+				"player"				"models/characters/security_rifleman.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"helmet"				"models/characters/us_helmet.mdl"
+			}
+			"team"			"security"
+			"buy_order"
+			{
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_carrier"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_mk18"
+				"weapon"			"weapon_m9"
+				"weapon"			"weapon_m67"
+			}
+			"allowed_weapons"
+			{
+				"weapon"			"weapon_at4"
+				"weapon"			"weapon_c4_clicker"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_m16a4"
+				"weapon"			"weapon_m18"
+				"weapon"			"weapon_m590"
+				"weapon"			"weapon_mk18"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m9"
+				"weapon"			"weapon_m14"
+				"weapon"			"weapon_mp5"
+				"weapon"			"weapon_ump45"
+			}
+		}
+		"template_support_security_training"
+		{
+			"models"
+			{
+				"player"			"models/characters/security_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_m.mdl"
+				"helmet"			"models/characters/us_helmet.mdl"
+			}
+			"team"			"security"
+			"buy_order"
+			{
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_carrier"
+				"weapon"			"weapon_m249"
+				"weapon"			"weapon_m9"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_kabar"
+			}
+			"allowed_weapons"
+			{
+				"weapon"			"weapon_anm14"
+				"weapon"			"weapon_at4"
+				"weapon"			"weapon_c4_clicker"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_m249"
+				"weapon"			"weapon_mk48"
+				"weapon"			"weapon_m590"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_m9"
+				"weapon"			"weapon_mp5"
+				"weapon"			"weapon_mk48"
+				"weapon"			"weapon_ump45"
+			}
+		}
+	}
+}

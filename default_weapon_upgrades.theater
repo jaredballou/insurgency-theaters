@@ -1611,7 +1611,6 @@
 		"ins_foregrip1"
 		{
 			"import"						"base_foregrip"
-			"class_restricted"				"1"
 			
 			"allowed_weapons"
 			{
@@ -1639,7 +1638,6 @@
 		"ins_foregrip2"
 		{
 			"import"						"base_foregrip"
-			"class_restricted"				"1"
 			
 			"allowed_weapons"
 			{
@@ -1664,7 +1662,6 @@
 		{
 			"import"						"base_foregrip"
 			"upgrade_cost"					"1"
-			"class_restricted"				"1"
 			
 			"allowed_weapons"
 			{
@@ -1684,7 +1681,6 @@
 		{
 			"import"						"base_foregrip"
 			"upgrade_cost"					"1"
-			"class_restricted"				"1"
 			
 			"allowed_weapons"
 			{
@@ -1703,7 +1699,6 @@
 		"sec_foregrip"
 		{
 			"import"						"base_foregrip"
-			"class_restricted"				"1"
 			
 			"allowed_weapons"
 			{
@@ -1730,7 +1725,6 @@
 		"sec_foregrip2"
 		{
 			"import"						"base_foregrip"
-			"class_restricted"				"1"
 			
 			"allowed_weapons"
 			{
