@@ -13,28 +13,22 @@
 				{
 					"#Squad_Fireteam_Leader_Recon"					"template_recon_security_training"
 					"#Squad_Fireteam_Specialist"					"template_specialist_security_training"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security_training"
 					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_training"
+					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_training"
+					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_training"
+					"#Squad_Fireteam_Support"					"template_support_security_training"
 					"#Squad_Fireteam_Support"					"template_support_security_training"
 				}
 				"#Fireteam_Bravo"	// small arms
 				{
 					"#Squad_Fireteam_Leader_Recon"					"template_recon_security_training"
 					"#Squad_Fireteam_Specialist"					"template_specialist_security_training"
-					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_training"
-					"#Squad_Fireteam_Support"					"template_support_security_training"
-				}
-				"#Fireteam_Charlie"	// small arms
-				{
-					"#Squad_Fireteam_Leader_Recon"					"template_recon_security_training"
 					"#Squad_Fireteam_Specialist"					"template_specialist_security_training"
 					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_training"
-					"#Squad_Fireteam_Support"					"template_support_security_training"
-				}
-				"#Fireteam_Delta"	// small arms
-				{
-					"#Squad_Fireteam_Leader_Recon"					"template_recon_security_training"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security_training"
 					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_training"
+					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_training"
+					"#Squad_Fireteam_Support"					"template_support_security_training"
 					"#Squad_Fireteam_Support"					"template_support_security_training"
 				}
 			}
@@ -313,7 +307,11 @@
 	}
 	"ammo"
 	{
-                "at4" // dummy ammo type for weapons that have no backup ammo (at4)
+                "at4"
+                {
+                        "carry"                                         "10"
+                }
+                "rpg7"
                 {
                         "carry"                                         "10"
                 }
@@ -804,6 +802,17 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"at4"
+				"clip_default"				"10"
+			}
+		}
+		"weapon_rpg7"
+		{
+			"weapon_cost"		"0"
+			"weapon_weight"		"0"
+			"team_access"		"security"
+			"ammo_clip"
+			{
+				"ammo_type"				"rpg7"
 				"clip_default"				"10"
 			}
 		}
