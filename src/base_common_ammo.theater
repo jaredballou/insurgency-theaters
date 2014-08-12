@@ -80,6 +80,14 @@
 		{
 			"carry"						"2"
 		}
+		"grenade_m203_he"
+		{
+			"carry"						"3"
+		}
+		"grenade_m203_smoke"
+		{
+			"carry"						"1"
+		}
 			
     	//========================================
 		// Bullets
@@ -524,10 +532,34 @@
 				"20000"     "600"  
 			}
 		}
-		"762x51_mag"
+		
+		"762x51_tracer"
+		{
+			"import"				"762x51"
+			"tracer_frequency"		"4"
+			"tracer_type"			"whiz_with_line"
+			"tracer_lowammo"		"5"		
+		}
+		
+		"762x51_hp"
 		{
 			"import"	"762x51"
-			"magsize"	"20"
+
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"       "0.90"
+				"HITGROUP_CHEST"      "0.75"
+				"HITGROUP_STOMACH"    "0.80"
+				"HITGROUP_LEFTARM"    "2.00"
+				"HITGROUP_RIGHTARM"   "2.00"
+				"HITGROUP_LEFTLEG"    "3.00"
+				"HITGROUP_RIGHTLEG"   "3.00"
+			}
+			"PenetrationPower"
+			{
+				"10"      "400" 
+				"12000"   "200" 
+			}
 		}
 		
 		"762x51_ap"
@@ -543,16 +575,11 @@
 				"HITGROUP_LEFTLEG"    "0.70"
 				"HITGROUP_RIGHTLEG"   "0.70"
 			}
-      "PenetrationPower"
+			"PenetrationPower"
 			{
 				"10"        "1500" 
 				"20000"     "800"  
 			}
-		}
-		"762x51_mag_ap"
-		{
-			"import"	"762x51_ap"
-			"magsize"	"20"
 		}
 
     
@@ -684,24 +711,24 @@
 		//========================================
 		// FAL
 		//========================================
-		"762x38_box_20rnd"
+		"762x51_box_20rnd"
 		{
-			"import"    "762x39"
+			"import"    "762x51"
 			"magsize"	"20"
 		}
-		"762x38_hp_box_20rnd"
+		"762x51_hp_box_20rnd"
 		{
-			"import"    "762x39_hp"
+			"import"    "762x51_hp"
 			"magsize"	"20"
 		}
-		"762x38_ap_box_20rnd"
+		"762x51_ap_box_20rnd"
 		{
-			"import"    "762x39_AP"
+			"import"    "762x51_ap"
 			"magsize"	"20"
 		}
-		"762x38_tracer_box_20rnd"
+		"762x51_tracer_box_20rnd"
 		{
-			"import"    "762x39_tracer"
+			"import"    "762x51_tracer"
 			"magsize"	"20"
 		}	
       
@@ -798,6 +825,27 @@
 			"import"					"45acp_tracer"
 			"carry"						"12"
 			"magsize"					"25"
+		}
+	
+		//========================================
+		// m14
+		//========================================
+		"762x51_mag"
+		{
+			"import"	"762x51"
+			"magsize"	"20"
+		}
+
+		"762x51_mag_ap"
+		{
+			"import"	"762x51_ap"
+			"magsize"	"20"
+		}
+
+		"762x51_mag_hp"
+		{
+			"import"	"762x51_hp"
+			"magsize"	"20"
 		}
 		
 		//========================================

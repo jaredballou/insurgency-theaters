@@ -7,6 +7,7 @@
 			"IsBase"						"1"
 			"weapon_cost"					"1"
 			"weapon_weight"					"60"
+			"barrel_length"					"21"
 			
 			"ironsights"
 			{
@@ -209,6 +210,7 @@
 		{
 			"IsBase"						"1"
 			"import"						"ballistic_base"
+			"barrel_length"					"12"
 			
 			"freeaim"
 			{

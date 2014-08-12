@@ -128,11 +128,14 @@
 				"gear"				"sec_chest_carrier"
 				"weapon"			"weapon_m16a4"
 				"weapon_upgrade"		"ammo_hp_m16a4"
-				"weapon_upgrade"		"optic_2xaimpoint"
-				"weapon_upgrade"		"sec_foregrip"
+				"weapon_upgrade"		"underbarrel_m203_he"
+				"weapon_upgrade"		"optic_2xaimpoint_sec"
 				"weapon_upgrade"		"heavybarrel"
 				"weapon_upgrade"		"sec_lasersight"
 				"weapon"			"weapon_m9"
+				"weapon_upgrade"		"sec_flashlight_pistol"
+				"weapon_upgrade"		"sec_suppressor_pistol"
+				"weapon_upgrade"		"ammo_hp_m9"
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_kabar"
 			}
@@ -144,13 +147,16 @@
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_m18"
-				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m590"
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m9"
 				"weapon"			"weapon_mp5"
 				"weapon"			"weapon_ump45"
+				"weapon_upgrade"		"underbarrel_m203_he"
+				"weapon_upgrade"		"underbarrel_m203_smoke"
+				"weapon_upgrade"		"underbarrel_m203_inc"
+				"weapon_upgrade"		"underbarrel_m203_flash"
 			}
 		}
 		"template_specialist_security_training"
@@ -172,7 +178,10 @@
 				"weapon_upgrade"		"sec_silencer"
 				"weapon_upgrade"		"sec_lasersight"
 				"weapon"			"weapon_m9"
-				"weapon"			"weapon_at4"
+				"weapon_upgrade"		"sec_flashlight_pistol"
+				"weapon_upgrade"		"sec_suppressor_pistol"
+				"weapon_upgrade"		"ammo_hp_m9"
+				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_kabar"
 			}
 			"allowed_weapons"
@@ -186,8 +195,11 @@
 				"weapon"			"weapon_m590"
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_m9"
-				"weapon"			"weapon_mp5"
 				"weapon"			"weapon_ump45"
+				"weapon_upgrade"		"underbarrel_m203_he"
+				"weapon_upgrade"		"underbarrel_m203_smoke"
+				"weapon_upgrade"		"underbarrel_m203_inc"
+				"weapon_upgrade"		"underbarrel_m203_flash"
 			}
 		}
 		"template_rifleman_security_training"
@@ -203,13 +215,16 @@
 			{
 				"gear"				"sec_heavy_armor"
 				"gear"				"sec_chest_carrier"
-				"weapon"			"weapon_m14"
-				"weapon_upgrade"		"ammo_ap_m14"
-				"weapon_upgrade"		"optic_2xaimpoint"
-				"weapon_upgrade"		"sec_foregrip2"
+				"weapon"			"weapon_m16a4"
+				"weapon_upgrade"		"ammo_hp_m16a4"
+				"weapon_upgrade"		"underbarrel_m203_he"
+				"weapon_upgrade"		"optic_2xaimpoint_sec"
 				"weapon_upgrade"		"heavybarrel"
 				"weapon_upgrade"		"sec_lasersight"
 				"weapon"			"weapon_m9"
+				"weapon_upgrade"		"sec_flashlight_pistol"
+				"weapon_upgrade"		"sec_suppressor_pistol"
+				"weapon_upgrade"		"ammo_hp_m9"
 				"weapon"			"weapon_at4"
 				"weapon"			"weapon_kabar"
 			}
@@ -226,8 +241,9 @@
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m9"
 				"weapon"			"weapon_m14"
-				"weapon"			"weapon_mp5"
 				"weapon"			"weapon_ump45"
+				"weapon_upgrade"		"underbarrel_m203_he"
+				"weapon_upgrade"		"underbarrel_m203_smoke"
 			}
 		}
 		"template_support_security_training"
@@ -249,6 +265,9 @@
 				"weapon_upgrade"		"heavybarrel"
 				"weapon_upgrade"		"sec_lasersight"
 				"weapon"			"weapon_m9"
+				"weapon_upgrade"		"sec_flashlight_pistol"
+				"weapon_upgrade"		"sec_suppressor_pistol"
+				"weapon_upgrade"		"ammo_hp_m9"
 				"weapon"			"weapon_c4"
 				"weapon"			"weapon_kabar"
 			}
@@ -259,13 +278,16 @@
 				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m249"
-				"weapon"			"weapon_mk48"
+				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m590"
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_m9"
-				"weapon"			"weapon_mp5"
 				"weapon"			"weapon_mk48"
 				"weapon"			"weapon_ump45"
+				"weapon_upgrade"		"underbarrel_m203_he"
+				"weapon_upgrade"		"underbarrel_m203_smoke"
+				"weapon_upgrade"		"underbarrel_m203_inc"
+				"weapon_upgrade"		"underbarrel_m203_flash"
 			}
 		}
 
@@ -599,6 +621,22 @@
 		{
 			"carry"						"10"
 		}
+		"grenade_m203_inc"
+		{
+			"carry"						"12"
+		}
+		"grenade_m203_flash"
+		{
+			"carry"						"12"
+		}
+		"grenade_m203_he"
+		{
+			"carry"						"12"
+		}
+		"grenade_m203_smoke"
+		{
+			"carry"						"12"
+		}
 	}
 	"player_gear"
 	{
@@ -647,6 +685,128 @@
 	}
 	"explosives"
 	{
+		"grenade_m203_flash"
+		{
+			"import"				"baseGrenade"
+			"entity_class"				"grenade_flash"
+			"Model"					"models/weapons/upgrades/a_projectile_m203.mdl"
+
+			"DetonateDamage"			"6.0"
+			"DetonateDamageRadius"			"1500"
+			"DetonateFlashDuration"			"12.0"
+			"FuseTime"				"0"
+			"ImpactDetonation"			"1"
+			"RocketStartSpeed"			"3000"
+			"ArmDelay"				"0.12"
+			
+			"Health"				"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"1"
+			"Particles"
+			{
+				"DetonateParticle"		"ins_water_explosion"
+				"DetonateWaterParticle"		"ins_flashbang_explosion"
+			}
+			"Sounds"
+			{
+				"DetonateSound"			"BaseStunGrenade.Explode"
+				"BounceSound"			"Weapon_M84.Bounce"
+			}
+		}
+		"grenade_m203_inc"
+		{
+			"import"				"baseGrenade"
+			"entity_class"				"grenade_aoe"
+			"Model"					"models/weapons/upgrades/a_projectile_m203.mdl"
+			"DamageType"				"DMG_BURN"
+			"DetonateDamage"			"175"
+			"DetonatePenetrationRadius" 		"40"
+			"DetonateDamageRadius"			"350"
+			"FuseTime"				"0"
+			"ImpactDetonation"			"1"
+			"ArmDelay"				"0.12"
+			"RocketStartSpeed"			"3000"
+
+			"AreaDamageTime"			"12"
+			"AreaDamageFrequency"			"0.38"
+			"AreaDamageMinRadius"			"120"
+			"AreaDamageMaxRadius"			"160"
+			"AreaDamageGrowSpeed"			"20"
+			"AreaDamageAmount"			"76"
+
+
+			"Health"				"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"1"
+			
+			"Particles"
+			{
+				"DetonateParticle"		"ins_thermite_explosion"
+				"DetonateWaterParticle"		"ins_thermite_explosion"
+				"BroadcastAll"			"1"
+				"FollowOrigin"			"1"
+			}
+			"Sounds"
+			{
+				"DetonateSound"			"BaseGrenade.Explode"
+				"BounceSound"			"Weapon_M67.Bounce"
+			}
+		}
+
+		"grenade_m203_he"
+		{
+			"import"					"baseGrenade"
+			"entity_class"				"grenade_frag"
+			"Model"						"models/weapons/upgrades/a_projectile_m203.mdl"
+			"DetonateDamage"			"175"
+			"DetonatePenetrationRadius" "40"
+			"DetonateDamageRadius"		"350"
+			"FuseTime"					"0"
+			"ImpactDetonation"			"1"
+			"ArmDelay"					"0.12"
+			"RocketStartSpeed"			"3000"
+			
+			"Health"						"50"
+			"ReactExplosions"				"1"
+			"ReactBullets"					"1"
+			
+			"Particles"
+			{
+				"DetonateParticle"		"ins_m203_explosion"
+				"DetonateWaterParticle"	"ins_m203_explosion"
+			}
+			"Sounds"
+			{
+				"DetonateSound"			"BaseGrenade.Explode"
+				"BounceSound"			"Weapon_M67.Bounce"
+			}
+		}
+		"grenade_m203_smoke"
+		{
+			"import"					"baseGrenade"
+			"entity_class"				"grenade_smoke"
+			"Model"						"models/weapons/upgrades/a_projectile_m203.mdl"
+			"FuseTime"					"0"
+			"ImpactDetonation"			"1"
+			"RocketStartSpeed"			"3000"
+			"ArmDelay"					"0.12"
+			
+			"Health"						"50"
+			"ReactExplosions"				"1"
+			"ReactBullets"					"1"
+			
+			"Particles"
+			{
+				"DetonateParticle"		"m203_smokegrenade"
+				"SmokeColor"			"40 35 33 252" // why does the alpha have to be set so damn high?
+			}
+			
+			"Sounds"
+			{
+				"DetonateSound"			"Weapon_m203.SmokeExplode"
+				"BounceSound"			"Weapon_M67.Bounce"
+			}
+		}
 		"grenade_m67"
 		{
 			"DetonateDamage"		"160"
@@ -691,9 +851,143 @@
 				"BounceSound"			"Weapon_M67.Bounce"
 			}
 		}
+		"grenade_f1"
+		{
+			"import"			"grenade_rgd5"
+		}
 	}
 	"weapons"
 	{
+		"weapon_m203_he"
+		{
+			"import"					"weapon_base"
+			"weapon_class"					"launcher"
+			"weapon_type"					"projectile"
+			"print_name"					"#weapon_m203_he"
+			"print_desc"					"#weapon_m203_he_desc"
+			"view_model"					"models/weapons/upgrades/a_gl_m203.mdl"
+			"world_model"					"models/weapons/upgrades/a_gl_m203.mdl"
+			"weapon_slot"					"underbarrel"
+			"act_table"						"shortrifle"
+			"attached_act_suffix"			"_GLSETUP"
+			"attached_gesture"				"delta_glsetup"
+			"weapon_weight"					"50"
+			"weapon_cost"					"0"
+			"weapon_abilities"				"ironsight"
+			
+			"sounds"
+			{
+				"shot_single"		 		"Weapon_m203.Single"
+				"shot_single_local"	 		"Weapon_m203.SingleLocal"
+				"empty"				 		"Weapon_m203.Empty"
+				"load"				 		"Weapon_RPG7.Load"
+				"unload"			 		"Weapon_RPG7.Unload"
+				"hit"				 		"Weapon_RPG7.Hit"
+			}
+			"ironsights"
+			{
+				"GestureIronsights"			"delta_iron"
+			}
+
+//			"ironsights"
+//			{
+//				"use_weapon_muzzle"			"1"
+//			}
+			"recoil"
+			{
+				"recoil_lateral_range"		"-1.0 1.0"
+				"recoil_vertical_range"		"4.0 6.0"
+				"recoil_aim_punch"			"1.0 1.0"
+				"recoil_rest_rate"			"12"
+				"recoil_rest_delay"			"0"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"	"ins_weapon_m203"
+				"particle_muzzleflash_3rd"	"ins_weapon_m203"	
+			}
+			"explosives"
+			{
+				"entity"					"grenade_m203_he"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"					"grenade_m203_he"
+				"clip_max_rounds"			"1" // 1 rpg per mag
+				"clip_default"				"0"
+			}
+			"freeaim"
+			{
+				"freeaim_distance"				"10.25"
+				"freeaim_distance_bipod"		"10.25"
+				"freeaim_screenratio"			"0.91"
+				"freeaim_screenratio_bipod"		"0.91"
+			}
+
+//			"freeaim"
+//			{
+//				"freeaim_distance"				"13"
+//				"freeaim_screenratio"			"0.8"
+//			}
+			"fov"
+			{
+				"fov_plr_ironsight"			"-5"
+				"fov_plr_focus"				"-10"
+				"fov_wpn_default"			"20"
+				"fov_wpn_ironsight"			"74"
+				"fov_wpn_focus"				"74"
+			}
+			
+			"team_access"					"security, insurgent"		
+		}
+		"weapon_m203_smoke"
+		{
+			"import"					"weapon_m203_he"
+			"print_name"					"#weapon_m203_smoke"
+			"print_desc"					"#weapon_m203_smoke_desc"
+			"explosives"
+			{
+				"entity"					"grenade_m203_smoke"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"					"grenade_m203_smoke"
+				"clip_max_rounds"			"1" // 1 rpg per mag
+				"clip_default"				"0"
+			}
+		}
+		"weapon_m203_inc"
+		{
+			"import"					"weapon_m203_he"
+			"print_name"					"M203 (Incendiary)"
+			"print_desc"					"M203 with FIRE"
+			"explosives"
+			{
+				"entity"					"grenade_m203_inc"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"grenade_m203_inc"
+				"clip_max_rounds"			"1" // 1 rpg per mag
+				"clip_default"				"0"
+			}
+		}
+		"weapon_m203_flash"
+		{
+			"import"					"weapon_m203_he"
+			"print_name"					"M203 (Flash)"
+			"print_desc"					"M203 with FLASH"
+			"explosives"
+			{
+				"entity"					"grenade_m203_flash"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"grenade_m203_flash"
+				"clip_max_rounds"			"1" // 1 rpg per mag
+				"clip_default"				"0"
+			}
+		}
 		"weapon_rgd5"
 		{
 			"view_model"					"models/weapons/v_c4_ins.mdl"
@@ -1057,6 +1351,7 @@
 		}
 		"weapon_mk18"
 		{
+			"weapon_slot"					"secondary"
 			"ammo_clip"
 			{
 				"clip_max"				"12"
@@ -1287,208 +1582,43 @@
 		{
 			"upgrade_cost"		"0"
 		}
-		"optic_2xaimpoint"
+		"optic_2xaimpoint_sec"
 		{
-			"import"					"base_optic_rail"
 			"upgrade_cost"					"0"
-			"print_name"					"#weapon_upgrade_2xaimpoint"
-			"print_desc"					"#weapon_upgrade_2xaimpoint_desc"
-			
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_akm"
-				"weapon"					"weapon_aks74u"
-				"weapon"					"weapon_fal"
 				"weapon"					"weapon_m16a4"
-				"weapon"					"weapon_m1a1"
 				"weapon"					"weapon_m249"
 				"weapon"					"weapon_m40a1"
-				"weapon"					"weapon_mk48"
 				"weapon"					"weapon_mk18"
+				"weapon"					"weapon_mk48"
 				"weapon"					"weapon_m590"
 				"weapon"					"weapon_m14"
 				"weapon"					"weapon_mini14"
-				"weapon"					"weapon_mosin"
-				"weapon"					"weapon_mp40"
 				"weapon"					"weapon_mp5"
-				"weapon"					"weapon_rpk"
-				"weapon"					"weapon_sks"
-				"weapon"					"weapon_toz"
 				"weapon"					"weapon_ump45"
 			}
-			
-			"viewmodel_attachments"
-			{				
-				"2xScope_Normal"
-				{
-					"model"					"models/weapons/upgrades/a_optic_aimp2x.mdl"
-					"AnimIronSights"		"4x_zoom"
-					"AnimIdle"				"4x_idle"
-					"Gesture"				"delta_aimp"
-					
-					"excluded_weapons"
-					{
-						"weapon"			"weapon_m1a1"
-						"weapon"			"weapon_mini14"
-						"weapon"			"weapon_mp5"
-						"weapon"			"weapon_mp40"
-					}
-				}
-				
-				"2xScope_Small"
-				{
-					"model"					"models/weapons/upgrades/a_optic_aimp2x_m.mdl"
-					"AnimIronSights"		"4x_zoom"
-					"AnimIdle"				"4x_idle"
-					"Gesture"				"delta_aimp"	
-
-					"weapons"
-					{
-						"weapon"			"weapon_m1a1"
-						"weapon"			"weapon_mini14"
-						"weapon"			"weapon_mp5"
-						"weapon"			"weapon_mp40"
-					}
-				}
-			}
-			
-			"world_attachments"
-			{
-				"Scope"
-				{
-					"model"					"models/weapons/upgrades/w_magaim.mdl"
-				}
-			}
-			
-			"optics_fov_override"
-			{
-				"fov_wpn_scope"				"16"
-				"fov_wpn_ironsight"			"39"
-				"fov_wpn_focus"				"39"
-				
-				"weapon_akm"
-				{
-					"fov_wpn_ironsight"			"60"
-					"fov_wpn_focus"				"67"
-				}
-				
-				"weapon_fal"
-				{
-					"fov_wpn_ironsight"			"53"
-					"fov_wpn_focus"				"60"
-				}
-				
-				"weapon_aks74u"
-				{
-					"fov_wpn_ironsight"			"62"
-					"fov_wpn_focus"				"67"
-				}
-				
-				"weapon_m16a4"
-				{
-					"fov_wpn_ironsight"			"52"
-					"fov_wpn_focus"				"59"
-				}
-				
-				"weapon_m1a1"
-				{
-					"fov_wpn_ironsight"			"40"
-					"fov_wpn_focus"				"49"
-				}
-				
-				"weapon_m249"
-				{
-					"fov_wpn_ironsight"			"44"
-					"fov_wpn_focus"				"52"
-				}
-				
-				"weapon_m40a1"
-				{
-					"fov_wpn_ironsight"			"42"
-					"fov_wpn_focus"				"48"
-				}
-			
-				"weapon_mk18"
-				{
-					"fov_wpn_ironsight"			"59"
-					"fov_wpn_focus"				"65"
-				}
-
-				"weapon_mk48"
-				{
-					"fov_wpn_ironsight"			"44"
-					"fov_wpn_focus"				"52"
-				}
-								
-				"weapon_m14"
-				{
-					"fov_wpn_ironsight"			"44"
-					"fov_wpn_focus"				"52"
-				}
-				
-				"weapon_m590"
-				{
-					"fov_wpn_ironsight"			"53"
-					"fov_wpn_focus"				"61"
-				}
-				
-				"weapon_mini14"
-				{
-					"fov_wpn_ironsight"			"49"
-					"fov_wpn_focus"				"57"
-				}
-				
-				"weapon_mosin"
-				{
-					"fov_wpn_ironsight"			"41"
-					"fov_wpn_focus"				"47"
-				}
-			
-				"weapon_mp40"
-				{
-					"fov_wpn_ironsight"			"43"
-					"fov_wpn_focus"				"51"
-				}
-				
-				"weapon_mp5"
-				{
-					"fov_wpn_ironsight"			"48"
-					"fov_wpn_focus"				"56"
-				}
-				
-				"weapon_rpk"
-				{
-					"fov_wpn_ironsight"			"61"
-					"fov_wpn_focus"				"67"
-				}
-				
-				"weapon_sks"
-				{
-					"fov_wpn_ironsight"			"66"
-					"fov_wpn_focus"				"71"
-				}
-			
-				"weapon_toz"
-				{
-					"fov_wpn_ironsight"			"46"
-					"fov_wpn_focus"				"54"
-				}
-			
-				"weapon_ump45"
-				{
-					"fov_wpn_ironsight"			"53"
-					"fov_wpn_focus"				"60"				
-				}
-			}
 		}
-		
+		"optic_aimpoint"
+		{
+			"upgrade_cost"					"0"
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_m16a4"
+				"weapon"					"weapon_m249"
+				"weapon"					"weapon_m40a1"
+				"weapon"					"weapon_mk18"
+				"weapon"					"weapon_mk48"
+				"weapon"					"weapon_m590"
+				"weapon"					"weapon_m14"
+				"weapon"					"weapon_mini14"
+				"weapon"					"weapon_mp5"
+				"weapon"					"weapon_ump45"
+			}
+		}		
 		"optic_elcan"
 		{
-			"import"						"base_optic_rail"
 			"upgrade_cost"					"0"
-			"print_name"					"#weapon_upgrade_elcan"
-			"print_desc"					"#weapon_upgrade_elcan_desc"
-			
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_m16a4"
@@ -1500,116 +1630,12 @@
 				"weapon"					"weapon_mini14"
 				"weapon"					"weapon_mp5"
 				"weapon"					"weapon_ump45"
-			}
-			
-			"viewmodel_attachments"
-			{
-				"Elcan_Small"
-				{
-					"model"					"models/weapons/upgrades/a_optic_elcan_m.mdl"
-					"AnimIronSights"		"elcan_zoom"
-					"AnimIdle"				"elcan_idle"
-					"Gesture"				"delta_elcan"	
-
-					"excluded_weapons"
-					{
-						"weapon"			"weapon_m16a4"
-						"weapon"			"weapon_mk18"
-					}					
-				}
-				
-				"Elcan_Normal"
-				{
-					"model"					"models/weapons/upgrades/a_optic_elcan.mdl"
-					"AnimIronSights"			"elcan_zoom"
-					"AnimIdle"				"elcan_idle"
-					"Gesture"				"delta_elcan"
-					
-					"weapons"
-					{
-						"weapon"			"weapon_m16a4"
-						"weapon"			"weapon_mk18"
-					}
-				}
-			}
-			
-			"world_attachments"
-			{
-				"ELCAN"
-				{
-					"model"					"models/weapons/upgrades/w_elcan.mdl"
-				}
-			}	
-		
-			"optics_fov_override"
-			{
-				"fov_wpn_scope"            "14"
-	    			"fov_wpn_ironsight"        "56"
-    				"fov_wpn_focus"            "64"
-		
-				"weapon_m16a4"
-				{
-					"fov_wpn_ironsight"        "62"
-					"fov_wpn_focus"            "64"
-				}
-				
-				"weapon_mk18"
-				{
-					"fov_wpn_ironsight"        "70"
-					"fov_wpn_focus"            "72"
-				}
-				
-				"weapon_m14"
-				{
-					"fov_wpn_ironsight"        "42"
-					"fov_wpn_focus"            "49"
-				}
-				
-				"weapon_mini14"
-				{
-					"fov_wpn_ironsight"        "55"
-					"fov_wpn_focus"            "58"
-				}
-				
-				"weapon_m249"
-				{
-					"fov_wpn_ironsight"			"44"
-					"fov_wpn_focus"				"50"			
-				}
-			
-				"weapon_mk48"
-				{
-					"fov_wpn_ironsight"			"44"
-					"fov_wpn_focus"				"50"			
-				}
-			
-				"weapon_m40a1"
-				{
-					"fov_wpn_ironsight"			"39"
-					"fov_wpn_focus"				"44"
-				}
-				
-				"weapon_mp5"
-				{
-					"fov_wpn_ironsight"			"55"
-					"fov_wpn_focus"				"60"
-				}
-				
-				"weapon_ump45"
-				{
-					"fov_wpn_ironsight"			"48"
-					"fov_wpn_focus"				"54"
-				}
 			}
 		}
 		
 		"optic_eotech"
 		{
-			"import"						"base_optic_rail"
 			"upgrade_cost"					"0"
-			"print_name"					"#weapon_upgrade_holographic"
-			"print_desc"					"#weapon_upgrade_holographic_desc"
-
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_m16a4"
@@ -1623,430 +1649,7 @@
 				"weapon"					"weapon_mp5"
 				"weapon"					"weapon_ump45"
 			}
-			
-			"viewmodel_attachments"
-			{
-				"Eotech_Small"
-				{
-					"model"					"models/weapons/upgrades/a_optic_eotech_m.mdl"
-					"AnimIronSights"		"zoom"
-					"AnimIdle"				"idle"
-					"Gesture"				"delta_eotech"	
-					"Main"					"1"
-					"ReticleScale"			"0.625"
-					
-					"weapons"
-					{
-						"weapon"			"weapon_mini14"
-						"weapon"			"weapon_mp5"
-						"weapon"			"weapon_mp40"
-						"weapon"			"weapon_ump45"
-					}
-				}
-				
-				"Eotech_Normal"
-				{
-					"model"					"models/weapons/upgrades/a_optic_eotech.mdl"
-					"AnimIronSights"		"zoom"
-					"AnimIdle"				"idle"
-					"Gesture"				"delta_eotech"
-					"Main"					"1"
-					
-					"excluded_weapons"
-					{
-						"weapon"			"weapon_mini14"
-						"weapon"			"weapon_mp5"
-						"weapon"			"weapon_mp40"
-						"weapon"			"weapon_ump45"	
-						"weapon"			"weapon_m16a4"
-						"weapon"			"weapon_mk18"
-						"weapon"			"weapon_mk48"
-						"weapon"			"weapon_m249"						
-					}
-				}
-				
-				"Eotech_Large"
-				{
-					"model"					"models/weapons/upgrades/a_optic_eotech_l.mdl"
-					"AnimIronSights"		"zoom"
-					"AnimIdle"				"idle"
-					"Gesture"				"delta_eotech"
-					"Main"					"1"
-					
-					"weapons"
-					{
-						"weapon"			"weapon_m16a4"
-						"weapon"			"weapon_mk18"
-						"weapon"			"weapon_mk48"
-						"weapon"			"weapon_m249"
-					}
-				}
-			}
-			
-			"world_attachments"
-			{
-				"Eotech"
-				{
-					"model"					"models/weapons/upgrades/w_eotech.mdl"
-				}
-			}
-			
-			"optics"
-			{
-				"optic_holographic"			"1"
-				"optic_material"			"models/weapons/optics/eotech_reticule_holo"
-				"optic_paralax_distance" 	"20"
-				"optic_reticle_size"		"0.5"
-				"optic_min_dot_low_fov"		"0.9975"
-				"optic_max_dot_low_fov"		"0.998"				
-				"optic_min_dot_high_fov"	"0.9925"
-				"optic_max_dot_high_fov"	"0.993"
-				
-				"weapon_m14"
-				{
-					"optic_paralax_distance" "35"
-				}
-			}
-			
-			"optics_fov_override"
-			{			
-				"fov_wpn_ironsight"			"68"
-				"fov_wpn_focus"				"79"
-				
-				"weapon_mk18"
-				{			
-					"fov_wpn_ironsight"			"76"
-					"fov_wpn_focus"				"82"
-				}
-				
-				"weapon_mp5"
-				{			
-					"fov_wpn_ironsight"			"56"
-					"fov_wpn_focus"				"64"
-				}
-				
-				"weapon_ump45"
-				{			
-					"fov_wpn_ironsight"			"55"
-					"fov_wpn_focus"				"61"
-				}
-	
-				"weapon_m14"
-				{			
-					"fov_wpn_ironsight"			"50"
-					"fov_wpn_focus"				"59"
-				}
-				
-				"weapon_mini14"
-				{			
-					"fov_wpn_ironsight"			"46"
-					"fov_wpn_focus"				"55"
-				}
-				
-				"weapon_m40a1"
-				{			
-					"fov_wpn_ironsight"			"52"
-					"fov_wpn_focus"				"58"
-				}
-			
-				"weapon_m590"
-				{			
-					"fov_wpn_ironsight"			"62"
-					"fov_wpn_focus"				"68"
-				}
-				
-				"weapon_m249"
-				{			
-					"fov_wpn_ironsight"			"61"
-					"fov_wpn_focus"				"66"
-				}
-				"weapon_mk48"
-				{			
-					"fov_wpn_ironsight"			"61"
-					"fov_wpn_focus"				"66"
-				}
-			}		
-		}	
-		
-		"optic_kobra"
-		{
-			"import"						"base_optic_rail"
-			"upgrade_cost"					"0"
-			"print_name"					"#weapon_upgrade_kobra"
-			"print_desc"					"#weapon_upgrade_kobra_desc"
-			
-			"allowed_weapons"
-			{
-				"weapon"					"weapon_akm"
-				"weapon"					"weapon_aks74u"
-				"weapon"					"weapon_fal"
-				"weapon"					"weapon_m1a1"
-				"weapon"					"weapon_mp40"
-				"weapon"					"weapon_mosin"
-				"weapon"					"weapon_rpk"
-				"weapon"					"weapon_sks"
-				"weapon"					"weapon_toz"
-			}
-			
-			"viewmodel_attachments"
-			{
-				"Kobra_Normal"
-				{
-					"model"					"models/weapons/upgrades/a_optic_kobra.mdl"
-					"AnimIronSights"		"zoom"
-					"AnimIdle"				"idle"
-					"Gesture"				"delta_kobra"
-					"Main"					"1"
-					"ReticleScale"			"0.7"
-					
-					"weapons"
-					{
-						"weapon"			"weapon_m1a1"
-						"weapon"			"weapon_m249"
-						"weapon"			"weapon_mini14"
-						"weapon"			"weapon_mp5"
-						"weapon"			"weapon_mp40"
-						"weapon"			"weapon_ump45"
-					}
-				}
-				
-				"Kobra_Large"
-				{
-					"model"					"models/weapons/upgrades/a_optic_kobra_l.mdl"
-					"AnimIronSights"		"zoom"
-					"AnimIdle"				"idle"
-					"Gesture"				"delta_kobra"		
-					"Main"					"1"
-					
-					"excluded_weapons"
-					{
-						"weapon"			"weapon_m1a1"
-						"weapon"			"weapon_m249"
-						"weapon"			"weapon_mini14"
-						"weapon"			"weapon_mp5"
-						"weapon"			"weapon_mp40"
-						"weapon"			"weapon_ump45"
-					}					
-				}
-			}
-			
-			"world_attachments"
-			{
-				// Optic
-				"Kobra"
-				{
-					"model"					"models/weapons/upgrades/w_kobra.mdl"
-				}
-			}
-			
-			"optics"
-			{
-				"optic_holographic"			"1"
-				"optic_material"			"models/weapons/optics/kobra_dot"
-				"optic_paralax_distance" 	"22"
-				"optic_reticle_size"		"0.3"
-				"optic_min_dot_low_fov"		"0.9995"
-				"optic_max_dot_low_fov"		"0.9999"
-				"optic_min_dot_high_fov"	"0.99"
-				"optic_max_dot_high_fov"	"0.995"
-				
-				"weapon_m14"
-				{
-					"optic_min_dot_high_fov"	"0.9995"
-					"optic_max_dot_high_fov"	"0.99991"
-					"optic_reticle_size"		"0.25"
-				}
-				
-				"weapon_mosin"
-				{
-					"optic_min_dot_high_fov"	"0.9995"
-					"optic_max_dot_high_fov"	"0.99991"
-					"optic_reticle_size"		"0.22"
-				}
-			}
-
-			"optics_fov_override"
-			{			
-				"fov_wpn_ironsight"			"58"
-				"fov_wpn_focus"				"68"
-		
-				"weapon_akm"
-				{
-					"fov_wpn_ironsight"		"65"
-					"fov_wpn_focus"			"70"
-				}
-				
-				"weapon_fal"
-				{
-					"fov_wpn_ironsight"		"54"
-					"fov_wpn_focus"			"61"				
-				}
-				
-				"weapon_aks74u"
-				{		
-					"fov_wpn_ironsight"		"66"
-					"fov_wpn_focus"			"71"				
-				}
-				
-				"weapon_m1a1"
-				{		
-					"fov_wpn_ironsight"		"47"
-					"fov_wpn_focus"			"54"
-				}
-				
-				"weapon_mosin"
-				{			
-					"fov_wpn_ironsight"		"40"
-					"fov_wpn_focus"			"48"
-				}
-				
-				"weapon_mp40"
-				{
-					"fov_wpn_ironsight"		"48"
-					"fov_wpn_focus"			"54"			
-				}
-				
-				"weapon_sks"
-				{			
-					"fov_wpn_ironsight"		"65"
-					"fov_wpn_focus"			"70"
-				}
-				
-				"weapon_toz"
-				{			
-					"fov_wpn_ironsight"		"54"
-					"fov_wpn_focus"			"60"
-				}
-				
-				"weapon_rpk"
-				{
-					"fov_wpn_ironsight"			"61"
-					"fov_wpn_focus"				"66"
-				}
-			}		
-		}
-		
-		"optic_po4x24"
-		{
-			"import"						"base_optic_rail"
-			"upgrade_cost"					"0"
-			"print_name"					"#weapon_upgrade_po4x24"
-			"print_desc"					"#weapon_upgrade_po4x24_desc"
-			
-			"allowed_weapons"
-			{
-				"weapon"					"weapon_akm"
-				"weapon"					"weapon_aks74u"
-				"weapon"					"weapon_fal"
-				"weapon"					"weapon_m1a1"
-				"weapon"					"weapon_mosin"
-				"weapon"					"weapon_mp40"
-				"weapon"					"weapon_rpk"
-				"weapon"					"weapon_sks"
-			}
-			
-			"viewmodel_attachments"
-			{
-				"POScope_Small"
-				{
-					"model"					"models/weapons/upgrades/a_optic_po4x24_m.mdl"
-					"AnimIronSights"		"po_zoom"
-					"AnimIdle"				"po_idle"
-					"Gesture"				"delta_po"				
-					
-					"weapons"
-					{
-						"weapon"			"weapon_m14"
-						"weapon"			"weapon_mini14"
-						"weapon"			"weapon_mp5"
-						"weapon"			"weapon_mp40"
-						"weapon"			"weapon_ump45"
-						"weapon"			"weapon_sks"
-					}
-				}
-				
-				"POScope_Normal"
-				{
-					"model"					"models/weapons/upgrades/a_optic_po4x24.mdl"
-					"AnimIronSights"		"po_zoom"
-					"AnimIdle"				"po_idle"
-					"Gesture"				"delta_po"
-					
-					"excluded_weapons"
-					{
-						"weapon"			"weapon_m14"
-						"weapon"			"weapon_mini14"
-						"weapon"			"weapon_mp5"
-						"weapon"			"weapon_mp40"
-						"weapon"			"weapon_ump45"
-						"weapon"			"weapon_sks"
-					}
-				}
-			}
-
-			"world_attachments"
-			{
-				"PO"
-				{
-					"model"					"models/weapons/upgrades/w_po.mdl"
-				}
-			}
-			
-			"optics_fov_override"
-			{
-				"fov_wpn_scope"				"12"
-				"fov_wpn_ironsight"			"39"
-				"fov_wpn_focus"				"39"
-				
-				"weapon_akm"
-				{
-					"fov_wpn_ironsight"		"59"
-					"fov_wpn_focus"			"61"			
-				}
-				
-				"weapon_fal"
-				{
-					"fov_wpn_ironsight"		"58"
-					"fov_wpn_focus"			"61"
-				}
-			
-				"weapon_aks74u"
-				{
-					"fov_wpn_ironsight" 	"67"
-					"fov_wpn_focus"    		"69"
-				}
-				
-				"weapon_m1a1"
-				{
-					"fov_wpn_ironsight"		"45"
-					"fov_wpn_focus"			"51"
-				}
-				
-				"weapon_mosin"
-				{
-					"fov_wpn_ironsight"		"39"
-					"fov_wpn_focus"			"43"
-				}
-			
-				"weapon_mp40"
-				{
-					"fov_wpn_ironsight"		"44"
-					"fov_wpn_focus"			"50"
-				}
-				
-				"weapon_rpk"
-				{
-					"fov_wpn_ironsight"		"67"
-					"fov_wpn_focus"			"70"	
-				}
-				
-				"weapon_sks"
-				{
-					"fov_wpn_ironsight"		"53"
-					"fov_wpn_focus"			"57"
-				}
-			}
-		}
+		}			
 		"optic_scope_mk4"
 		{
 			"class_restricted"				"0"
@@ -2130,24 +1733,39 @@
 		}
 		"sec_bipod"
 		{
-			"import"						"base_bipod"
+			"import"					"base_bipod"
 			"upgrade_cost"					"0"
 			"class_restricted"				"0"
 			
 			"allowed_weapons"
 			{
+				"weapon"					"weapon_m14"
 				"weapon"					"weapon_m40a1"
 			}
 			
 			"viewmodel_attachments"
 			{
-				"Bipod"
+				"Bipod_M14"
+				{
+					"model"					"models/weapons/upgrades/a_bipod_m14.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_m14"
+					}
+				}
+				
+				"Bipod_M40"
 				{
 					"model"					"models/weapons/upgrades/a_bipod_m40.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_m40a1"
+					}
 				}			
 			}
 		}
-
 		"sec_flashlight"
 		{
 			"upgrade_cost"		"0"
@@ -2259,6 +1877,66 @@
 		{
 			"class_restricted"	"0"
 			"upgrade_cost"		"0"
+		}
+		"underbarrel_m203_base"
+		{
+			"IsBase"						"1"
+			"import"						"underbarrel_gl_base"
+			
+			"viewmodel_attachments"
+			{
+				"Launcher"
+				{
+					"model"					"models/weapons/upgrades/a_gl_m203.mdl"
+					"Gesture"				"delta_gl"
+					"ActSuffix"				"_GL"
+					"Main"					"1"
+				}
+			}
+			
+			"world_attachments"
+			{
+				"Launcher"
+				{
+					"model"					"models/weapons/upgrades/w_m203.mdl"
+				}
+			}
+			
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_m16a4"
+			}		
+		}
+		"underbarrel_m203_inc"
+		{
+			"import"					"underbarrel_m203_base"
+			"print_name"					"M203 (Incendiary)
+			"print_desc"					"M203 FIRE"
+			"attach_weapon"					"weapon_m203_inc"
+			"viewmodel_attachments"
+			{
+				"Launcher"
+				{
+					"skin"				"0"
+				}
+			}
+
+		}
+		"underbarrel_m203_flash"
+		{
+			"import"					"underbarrel_m203_base"
+			"upgrade_cost"					"0"
+			"print_name"					"M203 (Flash)
+			"print_desc"					"M203 FLASH"
+			"attach_weapon"					"weapon_m203_flash"
+			
+			"viewmodel_attachments"
+			{
+				"Launcher"
+				{
+					"skin"				"0"
+				}
+			}
 		}
 	}
 }

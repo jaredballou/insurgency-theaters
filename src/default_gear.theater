@@ -28,7 +28,7 @@
 			"print_name"	"#gear_light_armor"
 			"print_desc"	"#gear_light_armor_desc"
 			"gear_slot"		"armor"
-			"gear_cost"		"2"
+			"gear_cost"		"1"
 			"gear_weight"	"64" // 25 (2.5kg) + 75 encumbrance
 			
 			"DamageHitgroups"
@@ -71,7 +71,7 @@
 			"print_name"	"#gear_heavy_armor"
 			"print_desc"	"#gear_heavy_armor_desc"
 			"gear_slot"		"armor"
-			"gear_cost"		"4"
+			"gear_cost"		"3"
 			"gear_weight"	"128" // 75 (7.5kg) + 250 encumbrance	
 			
 			"DamageHitgroups"

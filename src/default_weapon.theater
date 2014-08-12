@@ -24,6 +24,7 @@
 			"weapon_weight"					"384"
 			"weapon_cost"					"6"
 			"weapon_abilities"				"ironsight"
+			"barrel_length"					"30"
 			"sounds"
 			{
 				"shot_single"		 		"Weapon_RPG7.Single"
@@ -93,6 +94,7 @@
 			"weapon_weight"					"384"
 			"weapon_cost"					"6"
 			"weapon_abilities"				"ironsight"
+			"barrel_length"					"30"
 			"sounds"
 			{
 				"shot_single"		 		"Weapon_AT4.Single"
@@ -146,6 +148,195 @@
 				"attachment_addon"			"primary"
 			}
 			"team_access"					"security, insurgent"
+		}
+		"weapon_m203_he"
+		{
+			"import"						"weapon_base"
+			"weapon_class"					"launcher"
+			"weapon_type"					"projectile"
+			"print_name"					"#weapon_m203_he"
+			"print_desc"					"#weapon_m203_he_desc"
+			"view_model"					"models/weapons/upgrades/a_gl_m203.mdl"
+			"world_model"					"models/weapons/upgrades/a_gl_m203.mdl"
+			"weapon_slot"					"underbarrel"
+			"act_table"						"shortrifle"
+			"attached_act_suffix"			"_GLSETUP"
+			"attached_gesture"				"delta_glsetup"
+			"weapon_weight"					"50"
+			"weapon_cost"					"0"
+			"weapon_abilities"				"ironsight"
+			
+			"sounds"
+			{
+				"shot_single"		 		"Weapon_m203.Single"
+				"shot_single_local"	 		"Weapon_m203.SingleLocal"
+				"empty"				 		"Weapon_m203.Empty"
+				"load"				 		"Weapon_RPG7.Load"
+				"unload"			 		"Weapon_RPG7.Unload"
+				"hit"				 		"Weapon_RPG7.Hit"
+			}
+			"ironsights"
+			{
+				"use_weapon_muzzle"			"1"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"		"-1.0 1.0"
+				"recoil_vertical_range"		"4.0 6.0"
+				"recoil_aim_punch"			"1.0 1.0"
+				"recoil_rest_rate"			"12"
+				"recoil_rest_delay"			"0"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"	"ins_weapon_m203"
+				"particle_muzzleflash_3rd"	"ins_weapon_m203"	
+			}
+			"explosives"
+			{
+				"entity"					"grenade_m203_he"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"					"grenade_m203_he"
+				"clip_max_rounds"			"1" // 1 rpg per mag
+				"clip_default"				"0"
+			}
+			"freeaim"
+			{
+				"freeaim_distance"				"13"
+				"freeaim_screenratio"			"0.8"
+			}
+			"fov"
+			{
+				"fov_plr_ironsight"			"-5"
+				"fov_plr_focus"				"-10"
+				"fov_wpn_default"			"20"
+				"fov_wpn_ironsight"			"74"
+				"fov_wpn_focus"				"74"
+			}
+			
+			"team_access"					"security, insurgent"		
+		}
+		"weapon_gp25_he"
+		{
+			"import"						"weapon_m203_he"
+			"print_name"					"#weapon_gp25_he"
+			"print_desc"					"#weapon_m203_he_desc"	
+			"explosives"
+			{
+				"entity"					"grenade_gp25_he"
+			}
+			"sounds"
+			{
+				"shot_single"		 		"Weapon_gp30.Single"
+				"shot_single_local"	 		"Weapon_gp30.SingleLocal"
+			}	
+			"freeaim"
+			{
+				"freeaim_distance"				"13"
+				"freeaim_screenratio"			"0.8"
+			}
+			"fov"
+			{
+				"fov_plr_ironsight"			"-5"
+				"fov_plr_focus"				"-10"
+				"fov_wpn_default"			"20"
+				"fov_wpn_ironsight"			"74"
+				"fov_wpn_focus"				"74"
+			}		
+		}
+		"weapon_m203_smoke"
+		{
+			"import"						"weapon_base"
+			"weapon_class"					"launcher"
+			"weapon_type"					"projectile"
+			"print_name"					"#weapon_m203_smoke"
+			"print_desc"					"#weapon_m203_smoke_desc"
+			"view_model"					"models/weapons/upgrades/a_gl_m203.mdl"
+			"world_model"					"models/weapons/upgrades/a_gl_m203.mdl"
+			"weapon_slot"					"underbarrel"
+			"act_table"						"shortrifle"
+			"attached_act_suffix"			"_GLSETUP"
+			"attached_gesture"				"delta_glsetup"
+			"weapon_weight"					"50"
+			"weapon_cost"					"0"
+			"weapon_abilities"				"ironsight"
+			"sounds"
+			{
+				"shot_single"		 		"Weapon_m203.Single"
+				"shot_single_local"	 		"Weapon_m203.SingleLocal"
+				"empty"				 		"Weapon_m203.Empty"
+				"load"				 		"Weapon_RPG7.Load"
+				"unload"			 		"Weapon_RPG7.Unload"
+				"hit"				 		"Weapon_RPG7.Hit"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"		"-1.0 1.0"
+				"recoil_vertical_range"		"4.0 6.0"
+				"recoil_aim_punch"			"1.0 1.0"
+				"recoil_rest_rate"			"12"
+				"recoil_rest_delay"			"0"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"	"ins_weapon_m203"
+				"particle_muzzleflash_3rd"	"ins_weapon_m203"	
+			}
+			"explosives"
+			{
+				"entity"					"grenade_m203_smoke"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"					"grenade_m203_smoke"
+				"clip_max_rounds"			"1" // 1 rpg per mag
+				"clip_default"				"0"
+			}
+			"freeaim"
+			{
+				"freeaim_distance"				"13"
+				"freeaim_screenratio"			"0.8"
+			}
+			"fov"
+			{
+				"fov_plr_ironsight"			"-5"
+				"fov_plr_focus"				"-10"
+				"fov_wpn_default"			"20"
+				"fov_wpn_ironsight"			"74"
+				"fov_wpn_focus"				"74"
+			}
+			
+			"team_access"					"security, insurgent"		
+		}
+		"weapon_gp25_smoke"
+		{
+			"import"						"weapon_m203_smoke"
+			"print_name"					"#weapon_gp25_smoke"
+			"print_desc"					"#weapon_m203_smoke_desc"	
+			"explosives"
+			{
+				"entity"					"grenade_gp25_smoke"
+			}
+			"sounds"
+			{
+				"shot_single"		 		"Weapon_gp30.Single"
+				"shot_single_local"	 		"Weapon_gp30.SingleLocal"
+			}	
+			"freeaim"
+			{
+				"freeaim_distance"				"13"
+				"freeaim_screenratio"			"0.8"
+			}
+			"fov"
+			{
+				"fov_plr_ironsight"			"-5"
+				"fov_plr_focus"				"-10"
+				"fov_wpn_default"			"20"
+				"fov_wpn_ironsight"			"74"
+				"fov_wpn_focus"				"74"
+			}			
 		}
 
 		//========================================
@@ -311,7 +502,7 @@
 			"weapon_slot"					"explosive"
 			"act_table"						"grenade"
 			"weapon_weight"					"10"
-			"weapon_cost"					"2"
+			"weapon_cost"					"3"
 			"explosives"
 			{
 				"entity"					"grenade_molotov"
@@ -343,7 +534,7 @@
 			"act_table"						"grenade"
 			"weapon_weight"					"12"
 			"weapon_cost"					"1"
-			"class_restricted"				"0"
+			"class_restricted"				"1"
 			
 			"explosives"
 			{
@@ -372,7 +563,7 @@
 			"act_table"						"grenade"
 			"weapon_weight"					"12"
 			"weapon_cost"					"1"
-			"class_restricted"				"0"
+			"class_restricted"				"1"
 			
 			"explosives"
 			{
@@ -639,6 +830,7 @@
 			"weapon_weight"					"160" // (3.3kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +24[encumbrance]	
 			"weapon_cost"					"1"
 			"class_restricted"				"1"
+			"barrel_length"					"32"
 			
 			"viewmodel_attachments"
 			{
@@ -744,6 +936,7 @@
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"130" // (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"					"3"
+			"barrel_length"					"27"
 			"viewmodel_attachments"
 			{
 				"flipsights"
@@ -850,7 +1043,7 @@
 			"weapon_weight"					"160" // (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"					"0"
 			"class_restricted"				"1"
-			
+			"barrel_length"					"35"
 		    "viewmodel_attachments"
 			{
 				"foregrip"
@@ -944,7 +1137,7 @@
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"160" // (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"					"2"
-		    
+		    "barrel_length"					"30"
 			"viewmodel_attachments"
 			{
 				"optics"
@@ -1009,7 +1202,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"					"762x38_box_20rnd"
+				"ammo_type"					"762x51_box_20rnd"
 				"clip_max"					"12"
 				"clip_max_rounds"			"20"
 				"clip_default"				"3"
@@ -1044,6 +1237,7 @@
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"160" // (2.9kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"					"2"
+			"barrel_length"					"26"
 			"fov"
 			{
 				"fov_plr_ironsight"			"-25"
@@ -1126,6 +1320,7 @@
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"320"
 			"weapon_cost"					"3"
+			"barrel_length"					"35"
 			"fov"
 			{
 				"fov_plr_ironsight"			"-25"
@@ -1208,6 +1403,7 @@
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"128" // (2.4kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"					"1"
+			"barrel_length"					"24"
 			"fov"
 			{
 				"fov_plr_ironsight"			"-25"
@@ -1289,6 +1485,7 @@
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"160" // (3.9kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"					"1"
+			"barrel_length"					"35"
 			"fov"
 			{
 				"fov_plr_ironsight"			"-25"
@@ -1375,6 +1572,7 @@
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"128" // (2.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
 			"weapon_cost"					"2"
+			"barrel_length"					"18"
 			"fov"
 			{
 				"fov_plr_ironsight"			"-25"
@@ -1460,6 +1658,7 @@
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"128" // (4.0kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +8[encumbrance]
 			"weapon_cost"					"2"
+			"barrel_length"					"24"
 			"fov"
 			{
 				"fov_plr_ironsight"			"-25"
@@ -1545,6 +1744,7 @@
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"128" // (2.5kg[weapon] + (0.7kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +8[encumbrance]
 			"weapon_cost"					"3"
+			"barrel_length"					"21"
 			"fov"
 			{
 				"fov_plr_ironsight"			"-25"
@@ -1629,6 +1829,7 @@
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"128" // (3.5kg[weapon] + (0.8kg[ammo] * (1+4)[mags]) )*10[kg->hg for int]  +24[encumbrance]
 			"weapon_cost"					"2"
+			"barrel_length"					"24"
 			"viewmodel_attachments"
 			{
 				"foregrip"
@@ -1725,7 +1926,7 @@
 			"act_table"						"shortrifle"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"160" // (2.5kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			
+			"barrel_length"					"35"
 			"fov"
 			{
 				"fov_wpn_scope"				"0"
@@ -1805,7 +2006,7 @@
 			"act_table"						"shortrifle"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"160" // (3.2kg[weapon] + (0.3kg[ammo] * (1+10)[mags]) )*10[kg->hg for int]  +24[encumbrance]
-			
+			"barrel_length"					"35"
 			"fov"
 			{
 				"fov_wpn_scope"				"0"
@@ -1899,7 +2100,7 @@
 			"weapon_abilities"				"ironsight, bipod"
 			"weapon_weight"					"320" // (7.5kg[weapon] + (2.5kg[ammo] * (1+1)[mags]) )*10[kg->hg for int]  +150[encumbrance]
 			"closed_bolt"					"0"
-						
+			"barrel_length"					"37"						
 			"fov"
 			{
 				"fov_plr_ironsight"			"-25"
@@ -2003,7 +2204,7 @@
 			"act_table"						"lmg"
 			"weapon_abilities"				"ironsight, bipod"
 			"weapon_weight"					"320" // (4.8kg[weapon] + (2.0kg[ammo] * (1+2)[mags]) )*10[kg->hg for int]  +50[encumbrance]
-			
+			"barrel_length"					"35"
 			"fov"
 			{
 				"priority"					"0"
@@ -2116,6 +2317,7 @@
 			"act_table"						"shortrifle"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"320" // (6.6kg[weapon] + (0.2kg[ammo] * (1+16)[mags]) )*10[kg->hg for int]  +32[encumbrance]
+			"barrel_length"					"41"
 			"viewmodel_attachments"
 			{
 				"optics"
@@ -2202,7 +2404,7 @@
 			"act_table"						"shortrifle"
 			"weapon_abilities"				"ironsight"
 			"weapon_weight"					"320" // (4.0kg[weapon] + (0.2kg[ammo] * (1+16)[mags]) )*10[kg->hg for int]  +32[encumbrance]
-			
+			"barrel_length"					"43"
 			"fov"
 			{
 				"fov_plr_ironsight"			"-10"
@@ -2446,6 +2648,70 @@
 				"DetonateSound"			"Molotov.Burn"
 				"BounceSound"			"Weapon_M67.Bounce"
 			}
+		}
+		"grenade_m203_he"
+		{
+			"import"					"baseGrenade"
+			"entity_class"				"grenade_frag"
+			"Model"						"models/weapons/upgrades/a_projectile_m203.mdl"
+			"DetonateDamage"			"175"
+			"DetonatePenetrationRadius" "40"
+			"DetonateDamageRadius"		"350"
+			"FuseTime"					"0"
+			"ImpactDetonation"			"1"
+			"ArmDelay"					"0.12"
+			"RocketStartSpeed"			"3000"
+			
+			"Health"						"50"
+			"ReactExplosions"				"1"
+			"ReactBullets"					"1"
+			
+			"Particles"
+			{
+				"DetonateParticle"		"ins_m203_explosion"
+				"DetonateWaterParticle"	"ins_m203_explosion"
+			}
+			"Sounds"
+			{
+				"DetonateSound"			"BaseGrenade.Explode"
+				"BounceSound"			"Weapon_M67.Bounce"
+			}
+		}
+		"grenade_gp25_he"
+		{
+			"import"					"grenade_m203_he"
+			"Model"						"models/weapons/upgrades/a_projectile_gp25.mdl"
+		}
+		"grenade_m203_smoke"
+		{
+			"import"					"baseGrenade"
+			"entity_class"				"grenade_smoke"
+			"Model"						"models/weapons/upgrades/a_projectile_m203.mdl"
+			"FuseTime"					"0"
+			"ImpactDetonation"			"1"
+			"RocketStartSpeed"			"3000"
+			"ArmDelay"					"0.12"
+			
+			"Health"						"50"
+			"ReactExplosions"				"1"
+			"ReactBullets"					"1"
+			
+			"Particles"
+			{
+				"DetonateParticle"		"m203_smokegrenade"
+				"SmokeColor"			"40 35 33 252" // why does the alpha have to be set so damn high?
+			}
+			
+			"Sounds"
+			{
+				"DetonateSound"			"Weapon_m203.SmokeExplode"
+				"BounceSound"			"Weapon_M67.Bounce"
+			}
+		}
+		"grenade_gp25_smoke"
+		{
+			"import"					"grenade_m203_smoke"
+			"Model"						"models/weapons/upgrades/a_projectile_gp25.mdl"
 		}
 		"rocket_at4"
 		{

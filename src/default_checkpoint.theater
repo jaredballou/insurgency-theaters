@@ -48,10 +48,10 @@
 					// role name								preset
 					"#Squad_Cell_Leader_Specialist"				"template_coop_specialist" 		// Smoke					
 					"#Squad_Cell_Fighter"						"template_coop_fighter" 		// Incendiary
-					"#Squad_Cell_Fighter"						"template_coop_fighter" 		// Incendiary					
-					"#Squad_Cell_MachineGunner"					"template_coop_machinegunner" 	// Frag
+					"#Squad_Cell_Fighter"						"template_coop_fighter" 		// Incendiary	
+					"#Squad_Cell_Fighter"						"template_coop_fighter" 		// Incendiary	
 					"#Squad_Cell_MachineGunner"					"template_coop_machinegunner" 	// Frag					
-					"#Squad_Cell_Sapper"						"template_coop_sapper" 		// RPG
+					"#Squad_Cell_Fighter"						"template_coop_fighter" 		// Incendiary
 					"#Squad_Cell_SharpShooter"					"template_coop_sharpshooter" 	// None
 				}
 				
@@ -64,7 +64,7 @@
 					"#Squad_Cell_MachineGunner"					"template_coop_machinegunner" // RPG
 					"#Squad_Cell_Specialist"					"template_coop_specialist"  // smokes
 					"#Squad_Cell_Fighter"						"template_coop_fighter" // incendiary
-					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Fighter"						"template_coop_fighter" // incendiary
 					"#Squad_Cell_SharpShooter"					"template_coop_sharpshooter" // frag
 				}
 				
@@ -77,7 +77,7 @@
 					"#Squad_Cell_MachineGunner"					"template_coop_machinegunner" // RPG
 					"#Squad_Cell_Specialist"					"template_coop_specialist"  // smokes
 					"#Squad_Cell_Fighter"						"template_coop_fighter" // incendiary
-					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Fighter"						"template_coop_fighter" // incendiary
 					"#Squad_Cell_SharpShooter"					"template_coop_sharpshooter" // frag
 				}
 				
@@ -90,7 +90,7 @@
 					"#Squad_Cell_MachineGunner"					"template_coop_machinegunner" // RPG
 					"#Squad_Cell_Specialist"					"template_coop_specialist"  // smokes
 					"#Squad_Cell_Fighter"						"template_coop_fighter" // incendiary
-					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Fighter"						"template_coop_fighter" // incendiary
 					"#Squad_Cell_SharpShooter"					"template_coop_sharpshooter" // frag
 				}	
 
@@ -103,7 +103,7 @@
 					"#Squad_Cell_MachineGunner"					"template_coop_machinegunner" // RPG
 					"#Squad_Cell_Specialist"					"template_coop_specialist"  // smokes
 					"#Squad_Cell_Fighter"						"template_coop_fighter" // incendiary
-					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Fighter"						"template_coop_fighter" // incendiary
 					"#Squad_Cell_SharpShooter"					"template_coop_sharpshooter" // frag
 				}	
 
@@ -116,7 +116,7 @@
 					"#Squad_Cell_MachineGunner"					"template_coop_machinegunner" // RPG
 					"#Squad_Cell_Specialist"					"template_coop_specialist"  // smokes
 					"#Squad_Cell_Fighter"						"template_coop_fighter" // incendiary
-					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Fighter"						"template_coop_fighter" // incendiary
 					"#Squad_Cell_SharpShooter"					"template_coop_sharpshooter" // frag
 				}					
 			}
@@ -153,12 +153,30 @@
 				"weapon"			"weapon_fal"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
 				"weapon_upgrade"	"sec_foregrip"
 				"weapon_upgrade"	"sec_foregrip2"
 				"weapon_upgrade"	"ins_foregrip1"
 				"weapon_upgrade"	"ins_foregrip2"
 				"weapon_upgrade"	"ins_woodgrip1"
 				"weapon_upgrade"	"ins_woodgrip2"
+				"weapon_upgrade"	"sec_silencer"
+				"weapon_upgrade"	"sec_silencer2"
+				"weapon_upgrade"	"sec_silencer_pistol"
+				"weapon_upgrade"	"ins_silencer"
+				"weapon_upgrade"	"ins_silencer_pistol"
+				"weapon_upgrade"	"sec_bipod"
+			}		
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"sec_silencer"			"1"
+					"sec_silencer2"			"1"
+					"sec_silencer_pistol"	"1"
+					"ins_silencer" 			"1"
+					"ins_silencer_pistol" 	"1"
+				}
 			}
 		}
 		"template_specialist_security_coop"
@@ -192,6 +210,7 @@
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_mini14"
 				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
 				"weapon"			"weapon_anm14"
 				"weapon_upgrade"	"sec_foregrip"
 				"weapon_upgrade"	"sec_foregrip2"
@@ -202,6 +221,9 @@
 				"weapon_upgrade"	"sec_silencer"
 				"weapon_upgrade"	"sec_silencer2"
 				"weapon_upgrade"	"sec_silencer_pistol"
+				"weapon_upgrade"	"ins_silencer"
+				"weapon_upgrade"	"ins_silencer_pistol"
+				"weapon_upgrade"	"sec_bipod"
 			}
 		}
 		"template_recon_security_coop"
@@ -217,6 +239,7 @@
 
 			"buy_order" 
 			{
+				"gear"				"sec_chest_rig"
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_mp5"
 				"weapon_upgrade"	"sec_silencer"
@@ -232,6 +255,7 @@
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_aks74u"
 				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
 				"weapon"			"weapon_anm14"
 				"weapon_upgrade"	"sec_foregrip"
 				"weapon_upgrade"	"sec_foregrip2"
@@ -244,6 +268,7 @@
 				"weapon_upgrade"	"sec_silencer_pistol"
 				"weapon_upgrade"	"ins_silencer"
 				"weapon_upgrade"	"ins_silencer_pistol"
+				"weapon_upgrade"	"sec_bipod"
 			}
 		}
 		"template_designated_marksman_security_coop"
@@ -275,7 +300,7 @@
 				"weapon"			"weapon_m14"
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_sks"
-				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
 				"weapon"			"weapon_anm14"
 				"weapon_upgrade"	"optic_scope_mk4"
 				"weapon_upgrade"	"sec_silencer"
@@ -283,6 +308,7 @@
 				"weapon_upgrade"	"sec_silencer_pistol"
 				"weapon_upgrade"	"ins_silencer"
 				"weapon_upgrade"	"ins_silencer_pistol"
+				"weapon_upgrade"	"sec_bipod"
 			}
 		}
 		"template_breacher_security_coop"
@@ -313,6 +339,7 @@
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_toz"
 				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
 				"weapon"			"weapon_fal"
 				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_anm14"
@@ -327,6 +354,18 @@
 				"weapon_upgrade"	"ins_foregrip2"
 				"weapon_upgrade"	"ins_woodgrip1"
 				"weapon_upgrade"	"ins_woodgrip2"
+				"weapon_upgrade"	"sec_bipod"
+			}		
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"sec_silencer"			"1"
+					"sec_silencer2"			"1"
+					"sec_silencer_pistol"	"1"
+					"ins_silencer" 			"1"
+					"ins_silencer_pistol" 	"1"
+				}
 			}
 		}
 		"template_support_security_coop"
@@ -355,7 +394,7 @@
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_rpk"
-				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
 				"weapon"			"weapon_anm14"
 				"weapon_upgrade"	"sec_foregrip"
 				"weapon_upgrade"	"sec_foregrip2"
@@ -363,6 +402,23 @@
 				"weapon_upgrade"	"ins_foregrip2"
 				"weapon_upgrade"	"ins_woodgrip1"
 				"weapon_upgrade"	"ins_woodgrip2"
+				"weapon_upgrade"	"sec_silencer"
+				"weapon_upgrade"	"sec_silencer2"
+				"weapon_upgrade"	"sec_silencer_pistol"
+				"weapon_upgrade"	"ins_silencer"
+				"weapon_upgrade"	"ins_silencer_pistol"
+				"weapon_upgrade"	"sec_bipod"
+			}		
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"sec_silencer"			"1"
+					"sec_silencer2"			"1"
+					"sec_silencer_pistol"	"1"
+					"ins_silencer" 			"1"
+					"ins_silencer_pistol" 	"1"
+				}
 			}
 		}
 		"template_sniper_security_coop"
@@ -394,7 +450,7 @@
 				"weapon"			"weapon_m14"
 				"weapon"			"weapon_sks"
 				"weapon"			"weapon_mosin"
-				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
 				"weapon"			"weapon_anm14"
 				"weapon_upgrade"	"optic_scope_mk4"
 				"weapon_upgrade"	"optic_scope_7x"
@@ -403,6 +459,7 @@
 				"weapon_upgrade"	"sec_silencer_pistol"
 				"weapon_upgrade"	"ins_silencer"
 				"weapon_upgrade"	"ins_silencer_pistol"
+				"weapon_upgrade"	"sec_bipod"
 			}
 		}
 		"template_demolitions_security_coop"
@@ -418,12 +475,12 @@
 
 			"buy_order" 
 			{
-				"gear"				"sec_light_armor"
-				"gear"				"sec_chest_rig"
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_carrier"
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m9"
-				"weapon"			"weapon_ump45"
-				"weapon"			"weapon_at4"
+				"weapon"			"weapon_m16a4"
+				"weapon_upgrade"	"underbarrel_m203_he"
 			}
 			"allowed_items"
 			{
@@ -431,16 +488,30 @@
 				"weapon"			"weapon_m590"
 				"weapon"			"weapon_mp5"
 				"weapon"			"weapon_m16a4"
-				"weapon"			"weapon_akm"
 				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_at4"
 				"weapon"			"weapon_anm14"
+				"weapon_upgrade"	"underbarrel_m203_he"
+				"weapon_upgrade"	"underbarrel_m203_smoke"
 				"weapon_upgrade"	"sec_foregrip"
 				"weapon_upgrade"	"sec_foregrip2"
-				"weapon_upgrade"	"ins_foregrip1"
-				"weapon_upgrade"	"ins_foregrip2"
-				"weapon_upgrade"	"ins_woodgrip1"
-				"weapon_upgrade"	"ins_woodgrip2"
+				"weapon_upgrade"	"sec_silencer"
+				"weapon_upgrade"	"sec_silencer2"
+				"weapon_upgrade"	"sec_silencer_pistol"
+				"weapon_upgrade"	"ins_silencer"
+				"weapon_upgrade"	"ins_silencer_pistol"
+				"weapon_upgrade"	"sec_bipod"
+			}			
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"sec_silencer"			"1"
+					"sec_silencer2"			"1"
+					"sec_silencer_pistol"	"1"
+					"ins_silencer" 			"1"
+					"ins_silencer_pistol" 	"1"
+				}
 			}
 		}
 		
@@ -475,6 +546,7 @@
 				"weapon"			"weapon_m1a1"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
 				"weapon"			"weapon_anm14"
 			}
 		}
@@ -505,6 +577,8 @@
 				"weapon"			"weapon_aks74u"
 				"weapon"			"weapon_sks"
 				"weapon"			"weapon_molotov"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
 			}
 		}
 		"template_coop_machinegunner"
@@ -529,6 +603,8 @@
 			{
 				"weapon"			"weapon_rpk"
 				"weapon"			"weapon_akm"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
 			}
 		}
 		"template_coop_sapper"
@@ -545,7 +621,7 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_rpg7"
-				"gear"			"ins_chest_carrier"
+				"gear"				"ins_chest_carrier"
 				"weapon"			"weapon_toz"
 				"weapon_upgrade"	"ins_foregrip"
 				"weapon"			"weapon_kabar"
@@ -557,6 +633,8 @@
 				"weapon"			"weapon_toz"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
 			}
 		}
 		"template_coop_sharpshooter"
@@ -586,6 +664,7 @@
 				"weapon"			"weapon_m1a1"
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
 			}
 		}
 		//
@@ -782,8 +861,8 @@
 				
 				"weapon_aks74u"
 				{		
-					"fov_wpn_ironsight"		"62"
-					"fov_wpn_focus"			"68"				
+					"fov_wpn_ironsight"		"69"
+					"fov_wpn_focus"			"72"				
 				}
 				
 				"weapon_fal"
