@@ -155,8 +155,6 @@
 				"weapon"			"weapon_ump45"
 				"weapon_upgrade"		"underbarrel_m203_he"
 				"weapon_upgrade"		"underbarrel_m203_smoke"
-				"weapon_upgrade"		"underbarrel_m203_inc"
-				"weapon_upgrade"		"underbarrel_m203_flash"
 			}
 		}
 		"template_specialist_security_training"
@@ -198,8 +196,6 @@
 				"weapon"			"weapon_ump45"
 				"weapon_upgrade"		"underbarrel_m203_he"
 				"weapon_upgrade"		"underbarrel_m203_smoke"
-				"weapon_upgrade"		"underbarrel_m203_inc"
-				"weapon_upgrade"		"underbarrel_m203_flash"
 			}
 		}
 		"template_rifleman_security_training"
@@ -268,7 +264,7 @@
 				"weapon_upgrade"		"sec_flashlight_pistol"
 				"weapon_upgrade"		"sec_suppressor_pistol"
 				"weapon_upgrade"		"ammo_hp_m9"
-				"weapon"			"weapon_c4"
+				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_kabar"
 			}
 			"allowed_weapons"
@@ -286,8 +282,6 @@
 				"weapon"			"weapon_ump45"
 				"weapon_upgrade"		"underbarrel_m203_he"
 				"weapon_upgrade"		"underbarrel_m203_smoke"
-				"weapon_upgrade"		"underbarrel_m203_inc"
-				"weapon_upgrade"		"underbarrel_m203_flash"
 			}
 		}
 
@@ -343,6 +337,458 @@
 			{
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_rgd5"
+			}
+		}
+		"template_fighter_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_Fighter"
+
+			"models"
+			{
+				"player"			"models/characters/insurgent_fighter.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+			}
+
+			"buy_order" 
+			{
+				"gear"				"ins_light_armor"
+				"gear"				"ins_chest_carrier"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_akm"
+				"weapon_upgrade"	"ammo_ap_akm"
+				"weapon_upgrade"	"ins_woodgrip1"
+				"weapon"			"weapon_f1"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
+				"weapon"			"weapon_molotov"
+			}
+		}
+		"template_specialist_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_Specialist"
+
+			"models"
+			{
+				"player"			"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+			}
+			
+			"buy_order" 
+			{
+				"gear"				"ins_light_armor"
+				"gear"				"ins_chest_carrier"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_fal"
+				"weapon_upgrade"	"ammo_ap_fal"
+				"weapon"			"weapon_m18"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
+				"weapon"			"weapon_molotov"
+				"weapon_upgrade"	"ins_silencer"
+				"weapon_upgrade"	"ins_silencer_pistol"
+				"weapon_upgrade"	"underbarrel_gp25_smoke"
+				"weapon_upgrade"	"ins_bipod"
+			}
+		}
+		"template_scout_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_Scout"
+
+			"models"
+			{
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
+			}
+
+			"buy_order" 
+			{
+				"gear"				"ins_chest_rig"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_m1a1"
+				"weapon_upgrade"	"optic_2xaimpoint_ins"
+				"weapon_upgrade"	"ins_silencer"
+				"weapon"			"weapon_m18"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
+				"weapon"			"weapon_molotov"
+				"weapon_upgrade"	"ins_silencer"
+				"weapon_upgrade"	"ins_silencer_pistol"
+				"weapon_upgrade"	"underbarrel_gp25_smoke"
+			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"ins_foregrip1"	"1"
+					"ins_foregrip2"	"1"
+					"ins_woodgrip1"	"1"
+					"ins_woodgrip2" "1"
+				}
+			}
+		}
+		"template_sharpshooter_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_Sharpshooter"
+
+			"models"
+			{
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
+			}
+
+			"buy_order" 
+			{
+				"gear"				"ins_chest_rig"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_sks"
+				"weapon_upgrade"	"ammo_ap_sks"
+				"weapon_upgrade"	"optic_po4x24"
+				"weapon"			"weapon_m18"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_m18"
+				"weapon_upgrade"	"optic_scope_7x"
+				"weapon_upgrade"	"ins_silencer"
+				"weapon_upgrade"	"ins_silencer_pistol"
+				"weapon_upgrade"	"ins_bipod"
+			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"ins_foregrip1"	"1"
+					"ins_foregrip2"	"1"
+					"ins_woodgrip1"	"1"
+					"ins_woodgrip2" "1"
+				}
+			}
+		}
+		"template_sapper_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_Sapper"
+
+			"models"
+			{
+				"player"			"models/characters/insurgent_sapper.mdl"
+				"viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
+			}
+
+			"buy_order" 
+			{
+				"gear"				"ins_chest_carrier"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_toz"
+				"weapon_upgrade"	"ins_foregrip2"
+				"weapon"			"weapon_c4_ied"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_c4_ied"
+				"weapon"			"weapon_molotov"
+				"weapon_upgrade"	"ins_silencer"
+				"weapon_upgrade"	"ins_silencer_pistol"
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_smoke"
+			}
+		}
+		"template_machinegunner_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_MachineGunner"
+
+			"models"
+			{
+				"player"			"models/characters/insurgent_machinegunner.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+			}
+
+			"buy_order" 
+			{
+				"gear"				"ins_heavy_armor"
+				"gear"				"ins_chest_carrier"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_m18"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_m18"
+				"weapon_upgrade"	"ins_bipod"
+			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"ins_foregrip1"	"-1"
+					"ins_foregrip2"	"-1"
+					"ins_woodgrip1"	"-1"
+					"ins_woodgrip2" "-1"
+				}
+			}
+		}
+		"template_sniper_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_Sniper"
+
+			"models"
+			{
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
+			}
+
+			"buy_order" 
+			{
+				"gear"				"ins_light_armor"
+				"gear"				"ins_chest_rig"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_mosin"
+				"weapon_upgrade"	"optic_scope_7x"
+				"weapon"			"weapon_m18"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_sks"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_m18"
+				"weapon_upgrade"	"optic_scope_7x"
+				"weapon_upgrade"	"ins_silencer"
+				"weapon_upgrade"	"ins_silencer_pistol"
+				"weapon_upgrade"	"ins_bipod"
+			}
+			"cost_modifiers"
+			{
+				"weapon_upgrade"
+				{
+					"ins_foregrip1"	"1"
+					"ins_foregrip2"	"1"
+					"ins_woodgrip1"	"1"
+					"ins_woodgrip2" "1"
+				}
+			}
+		}
+		"template_striker_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_Striker"
+
+			"models"
+			{
+				"player"			"models/characters/insurgent_fighter.mdl"
+				"viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
+			}
+
+			"buy_order" 
+			{
+				"gear"				"ins_chest_rig"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_akm"
+				"weapon_upgrade"	"ammo_hp_akm"
+				"weapon"			"weapon_rpg7"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_c4_ied"
+				"weapon"			"weapon_molotov"
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_smoke"
+			}
+		}		
+		"template_militant_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_Militant"
+
+			"models"
+			{
+				"player"			"models/characters/insurgent_fighter.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+			}
+
+			"buy_order" 
+			{
+				"gear"				"ins_chest_rig"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_aks74u"
+				"weapon_upgrade"	"ammo_ap_aks74u"
+				"weapon_upgrade"	"ins_woodgrip2"
+				"weapon"			"weapon_molotov" 
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_fal"
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
+				"weapon"			"weapon_molotov"
+			}
+		}
+		"template_bomber_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_Bomber"
+
+			"models"
+			{
+				"player"			"models/characters/insurgent_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+			}
+
+			"buy_order" 
+			{
+				"gear"				"ins_light_armor"
+				"gear"				"ins_chest_carrier"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_akm"
+				"weapon_upgrade"	"kobra_akm"
+				"weapon_upgrade"	"ins_woodgrip1"
+				"weapon"			"weapon_c4_ied" 
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_toz"
+				"weapon"			"weapon_mp40"
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_c4_ied"
+				"weapon"			"weapon_molotov"
+				"weapon_upgrade"	"underbarrel_gp25_he"
+				"weapon_upgrade"	"underbarrel_gp25_smoke"
+			}
+		}
+
+		// special templates used by gamemodes
+		"template_vip_security"
+		{
+			"print_name"	"#VIP_RoleName"
+			
+			"models"
+			{
+				"player"			"models/characters/civilian_vip_02.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+			}
+
+			"buy_order"
+			{
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_rig"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_m9"
+				"weapon_upgrade"	"sec_silencer_pistol"
+			}
+		}
+		
+		"template_vip_security_elimination"
+		{
+			"print_name"	"#VIP_RoleName"
+			
+			"models"
+			{
+				"player"			"models/characters/civilian_vip_02.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+			}
+
+			"buy_order"
+			{
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_carrier"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_m9"
+				"weapon_upgrade"	"sec_silencer_pistol"
+			}
+		}
+		
+		"template_vip_insurgent"
+		{
+			"print_name"	"#VIP_RoleName"
+			
+			"models"
+			{
+				"player"			"models/characters/civilian_vip.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+			}
+
+			"buy_order"
+			{
+				"gear"				"ins_light_armor"
+				"gear"				"ins_chest_rig"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_makarov"
+				"weapon_upgrade"	"ins_silencer_pistol"
+			}
+		}
+		
+		"template_vip_insurgent_elimination"
+		{
+			"print_name"	"#VIP_RoleName"
+			
+			"models"
+			{
+				"player"			"models/characters/civilian_vip.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+			}
+
+			"buy_order"
+			{
+				"gear"				"ins_light_armor"
+				"gear"				"ins_chest_rig"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_makarov"
+				"weapon_upgrade"	"ins_silencer_pistol"
 			}
 		}
 	}
@@ -621,14 +1067,6 @@
 		{
 			"carry"						"10"
 		}
-		"grenade_m203_inc"
-		{
-			"carry"						"12"
-		}
-		"grenade_m203_flash"
-		{
-			"carry"						"12"
-		}
 		"grenade_m203_he"
 		{
 			"carry"						"12"
@@ -685,34 +1123,6 @@
 	}
 	"explosives"
 	{
-		"grenade_m203_flash"
-		{
-			"import"				"baseGrenade"
-			"entity_class"				"grenade_flash"
-			"Model"					"models/weapons/upgrades/a_projectile_m203.mdl"
-
-			"DetonateDamage"			"6.0"
-			"DetonateDamageRadius"			"1500"
-			"DetonateFlashDuration"			"12.0"
-			"FuseTime"				"0"
-			"ImpactDetonation"			"1"
-			"RocketStartSpeed"			"3000"
-			"ArmDelay"				"0.12"
-			
-			"Health"				"50"
-			"ReactExplosions"			"1"
-			"ReactBullets"				"1"
-			"Particles"
-			{
-				"DetonateParticle"		"ins_water_explosion"
-				"DetonateWaterParticle"		"ins_flashbang_explosion"
-			}
-			"Sounds"
-			{
-				"DetonateSound"			"BaseStunGrenade.Explode"
-				"BounceSound"			"Weapon_M84.Bounce"
-			}
-		}
 		"grenade_m203_inc"
 		{
 			"import"				"baseGrenade"
@@ -720,8 +1130,8 @@
 			"Model"					"models/weapons/upgrades/a_projectile_m203.mdl"
 			"DamageType"				"DMG_BURN"
 			"DetonateDamage"			"175"
-			"DetonatePenetrationRadius" 		"40"
-			"DetonateDamageRadius"			"350"
+			"DetonatePenetrationRadius" 		"150"
+			"DetonateDamageRadius"			"450"
 			"FuseTime"				"0"
 			"ImpactDetonation"			"1"
 			"ArmDelay"				"0.12"
@@ -733,7 +1143,6 @@
 			"AreaDamageMaxRadius"			"160"
 			"AreaDamageGrowSpeed"			"20"
 			"AreaDamageAmount"			"76"
-
 
 			"Health"				"50"
 			"ReactExplosions"			"1"
@@ -755,15 +1164,15 @@
 
 		"grenade_m203_he"
 		{
-			"import"					"baseGrenade"
+			"import"				"baseGrenade"
 			"entity_class"				"grenade_frag"
-			"Model"						"models/weapons/upgrades/a_projectile_m203.mdl"
+			"Model"					"models/weapons/upgrades/a_projectile_m203.mdl"
 			"DetonateDamage"			"175"
-			"DetonatePenetrationRadius" "40"
-			"DetonateDamageRadius"		"350"
-			"FuseTime"					"0"
+			"DetonatePenetrationRadius" 		"100"
+			"DetonateDamageRadius"			"500"
+			"FuseTime"				"0"
 			"ImpactDetonation"			"1"
-			"ArmDelay"					"0.12"
+			"ArmDelay"				"0.1"
 			"RocketStartSpeed"			"3000"
 			
 			"Health"						"50"
@@ -778,32 +1187,6 @@
 			"Sounds"
 			{
 				"DetonateSound"			"BaseGrenade.Explode"
-				"BounceSound"			"Weapon_M67.Bounce"
-			}
-		}
-		"grenade_m203_smoke"
-		{
-			"import"					"baseGrenade"
-			"entity_class"				"grenade_smoke"
-			"Model"						"models/weapons/upgrades/a_projectile_m203.mdl"
-			"FuseTime"					"0"
-			"ImpactDetonation"			"1"
-			"RocketStartSpeed"			"3000"
-			"ArmDelay"					"0.12"
-			
-			"Health"						"50"
-			"ReactExplosions"				"1"
-			"ReactBullets"					"1"
-			
-			"Particles"
-			{
-				"DetonateParticle"		"m203_smokegrenade"
-				"SmokeColor"			"40 35 33 252" // why does the alpha have to be set so damn high?
-			}
-			
-			"Sounds"
-			{
-				"DetonateSound"			"Weapon_m203.SmokeExplode"
 				"BounceSound"			"Weapon_M67.Bounce"
 			}
 		}
@@ -868,8 +1251,8 @@
 			"view_model"					"models/weapons/upgrades/a_gl_m203.mdl"
 			"world_model"					"models/weapons/upgrades/a_gl_m203.mdl"
 			"weapon_slot"					"underbarrel"
-			"act_table"						"shortrifle"
-			"attached_act_suffix"			"_GLSETUP"
+			"act_table"					"shortrifle"
+			"attached_act_suffix"				"_GLSETUP"
 			"attached_gesture"				"delta_glsetup"
 			"weapon_weight"					"50"
 			"weapon_cost"					"0"
@@ -947,43 +1330,11 @@
 			"print_desc"					"#weapon_m203_smoke_desc"
 			"explosives"
 			{
-				"entity"					"grenade_m203_smoke"
-			}
-			"ammo_clip"
-			{
-				"ammo_type"					"grenade_m203_smoke"
-				"clip_max_rounds"			"1" // 1 rpg per mag
-				"clip_default"				"0"
-			}
-		}
-		"weapon_m203_inc"
-		{
-			"import"					"weapon_m203_he"
-			"print_name"					"M203 (Incendiary)"
-			"print_desc"					"M203 with FIRE"
-			"explosives"
-			{
 				"entity"					"grenade_m203_inc"
 			}
 			"ammo_clip"
 			{
-				"ammo_type"				"grenade_m203_inc"
-				"clip_max_rounds"			"1" // 1 rpg per mag
-				"clip_default"				"0"
-			}
-		}
-		"weapon_m203_flash"
-		{
-			"import"					"weapon_m203_he"
-			"print_name"					"M203 (Flash)"
-			"print_desc"					"M203 with FLASH"
-			"explosives"
-			{
-				"entity"					"grenade_m203_flash"
-			}
-			"ammo_clip"
-			{
-				"ammo_type"				"grenade_m203_flash"
+				"ammo_type"					"grenade_m203_smoke"
 				"clip_max_rounds"			"1" // 1 rpg per mag
 				"clip_default"				"0"
 			}
@@ -1112,6 +1463,7 @@
 		}
 		"weapon_m16a4"
 		{
+			"class_restricted"				"0"
 			"ammo_clip"
 			{
 				"clip_max"			"12"
@@ -1534,6 +1886,10 @@
 		{
 			"upgrade_cost"		"0"
 		}
+		"ammo_hp_m14"
+		{
+			"upgrade_cost"					"0"
+		}
 		"ammo_hp_m16a4"
 		{
 			"upgrade_cost"		"0"
@@ -1584,6 +1940,7 @@
 		}
 		"optic_2xaimpoint_sec"
 		{
+			"class_restricted"				"0"
 			"upgrade_cost"					"0"
 			"allowed_weapons"
 			{
@@ -1601,6 +1958,7 @@
 		}
 		"optic_aimpoint"
 		{
+			"class_restricted"				"0"
 			"upgrade_cost"					"0"
 			"allowed_weapons"
 			{
@@ -1618,6 +1976,7 @@
 		}		
 		"optic_elcan"
 		{
+			"class_restricted"				"0"
 			"upgrade_cost"					"0"
 			"allowed_weapons"
 			{
@@ -1635,6 +1994,7 @@
 		
 		"optic_eotech"
 		{
+			"class_restricted"				"0"
 			"upgrade_cost"					"0"
 			"allowed_weapons"
 			{
@@ -1851,6 +2211,7 @@
 		}
 		"sec_silencer2"
 		{
+			"class_restricted"				"0"
 			"import"						"base_silencer"
 			"upgrade_cost"					"0"
 
@@ -1880,6 +2241,7 @@
 		}
 		"underbarrel_m203_base"
 		{
+			"class_restricted"				"0"
 			"IsBase"						"1"
 			"import"						"underbarrel_gl_base"
 			
@@ -1907,36 +2269,18 @@
 				"weapon"					"weapon_m16a4"
 			}		
 		}
-		"underbarrel_m203_inc"
+		"underbarrel_m203_he"
 		{
-			"import"					"underbarrel_m203_base"
+			"upgrade_cost"		"0"
+			"class_restricted"				"0"
+		}
+		"underbarrel_m203_smoke"
+		{
+			"upgrade_cost"		"0"
+			"class_restricted"				"0"
 			"print_name"					"M203 (Incendiary)
 			"print_desc"					"M203 FIRE"
-			"attach_weapon"					"weapon_m203_inc"
-			"viewmodel_attachments"
-			{
-				"Launcher"
-				{
-					"skin"				"0"
-				}
-			}
 
-		}
-		"underbarrel_m203_flash"
-		{
-			"import"					"underbarrel_m203_base"
-			"upgrade_cost"					"0"
-			"print_name"					"M203 (Flash)
-			"print_desc"					"M203 FLASH"
-			"attach_weapon"					"weapon_m203_flash"
-			
-			"viewmodel_attachments"
-			{
-				"Launcher"
-				{
-					"skin"				"0"
-				}
-			}
 		}
 	}
 }
