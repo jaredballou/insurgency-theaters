@@ -1123,7 +1123,7 @@
 	}
 	"explosives"
 	{
-		"grenade_m203_inc"
+		"grenade_m203_smoke"
 		{
 			"import"				"baseGrenade"
 			"entity_class"				"grenade_aoe"
@@ -1326,11 +1326,11 @@
 		"weapon_m203_smoke"
 		{
 			"import"					"weapon_m203_he"
-			"print_name"					"#weapon_m203_smoke"
-			"print_desc"					"#weapon_m203_smoke_desc"
+			"print_name"					"M203 (Incendiary)"
+			"print_desc"					"M203 with FIRE!"
 			"explosives"
 			{
-				"entity"					"grenade_m203_inc"
+				"entity"					"grenade_m203_smoke"
 			}
 			"ammo_clip"
 			{
@@ -1555,6 +1555,7 @@
 		}
 		"weapon_m249"
 		{
+			"weapon_abilities"				"ironsight"
 			"recoil"
 			{
 				"recoil_lateral_range"				"-1.2 2.1"
@@ -1616,7 +1617,6 @@
 			"weapon_cost"		"0"
 			"weapon_weight"		"0"
 			"team_access"		"security"
-
 		}
 		"weapon_m40a1"
 		{
@@ -2009,7 +2009,7 @@
 				"weapon"					"weapon_mp5"
 				"weapon"					"weapon_ump45"
 			}
-		}			
+		}	
 		"optic_scope_mk4"
 		{
 			"class_restricted"				"0"
@@ -2026,7 +2026,7 @@
 				"scope_m40a1"
 				{
 					"model"					"models/weapons/upgrades/a_optic_m40.mdl"
-					"AnimIronSights"		"scope_zoom"
+					"AnimIronSights"			"scope_zoom"
 					"AnimIdle"				"scope_idle"
 					"Gesture"				"delta_scope"
 					"Main"					"1"
@@ -2054,7 +2054,7 @@
 					"model"				"models/weapons/upgrades/a_optic_m40_l.mdl"
 					"AnimIronSights"		"scope_zoom"
 					"AnimIdle"			"scope_idle"
-					"Gesture"			"delta_scope"
+					"Gesture"			"delta_elcan"
 					
 					"excluded_weapons"
 					{
@@ -2066,7 +2066,7 @@
 			"optics_fov_override"
 			{
 				"fov_wpn_scope"				"10"
-				"fov_wpn_ironsight"			"50"
+				"fov_wpn_ironsight"			"60"
 				"fov_wpn_focus"				"57"
 				
 				"weapon_m40a1"
@@ -2079,7 +2079,25 @@
 				"weapon_m14"
 				{
 					"fov_wpn_scope"				"10"
-					"fov_wpn_ironsight"			"50"
+					"fov_wpn_ironsight"			"60"
+					"fov_wpn_focus"				"57"
+				}
+				"weapon_m16a4"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"60"
+					"fov_wpn_focus"				"57"
+				}
+				"weapon_m249"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"60"
+					"fov_wpn_focus"				"57"
+				}
+				"weapon_mk48"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"60"
 					"fov_wpn_focus"				"57"
 				}
 			}
@@ -2096,11 +2114,12 @@
 			"import"					"base_bipod"
 			"upgrade_cost"					"0"
 			"class_restricted"				"0"
-			
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_m14"
 				"weapon"					"weapon_m40a1"
+				"weapon"					"weapon_m249"
+				"weapon"					"weapon_mk48"
 			}
 			
 			"viewmodel_attachments"
@@ -2108,22 +2127,19 @@
 				"Bipod_M14"
 				{
 					"model"					"models/weapons/upgrades/a_bipod_m14.mdl"
-					
 					"weapons"
 					{
 						"weapon"			"weapon_m14"
 					}
 				}
-				
 				"Bipod_M40"
 				{
 					"model"					"models/weapons/upgrades/a_bipod_m40.mdl"
-					
 					"weapons"
 					{
 						"weapon"			"weapon_m40a1"
 					}
-				}			
+				}
 			}
 		}
 		"sec_flashlight"
@@ -2145,6 +2161,37 @@
 		{
 			"upgrade_cost"		"0"
 			"class_restricted"	"0"
+			"allowed_weapons"
+			{
+				"weapon"	"weapon_m249"
+				"weapon"	"weapon_mk48"
+				"weapon"	"weapon_m14"
+				"weapon"	"weapon_mini14"
+				"weapon"	"weapon_m590"
+			}
+			"viewmodel_attachments"
+			{
+				"Foregrip"
+				{
+					"model"					"models/weapons/upgrades/a_foregrip_sec2.mdl"
+					"Gesture"				"delta_foregrip"
+					"ActSuffix"				"_FOREGRIP"
+					
+					"scales"
+					{
+						"weapon_m14"            	"0.45"
+						"weapon_mini14"             "0.45"
+						"weapon_m590"               "0.55"
+					}
+					"weapons"
+					{
+						"weapon"			"weapon_m14"
+						"weapon"			"weapon_mini14"
+						"weapon"			"weapon_m590"
+					}
+
+				}
+			}
 		}
 		"sec_lasersight"
 		{
@@ -2278,7 +2325,7 @@
 		{
 			"upgrade_cost"		"0"
 			"class_restricted"				"0"
-			"print_name"					"M203 (Incendiary)
+			"print_name"					"M203 (Incendiary)"
 			"print_desc"					"M203 FIRE"
 
 		}
