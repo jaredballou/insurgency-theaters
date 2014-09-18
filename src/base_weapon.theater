@@ -9,6 +9,10 @@
 			"weapon_weight"					"60"
 			"barrel_length"					"21"
 			
+			"bipod_yaw_limit"				"45"
+			"bipod_pitch_min"				"-20"
+			"bipod_pitch_max"				"35"
+			
 			"ironsights"
 			{
 				"GestureIronsights"			"delta_iron"

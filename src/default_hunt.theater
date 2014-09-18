@@ -63,8 +63,8 @@
 					"#Squad_Cell_Fighter"						"template_coop_fighter" // incendiary
 					"#Squad_Cell_MachineGunner"					"template_coop_machinegunner" // RPG
 					"#Squad_Cell_Specialist"					"template_coop_specialist"  // smokes
-					"#Squad_Cell_Fighter"						"template_coop_fighter" // incendiary
-					"#Squad_Cell_SharpShooter"					"template_coop_sharpshooter" // frag
+					"#Squad_Cell_Fighter"						"template_coop_fighter" // incendiary			
+					"#Squad_Cell_Sapper"						"template_coop_sapper" 			// RPG
 					"#Squad_Cell_SharpShooter"					"template_coop_sharpshooter" // frag
 				}
 				
@@ -76,8 +76,8 @@
 					"#Squad_Cell_Fighter"						"template_coop_fighter" // incendiary
 					"#Squad_Cell_MachineGunner"					"template_coop_machinegunner" // RPG
 					"#Squad_Cell_Specialist"					"template_coop_specialist"  // smokes
-					"#Squad_Cell_Fighter"						"template_coop_fighter" // incendiary
-					"#Squad_Cell_Specialist"					"template_coop_specialist" // smokes
+					"#Squad_Cell_Fighter"						"template_coop_fighter" // incendiary		
+					"#Squad_Cell_Sapper"						"template_coop_sapper" 			// RPG
 					"#Squad_Cell_SharpShooter"					"template_coop_sharpshooter" // frag
 				}
 				
@@ -486,7 +486,7 @@
 			{
 				"weapon"			"weapon_ump45"
 				"weapon"			"weapon_m590"
-				"weapon"			"weapon_mp5"
+				"weapon"			"weapon_mini14"
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_at4"
@@ -621,20 +621,16 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_kabar"
-				"weapon"			"weapon_rpg7"
-				"gear"			"ins_chest_carrier"
-				"weapon"			"weapon_toz"
-				"weapon_upgrade"	"ins_foregrip"
+				"weapon"			"weapon_aks74u"
 				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_rpg7"
 			}
 			"allowed_items"
 			{
-				"weapon"			"weapon_mp40"
-				"weapon"			"weapon_toz"
-				"weapon"			"weapon_akm"
+				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_rpg7"
-				"weapon"			"weapon_m84"
-				"weapon"			"weapon_m18"
+				"weapon"			"weapon_kabar"
 			}
 		}
 		"template_coop_sharpshooter"

@@ -49,7 +49,7 @@
 			"models"
 			{
 				"player"				"models/characters/security_rifleman.mdl"
-				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"
 				"helmet"				"models/characters/us_helmet.mdl"
 			}
 
@@ -154,7 +154,7 @@
 			"models"
 			{
 				"player"			"models/characters/security_heavy.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_sec_m.mdl"	
+				"viewmodel_hands"	"models/weapons/v_hands_sec_h.mdl"	
 				"helmet"			"models/characters/us_helmet.mdl"
 			}
 
@@ -235,7 +235,7 @@
 			"models"
 			{
 				"player"			"models/characters/security_heavy.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_sec_m.mdl"	
+				"viewmodel_hands"	"models/weapons/v_hands_sec_h.mdl"	
 				"helmet"			"models/characters/us_helmet.mdl"
 			}
 
@@ -273,7 +273,7 @@
 			"models"
 			{
 				"player"			"models/characters/security_standard.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_m.mdl"
 				"helmet"			"models/characters/us_helmet.mdl"
 			}
 
@@ -335,7 +335,7 @@
 			{
 				"weapon"			"weapon_ump45"
 				"weapon"			"weapon_m590"
-				"weapon"			"weapon_mp5"
+				"weapon"			"weapon_mini14"
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_at4"
@@ -352,7 +352,7 @@
 			"models"
 			{
 				"player"			"models/characters/security_standard.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_m.mdl"
 				"helmet"			"models/characters/us_helmet.mdl"
 			}
 
@@ -425,13 +425,13 @@
 			"models"
 			{
 				"player"			"models/characters/insurgent_fighter.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
 			}
 
 			"buy_order" 
 			{
 				"gear"				"ins_light_armor"
-				"gear"				"ins_chest_carrier"
+				"gear"				"ins_chest_rig"
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_akm"
@@ -457,13 +457,13 @@
 			"models"
 			{
 				"player"			"models/characters/insurgent_standard.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
 			}
 			
 			"buy_order" 
 			{
 				"gear"				"ins_light_armor"
-				"gear"				"ins_chest_carrier"
+				"gear"				"ins_chest_rig"
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_fal"
@@ -583,7 +583,7 @@
 			"models"
 			{
 				"player"			"models/characters/insurgent_sapper.mdl"
-				"viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
+				"viewmodel_hands" 	"models/weapons/v_hands_ins_m.mdl"
 			}
 
 			"buy_order" 
@@ -616,7 +616,7 @@
 			"models"
 			{
 				"player"			"models/characters/insurgent_machinegunner.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
 			}
 
 			"buy_order" 
@@ -666,7 +666,6 @@
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_mosin"
 				"weapon_upgrade"	"optic_scope_7x"
-				"weapon"			"weapon_m18"
 			}
 			"allowed_items"
 			{
@@ -730,7 +729,7 @@
 			"models"
 			{
 				"player"			"models/characters/insurgent_fighter.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
 			}
 
 			"buy_order" 
@@ -763,13 +762,13 @@
 			"models"
 			{
 				"player"			"models/characters/insurgent_heavy.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_h.mdl"
 			}
 
 			"buy_order" 
 			{
 				"gear"				"ins_light_armor"
-				"gear"				"ins_chest_carrier"
+				"gear"				"ins_chest_rig"
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_akm"
 				"weapon_upgrade"	"kobra_akm"
@@ -797,7 +796,7 @@
 			"models"
 			{
 				"player"			"models/characters/civilian_vip_02.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_vip.mdl"
 			}
 
 			"buy_order"
@@ -817,7 +816,7 @@
 			"models"
 			{
 				"player"			"models/characters/civilian_vip_02.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_vip.mdl"
 			}
 
 			"buy_order"
@@ -837,7 +836,7 @@
 			"models"
 			{
 				"player"			"models/characters/civilian_vip.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_vip.mdl"
 			}
 
 			"buy_order"
@@ -857,7 +856,7 @@
 			"models"
 			{
 				"player"			"models/characters/civilian_vip.mdl"
-				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_vip.mdl"
 			}
 
 			"buy_order"

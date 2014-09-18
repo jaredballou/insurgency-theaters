@@ -2208,7 +2208,21 @@
 			{
 				"weapon"					"weapon_fal"
 				"weapon"					"weapon_mosin"
+				"weapon"					"weapon_sks"
 			}
+			
+			"viewmodel_attachments"
+			{
+				"Bipod_Mosin"
+				{
+					"model"					"models/weapons/upgrades/a_bipod_mosin.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_mosin"
+					}
+				}
+
 				"Bipod_FAL"
 				{
 					"model"					"models/weapons/upgrades/a_bipod_fal.mdl"
@@ -2218,13 +2232,16 @@
 						"weapon"			"weapon_fal"
 					}
 				}
-			
-			"viewmodel_attachments"
-			{
-				"Bipod"
+
+				"Bipod_SKS"
 				{
-					"model"					"models/weapons/upgrades/a_bipod_mosin.mdl"
-				}			
+					"model"					"models/weapons/upgrades/a_bipod_sks.mdl"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_sks"
+					}				
+				}
 			}
 		}
 		

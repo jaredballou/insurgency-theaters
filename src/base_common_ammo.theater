@@ -78,13 +78,21 @@
 		}
 		"grenade_c4"
 		{
-			"carry"						"2"
+			"carry"						"1"
 		}
 		"grenade_m203_he"
 		{
 			"carry"						"3"
 		}
+		"grenade_gp25_he"
+		{
+			"carry"						"3"
+		}
 		"grenade_m203_smoke"
+		{
+			"carry"						"1"
+		}
+		"grenade_gp25_smoke"
 		{
 			"carry"						"1"
 		}
@@ -597,6 +605,7 @@
 		"00buck"
 		{
 			"import"				"default"
+			"bulletcount"			"9"
 			"damageType"			"DMG_BUCKSHOT"
 			"brass_model"			"models/weapons/shells/12guage.mdl"
 			"brass_sound"			"BOUNCE_SHOTSHELL"
@@ -627,9 +636,9 @@
 			"brass_model"			"models/weapons/shells/12guage.mdl"
 			"Damage"
 			{
-				"800"				"36"
-				"4500"            	"18" // approx 100 total @ 100m
-				"9000"				"5"  // approx 50 total @ 200m
+				"800"				"288"
+				"4500"            	"144"
+				"9000"				"40"
 			}				
 			"PenetrationPower"
 			{
