@@ -137,14 +137,14 @@
 				"weapon_upgrade"		"sec_suppressor_pistol"
 				"weapon_upgrade"		"ammo_hp_m9"
 				"weapon"			"weapon_m67"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 			}
 			"allowed_weapons"
 			{
 				"weapon"			"weapon_at4"
 				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_m14"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_m590"
@@ -180,19 +180,22 @@
 				"weapon_upgrade"		"sec_suppressor_pistol"
 				"weapon_upgrade"		"ammo_hp_m9"
 				"weapon"			"weapon_c4_clicker"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 			}
 			"allowed_weapons"
 			{
 				"weapon"			"weapon_at4"
 				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_m14"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_mk18"
+				"weapon"			"weapon_m249"
+				"weapon"			"weapon_mk48"
 				"weapon"			"weapon_m40a1"
 				"weapon"			"weapon_m590"
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_m9"
+				"weapon"			"weapon_mp5"
 				"weapon"			"weapon_ump45"
 				"weapon_upgrade"		"underbarrel_m203_he"
 				"weapon_upgrade"		"underbarrel_m203_smoke"
@@ -222,13 +225,13 @@
 				"weapon_upgrade"		"sec_suppressor_pistol"
 				"weapon_upgrade"		"ammo_hp_m9"
 				"weapon"			"weapon_at4"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 			}
 			"allowed_weapons"
 			{
 				"weapon"			"weapon_at4"
 				"weapon"			"weapon_c4_clicker"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_m590"
@@ -237,6 +240,7 @@
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m9"
 				"weapon"			"weapon_m14"
+				"weapon"			"weapon_mp5"
 				"weapon"			"weapon_ump45"
 				"weapon_upgrade"		"underbarrel_m203_he"
 				"weapon_upgrade"		"underbarrel_m203_smoke"
@@ -265,20 +269,21 @@
 				"weapon_upgrade"		"sec_suppressor_pistol"
 				"weapon_upgrade"		"ammo_hp_m9"
 				"weapon"			"weapon_c4_clicker"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 			}
 			"allowed_weapons"
 			{
 				"weapon"			"weapon_anm14"
 				"weapon"			"weapon_at4"
 				"weapon"			"weapon_c4_clicker"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m249"
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m590"
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_m9"
 				"weapon"			"weapon_mk48"
+				"weapon"			"weapon_mp5"
 				"weapon"			"weapon_ump45"
 				"weapon_upgrade"		"underbarrel_m203_he"
 				"weapon_upgrade"		"underbarrel_m203_smoke"
@@ -331,12 +336,10 @@
 			"buy_order" 
 			{
 				"weapon"			"weapon_kabar"
-				"weapon"			"weapon_rgd5"
 			}
 			"allowed_weapons"
 			{
 				"weapon"			"weapon_kabar"
-				"weapon"			"weapon_rgd5"
 			}
 		}
 		"template_fighter_insurgent"
@@ -354,11 +357,11 @@
 			{
 				"gear"				"ins_light_armor"
 				"gear"				"ins_chest_carrier"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_akm"
-				"weapon_upgrade"	"ammo_ap_akm"
-				"weapon_upgrade"	"ins_woodgrip1"
+				"weapon_upgrade"		"ammo_ap_akm"
+				"weapon_upgrade"		"ins_woodgrip1"
 				"weapon"			"weapon_f1"
 			}
 			"allowed_items"
@@ -386,7 +389,7 @@
 			{
 				"gear"				"ins_light_armor"
 				"gear"				"ins_chest_carrier"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_fal"
 				"weapon_upgrade"	"ammo_ap_fal"
@@ -421,7 +424,7 @@
 			"buy_order" 
 			{
 				"gear"				"ins_chest_rig"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_m1a1"
 				"weapon_upgrade"	"optic_2xaimpoint_ins"
@@ -466,7 +469,7 @@
 			"buy_order" 
 			{
 				"gear"				"ins_chest_rig"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_sks"
 				"weapon_upgrade"	"ammo_ap_sks"
@@ -511,7 +514,7 @@
 			"buy_order" 
 			{
 				"gear"				"ins_chest_carrier"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_toz"
 				"weapon_upgrade"	"ins_foregrip2"
@@ -545,7 +548,7 @@
 			{
 				"gear"				"ins_heavy_armor"
 				"gear"				"ins_chest_carrier"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_rpk"
 				"weapon"			"weapon_m18"
@@ -584,7 +587,7 @@
 			{
 				"gear"				"ins_light_armor"
 				"gear"				"ins_chest_rig"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_mosin"
 				"weapon_upgrade"	"optic_scope_7x"
@@ -626,7 +629,7 @@
 			"buy_order" 
 			{
 				"gear"				"ins_chest_rig"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_akm"
 				"weapon_upgrade"	"ammo_hp_akm"
 				"weapon"			"weapon_rpg7"
@@ -658,7 +661,7 @@
 			"buy_order" 
 			{
 				"gear"				"ins_chest_rig"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_makarov"
 				"weapon"			"weapon_aks74u"
 				"weapon_upgrade"	"ammo_ap_aks74u"
@@ -692,7 +695,7 @@
 			{
 				"gear"				"ins_light_armor"
 				"gear"				"ins_chest_carrier"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_akm"
 				"weapon_upgrade"	"kobra_akm"
 				"weapon_upgrade"	"ins_woodgrip1"
@@ -726,7 +729,7 @@
 			{
 				"gear"				"sec_heavy_armor"
 				"gear"				"sec_chest_rig"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m9"
 				"weapon_upgrade"	"sec_silencer_pistol"
 			}
@@ -746,7 +749,7 @@
 			{
 				"gear"				"sec_heavy_armor"
 				"gear"				"sec_chest_carrier"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m9"
 				"weapon_upgrade"	"sec_silencer_pistol"
 			}
@@ -766,7 +769,7 @@
 			{
 				"gear"				"ins_light_armor"
 				"gear"				"ins_chest_rig"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_makarov"
 				"weapon_upgrade"	"ins_silencer_pistol"
 			}
@@ -786,7 +789,7 @@
 			{
 				"gear"				"ins_light_armor"
 				"gear"				"ins_chest_rig"
-				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_knife"
 				"weapon"			"weapon_makarov"
 				"weapon_upgrade"	"ins_silencer_pistol"
 			}
@@ -1053,27 +1056,27 @@
 		}
 		"grenade_m67"
 		{
-			"carry"						"10"
+			"carry"						"5"
 		}
 		"grenade_m18"
 		{
-			"carry"						"10"
+			"carry"						"5"
 		}
 		"grenade_m84"
 		{
-			"carry"						"10"
+			"carry"						"5"
 		}
 		"grenade_c4"
 		{
-			"carry"						"10"
+			"carry"						"4"
 		}
 		"grenade_m203_he"
 		{
-			"carry"						"12"
+			"carry"						"24"
 		}
 		"grenade_m203_smoke"
 		{
-			"carry"						"12"
+			"carry"						"24"
 		}
 	}
 	"player_gear"
@@ -1123,7 +1126,7 @@
 	}
 	"explosives"
 	{
-		"grenade_m203_smoke"
+		"grenade_m203_incendiary"
 		{
 			"import"				"baseGrenade"
 			"entity_class"				"grenade_aoe"
@@ -1208,7 +1211,7 @@
 			"ReactExplosions"		"0"
 			"ReactBullets"			"0" 
 		}
-		"grenade_rgd5"
+		"grenade_suicide"
 		{
 			"import"				"baseGrenade"
 			"entity_class"				"grenade_frag"
@@ -1233,10 +1236,6 @@
 				"DetonateSound"			"BaseGrenade.Explode"
 				"BounceSound"			"Weapon_M67.Bounce"
 			}
-		}
-		"grenade_f1"
-		{
-			"import"			"grenade_rgd5"
 		}
 	}
 	"weapons"
@@ -1267,15 +1266,15 @@
 				"unload"			 		"Weapon_RPG7.Unload"
 				"hit"				 		"Weapon_RPG7.Hit"
 			}
-			"ironsights"
-			{
-				"GestureIronsights"			"delta_iron"
-			}
-
 //			"ironsights"
 //			{
-//				"use_weapon_muzzle"			"1"
+//				"GestureIronsights"			"delta_iron"
 //			}
+
+			"ironsights"
+			{
+				"use_weapon_muzzle"			"1"
+			}
 			"recoil"
 			{
 				"recoil_lateral_range"		"-1.0 1.0"
@@ -1307,11 +1306,11 @@
 				"freeaim_screenratio_bipod"		"0.91"
 			}
 
-//			"freeaim"
-//			{
-//				"freeaim_distance"				"13"
-//				"freeaim_screenratio"			"0.8"
-//			}
+			"freeaim"
+			{
+				"freeaim_distance"				"13"
+				"freeaim_screenratio"			"0.8"
+			}
 			"fov"
 			{
 				"fov_plr_ironsight"			"-5"
@@ -1330,89 +1329,13 @@
 			"print_desc"					"M203 with FIRE!"
 			"explosives"
 			{
-				"entity"					"grenade_m203_smoke"
+				"entity"					"grenade_m203_incendiary"
 			}
 			"ammo_clip"
 			{
 				"ammo_type"					"grenade_m203_smoke"
 				"clip_max_rounds"			"1" // 1 rpg per mag
 				"clip_default"				"0"
-			}
-		}
-		"weapon_rgd5"
-		{
-			"view_model"					"models/weapons/v_c4_ins.mdl"
-			"world_model"					"models/weapons/w_c4.mdl"
-			"weapon_cost"					"0"
-			"print_name"					"Suicide Bomb"
-			"print_desc"					"GO BEUM"
-			"act_table"					"knife"
-		}
-		"weapon_f1"
-		{
-			"import"					"weapon_rgd5"
-		}
-		"weapon_akm"
-		{
-			"ballistics"  
-			{
-				"spread"					"5.0 5.0 5.0"
-			}
-		}
-		"weapon_fal"
-		{
-			"ballistics"  
-			{
-				"spread"					"5.0 5.0 5.0"
-			}
-		}
-		"weapon_m1a1"
-		{
-			"ballistics"  
-			{
-				"spread"					"5.0 5.0 5.0"
-			}
-		}
-		"weapon_sks"
-		{
-			"ballistics"  
-			{
-				"spread"					"5.0 5.0 5.0"
-			}
-		}
-		"weapon_mp40"
-		{
-			"ballistics"  
-			{
-				"spread"					"5.0 5.0 5.0"
-			}
-		}
-		"weapon_aks74u"
-		{
-			"ballistics"  
-			{
-				"spread"					"5.0 5.0 5.0"
-			}
-		}
-		"weapon_toz"	
-		{
-			"ballistics"  
-			{
-				"spread"					"5.0 5.0 5.0"
-			}
-		}
-		"weapon_rpk"
-		{
-			"ballistics"  
-			{
-				"spread"					"5.0 5.0 5.0"
-			}
-		}
-		"weapon_mosin"
-		{
-			"ballistics"  
-			{
-				"spread"					"5.0 5.0 5.0"
 			}
 		}
 		"weapon_anm14"
@@ -1429,22 +1352,11 @@
 			"weapon_cost"		"0"
 			"weapon_weight"		"0"
 			"team_access"		"security"
-			"ammo_clip"
-			{
-				"ammo_type"				"at4"
-				"clip_default"				"1"
-			}
-		}
-		"weapon_rpg7"
-		{
-			"weapon_cost"		"0"
-			"weapon_weight"		"0"
-			"team_access"		"security"
-			"ammo_clip"
-			{
-				"ammo_type"				"rpg7"
-				"clip_default"				"1"
-			}
+//			"ammo_clip"
+//			{
+//				"ammo_type"				"at4"
+//				"clip_default"				"1"
+//			}
 		}
 		"weapon_c4_clicker"
 		{
@@ -1456,10 +1368,88 @@
 				"clip_default"				"10"
 			}
 		}
+
+		//This is now the suicide bomb!
 		"weapon_kabar"
 		{
-			"weapon_cost"		"0"
-			"weapon_weight"		"0"
+//			"view_model"					"models/weapons/v_c4_ins.mdl"
+			"view_model"					"models/weapons/v_c4_sec.mdl"
+			"world_model"					"models/weapons/w_c4.mdl"
+			"print_name"					"Suicide Bomb"
+			"print_desc"					"GO BEUM"
+			"melee"
+			{
+				"MeleeRange"			"250"
+				"MeleeDamage"			"60"
+				"MeleeDamageBehindBonus"	"200"
+				"MeleeDamageType"		"DMG_SLASH"
+				"MeleeWeaponIdleTime"		"2"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"					"no_carry"
+				"clip_max_rounds"			"1" // 1 rpg per mag
+				"clip_default"				"1"
+			}
+			"explosives"
+			{
+				"entity"				"grenade_suicide"
+				"GrenadeRollSpeed"			"500"
+				"GrenadeThrowSpeed"			"1000"
+			}
+		}
+		//This is the new entity for melee
+		"weapon_knife"
+		{
+			"import"					"weapon_base"
+			"weapon_class"					"melee"
+			"weapon_type"					"melee"
+			"print_name"					"#weapon_kabar"
+			"view_model"					"models/weapons/v_marinebayonet.mdl"
+			"world_model"					"models/weapons/w_marinebayonet.mdl"
+			"weapon_slot"					"melee"
+			"act_table"					"knife"
+			"weapon_weight"					"1"
+			"weapon_cost"					"0"
+			"class_restricted"				"0"
+			
+			"sounds"
+			{
+				"shot_single"				"Weapon_Knife.Single"
+				"melee_hit"					"Weapon_Knife.Melee_Hit"
+				"melee_hit_world"			"Weapon_Knife.Melee_HitWorld"
+			}
+			"melee"
+			{
+				"MeleeRange"				"75"
+				"MeleeDamage"				"60"
+				"MeleeDamageBehindBonus"	"200"
+				"MeleeDamageType"			"DMG_SLASH"
+				"MeleeWeaponIdleTime"		"2"
+				"SwingAttacks"
+				{
+					"slash1"
+					{
+						"Activity"				"ACT_VM_HITCENTER"
+						"PlayerAtivity"			"ACT_SHOOT_E2W_BAT"
+						"PlayerActivityIdle"	"ACT_SHOOT_E2W_IDLE_BAT"
+						"StartTime"				"0.1"
+						"EndTime"				"0.34"
+						"Duration"				"0.9"
+						"StartDirection"		"E"
+						"EndDirection"			"W"
+						"ForceDirection"		"15 -40 0"
+					}
+				}
+			}
+			"player_restrictions"
+			{
+				"allow_lean"				"0"
+				"allow_sprint"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"1"
+			}
+			"team_access"	"security, insurgent"
 		}
 		"weapon_m16a4"
 		{
@@ -1775,6 +1765,10 @@
 			}
 			"team_access"	"security, insurgent"
 		}
+		"weapon_makarov"
+		{
+			"team_access"	"insurgent"
+		}
 		"weapon_m9"
 		{
 			"weapon_cost"		"0"
@@ -1823,10 +1817,10 @@
 			"print_desc"					"OH BOY OH BOY OH BOY"
 			"ammo_type_override"				"fireshots"
 			"spread_frac"					"0.04"
-			"allowed_weapons"
-			{
-				"weapon"					"weapon_m590"
-			}
+//			"allowed_weapons"
+//			{
+//				"weapon"					"weapon_m590"
+//			}
 			"optics_fov_override"
 			{
 				"fov_plr_focus"				"-20"
@@ -2079,7 +2073,7 @@
 				"weapon_m14"
 				{
 					"fov_wpn_scope"				"10"
-					"fov_wpn_ironsight"			"60"
+					"fov_wpn_ironsight"			"50"
 					"fov_wpn_focus"				"57"
 				}
 				"weapon_m16a4"
@@ -2146,6 +2140,18 @@
 		{
 			"upgrade_cost"		"0"
 			"class_restricted"	"0"
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_m16a4"
+				"weapon"					"weapon_m249"
+				"weapon"					"weapon_mk48"
+				"weapon"					"weapon_mk18"
+				"weapon"					"weapon_m14"
+				"weapon"					"weapon_mini14"
+				"weapon"					"weapon_mp5"
+				"weapon"					"weapon_ump45"
+				"weapon"					"weapon_m590"
+			}
 		}
 		"sec_flashlight_pistol"
 		{
@@ -2226,6 +2232,8 @@
 			{
 				"weapon"					"weapon_m16a4" 
 				"weapon"					"weapon_m14"
+				"weapon"					"weapon_m249"
+				"weapon"					"weapon_mk48"
 				"weapon"					"weapon_mini14" 
 				"weapon"					"weapon_mp5" 
 				"weapon"					"weapon_ump45"
