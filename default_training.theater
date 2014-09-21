@@ -1204,12 +1204,57 @@
 		}
 		"grenade_c4"
 		{
-			"DetonateDamage"		"380"
-			"DetonateDamageRadius"		"1200"
+			"import"					"baseGrenade"
+			"entity_class"				"remote"
+			"Model"						"models/weapons/w_c4.mdl"
+
+			"DetonateDamage"				"380"
+			"DetonateDamageRadius"			"1200"
 			"DetonatePenetrationRadius" 	"320"
-			"FuseTime"			"0.5"
-			"ReactExplosions"		"0"
-			"ReactBullets"			"0" 
+			"FuseTime"						"0.5"
+
+			"Health"						"50"
+			"ReactExplosions"				"1"
+			"ReactBullets"					"0" 
+
+			"Particles"
+			{
+				"DetonateParticle"		"ins_water_explosion"
+				"DetonateWaterParticle"	"ins_c4_explosion"
+			}
+
+			"Sounds"
+			{
+				"DetonateSound"			"C4.Explode"
+				"BounceSound"			"Weapon_C4.Bounce"
+			}
+		}
+		"grenade_ied"
+		{
+			"import"					"baseGrenade"
+			"entity_class"				"remote"
+			"Model"						"models/weapons/w_ied.mdl"
+
+			"DetonateDamage"				"380"
+			"DetonateDamageRadius"			"1200"
+			"DetonatePenetrationRadius" 	"320"
+			"FuseTime"						"0.5"
+
+			"Health"						"50"
+			"ReactExplosions"				"1"
+			"ReactBullets"					"0"
+
+			"Particles"
+			{
+				"DetonateParticle"		"ins_water_explosion"
+				"DetonateWaterParticle"	"ins_C4_explosion"
+			}
+
+			"Sounds"
+			{
+				"DetonateSound"			"IED.Explode"
+				"BounceSound"			"Weapon_IED.Bounce"
+			}
 		}
 		"grenade_suicide"
 		{
