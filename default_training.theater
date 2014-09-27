@@ -1068,7 +1068,7 @@
 		}
 		"grenade_c4"
 		{
-			"carry"						"4"
+			"carry"						"2"
 		}
 		"grenade_m203_he"
 		{
