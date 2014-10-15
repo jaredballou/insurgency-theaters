@@ -232,6 +232,9 @@
 				"weapon"			"weapon_at4"
 				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_knife"
+				"weapon"			"weapon_akm"
+				"weapon"			"weapon_rpk"
+				"weapon"			"weapon_fal"
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_m590"
@@ -283,6 +286,8 @@
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_m9"
 				"weapon"			"weapon_mk48"
+				"weapon"			"weapon_mgl"
+				"weapon"			"weapon_m134"
 				"weapon"			"weapon_mp5"
 				"weapon"			"weapon_ump45"
 				"weapon_upgrade"		"underbarrel_m203_he"
@@ -1074,6 +1079,10 @@
 		{
 			"carry"						"24"
 		}
+		"grenade_mgl"
+		{
+			"carry"						"48"
+		}
 		"grenade_m203_smoke"
 		{
 			"carry"						"24"
@@ -1126,7 +1135,7 @@
 	}
 	"explosives"
 	{
-		"grenade_m203_incendiary"
+		"grenade_m203_smoke"
 		{
 			"import"				"baseGrenade"
 			"entity_class"				"grenade_aoe"
@@ -1193,69 +1202,6 @@
 				"BounceSound"			"Weapon_M67.Bounce"
 			}
 		}
-		"grenade_m67"
-		{
-			"DetonateDamage"		"160"
-			"DetonatePenetrationRadius" 	"40"
-			"DetonateDamageRadius"		"750"
-			"FuseTime"			"4"
-			"ReactExplosions"		"0"
-			"ReactBullets"			"0"
-		}
-		"grenade_c4"
-		{
-			"import"					"baseGrenade"
-			"entity_class"				"remote"
-			"Model"						"models/weapons/w_c4.mdl"
-
-			"DetonateDamage"				"380"
-			"DetonateDamageRadius"			"1200"
-			"DetonatePenetrationRadius" 	"320"
-			"FuseTime"						"0.5"
-
-			"Health"						"50"
-			"ReactExplosions"				"1"
-			"ReactBullets"					"0" 
-
-			"Particles"
-			{
-				"DetonateParticle"		"ins_water_explosion"
-				"DetonateWaterParticle"	"ins_c4_explosion"
-			}
-
-			"Sounds"
-			{
-				"DetonateSound"			"C4.Explode"
-				"BounceSound"			"Weapon_C4.Bounce"
-			}
-		}
-		"grenade_ied"
-		{
-			"import"					"baseGrenade"
-			"entity_class"				"remote"
-			"Model"						"models/weapons/w_ied.mdl"
-
-			"DetonateDamage"				"380"
-			"DetonateDamageRadius"			"1200"
-			"DetonatePenetrationRadius" 	"320"
-			"FuseTime"						"0.5"
-
-			"Health"						"50"
-			"ReactExplosions"				"1"
-			"ReactBullets"					"0"
-
-			"Particles"
-			{
-				"DetonateParticle"		"ins_water_explosion"
-				"DetonateWaterParticle"	"ins_C4_explosion"
-			}
-
-			"Sounds"
-			{
-				"DetonateSound"			"IED.Explode"
-				"BounceSound"			"Weapon_IED.Bounce"
-			}
-		}
 		"grenade_suicide"
 		{
 			"import"				"baseGrenade"
@@ -1285,6 +1231,42 @@
 	}
 	"weapons"
 	{
+		"weapon_akm"
+		{
+			"team_access"					"security, insurgent"
+		}
+		"weapon_aks74u"
+		{
+			"team_access"					"security, insurgent"
+		}
+		"weapon_fal"
+		{
+			"team_access"					"security, insurgent"
+		}
+		"weapon_gp25_he"
+		{
+			"team_access"					"security, insurgent"
+		}
+		"weapon_gp25_smoke"
+		{
+			"team_access"					"security, insurgent"
+		}
+		"weapon_mosin"
+		{
+			"team_access"					"security, insurgent"
+		}
+		"weapon_rpk"
+		{
+			"team_access"					"security, insurgent"
+		}
+		"weapon_sks"
+		{
+			"team_access"					"security, insurgent"
+		}
+		"weapon_toz"
+		{
+			"team_access"					"security, insurgent"
+		}
 		"weapon_m203_he"
 		{
 			"import"					"weapon_base"
@@ -1382,6 +1364,66 @@
 				"clip_max_rounds"			"1" // 1 rpg per mag
 				"clip_default"				"0"
 			}
+		}
+		"weapon_mgl"
+		{
+			"import"					"weapon_base"
+			"weapon_class"					"launcher"
+			"weapon_type"					"projectile"
+			"print_name"					"Milkor MGL"
+			"print_desc"					"Six shots of joy"
+			"view_model"					"models/weapons/upgrades/a_gl_m203.mdl"
+			"world_model"					"models/weapons/upgrades/a_gl_m203.mdl"
+			"weapon_slot"					"explosive"
+			"act_table"					"shortrifle"
+			"attached_act_suffix"				"_GLSETUP"
+			"attached_gesture"				"delta_glsetup"
+			"weapon_weight"					"0"
+			"weapon_cost"					"0"
+			"weapon_abilities"				"ironsight"
+			
+			"sounds"
+			{
+				"shot_single"		 		"Weapon_m203.Single"
+				"shot_single_local"	 		"Weapon_m203.SingleLocal"
+				"empty"				 		"Weapon_m203.Empty"
+				"load"				 		"Weapon_RPG7.Load"
+				"unload"			 		"Weapon_RPG7.Unload"
+				"hit"				 		"Weapon_RPG7.Hit"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"		"-1.0 1.0"
+				"recoil_vertical_range"		"4.0 6.0"
+				"recoil_aim_punch"			"1.0 1.0"
+				"recoil_rest_rate"			"12"
+				"recoil_rest_delay"			"0"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"	"ins_weapon_m203"
+				"particle_muzzleflash_3rd"	"ins_weapon_m203"	
+			}
+			"explosives"
+			{
+				"entity"					"grenade_m203_he"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"grenade_mgl"
+				"clip_max"				"8"
+				"clip_max_rounds"			"6"
+				"clip_default"				"8"
+			}
+			"fov"
+			{
+				"fov_plr_ironsight"			"-5"
+				"fov_plr_focus"				"-10"
+				"fov_wpn_default"			"20"
+				"fov_wpn_ironsight"			"74"
+				"fov_wpn_focus"				"74"
+			}
+			"team_access"					"security, insurgent"		
 		}
 		"weapon_anm14"
 		{
@@ -1572,9 +1614,9 @@
 			{
 				"spread"			"0.5 0.5 0.5"
 				"FireModes"			"full"
-				"bulletcount"			"1"
-				"maxrange"			"8000"
-				"LowAmmoCount"			"15"
+				"bulletcount"			"5"
+				"maxrange"			"12000"
+				"LowAmmoCount"			"200"
 			}
 			"ammo_clip"
 			{
@@ -1833,6 +1875,172 @@
 	}
 	"weapon_upgrades"
 	{
+		"ammo_ap_akm"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ammo_ap_aks74u"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ammo_ap_fal"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ammo_ap_mosin"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ammo_ap_rpk"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ammo_ap_sks"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ammo_hp_akm"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ammo_hp_aks74u"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ammo_hp_fal"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ammo_hp_rpk"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ammo_hp_sks"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ammo_tracer_akm"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ammo_tracer_aks74u"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ammo_tracer_fal"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ammo_tracer_sks"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ammo_tracer_ump45"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ins_bipod"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ins_flashlight"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ins_flashlight_pistol"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ins_foregrip1"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ins_foregrip2"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ins_lasersight"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ins_lasersight_pistol"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ins_silencer"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ins_silencer_pistol"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ins_woodgrip1"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"ins_woodgrip2"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"optic_2xaimpoint_ins"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"optic_kobra"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"optic_po4x24"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"optic_scope_7x"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"underbarrel_gp25_he"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+		"underbarrel_gp25_smoke"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"0"
+		}
+
 		"ammo_ap_m40a1"
 		{
 			"allowed_weapons"
@@ -1880,7 +2088,6 @@
 		}
 		"heavybarrel"
 		{
-			"class_restricted"	"0"
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_m249"
@@ -1889,6 +2096,7 @@
 				"weapon"					"weapon_m4a1"
 				"weapon"					"weapon_m14"
 			}
+			"class_restricted"	"0"
 			"upgrade_cost"	  "0"
 		}
 
