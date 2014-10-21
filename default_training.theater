@@ -286,8 +286,6 @@
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_m9"
 				"weapon"			"weapon_mk48"
-				"weapon"			"weapon_mgl"
-				"weapon"			"weapon_m134"
 				"weapon"			"weapon_mp5"
 				"weapon"			"weapon_ump45"
 				"weapon_upgrade"		"underbarrel_m203_he"
@@ -1368,28 +1366,26 @@
 		"weapon_mgl"
 		{
 			"import"					"weapon_base"
-			"weapon_class"					"launcher"
+			"weapon_class"					"shotgun"
 			"weapon_type"					"projectile"
+			"rounds_per_minute"                             "90"
 			"print_name"					"Milkor MGL"
 			"print_desc"					"Six shots of joy"
-			"view_model"					"models/weapons/upgrades/a_gl_m203.mdl"
-			"world_model"					"models/weapons/upgrades/a_gl_m203.mdl"
+                        "view_model"                                    "models/weapons/v_m590.mdl"
+                        "world_model"                                   "models/weapons/w_m590.mdl"
 			"weapon_slot"					"explosive"
 			"act_table"					"shortrifle"
-			"attached_act_suffix"				"_GLSETUP"
-			"attached_gesture"				"delta_glsetup"
 			"weapon_weight"					"0"
 			"weapon_cost"					"0"
 			"weapon_abilities"				"ironsight"
-			
 			"sounds"
 			{
 				"shot_single"		 		"Weapon_m203.Single"
 				"shot_single_local"	 		"Weapon_m203.SingleLocal"
 				"empty"				 		"Weapon_m203.Empty"
-				"load"				 		"Weapon_RPG7.Load"
-				"unload"			 		"Weapon_RPG7.Unload"
-				"hit"				 		"Weapon_RPG7.Hit"
+                                "empty"                                 "Weapon_m590.Empty"
+                                "boltback"                              "Weapon_m590.BoltBack"
+                                "boltrelease"                           "Weapon_m590.BoltRelease"
 			}
 			"recoil"
 			{
@@ -1411,10 +1407,15 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"grenade_mgl"
-				"clip_max"				"8"
+				"clip_max"				"48"
 				"clip_max_rounds"			"6"
-				"clip_default"				"8"
+				"clip_default"				"24"
 			}
+			"ballistics"
+                        {
+                                "FireModes"                             "pump"
+                                "singleReload"                          "1"
+                        }
 			"fov"
 			{
 				"fov_plr_ironsight"			"-5"
@@ -1609,7 +1610,7 @@
 			"import"				"weapon_m249"
 			"print_name"				"M134 Minigun"
 			"print_desc"				"Insanity. Pure insanity."
-			"rounds_per_minute"			"2000"
+			"rounds_per_minute"			"1200"
 			"ballistics"
 			{
 				"spread"			"0.5 0.5 0.5"
