@@ -1,0 +1,377 @@
+"#base" "default.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				// assault squad
+				"#Fireteam_Alpha"	// small arms
+				{
+					"#Squad_Fireteam_Leader_Rifleman"				"template_rifleman_security_7cav"
+					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_7cav"
+					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_7cav"
+					"#Squad_Fireteam_Breacher"					"template_breacher_security_7cav"
+					"#Squad_Fireteam_Breacher"					"template_breacher_security_7cav"
+					"#Squad_Fireteam_Support"					"template_support_security_7cav"
+					"#Squad_Fireteam_Support"					"template_support_security_7cav"
+					"#Squad_Fireteam_Designated_Marksman"				"template_designated_marksman_security_7cav"
+				}
+				
+				// recon team
+				"#Fireteam_Bravo"
+				{
+					"#Squad_Fireteam_Leader_Rifleman"				"template_rifleman_security_7cav"
+					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_7cav"
+					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_7cav"
+					"#Squad_Fireteam_Breacher"					"template_breacher_security_7cav"
+					"#Squad_Fireteam_Breacher"					"template_breacher_security_7cav"
+					"#Squad_Fireteam_Support"					"template_support_security_7cav"
+					"#Squad_Fireteam_Support"					"template_support_security_7cav"
+					"#Squad_Fireteam_Designated_Marksman"				"template_designated_marksman_security_7cav"
+				}
+			}
+		}
+	}
+	"player_templates"
+	{
+		"template_rifleman_security_7cav"
+		{
+			"team"			"security"
+			"print_name"		"#Squad_Fireteam_Rifleman"
+
+			"models"
+			{
+				"player"			"models/characters/security_rifleman.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				"helmet"			"models/characters/us_helmet.mdl"
+			}
+
+			"buy_order" 
+			{
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_carrier"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_m16a4"
+				"weapon_upgrade"		"ammo_ap_m16a4"
+				"weapon_upgrade"		"underbarrel_m203_he"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_m16a4"
+				"weapon"			"weapon_mk18"
+				"weapon"			"weapon_mini14"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_anm14"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
+			}
+		}
+		"template_breacher_security_7cav"
+		{	
+			"team"			"security"
+			"print_name"		"#Squad_Fireteam_Breacher"
+
+			"models"
+			{
+				"player"			"models/characters/security_light.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+			}
+
+			"buy_order" 
+			{
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_carrier"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_m9"
+				"weapon"			"weapon_m16a4"
+				"weapon_upgrade"		"ammo_ap_m16a4"
+				"weapon_upgrade"		"underbarrel_m203_he"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_m16a4"
+				"weapon"			"weapon_mk18"
+				"weapon"			"weapon_mini14"
+				"weapon"			"weapon_m590"
+				"weapon"			"weapon_mp5"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_anm14"
+				"weapon"			"weapon_ump45"
+				"weapon"			"weapon_c4_clicker"
+				"weapon"			"weapon_at4"
+			}
+		}
+		"template_support_security_7cav"
+		{	
+			"team"			"security"
+			"print_name"		"#Squad_Fireteam_Support"
+
+			"models"
+			{
+				"player"			"models/characters/security_heavy.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"	
+				"helmet"			"models/characters/us_helmet.mdl"
+			}
+
+			"buy_order" 
+			{
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_carrier"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_m249"
+				"weapon"			"weapon_anm14"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_m249"
+				"weapon"			"weapon_m16a4"
+				"weapon"			"weapon_mk18"
+				"weapon"			"weapon_mini14"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_anm14"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
+			}
+		}
+		"template_designated_marksman_security_7cav"
+		{	
+			"team"			"security"
+			"print_name"		"#Squad_Fireteam_Designated_Marksman"
+
+			"models"
+			{
+				"player"			"models/characters/security_heavy.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_m.mdl"	
+				"helmet"			"models/characters/us_helmet.mdl"
+			}
+
+			"buy_order" 
+			{
+				"gear"				"sec_light_armor"
+				"gear"				"sec_chest_rig"
+				"weapon"			"weapon_m14"
+				"weapon_upgrade" 		"optic_elcan"
+				"weapon_upgrade"		"ammo_ap_m14"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_m9"
+				"weapon"			"weapon_m18"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_m40a1"
+				"weapon"			"weapon_m14"
+				"weapon"			"weapon_m16a4"
+				"weapon"			"weapon_mk18"
+				"weapon"			"weapon_mini14"
+				"weapon"			"weapon_m67"
+				"weapon"			"weapon_anm14"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_m18"
+				"weapon_upgrade" 		"optic_scope_mk4"
+			}
+		}
+	}
+	"weapons"
+	{
+		"weapon_m9"
+		{
+			"team_access"	"security"
+		}
+		"weapon_makarov"
+		{
+			"team_access"	"insurgent"
+		}
+		"weapon_m590"
+		{
+			"weapon_slot"		"secondary"
+		}
+		"weapon_mp5"
+		{
+			"weapon_slot"		"secondary"
+		}
+		"weapon_ump45"
+		{
+			"weapon_slot"		"secondary"
+		}
+		"weapon_toz"
+		{
+			"weapon_slot"		"secondary"
+		}
+		"weapon_mp40"
+		{
+			"weapon_slot"		"secondary"
+		}
+		"weapon_aks74u"
+		{
+			"weapon_slot"		"secondary"
+		}
+	}
+	"weapon_upgrades"
+	{
+		"optic_2xaimpoint_sec"
+		{
+			"class_restricted"	"0"
+		}
+		"optic_aimpoint"
+		{
+			"class_restricted"	"0"
+		}
+		"optic_elcan"
+		{
+			"class_restricted"	"0"
+		}
+		"optic_eotech"
+		{
+			"class_restricted"	"0"
+		}
+		"optic_scope_mk4"
+		{
+			"class_restricted"				"1"
+			"allowed_weapons"
+			{
+				"weapon"			"weapon_m40a1"
+				"weapon"			"weapon_m14"
+				"weapon"			"weapon_m16a4"
+			}
+			"viewmodel_attachments"
+			{
+				"scope_m40a1"
+				{
+					"model"					"models/weapons/upgrades/a_optic_m40.mdl"
+					"AnimIronSights"			"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_m40a1"
+					}
+				}
+				
+				"mk4scope_m14"
+				{
+					"model"				"models/weapons/upgrades/a_optic_m40_l.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"			"scope_idle"
+					"Gesture"			"delta_scope"
+					
+					"weapons"
+					{
+						"weapon"			"weapon_m14"
+					}
+				}
+				"mk4scope_other"
+				{
+					"model"				"models/weapons/upgrades/a_optic_m40_l.mdl"
+					"AnimIronSights"		"scope_zoom"
+					"AnimIdle"			"scope_idle"
+					"Gesture"			"delta_elcan"
+					
+					"excluded_weapons"
+					{
+						"weapon"			"weapon_m14"
+						"weapon"			"weapon_m40a1"
+					}
+				}
+			}
+			"optics_fov_override"
+			{
+				"fov_wpn_scope"				"10"
+				"fov_wpn_ironsight"			"60"
+				"fov_wpn_focus"				"57"
+				
+				"weapon_m40a1"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"46"
+					"fov_wpn_focus"				"50"
+				}
+				
+				"weapon_m14"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"57"
+				}
+				"weapon_m16a4"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"60"
+					"fov_wpn_focus"				"57"
+				}
+			}
+			"world_attachments"
+			{
+				"Scope"
+				{
+					"model"					"models/weapons/upgrades/w_scope_m40.mdl"
+				}
+			}
+		}
+		"sec_bipod"
+		{
+			"class_restricted"	"0"
+		}
+		"sec_flashlight"
+		{
+			"class_restricted"	"0"
+		}
+		"sec_flashlight_pistol"
+		{
+			"class_restricted"	"0"
+		}
+		"sec_foregrip"
+		{
+			"class_restricted"	"0"
+		}
+		"sec_foregrip2"
+		{
+			"class_restricted"	"0"
+		}
+		"sec_lasersight"
+		{
+			"class_restricted"	"0"
+		}
+		"sec_lasersight_pistol"
+		{
+			"class_restricted"	"0"
+		}
+		"sec_silencer"
+		{
+			"class_restricted"	"0"
+		}
+		"sec_silencer2"
+		{
+			"class_restricted"	"0"
+		}
+		"sec_silencer_pistol"
+		{
+			"class_restricted"	"0"
+		}
+		"optic_scope_7x"
+		{
+			"class_restricted"	"0"
+		}
+		"ins_silencer"
+		{
+			"class_restricted"	"0"
+		}
+		"ins_silencer_pistol"
+		{
+			"class_restricted"	"0"
+		}
+		"ins_bipod"
+		{
+			"class_restricted"	"0"
+		}
+		"underbarrel_gl_base"
+		{
+			"class_restricted"	"0"
+		}
+	}
+}
