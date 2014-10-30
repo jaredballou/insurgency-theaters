@@ -131,7 +131,6 @@
 				"weapon_upgrade"		"underbarrel_m203_he"
 				"weapon_upgrade"		"optic_2xaimpoint_sec"
 				"weapon_upgrade"		"heavybarrel"
-				"weapon_upgrade"		"sec_lasersight"
 				"weapon"			"weapon_m9"
 				"weapon_upgrade"		"sec_flashlight_pistol"
 				"weapon_upgrade"		"sec_suppressor_pistol"
@@ -175,7 +174,6 @@
 				"weapon_upgrade"		"optic_scope_mk4"
 				"weapon_upgrade"		"sec_foregrip2"
 				"weapon_upgrade"		"sec_silencer"
-				"weapon_upgrade"		"sec_lasersight"
 				"weapon"			"weapon_m9"
 				"weapon_upgrade"		"sec_flashlight_pistol"
 				"weapon_upgrade"		"sec_suppressor_pistol"
@@ -221,7 +219,6 @@
 				"weapon_upgrade"		"underbarrel_m203_he"
 				"weapon_upgrade"		"optic_2xaimpoint_sec"
 				"weapon_upgrade"		"heavybarrel"
-				"weapon_upgrade"		"sec_lasersight"
 				"weapon"			"weapon_m9"
 				"weapon_upgrade"		"sec_flashlight_pistol"
 				"weapon_upgrade"		"sec_suppressor_pistol"
@@ -268,7 +265,6 @@
 				"weapon_upgrade"		"ammo_hp_m249"
 				"weapon_upgrade"		"optic_elcan"
 				"weapon_upgrade"		"heavybarrel"
-				"weapon_upgrade"		"sec_lasersight"
 				"weapon"			"weapon_m9"
 				"weapon_upgrade"		"sec_flashlight_pistol"
 				"weapon_upgrade"		"sec_suppressor_pistol"
@@ -2418,8 +2414,6 @@
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_m16a4"
-				"weapon"					"weapon_m249"
-				"weapon"					"weapon_mk48"
 				"weapon"					"weapon_m4a1"
 				"weapon"					"weapon_mk18"
 				"weapon"					"weapon_m14"
@@ -2437,6 +2431,28 @@
 		{
 			"upgrade_cost"		"0"
 			"class_restricted"	"0"
+		}
+		"sec_flashlight_band"
+		{
+			"upgrade_cost"					"0"
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_mini14"
+				"weapon"					"weapon_mp5"
+				"weapon"					"weapon_m249"
+				"weapon"					"weapon_mk48"
+			}
+		}
+		"sec_lasersight_band"
+		{
+			"upgrade_cost"					"0"
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_mini14"
+				"weapon"					"weapon_mp5"
+				"weapon"					"weapon_m249"
+				"weapon"					"weapon_mk48"
+			}
 		}
 		"sec_lasersight_shotgun"
 		{
@@ -2493,8 +2509,6 @@
 				"weapon"					"weapon_m16a4"
 				"weapon"					"weapon_m4a1"
 				"weapon"					"weapon_mk18"
-				"weapon"					"weapon_mk48"
-				"weapon"					"weapon_m249"
 				"weapon"					"weapon_m14"
 				"weapon"					"weapon_mini14"
 				"weapon"					"weapon_mp5"
