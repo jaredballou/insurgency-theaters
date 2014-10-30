@@ -2275,6 +2275,7 @@
 		"optic_scope_mk4"
 		{
 			"class_restricted"				"0"
+			"upgrade_cost"					"0"
 			"allowed_weapons"
 			{
 				"weapon"			"weapon_m40a1"
