@@ -188,6 +188,7 @@
 				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_m14"
 				"weapon"			"weapon_knife"
+				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m249"
 				"weapon"			"weapon_mk48"
@@ -232,13 +233,14 @@
 				"weapon"			"weapon_at4"
 				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_knife"
-				"weapon"			"weapon_akm"
+				"weapon"			"weapon_ak74"
 				"weapon"			"weapon_rpk"
 				"weapon"			"weapon_fal"
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_m590"
 				"weapon"			"weapon_mk18"
+				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m9"
@@ -282,6 +284,7 @@
 				"weapon"			"weapon_knife"
 				"weapon"			"weapon_m249"
 				"weapon"			"weapon_mk18"
+				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_m590"
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_m9"
@@ -1775,6 +1778,12 @@
 			}
 			"team_access"	"security"
 		}
+		"weapon_m4a1"
+		{
+			"weapon_cost"		"0"
+			"weapon_weight"		"0"
+			"team_access"		"security"
+		}
 		"weapon_mk18"
 		{
 			"weapon_slot"					"secondary"
@@ -1996,6 +2005,11 @@
 			"class_restricted"	"0"
 			"upgrade_cost"	  	"0"
 		}
+		"ins_silencer_heavy"
+		{
+			"upgrade_cost"					"0"
+			"class_restricted"				"0"
+		}
 		"ins_silencer_pistol"
 		{
 			"class_restricted"	"0"
@@ -2192,6 +2206,7 @@
 				"weapon"					"weapon_m249"
 				"weapon"					"weapon_m40a1"
 				"weapon"					"weapon_mk18"
+				"weapon"					"weapon_m4a1"
 				"weapon"					"weapon_mk48"
 				"weapon"					"weapon_m590"
 				"weapon"					"weapon_m14"
@@ -2210,6 +2225,7 @@
 				"weapon"					"weapon_m249"
 				"weapon"					"weapon_m40a1"
 				"weapon"					"weapon_mk18"
+				"weapon"					"weapon_m4a1"
 				"weapon"					"weapon_mk48"
 				"weapon"					"weapon_m590"
 				"weapon"					"weapon_m14"
@@ -2228,6 +2244,7 @@
 				"weapon"					"weapon_m249"
 				"weapon"					"weapon_m40a1"
 				"weapon"					"weapon_mk18"
+				"weapon"					"weapon_m4a1"
 				"weapon"					"weapon_mk48"
 				"weapon"					"weapon_m14"
 				"weapon"					"weapon_mini14"
@@ -2245,6 +2262,7 @@
 				"weapon"					"weapon_m16a4"
 				"weapon"					"weapon_m249"
 				"weapon"					"weapon_m40a1"
+				"weapon"					"weapon_m4a1"
 				"weapon"					"weapon_mk18"
 				"weapon"					"weapon_mk48"
 				"weapon"					"weapon_m590"
@@ -2386,7 +2404,7 @@
 				}
 			}
 		}
-		"sec_flashlight"
+		"sec_flashlight_rail"
 		{
 			"upgrade_cost"		"0"
 			"class_restricted"	"0"
@@ -2395,6 +2413,7 @@
 				"weapon"					"weapon_m16a4"
 				"weapon"					"weapon_m249"
 				"weapon"					"weapon_mk48"
+				"weapon"					"weapon_m4a1"
 				"weapon"					"weapon_mk18"
 				"weapon"					"weapon_m14"
 				"weapon"					"weapon_mini14"
@@ -2449,13 +2468,14 @@
 				}
 			}
 		}
-		"sec_lasersight"
+		"sec_lasersight_rail"
 		{
 			"upgrade_cost"		"0"
 			"class_restricted"	"0"
 			"allowed_weapons"
 			{
 				"weapon"					"weapon_m16a4"
+				"weapon"					"weapon_m4a1"
 				"weapon"					"weapon_mk18"
 				"weapon"					"weapon_mk48"
 				"weapon"					"weapon_m249"
@@ -2475,45 +2495,20 @@
 		"sec_silencer"
 		{
 			"class_restricted"	"0"
-			"import"						"base_silencer"
+			"upgrade_cost"		"0"
+		}
+		"sec_silencer_heavy"
+		{
 			"upgrade_cost"					"0"
-
+			"class_restricted"				"0"
 			"allowed_weapons"
 			{
-				"weapon"					"weapon_m16a4" 
-				"weapon"					"weapon_m14"
+				"weapon"					"weapon_m590"
 				"weapon"					"weapon_m249"
 				"weapon"					"weapon_mk48"
-				"weapon"					"weapon_mini14" 
-				"weapon"					"weapon_mp5" 
-				"weapon"					"weapon_ump45"
-				"weapon"					"weapon_m40a1" 
-			}
-			"viewmodel_attachments"
-			{
-				"Suppressor"
-				{
-					"model"					"models/weapons/upgrades/a_suppressor_sec.mdl"
-					"scales"
-					{
-						"weapon_m14"			"0.75"
-						"weapon_mini14"			"0.75"
-						"weapon_mp5"                "0.75"
-						"weapon_ump45"              "0.75"
-						"weapon_m40a1"			"1.0"					
-						"weapon_m249"			"1.0"					
-						"weapon_mk48"			"1.0"
-					}
-				}
-			}		
-			"world_attachments"
-			{
-				"Silencer"
-				{
-					"model"					"models/weapons/upgrades/w_sil_sec1.mdl"
-				}
 			}
 		}
+
 		"sec_silencer2"
 		{
 			"class_restricted"				"0"
