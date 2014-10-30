@@ -93,13 +93,17 @@
 			"print_name"	"#gear_chest_rig"
 			"print_desc"	"#gear_chest_rig_desc"
 			"gear_slot"		"vest"
-			"gear_cost"		"0"
+			"gear_cost"		"1"
 			"gear_weight"	"64" // 22 (2.2kg) + 24 encumbrance
 			"extra_ammo"
 			{
 				"primary"	"2"
 				"secondary"	"2"
 				"explosive"	"0"
+			}
+			"weapon_slots"
+			{
+				"explosive"	"1"
 			}
 			"team_access"	"security"		
 		}
@@ -116,6 +120,10 @@
 				"secondary"	"2"
 				"explosive"	"0"
 			}
+			"weapon_slots"
+			{
+				"explosive"	"1"
+			}
 			"team_access"	"insurgent"		
 		}
 		"sec_chest_carrier"
@@ -129,6 +137,14 @@
 			{
 				"primary"	"3"
 				"secondary"	"4"
+
+				"explosive"
+				{
+					"1"		"1" // an extra explosive in the second slot only, sub-slots are 0 indexed
+				}
+			}
+			"weapon_slots"
+			{
 				"explosive"	"1"
 			}
 			"team_access"	"security"
@@ -144,9 +160,73 @@
 			{
 				"primary"	"3"
 				"secondary"	"4"
+				"explosive"
+				{
+					"1"		"1"
+				}
+			}
+			"weapon_slots"
+			{
 				"explosive"	"1"
 			}
 			"team_access"	"insurgent"	
+		}
+		"?nightmap"
+		{
+			"sec_nightvision"
+			{
+				"print_name"	"#gear_nvg"
+				"print_desc"	"#gear_nvg_desc"
+				"gear_slot"		"accessory"
+				"gear_cost"		"2"
+				"gear_weight"	"30"
+				"entity"		"nvg"
+				
+				"settings"
+				{
+					"material"	"dev/sec_nightvision"
+					"sound_on"	"Weapon_NVG.NvgOn"
+					"sound_off"	"Weapon_NVG.NvgOff"
+					"chromatic_aberation" "0"
+					"dust_power" "1.2"
+					
+					"fade_in_time"	"0.3"
+					"fade_in_hold"	"0.1"
+					"fade_in_tonemap"	"300"
+					
+					"fade_out_time"	"0.5"
+					"fade_out_hold"	"0.1"
+				}
+				
+				"team_access"	"security"
+			}
+			"ins_nightvision"
+			{
+				"print_name"	"#gear_nvg"
+				"print_desc"	"#gear_nvg_desc"
+				"gear_slot"		"accessory"
+				"gear_cost"		"3"
+				"gear_weight"	"30"
+				"entity"		"nvg"
+				
+				"settings"
+				{
+					"material"	"dev/ins_nightvision"
+					"sound_on"	"Weapon_NVG.InsNvgOn"
+					"sound_off"	"Weapon_NVG.InsNvgOff"
+					"chromatic_aberation" "0"
+					"dust_power" "1.2"
+					
+					"fade_in_time"	"0.3"
+					"fade_in_hold"	"0.1"
+					"fade_in_tonemap"	"300"
+					
+					"fade_out_time"	"0.5"
+					"fade_out_hold"	"0.1"
+				}
+				
+				"team_access"	"insurgent"
+			}
 		}
 	}
 }

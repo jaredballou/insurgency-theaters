@@ -102,6 +102,8 @@
 			"print_name"					"#weapon_upgrade_silencer"
 			"print_desc"					"#weapon_upgrade_silencer_desc"
 			"weapon_abilities"				"silencer"
+			"particle_1p"					"muzzleflash_suppressed_1p"
+			"particle_attach"				"muzzle_supp"
 		}
 		"base_flashlight"
 		{
@@ -109,14 +111,7 @@
 			"print_name"					"#weapon_upgrade_flashlight"
 			"print_desc"					"#weapon_upgrade_flashlight_desc"
 			"weapon_abilities"				"flashlight"
-			
-			"viewmodel_attachments"
-			{
-				"Laser"
-				{
-					"model"					"models/weapons/upgrades/a_laser_01.mdl"
-				}
-			}	
+			"particle_attach"				"Laser"
 
 			"world_attachments"
 			{
@@ -132,13 +127,6 @@
 			"print_name"					"#weapon_upgrade_flashlight"
 			"print_desc"					"#weapon_upgrade_flashlight_desc"
 			
-			"viewmodel_attachments"
-			{
-				"Laser"
-				{
-					"model"					"models/weapons/upgrades/a_laser_02.mdl"
-				}
-			}	
 		}
 		"base_lasersight"
 		{
@@ -146,15 +134,7 @@
 			"print_name"					"#weapon_upgrade_lasersight"
 			"print_desc"					"#weapon_upgrade_lasersight_desc"
 			"weapon_abilities"				"lasersights"
-			
-			"viewmodel_attachments"
-			{
-				"Laser"
-				{
-					"model"					"models/weapons/upgrades/a_laser_01.mdl"
-				}
-			}
-
+			"particle_attach"				"Laser"
 
 			"world_attachments"
 			{
@@ -169,14 +149,7 @@
 			"import"						"base_lasersight"
 			"print_name"					"#weapon_upgrade_lasersight"
 			"print_desc"					"#weapon_upgrade_lasersight_desc"
-			
-			"viewmodel_attachments"
-			{
-				"Laser"
-				{
-					"model"					"models/weapons/upgrades/a_laser_02.mdl"
-				}
-			}	
+				
 		}
 		"base_bipod"
 		{

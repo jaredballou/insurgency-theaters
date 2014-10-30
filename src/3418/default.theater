@@ -66,8 +66,21 @@
 			{
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_mini14"
+				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m4a1" "1"
+				}
+				"weapon_upgrade"
+				{
+					"sec_foregrip" "1"
+					"sec_foregrip2" "1"
+				}
 			}
 		}
 		"template_specialist_security"
@@ -95,14 +108,16 @@
 			}
 			"allowed_items"
 			{
-				"weapon"			"weapon_m16a4"
-				"weapon"			"weapon_mk18"
-				"weapon"			"weapon_ump45"
 				"weapon"			"weapon_mp5"
-				"weapon"			"weapon_mini14"
+				"weapon"			"weapon_mk18"
+				"weapon"			"weapon_m590"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_anm14"
+				"?nightmap"
+				{
+					"weapon"			"weapon_p2a1"
+				}
 				"weapon_upgrade"	"sec_silencer"
 				"weapon_upgrade"	"sec_silencer2"
 				"weapon_upgrade"	"sec_silencer_pistol"
@@ -136,10 +151,14 @@
 				"weapon"			"weapon_mini14"
 				"weapon"			"weapon_mp5"
 				"weapon"			"weapon_ump45"
-				"weapon"			"weapon_mk18"
+				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_anm14"
+				"?nightmap"
+				{
+					"weapon"			"weapon_p2a1"
+				}
 				"weapon_upgrade"	"sec_silencer"
 				"weapon_upgrade"	"sec_silencer2"
 				"weapon_upgrade"	"sec_silencer_pistol"
@@ -172,7 +191,7 @@
 			"allowed_items"
 			{
 				"weapon"			"weapon_m14"
-				"weapon"			"weapon_mini14"
+				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_m40a1"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_anm14"
@@ -250,10 +269,13 @@
 			"allowed_items"
 			{
 				"weapon"			"weapon_m249"
-				"weapon"			"weapon_mk18"
 				"weapon"			"weapon_m14"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
+				"?nightmap"
+				{
+					"weapon"			"weapon_p2a1"
+				}
 				"weapon_upgrade"	"sec_bipod"
 			}
 			"cost_modifiers"
@@ -324,18 +346,16 @@
 
 			"buy_order" 
 			{
-				"gear"				"sec_heavy_armor"
+				"gear"				"sec_light_armor"
 				"gear"				"sec_chest_carrier"
 				"weapon"			"weapon_kabar"
 				"weapon"			"weapon_m9"
-				"weapon"			"weapon_m16a4"
+				"weapon"			"weapon_m4a1"
 				"weapon_upgrade"	"underbarrel_m203_he"
 			}
 			"allowed_items"
 			{
-				"weapon"			"weapon_ump45"
-				"weapon"			"weapon_m590"
-				"weapon"			"weapon_mini14"
+				"weapon"			"weapon_m4a1"
 				"weapon"			"weapon_m16a4"
 				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_at4"
@@ -406,8 +426,9 @@
 			}
 			"allowed_items"
 			{
-				"weapon"			"weapon_m16a4"
+				"weapon"			"weapon_ump45"
 				"weapon"			"weapon_m590"
+				"weapon"			"weapon_mp5"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_c4_clicker"
@@ -442,7 +463,7 @@
 			"allowed_items"
 			{
 				"weapon"			"weapon_akm"
-				"weapon"			"weapon_fal"
+				"weapon"			"weapon_ak74"
 				"weapon"			"weapon_sks"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
@@ -473,12 +494,16 @@
 			"allowed_items"
 			{
 				"weapon"			"weapon_akm"
-				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_ak74"
 				"weapon"			"weapon_fal"
 				"weapon"			"weapon_m1a1"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_molotov"
+				"?nightmap"
+				{
+					"weapon"			"weapon_p2a1"
+				}
 				"weapon_upgrade"	"ins_silencer"
 				"weapon_upgrade"	"ins_silencer_pistol"
 				"weapon_upgrade"	"underbarrel_gp25_smoke"
@@ -508,13 +533,16 @@
 			}
 			"allowed_items"
 			{
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_sks"
+				"weapon"			"weapon_aks74u"
 				"weapon"			"weapon_mp40"
 				"weapon"			"weapon_m1a1"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_molotov"
+				"?nightmap"
+				{
+					"weapon"			"weapon_p2a1"
+				}
 				"weapon_upgrade"	"ins_silencer"
 				"weapon_upgrade"	"ins_silencer_pistol"
 				"weapon_upgrade"	"underbarrel_gp25_smoke"
@@ -553,8 +581,6 @@
 			}
 			"allowed_items"
 			{
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_mosin"
 				"weapon"			"weapon_sks"
 				"weapon"			"weapon_fal"
 				"weapon"			"weapon_mosin"
@@ -597,7 +623,6 @@
 			}
 			"allowed_items"
 			{
-				"weapon"			"weapon_akm"
 				"weapon"			"weapon_mp40"
 				"weapon"			"weapon_toz"
 				"weapon"			"weapon_c4_ied"
@@ -631,9 +656,12 @@
 			"allowed_items"
 			{
 				"weapon"			"weapon_rpk"
-				"weapon"			"weapon_akm"
 				"weapon"			"weapon_fal"
 				"weapon"			"weapon_m18"
+				"?nightmap"
+				{
+					"weapon"			"weapon_p2a1"
+				}
 				"weapon_upgrade"	"ins_bipod"
 			}
 			"cost_modifiers"
@@ -704,16 +732,14 @@
 			{
 				"gear"				"ins_chest_rig"
 				"weapon"			"weapon_kabar"
-				"weapon"			"weapon_akm"
-				"weapon_upgrade"	"ammo_hp_akm"
+				"weapon"			"weapon_mp40"
 				"weapon"			"weapon_rpg7"
 			}
 			"allowed_items"
 			{
-				"weapon"			"weapon_akm"
-				"weapon"			"weapon_aks74u"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_mp40"
 				"weapon"			"weapon_m1a1"
-				"weapon"			"weapon_fal"
 				"weapon"			"weapon_rpg7"
 				"weapon"			"weapon_c4_ied"
 				"weapon"			"weapon_molotov"
@@ -746,12 +772,15 @@
 			{
 				"weapon"			"weapon_akm"
 				"weapon"			"weapon_aks74u"
-				"weapon"			"weapon_toz"
-				"weapon"			"weapon_fal"
-				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_mp40"
 				"weapon"			"weapon_m84"
 				"weapon"			"weapon_m18"
 				"weapon"			"weapon_molotov"
+				"?nightmap"
+				{
+					"weapon"			"weapon_p2a1"
+				}
 			}
 		}
 		"template_bomber_insurgent"
@@ -803,9 +832,15 @@
 			{
 				"gear"				"sec_heavy_armor"
 				"gear"				"sec_chest_rig"
+				"gear"				"sec_nightvision"
 				"weapon"			"weapon_kabar"
+				"?nightmap"
+				{
+					"weapon"			"weapon_p2a1"
+				}
 				"weapon"			"weapon_m9"
 				"weapon_upgrade"	"sec_silencer_pistol"
+				"weapon_upgrade"	"sec_flashlight_pistol"
 			}
 		}
 		
@@ -843,9 +878,15 @@
 			{
 				"gear"				"ins_light_armor"
 				"gear"				"ins_chest_rig"
+				"gear"				"ins_nightvision"
 				"weapon"			"weapon_kabar"
+				"?nightmap"
+				{
+					"weapon"			"weapon_p2a1"
+				}
 				"weapon"			"weapon_makarov"
 				"weapon_upgrade"	"ins_silencer_pistol"
+				"weapon_upgrade"	"ins_flashlight_pistol"
 			}
 		}
 		

@@ -18,6 +18,7 @@
 			"cache_destroyed"			"100"
 			"intel_captured"			"100"
 			"vip_killed"				"100"
+			"safehouse_secured"			"100"
 		}
 		// Weight is in lb
 		"weight"
@@ -125,7 +126,9 @@
 			"lean_left_moving_offset_stance"		"8 5 4"
 			"lean_right_moving_offset_stance"		"12 8 6"
 			"lean_roll_offset_stance"				"10"
-			"lean_down_offset_stance"				"3"
+			"lean_down_offset_stance"				"11"
+			"lean_down_offset_stance_crouch"		"2"
+			
 			"LeanSpeedByWeight"
 			{
 				"0"				"3.8"
