@@ -69,6 +69,39 @@
 					"#Squad_Fireteam_Specialist"					"template_specialist_security"
 					"#Squad_Fireteam_Specialist"					"template_specialist_security"
 				}		
+				"#Fireteam_Echo"
+				{
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+				}		
+				"#Fireteam_Foxtrot"
+				{
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+				}		
+				"#Fireteam_Golf"
+				{
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+				}		
 			}
 		}
 	}
