@@ -1,0 +1,75 @@
+"#base" "default_survival.theater"
+
+"theater"
+{	
+	"teams"
+	{
+		"insurgents"
+		{
+			"squads"
+			{
+				"Survivors"
+				{
+					"#Squad_Cell_Leader_Militant"				"template_survival_militant_insurgent"
+					"#Squad_Cell_Scout"					"template_survival_scout_insurgent"
+					"#Squad_Cell_Fighter"					"template_survival_fighter_insurgent"
+					"#Squad_Cell_Fighter"					"template_survival_fighter_insurgent"
+					"#Squad_Cell_Fighter"					"template_survival_fighter_insurgent"
+					"#Squad_Cell_Sharpshooter"				"template_survival_sharpshooter_insurgent"
+					"#Squad_Cell_MachineGunner"				"template_survival_machinegunner_insurgent"
+					"#Squad_Cell_Bomber"					"template_survival_bomber_insurgent"
+				}
+			}
+		}		
+		"security"
+		{
+			"squads"
+			{
+				"#Fireteam_Alpha"
+				{
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+				}	
+				"#Fireteam_Bravo"
+				{
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+				}	
+				"#Fireteam_Charlie"
+				{
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+				}	
+				"#Fireteam_Delta"
+				{
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+					"#Squad_Fireteam_Specialist"					"template_specialist_security"
+				}		
+			}
+		}
+	}
+}
