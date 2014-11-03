@@ -1429,6 +1429,7 @@
 		{
 			"weapon_cost"		"0"
 			"weapon_weight"		"0"
+			"weapon_max_subslot"			"1"
 			"ammo_clip"
 			{
 				"clip_default"				"10"
@@ -1439,6 +1440,7 @@
 			"weapon_cost"		"0"
 			"weapon_weight"		"0"
 			"team_access"		"security"
+			"weapon_max_subslot"			"1"
 //			"ammo_clip"
 //			{
 //				"ammo_type"				"at4"
@@ -1448,6 +1450,7 @@
 		"weapon_c4_clicker"
 		{
 			"weapon_cost"		"0"
+			"weapon_max_subslot"			"1"
 			"weapon_weight"		"0"
 			"team_access"		"security"
 		}
@@ -1981,6 +1984,13 @@
 		{
 			"class_restricted"	"0"
 			"upgrade_cost"	  	"0"
+			"allowed_weapons"
+			{
+				"weapon"					"weapon_m1a1" 
+				"weapon"					"weapon_sks"
+				"weapon"					"weapon_ak74"
+				"weapon"					"weapon_fal" 
+			}
 		}
 		"ins_foregrip2"
 		{
