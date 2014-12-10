@@ -1,0 +1,61 @@
+"#base" "default.theater"
+
+"theater"
+{
+	"ammo"
+	{
+		"grenade_m67"
+		{
+			"carry"						"50"
+		}
+		"grenade_m18"
+		{
+			"carry"						"50"
+		}
+		"grenade_m84"
+		{
+			"carry"						"50"
+		}
+		"grenade_c4"
+		{
+			"carry"						"50"
+		}
+		"grenade_m203_he"
+		{
+			"carry"						"24"
+		}
+		"grenade_mgl"
+		{
+			"carry"						"48"
+		}
+		"grenade_m203_smoke"
+		{
+			"carry"						"24"
+		}
+	}
+	"player_gear"
+	{
+		"sec_chest_carrier"
+		{
+			"gear_cost"			"0"
+			"gear_weight"		"0" // 50 (5.0kg) + 50 encumbrance
+			"extra_ammo"
+			{
+				"primary"       "20"
+				"secondary"     "20"
+				"explosive"     "20"
+			}
+		}
+		"sec_chest_rig"
+		{
+			"gear_cost"	     "0"
+			"gear_weight"   "0"
+			"extra_ammo"
+			{
+				"primary"       "20"
+				"secondary"     "20"
+				"explosive"     "20"
+			}
+		}
+	}
+}
