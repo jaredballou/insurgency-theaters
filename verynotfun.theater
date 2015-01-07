@@ -372,38 +372,47 @@
 	{
 		"weapon_akm"
 		{
+			"class_restricted"				"0"
 			"team_access"					"security, insurgent"
 		}
 		"weapon_aks74u"
 		{
+			"class_restricted"				"0"
 			"team_access"					"security, insurgent"
 		}
 		"weapon_fal"
 		{
+			"class_restricted"				"0"
 			"team_access"					"security, insurgent"
 		}
 		"weapon_gp25_he"
 		{
+			"class_restricted"				"0"
 			"team_access"					"security, insurgent"
 		}
 		"weapon_gp25_smoke"
 		{
+			"class_restricted"				"0"
 			"team_access"					"security, insurgent"
 		}
 		"weapon_mosin"
 		{
+			"class_restricted"				"0"
 			"team_access"					"security, insurgent"
 		}
 		"weapon_rpk"
 		{
+			"class_restricted"				"0"
 			"team_access"					"security, insurgent"
 		}
 		"weapon_sks"
 		{
+			"class_restricted"				"0"
 			"team_access"					"security, insurgent"
 		}
 		"weapon_toz"
 		{
+			"class_restricted"				"0"
 			"team_access"					"security, insurgent"
 		}
 		"weapon_m203_he"
@@ -504,6 +513,7 @@
 			"weapon_cost"		"0"
 			"weapon_weight"		"0"
 			"weapon_max_subslot"			"1"
+			"class_restricted"				"0"
 		}
 		"weapon_at4"
 		{
@@ -511,6 +521,7 @@
 			"weapon_weight"		"0"
 			"team_access"		"security"
 			"weapon_max_subslot"			"1"
+			"class_restricted"				"0"
 		}
 		"weapon_c4_clicker"
 		{
@@ -518,6 +529,7 @@
 			"weapon_max_subslot"			"1"
 			"weapon_weight"		"0"
 			"team_access"		"security"
+			"class_restricted"				"0"
 		}
 		"weapon_m16a4"
 		{
@@ -533,11 +545,13 @@
 		}
 		"weapon_m18"
 		{
+			"class_restricted"				"0"
 			"weapon_cost"		"0"
 			"weapon_weight"		"0"
 		}
 		"weapon_m14"
 		{
+			"class_restricted"				"0"
 			"weapon_weight"					"0"
 			"weapon_cost"					"0"
 			"ammo_clip"
@@ -589,6 +603,7 @@
 		}
 		"weapon_m590"
 		{
+			"class_restricted"				"0"
 			"weapon_slot"					"secondary"
 			"weapon_cost"		"0"
 			"weapon_weight"		"0"
@@ -621,6 +636,7 @@
 		}
 		"weapon_mp5"
 		{
+			"class_restricted"				"0"
 			"weapon_cost"		"0"
 			"weapon_weight"		"0"
 			"team_access"		"security"
@@ -628,6 +644,7 @@
 		}
 		"weapon_ump45"
 		{
+			"class_restricted"				"0"
 			"weapon_cost"		"0"
 			"weapon_weight"		"0"
 			"team_access"		"security"
