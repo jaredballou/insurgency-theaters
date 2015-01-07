@@ -585,12 +585,14 @@
 		}
 		"weapon_ak74"
 		{
+			"class_restricted"				"0"
 			"weapon_cost"		"0"
 			"weapon_weight"		"0"
 			"team_access"		"security, insurgent"
 		}
 		"weapon_mk18"
 		{
+			"class_restricted"				"0"
 			"weapon_slot"					"secondary"
 			"ammo_clip"
 			{
