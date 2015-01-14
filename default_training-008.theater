@@ -1053,8 +1053,8 @@
 			"Model"					"models/weapons/w_c4.mdl"
 
 			"DetonateDamage"			"400"
-			"DetonateDamageRadius"			"1000"
-			"DetonatePenetrationRadius" 		"600"
+			"DetonateDamageRadius"			"320"
+			"DetonatePenetrationRadius" 		"320"
 			"FuseTime"				"0.5"
 
 			"Health"				"150"
@@ -1080,7 +1080,7 @@
 			"Model"					"models/weapons/w_ied.mdl"
 
 			"DetonateDamage"			"600"
-			"DetonateDamageRadius"			"1600"
+			"DetonateDamageRadius"			"640"
 			"DetonatePenetrationRadius" 		"320"
 			"FuseTime"				"0.5"
 
