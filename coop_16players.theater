@@ -8,22 +8,26 @@
 		{
 			"squads"
 			{
+				// assault squad
 				"#Fireteam_Alpha"	// small arms
 				{
 					"#Squad_Fireteam_Leader_Recon"					"template_recon_security_coop"
 					"#Squad_Fireteam_Specialist"					"template_specialist_security_coop"
 					"#Squad_Fireteam_Specialist"					"template_specialist_security_coop"
+					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_coop"
+					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_coop"
+					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_coop"
+					"#Squad_Fireteam_Support"					"template_support_security_coop"
+					"#Squad_Fireteam_Support"					"template_support_security_coop"
+				}
+				"#Fireteam_Bravo"	// small arms
+				{
+					"#Squad_Fireteam_Leader_Recon"					"template_recon_security_coop"
 					"#Squad_Fireteam_Specialist"					"template_specialist_security_coop"
 					"#Squad_Fireteam_Specialist"					"template_specialist_security_coop"
 					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_coop"
 					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_coop"
 					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_coop"
-					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_coop"
-					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_coop"
-					"#Squad_Fireteam_Rifleman"					"template_rifleman_security_coop"
-					"#Squad_Fireteam_Support"					"template_support_security_coop"
-					"#Squad_Fireteam_Support"					"template_support_security_coop"
-					"#Squad_Fireteam_Support"					"template_support_security_coop"
 					"#Squad_Fireteam_Support"					"template_support_security_coop"
 					"#Squad_Fireteam_Support"					"template_support_security_coop"
 				}
