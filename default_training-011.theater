@@ -216,7 +216,7 @@
 				"weapon_upgrade"		"sec_foregrip2"
 				"weapon_upgrade"		"sec_silencer"
 				"weapon"			"weapon_mp5k"
-				"weapon_upgrade"		"sec_lasersight_band"
+				"weapon_upgrade"		"sec_lasersight_rail"
 				"weapon_upgrade"		"sec_silencer"
 				"weapon"			"weapon_m67"
 				"weapon"			"weapon_c4_clicker"
@@ -903,12 +903,7 @@
 			"class_restricted"	"0"
 			"upgrade_cost"	  	"0"
 		}
-		"ins_woodgrip1"
-		{
-			"class_restricted"	"0"
-			"upgrade_cost"	  	"0"
-		}
-		"ins_woodgrip2"
+		"ins_woodgrip"
 		{
 			"class_restricted"	"0"
 			"upgrade_cost"	  	"0"
