@@ -763,11 +763,11 @@
 		}
 		"grenade_m203_he"
 		{
-			"carry"						"6"
+			"carry"						"12"
 		}
 		"grenade_m203_smoke"
 		{
-			"carry"						"6"
+			"carry"						"12"
 		}
 	}
 	"player_gear"
