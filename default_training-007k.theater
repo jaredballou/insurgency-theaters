@@ -479,6 +479,26 @@
 			}
 		}
 	}
+	"player_settings"
+	{
+		"slide"
+		{
+			"min_sprint_time"		"1000"
+			"post_sprint_grace"		"0"
+			
+			"DistanceByWeight"
+			{
+				"60"				"0"
+				"640"				"0"
+			}
+			
+			"SpeedByWeight"
+			{
+				"60"				"0"
+				"640"				"0"
+			}
+		}
+	}
 	"player_gear"
 	{
 		"sec_chest_rig"
