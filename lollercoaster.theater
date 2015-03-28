@@ -120,7 +120,7 @@
 			{
 				"gear"				"sec_heavy_armor"
 				"gear"				"sec_chest_carrier"
-//				"weapon"			"weapon_c4_clicker"
+				"weapon"			"weapon_c4_clicker"
 				"weapon"			"weapon_at4"
 				"weapon"			"weapon_kabar"
 			}
@@ -247,12 +247,14 @@
 		{
 			"weapon_cost"		"0"
 			"weapon_weight"		"0"
+			"weapon_max_subslot"	"1"
 			"team_access"		"security"
 		}
 		"weapon_c4_clicker"
 		{
 			"weapon_cost"		"0"
 			"weapon_weight"		"0"
+			"weapon_max_subslot"	"1"
 			"team_access"		"security"
 		}
 		"weapon_m67"
