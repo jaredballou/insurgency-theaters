@@ -1,0 +1,264 @@
+"#base" "default.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				// assault squad
+				"#Fireteam_Alpha"	// small arms
+				{
+					"#Squad_Fireteam_Demolitions"					"template_demolitions_security_training"
+					"#Squad_Fireteam_Demolitions"					"template_demolitions_security_training"
+					"#Squad_Fireteam_Demolitions"					"template_demolitions_security_training"
+					"#Squad_Fireteam_Demolitions"					"template_demolitions_security_training"
+					"#Squad_Fireteam_Demolitions"					"template_demolitions_security_training"
+					"#Squad_Fireteam_Demolitions"					"template_demolitions_security_training"
+					"#Squad_Fireteam_Demolitions"					"template_demolitions_security_training"
+					"#Squad_Fireteam_Demolitions"					"template_demolitions_security_training"
+				}
+				"#Fireteam_Bravo"	// small arms
+				{
+					"#Squad_Fireteam_Demolitions"					"template_demolitions_security_training"
+					"#Squad_Fireteam_Demolitions"					"template_demolitions_security_training"
+					"#Squad_Fireteam_Demolitions"					"template_demolitions_security_training"
+					"#Squad_Fireteam_Demolitions"					"template_demolitions_security_training"
+					"#Squad_Fireteam_Demolitions"					"template_demolitions_security_training"
+					"#Squad_Fireteam_Demolitions"					"template_demolitions_security_training"
+					"#Squad_Fireteam_Demolitions"					"template_demolitions_security_training"
+					"#Squad_Fireteam_Demolitions"					"template_demolitions_security_training"
+				}
+			}
+		}
+		"insurgents"
+		{
+			"squads"
+			{
+				"#Cell_Alpha"	// assault team #1
+				{
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+				}
+				"#Cell_Bravo"	// assault team #2
+				{
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+				}
+				"#Cell_Charlie"	// support team
+				{
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+				}
+				"#Cell_Delta"	// heavy weapons team
+				{
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+				}
+				"#Cell_Echo"
+				{
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+				}
+				"#Cell_Foxtrot"
+				{
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+					"#Squad_Cell_Sapper"						"template_coop_sapper" // RPG
+				}
+			}
+		}
+	}
+	"player_templates"
+	{
+		"template_demolitions_security_training"
+		{
+			"models"
+			{
+				"player"				"models/characters/security_specialist.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+			}
+			"team"			"security"
+			"buy_order"
+			{
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_carrier"
+//				"weapon"			"weapon_c4_clicker"
+				"weapon"			"weapon_at4"
+				"weapon"			"weapon_kabar"
+			}
+			"allowed_weapons"
+			{
+				"weapon"			"weapon_at4"
+				"weapon"			"weapon_c4_clicker"
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_m67"
+			}
+		}
+		"template_coop_sapper"
+		{	
+			"team"			"security,insurgents"
+			"print_name"	"#Squad_Cell_Sapper"
+
+			"models"
+			{
+				"player"			"models/characters/insurgent_sapper.mdl"
+				"viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
+			}
+
+			"buy_order" 
+			{
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_rpg7"
+			}
+			"allowed_items"
+			{
+				"weapon"			"weapon_rpg7"
+				"weapon"			"weapon_kabar"
+			}
+		}
+	}
+	"player_settings"
+	{
+		"slide"
+		{
+			"min_sprint_time"		"1000"
+			"post_sprint_grace"		"0"
+			
+			"DistanceByWeight"
+			{
+				"60"				"0"
+				"640"				"0"
+			}
+			
+			"SpeedByWeight"
+			{
+				"60"				"0"
+				"640"				"0"
+			}
+		}
+	}
+	"player_gear"
+	{
+		"sec_chest_rig"
+		{
+			"gear_cost"	     "0"
+			"gear_weight"   "0"
+			"extra_ammo"
+			{
+				"primary"	"2"
+				"secondary"	"2"
+				"explosive"
+				{
+					"0"		"2"
+					"1"		"2"
+				}
+			}
+		}
+		"sec_chest_carrier"
+		{
+			"gear_cost"	     "0"
+			"gear_weight"   "0"
+			"extra_ammo"
+			{
+				"primary"	"4"
+				"secondary"	"4"
+				"explosive"
+				{
+					"0"		"4"
+					"1"		"4"
+				}
+			}
+		}
+		"sec_heavy_armor"
+		{
+			"gear_cost"	     "0"
+			"gear_weight"   "0"
+		}
+		"sec_light_armor"
+		{
+			"gear_cost"	     "0"
+			"gear_weight"   "0"
+		}
+	}
+	"explosives"
+	{
+		"grenade_c4"
+		{
+			"DetonateDamage"			"400"
+			"DetonateDamageRadius"			"1000"
+			"DetonatePenetrationRadius" 		"600"
+		}
+		"grenade_ied"
+		{
+			"DetonateDamage"			"600"
+			"DetonateDamageRadius"			"1600"
+			"DetonatePenetrationRadius" 		"320"
+			"Health"				"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"1"
+		}
+	}
+	"weapons"
+	{
+		"weapon_anm14"
+		{
+			"weapon_cost"		"0"
+			"weapon_weight"		"0"
+		}
+		"weapon_at4"
+		{
+			"weapon_cost"		"0"
+			"weapon_weight"		"0"
+			"team_access"		"security"
+		}
+		"weapon_c4_clicker"
+		{
+			"weapon_cost"		"0"
+			"weapon_weight"		"0"
+			"team_access"		"security"
+		}
+		"weapon_m67"
+		{
+			"weapon_cost"		"0"
+			"weapon_weight"		"0"
+		}
+	}
+}
