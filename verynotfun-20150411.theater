@@ -594,11 +594,13 @@
 		"weapon_at4"
 		{
 			"weapon_cost"		"0"
+			"weapon_weight"		"64"
 			"team_access"		"security"
 		}
 		"weapon_c4_clicker"
 		{
 			"weapon_cost"		"0"
+			"weapon_weight"		"32"
 			"team_access"		"security"
 		}
 		"weapon_m16a4"
@@ -630,7 +632,7 @@
 			"print_desc"					"#weapon_m249_desc"
 			"view_model"					"models/weapons/v_m249.mdl"
 			"world_model"					"models/weapons/w_m249.mdl"
-			"rounds_per_minute"				"775"
+			"rounds_per_minute"				"880"
 			"weapon_slot"					"primary"
 			"act_table"					"lmg"
 			"weapon_abilities"				"ironsight, bipod"
@@ -1174,6 +1176,7 @@
 			"class_restricted"				"0"
 			"length"					"0"
 			"weapon_abilities"				"silencer"
+			"rounds_per_minute"				"710"
 			"recoil"
 			{
 				"recoil_lateral_frac"		"1.1"
