@@ -263,6 +263,7 @@
 				"gear"				"sec_heavy_armor"
 				"gear"				"sec_chest_carrier"
 				"weapon"			"weapon_m249"
+				"weapon_upgrade"		"sec_silencer_heavy"
 				"weapon_upgrade"		"sec_foregrip2"
 				"weapon_upgrade"		"sec_lasersight_band"
 				"weapon_upgrade"		"optic_elcan"
@@ -283,6 +284,7 @@
 				"weapon"			"weapon_mine"
 				"weapon"			"weapon_m9"
 				"weapon_upgrade"		"underbarrel_m203_he"
+				"weapon_upgrade"		"sec_silencer_heavy"
 			}
 		}
 		//Insurgents
@@ -1318,7 +1320,11 @@
 			"weight"					"80"
 			"ammo_type_override"				"762_m13"
 //			"lock_slot"					"ammo"
-
+			"class_restricted"				"0"
+			"length"					"0"
+			"weapon_abilities"				""
+			"particle_1p"					""
+			"particle_attach"				""
 			"recoil"
 			{
 				"recoil_lateral_frac"		"1.4"
@@ -1334,9 +1340,27 @@
 			}
 			"viewmodel_attachments"
 			{
+				"Suppressor_SG"
+				{
+					"weapons"
+					{
+						"weapon"			"weapon_m590"
+					}
+				}
+				
+				"Suppressor_Standard"
+				{
+					"weapons"
+					{
+						"weapon"			"weapon_m590"
+					}				
+				}
 			}
 			"world_attachments"
 			{
+				"Silencer_SG"
+				{
+				}
 			}
 		}
 		"sec_silencer2"
