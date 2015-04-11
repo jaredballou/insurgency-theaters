@@ -453,6 +453,7 @@
 		"sec_chest_rig"
 		{
 			"gear_cost"	     "0"
+			"gear_weight"	     "0"
 			"extra_ammo"
 			{
 				"primary"	"2"
@@ -467,6 +468,7 @@
 		"sec_chest_carrier"
 		{
 			"gear_cost"	     "0"
+			"gear_weight"	     "0"
 			"extra_ammo"
 			{
 				"primary"	"4"
@@ -481,10 +483,12 @@
 		"sec_heavy_armor"
 		{
 			"gear_cost"	     "0"
+			"gear_weight"	     "64"
 		}
 		"sec_light_armor"
 		{
 			"gear_cost"	     "0"
+			"gear_weight"	     "32"
 		}
 	}
 	"ammo"
@@ -630,7 +634,7 @@
 			"weapon_slot"					"primary"
 			"act_table"					"lmg"
 			"weapon_abilities"				"ironsight, bipod"
-			"weapon_weight"					"320" // (7.5kg[weapon] + (2.5kg[ammo] * (1+1)[mags]) )*10[kg->hg for int]  +150[encumbrance]
+			"weapon_weight"					"240" // (7.5kg[weapon] + (2.5kg[ammo] * (1+1)[mags]) )*10[kg->hg for int]  +150[encumbrance]
 			"closed_bolt"					"0"
 			"barrel_length"					"28"
 			
@@ -710,7 +714,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"				"556_m27"
+				"ammo_type"				"556_m27_ap"
 				"clip_max"				"4"
 				"clip_max_rounds"			"200"
 				"clip_default"				"1"
@@ -1165,10 +1169,11 @@
 			"print_name"					"7.62mm Conversion"
 			"print_desc"					"Swaps barrel, bolt, feed tray and magazines to fire 7.62x51mm NATO."
 			"weight"					"40"
-			"ammo_type_override"				"762_m13"
+			"ammo_type_override"				"762_m13_ap"
 //			"lock_slot"					"ammo"
 			"class_restricted"				"0"
 			"length"					"0"
+			"weapon_abilities"				"silencer"
 			"recoil"
 			{
 				"recoil_lateral_frac"		"1.1"
