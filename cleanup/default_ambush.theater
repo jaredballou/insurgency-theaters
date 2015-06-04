@@ -1,4 +1,4 @@
-"#base"														"default.theater"
+"#base"											"default.theater"
 
 "theater"
 {
@@ -13,12 +13,12 @@
 				{
 					"#Squad_Fireteam_Leader_Specialist"		"template_specialist_security"
 					"#Squad_Fireteam_Specialist"			"template_specialist_security"
-					"#Squad_Fireteam_Rifleman"				"template_rifleman_security"
-					"#Squad_Fireteam_Rifleman"				"template_rifleman_security"
-					"#Squad_Fireteam_Recon"					"template_recon_security"
-					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security"
-					"#Squad_Fireteam_Support"				"template_support_security"
-					"#Squad_Fireteam_Sniper"				"template_sniper_security"
+					"#Squad_Fireteam_Rifleman"			"template_rifleman_security"
+					"#Squad_Fireteam_Rifleman"			"template_rifleman_security"
+					"#Squad_Fireteam_Recon"				"template_recon_security"
+					"#Squad_Fireteam_Designated_Marksman"		"template_designated_marksman_security"
+					"#Squad_Fireteam_Support"			"template_support_security"
+					"#Squad_Fireteam_Sniper"			"template_sniper_security"
 				}
 				
 				// recon team
@@ -26,12 +26,12 @@
 				{
 					"#Squad_Fireteam_Leader_Recon"			"template_recon_security"
 					"#Squad_Fireteam_Specialist"			"template_specialist_security"
-					"#Squad_Fireteam_Rifleman"				"template_rifleman_security"
-					"#Squad_Fireteam_Support"				"template_support_security"
-					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security"
-					"#Squad_Fireteam_Rifleman"				"template_rifleman_security"
-					"#Squad_Fireteam_Support"				"template_support_security"
-					"#Squad_Fireteam_Sniper"				"template_sniper_security"
+					"#Squad_Fireteam_Rifleman"			"template_rifleman_security"
+					"#Squad_Fireteam_Support"			"template_support_security"
+					"#Squad_Fireteam_Designated_Marksman"		"template_designated_marksman_security"
+					"#Squad_Fireteam_Rifleman"			"template_rifleman_security"
+					"#Squad_Fireteam_Support"			"template_support_security"
+					"#Squad_Fireteam_Sniper"			"template_sniper_security"
 				}
 			}
 		}
@@ -44,26 +44,26 @@
 				"#Cell_Alpha"
 				{
 					"#Squad_Cell_Leader_Specialist"			"template_specialist_insurgent"
-					"#Squad_Cell_Militant"					"template_militant_insurgent"
-					"#Squad_Cell_Fighter"					"template_fighter_insurgent"
-					"#Squad_Cell_Fighter"					"template_fighter_insurgent"
-					"#Squad_Cell_Scout"						"template_scout_insurgent"
-					"#Squad_Cell_Sharpshooter"				"template_sharpshooter_insurgent"
-					"#Squad_Cell_MachineGunner"				"template_machinegunner_insurgent"
-					"#Squad_Cell_Sniper"					"template_sniper_insurgent"
+					"#Squad_Cell_Militant"				"template_militant_insurgent"
+					"#Squad_Cell_Fighter"				"template_fighter_insurgent"
+					"#Squad_Cell_Fighter"				"template_fighter_insurgent"
+					"#Squad_Cell_Scout"				"template_scout_insurgent"
+					"#Squad_Cell_Sharpshooter"			"template_sharpshooter_insurgent"
+					"#Squad_Cell_MachineGunner"			"template_machinegunner_insurgent"
+					"#Squad_Cell_Sniper"				"template_sniper_insurgent"
 				}
 				
 				// scout cell
 				"#Cell_Bravo"
 				{
 					"#Squad_Cell_Leader_Militant"			"template_militant_insurgent"
-					"#Squad_Cell_Scout"						"template_scout_insurgent"
-					"#Squad_Cell_Fighter"					"template_fighter_insurgent"
-					"#Squad_Cell_MachineGunner"				"template_machinegunner_insurgent"
-					"#Squad_Cell_Militant"					"template_militant_insurgent"
-					"#Squad_Cell_Sharpshooter"				"template_sharpshooter_insurgent"
-					"#Squad_Cell_MachineGunner"				"template_machinegunner_insurgent"
-					"#Squad_Cell_Sniper"					"template_sniper_insurgent"
+					"#Squad_Cell_Scout"				"template_scout_insurgent"
+					"#Squad_Cell_Fighter"				"template_fighter_insurgent"
+					"#Squad_Cell_MachineGunner"			"template_machinegunner_insurgent"
+					"#Squad_Cell_Militant"				"template_militant_insurgent"
+					"#Squad_Cell_Sharpshooter"			"template_sharpshooter_insurgent"
+					"#Squad_Cell_MachineGunner"			"template_machinegunner_insurgent"
+					"#Squad_Cell_Sniper"				"template_sniper_insurgent"
 				}
 			}
 		}
