@@ -245,16 +245,6 @@
 				"allow_sway"				"0"
 			}
 		}
-		"weapon_anm14"
-		{
-			"player_restrictions"
-			{
-				"allow_sprint"				"1"
-				"allow_lean"				"1"
-				"allow_jump"				"1"
-				"allow_sway"				"0"
-			}
-		}
 		"weapon_m18"
 		{
 			"player_restrictions"
