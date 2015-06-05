@@ -133,4 +133,187 @@
 			}
 		}
 	}
+	"weapons"
+	{
+		"weapon_base"
+		{
+			"sway"
+			{
+				"sway_style"				"noise" // set to "lissajous" for lissajous curve (insmod style), set to "noise" for perlin noise (random)
+				"sway_speed"				"0.5"
+				"SwayRadiusByStamina"
+				{
+					"0"				"4.8"
+					"100"				"0.8"
+				}
+				"sway_radius_stand_frac"		"1.0"
+				"sway_radius_crouch_frac"		"0.4"
+				"sway_radius_prone_frac"		"0.2"
+				"sway_radius_bipod_frac"		"0.25"
+				"sway_radius_ironsight_frac"		"0.5"
+				"sway_radius_lean_frac"			"1.2"
+				"sway_amount_focus_frac"		"0.5"
+				"sway_speed_ironsight_frac"		"0.5"
+				"sway_speed_bipod_frac"			"0.5"
+				"sway_speed_focus_frac"			"0.3"
+				"sway_amount_focus_penalty"		"0.5"
+				"sway_speed_focus_penalty"		"0.1"
+				"sway_screen_ads_ratio"			"1.0"
+				"sway_viewmodel_ratio"			"1.0"
+				"sway_viewmodel_ads_ratio"		"0.0"
+				"sway_radius_interp_speed"		"3.5"
+				"SwayRadiusFracBySpeed"
+				{
+					"0"				"1.0"
+					"200"				"1.5"
+				}
+				"SwaySpeedFracBySpeed"
+				{
+					"0"				"1.0"
+					"170"				"1.25"
+					"250"				"3.0"
+				}
+				"SwayRadiusBySuppression"
+				{
+					"0"				"1.0"
+					"100"				"5.0"
+				}
+				"SwaySpeedBySuppression"
+				{
+					"0"				"1.0"
+					"100"				"1.1"
+				}
+
+			}
+			"freeaim"
+			{
+				"freeaim_distance"			"10.25"
+				"freeaim_distance_bipod"		"10.25"
+				"freeaim_screenratio"			"0.91"
+				"freeaim_screenratio_bipod"		"0.91"
+				
+				"freeaim_ads" 				"0"
+				"freeaim_distance_ads"			"0"
+				"freeaim_screenratio_ads"		"1"
+			}
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"ballistic_base"
+		{
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		
+		"weapon_anm14"
+		{
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_at4"
+		{
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_m67"
+		{
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_anm14"
+		{
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_m18"
+		{
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_m84"
+		{
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_molotov"
+		{
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_rpg7"
+		{
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_c4_clicker"
+		{
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_c4_ied"
+		{
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+	}
 }
