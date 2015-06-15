@@ -1,0 +1,207 @@
+"#base" "default.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				// assault squad
+				"#Fireteam_Alpha"	// small arms
+				{
+					"#Squad_Fireteam_Rifleman"		"template_training_security"
+					"#Squad_Fireteam_Rifleman"		"template_training_security"
+					"#Squad_Fireteam_Rifleman"		"template_training_security"
+					"#Squad_Fireteam_Rifleman"		"template_training_security"
+					"#Squad_Fireteam_Rifleman"		"template_training_security"
+					"#Squad_Fireteam_Rifleman"		"template_training_security"
+					"#Squad_Fireteam_Rifleman"		"template_training_security"
+					"#Squad_Fireteam_Rifleman"		"template_training_security"
+				}
+				
+				// recon team
+				"#Fireteam_Bravo"
+				{
+					"#Squad_Fireteam_Rifleman"		"template_training_security"
+					"#Squad_Fireteam_Rifleman"		"template_training_security"
+					"#Squad_Fireteam_Rifleman"		"template_training_security"
+					"#Squad_Fireteam_Rifleman"		"template_training_security"
+					"#Squad_Fireteam_Rifleman"		"template_training_security"
+					"#Squad_Fireteam_Rifleman"		"template_training_security"
+					"#Squad_Fireteam_Rifleman"		"template_training_security"
+					"#Squad_Fireteam_Rifleman"		"template_training_security"
+				}
+			}
+		}
+		
+		"insurgents"
+		{
+			"squads"
+			{
+				// assault group
+				"#Cell_Alpha"
+				{
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+				}
+				
+				// scout cell
+				"#Cell_Bravo"
+				{
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+				}
+				"#Cell_Charlie"
+				{
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+				}
+				"#Cell_Delta"
+				{
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+				}
+				"#Cell_Echo"
+				{
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+				}
+				"#Cell_Foxtrot"
+				{
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+					"#Squad_Cell_Fighter"			"template_training_insurgent"
+				}
+			}
+		}
+	}
+	"player_templates"
+	{
+		"template_training_security"
+		{
+			"print_name"				"#Squad_Fireteam_Rifleman"
+			"team"					"security"
+			
+			"models"
+			{
+				"player"				"models/characters/security_rifleman.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_m.mdl"
+				"helmet"				"models/characters/us_helmet.mdl"
+			}
+			
+			"buy_order"
+			{
+				"gear"					"sec_heavy_armor"
+				"gear"					"sec_chest_carrier"
+				"weapon"				"weapon_kabar"
+				"weapon"				"weapon_m16a4"
+				"weapon_upgrade"			"ammo_ap_m16a4"
+				"weapon"				"weapon_m67"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_anm14"
+				"weapon"				"weapon_c4_clicker"
+				"weapon"				"weapon_m84"
+				"weapon"				"weapon_m18"
+				"weapon"				"weapon_m590"
+				"weapon"				"weapon_at4"
+				"weapon_upgrade"			"sec_silencer"
+				"weapon_upgrade"			"sec_silencer2"
+				"weapon_upgrade"			"sec_silencer_pistol"
+				"weapon_upgrade"			"underbarrel_m203_smoke"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"optic_scope_mk4"
+				"weapon_upgrade"			"sec_bipod"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"underbarrel_m203_smoke"
+			}
+		}
+		"template_training_insurgent"
+		{
+			"team"					"insurgents"
+			"print_name"				"#Squad_Cell_Fighter"
+			
+			"models"
+			{
+				"player"				"models/characters/insurgent_fighter.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_ins_l.mdl"
+			}
+			
+			"buy_order"
+			{
+				"gear"					"ins_light_armor"
+				"gear"					"ins_chest_rig"
+				"weapon"				"weapon_gurkha"
+				"weapon"				"weapon_makarov"
+				"weapon"				"weapon_akm"
+				"weapon_upgrade"			"ammo_ap_akm"
+				"weapon_upgrade"			"ins_woodgrip"
+				"weapon"				"weapon_f1"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_akm"
+				"weapon"				"weapon_ak74"
+				"weapon"				"weapon_sks"
+				"weapon"				"weapon_m84"
+				"weapon"				"weapon_m18"
+				"weapon"				"weapon_molotov"
+				"weapon"				"weapon_fal"
+				"weapon"				"weapon_toz"
+				"weapon"				"weapon_rpk"
+				"weapon"				"weapon_rpg7"
+				"weapon"				"weapon_c4_ied"
+				"weapon"				"weapon_molotov"
+				"weapon_upgrade"			"ins_silencer"
+				"weapon_upgrade"			"ins_silencer_pistol"
+				"weapon_upgrade"			"ins_bipod"
+				"weapon_upgrade"			"optic_scope_7x"
+				"weapon_upgrade"			"ins_silencer"
+				"weapon_upgrade"			"ins_silencer_pistol"
+				"weapon_upgrade"			"underbarrel_gp25_he"
+				"weapon_upgrade"			"underbarrel_gp25_smoke"
+			}
+		}
+	}
+}
