@@ -1,0 +1,268 @@
+#weapons_coop.theater - Weapons settings for base coop mod
+"theater"
+{
+	"weapons"
+	{
+		"weapon_base"
+		{
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"ballistic_base"
+		{
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		
+		"weapon_anm14"
+		{
+			"weapon_cost"				"0"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_at4"
+		{
+			"weapon_cost"				"0"
+			"weapon_weight"				"64"
+			"team_access"				"security"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_c4_clicker"
+		{
+			"weapon_cost"				"0"
+			"weapon_weight"				"32"
+			"team_access"				"security"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_m16a4"
+		{
+			"class_restricted"			"0"
+			"ammo_clip"
+			{
+				"clip_max"				"12"
+				"clip_default"				"6"
+			}
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+		"weapon_m18"
+		{
+			"weapon_cost"				"0"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_m14"
+		{
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+		"weapon_m249"
+		{
+			"import"				"ballistic_base"
+			"weapon_class"				"lmg"
+			"weapon_cost"				"0"
+			"print_name"				"#weapon_m249"
+			"print_desc"				"#weapon_m249_desc"
+			"view_model"				"models/weapons/v_m249.mdl"
+			"world_model"				"models/weapons/w_m249.mdl"
+			"rounds_per_minute"			"880"
+			"weapon_slot"				"primary"
+			"act_table"				"lmg"
+			"weapon_abilities"			"ironsight, bipod"
+			"weapon_weight"				"240"	// (7.5kg[weapon] + (2.5kg[ammo] * (1+1)[mags]) )*10[kg->hg for int]  +150[encumbrance]
+			"closed_bolt"				"0"
+			"barrel_length"				"28"
+			
+			"fov"
+			{
+				"fov_plr_ironsight"			"-25"
+				"fov_plr_focus"				"-12"
+				"fov_plr_bipod"				"-10"
+				"fov_wpn_default"			"60"
+				"fov_wpn_sprint"			"60"
+				"fov_wpn_ironsight"			"68"
+				"fov_wpn_focus"				"70"
+				"fov_wpn_bipod"				"54"
+			}
+			"viewmodel_offsets"
+			{
+				// x back, y left, z down
+				"VMOffsetProne"				"0.50 0.00 1.50"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_M249.Single"
+				"shot_single_local"			"Weapon_M249.SingleLocal"
+				"shot_silent"				"Weapon_FnFAL.Single"
+				"shot_silent_local"			"Weapon_FnFAL.SingleLocal"
+				"empty"					"Weapon_M249.Empty"
+				"clipin"				"Weapon_M249.Magin"
+				"clipout"				"Weapon_M249.Magout"
+				"boltback"				"Weapon_M249.Boltback"
+				"boltrelease"				"Weapon_M249.Boltrelease"
+				"bipodin"				"Weapon_M249.BipodDeploy"
+				"bipodout"				"Weapon_M249.BipodRetract"
+			}
+			
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_m249_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_m249_3rd"
+				"particle_tracer"			"weapon_tracers"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-1.2 2.1"
+				"recoil_vertical_range"			"1.65 3.3"
+				"recoil_aim_punch"			"0.5 0.65"
+				"recoil_rest_rate"			"20"
+				"recoil_rest_delay"			".09"
+				"recoil_roll_range"			"-2 -2"	// Vibration strength
+				"recoil_roll_rest_rate"			"200"	// Vibration Speed
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"		"0.6"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"			"5"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.92"	// How much of the view punch from the previous shot(s) get added to any additional shot fired. 1 = all, 0 = none, 0.5 = half (default = 1.0)
+				
+				"RecoilIronSightFracByWeight"
+				{
+					"0"					"0.7"
+				}
+				
+				"RecoilBipodFracByWeight"
+				{
+					"0"					"0.3"
+				}
+				
+				"RecoilCrouchFracByWeight"
+				{
+					"0"					"0.80"
+				}
+			}
+			"ballistics"
+			{
+				"spread"				"0.24 0.24 0.24"
+				"FireModes"				"full"
+				"bulletcount"				"1"
+				"maxrange"				"8000"
+				"LowAmmoCount"				"15"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"556_m27_ap"
+				"clip_max"				"4"
+				"clip_max_rounds"			"200"
+				"clip_default"				"1"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"primary"
+			}
+			"kitui_offset"
+			{
+				"position"				"28 -2 3"
+			}
+			"team_access"				"security, insurgent"
+		}
+		"weapon_m4a1"
+		{
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+		"weapon_mk18"
+		{
+			"ammo_clip"
+			{
+				"clip_max"				"12"
+				"clip_default"				"6"
+			}
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+		"weapon_m590"
+		{
+			"weapon_slot"				"secondary"
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+		"weapon_m67"
+		{
+			"weapon_cost"				"0"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_m84"
+		{
+			"weapon_cost"				"0"
+			"team_access"				"security, insurgent"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_makarov"
+		{
+			"team_access"				"insurgent"
+		}
+		"weapon_m1911"
+		{
+			"team_access"				"insurgent"
+		}
+		"weapon_m9"
+		{
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+		"weapon_mp5"
+		{
+			"weapon_cost"				"0"
+			"team_access"				"security"
+			"weapon_slot"				"secondary"
+		}
+		"weapon_ump45"
+		{
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+	}
+}

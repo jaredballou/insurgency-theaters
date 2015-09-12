@@ -1,0 +1,181 @@
+#teams_boltaction_only.theater - Set teams to be four squads of four snipers on each side
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				// assault squad
+				"#Fireteam_Alpha"	// small arms
+				{
+					"#Squad_Fireteam_Sniper"					"template_sniper_security"
+					"#Squad_Fireteam_Sniper"					"template_sniper_security"
+					"#Squad_Fireteam_Sniper"					"template_sniper_security"
+					"#Squad_Fireteam_Sniper"					"template_sniper_security"
+				}
+				"#Fireteam_Bravo"	// small arms
+				{
+					"#Squad_Fireteam_Sniper"					"template_sniper_security"
+					"#Squad_Fireteam_Sniper"					"template_sniper_security"
+					"#Squad_Fireteam_Sniper"					"template_sniper_security"
+					"#Squad_Fireteam_Sniper"					"template_sniper_security"
+				}
+				"#Fireteam_Charlie"	// small arms
+				{
+					"#Squad_Fireteam_Sniper"					"template_sniper_security"
+					"#Squad_Fireteam_Sniper"					"template_sniper_security"
+					"#Squad_Fireteam_Sniper"					"template_sniper_security"
+					"#Squad_Fireteam_Sniper"					"template_sniper_security"
+				}
+				"#Fireteam_Delta"	// small arms
+				{
+					"#Squad_Fireteam_Sniper"					"template_sniper_security"
+					"#Squad_Fireteam_Sniper"					"template_sniper_security"
+					"#Squad_Fireteam_Sniper"					"template_sniper_security"
+					"#Squad_Fireteam_Sniper"					"template_sniper_security"
+				}
+			}
+		}
+		"insurgents"
+		{
+			"squads"
+			{
+				"#Cell_Alpha"	// assault team #1
+				{
+					"#Squad_Cell_Sniper"						"template_sniper_insurgent"
+					"#Squad_Cell_Sniper"						"template_sniper_insurgent"
+					"#Squad_Cell_Sniper"						"template_sniper_insurgent"
+					"#Squad_Cell_Sniper"						"template_sniper_insurgent"
+				}
+				"#Cell_Bravo"	// assault team #2
+				{
+					"#Squad_Cell_Sniper"						"template_sniper_insurgent"
+					"#Squad_Cell_Sniper"						"template_sniper_insurgent"
+					"#Squad_Cell_Sniper"						"template_sniper_insurgent"
+					"#Squad_Cell_Sniper"						"template_sniper_insurgent"
+				}
+				"#Cell_Charlie"	// support team
+				{
+					"#Squad_Cell_Sniper"						"template_sniper_insurgent"
+					"#Squad_Cell_Sniper"						"template_sniper_insurgent"
+					"#Squad_Cell_Sniper"						"template_sniper_insurgent"
+					"#Squad_Cell_Sniper"						"template_sniper_insurgent"
+				}
+				"#Cell_Delta"	// heavy weapons team
+				{
+					"#Squad_Cell_Sniper"						"template_sniper_insurgent"
+					"#Squad_Cell_Sniper"						"template_sniper_insurgent"
+					"#Squad_Cell_Sniper"						"template_sniper_insurgent"
+					"#Squad_Cell_Sniper"						"template_sniper_insurgent"
+				}
+			}
+		}
+	}
+	"player_templates"
+	{
+		"template_sniper_security"
+		{	
+			"team"			"security"
+			"print_name"	"#Squad_Fireteam_Sniper"
+
+			"models"
+			{
+				"player"			"models/characters/security_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_m.mdl"
+				"helmet"			"models/characters/us_helmet.mdl"
+			}
+
+			"buy_order" 
+			{
+				"weapon"			"weapon_kabar"
+				"weapon"			"weapon_m40a1"
+				"weapon_upgrade"		"optic_scope_mk4"
+			}
+			"allowed_items"
+			{
+				"weapon"		"weapon_m40a1"
+				"weapon_upgrade"	"optic_scope_mk4"
+				"weapon_upgrade"	"sec_silencer"
+				"weapon_upgrade"	"sec_bipod"
+				"weapon"		"weapon_mosin"
+				"weapon_upgrade"	"optic_scope_7x"
+				"weapon_upgrade"	"ins_silencer"
+				"weapon_upgrade"	"ins_bipod"
+			}
+		}
+
+		"template_sniper_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"#Squad_Cell_Sniper"
+
+			"models"
+			{
+				"player"		"models/characters/insurgent_light.mdl"
+				"viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
+			}
+
+			"buy_order" 
+			{
+				"weapon"		"weapon_kabar"
+				"weapon"		"weapon_mosin"
+				"weapon_upgrade"	"optic_scope_7x"
+			}
+			"allowed_items"
+			{
+				"weapon"		"weapon_m40a1"
+				"weapon_upgrade"	"optic_scope_mk4"
+				"weapon_upgrade"	"sec_silencer"
+				"weapon_upgrade"	"sec_bipod"
+				"weapon"		"weapon_mosin"
+				"weapon_upgrade"	"optic_scope_7x"
+				"weapon_upgrade"	"ins_silencer"
+				"weapon_upgrade"	"ins_bipod"
+			}
+		}
+	}
+	"player_gear"
+	{
+		"sec_chest_carrier"
+		{
+			"IsBase"				"1"
+		}
+		"sec_chest_rig"
+		{
+			"IsBase"				"1"
+		}
+		"sec_heavy_armor"
+		{
+			"IsBase"				"1"
+		}
+		"sec_light_armor"
+		{
+			"IsBase"				"1"
+		}
+	}
+	"weapon_upgrades"
+	{
+		"optic_scope_mk4"
+		{
+			"upgrade_cost"					"5"
+			"class_restricted"				"0"
+		}
+		"optic_scope_7x"
+		{
+			"upgrade_cost"					"5"
+			"class_restricted"				"0"
+		}
+		"sec_silencer"
+		{
+			"upgrade_cost"					"5"
+			"class_restricted"				"0"
+		}
+		"ins_silencer"
+		{
+			"upgrade_cost"					"5"
+			"class_restricted"				"0"
+		}
+	}
+}

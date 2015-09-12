@@ -1,0 +1,430 @@
+#weapon_upgrades_coop.theater - Weapon Upgrade settings for base coop mod
+"theater"
+{
+	"weapon_upgrades"
+	{
+		"heavybarrel"
+		{
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_m14"
+			}
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		"ammo_ap_m14"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_ap_m16a4"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_ap_m249"
+		{
+			"class_restricted"			"1"
+			"upgrade_cost"				"40"
+		}
+		"ammo_ap_m4"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_ap_m9"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_ap_mp5"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_ap_ump45"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_hp_m14"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_hp_m16a4"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_hp_m249"
+		{
+			"class_restricted"			"1"
+			"upgrade_cost"				"40"
+		}
+		"ammo_hp_m4"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_hp_m9"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_hp_mp5"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_hp_ump45"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_slugs"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_tracer_m16a4"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_tracer_m4"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_tracer_mp5"
+		{
+			"upgrade_cost"				"0"
+		}
+		"optic_2xaimpoint_sec"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		"optic_aimpoint"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		"optic_elcan"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		
+		"optic_eotech"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		"optic_scope_mk4"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m249"
+			}
+			"viewmodel_attachments"
+			{
+				"scope_m40a1"
+				{
+					"model"					"models/weapons/upgrades/a_optic_m40.mdl"
+					"AnimIronSights"			"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_m40a1"
+					}
+				}
+				
+				"mk4scope_m14"
+				{
+					"model"					"models/weapons/upgrades/a_optic_m40_l.mdl"
+					"AnimIronSights"			"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_scope"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_m14"
+					}
+				}
+				"mk4scope_other"
+				{
+					"model"					"models/weapons/upgrades/a_optic_m40_l.mdl"
+					"AnimIronSights"			"scope_zoom"
+					"AnimIdle"				"scope_idle"
+					"Gesture"				"delta_elcan"
+					
+					"excluded_weapons"
+					{
+						"weapon"				"weapon_m14"
+						"weapon"				"weapon_m40a1"
+					}
+				}
+			}
+			"optics_fov_override"
+			{
+				"fov_wpn_scope"				"10"
+				"fov_wpn_ironsight"			"60"
+				"fov_wpn_focus"				"57"
+				
+				"weapon_m40a1"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"46"
+					"fov_wpn_focus"				"50"
+				}
+				
+				"weapon_m14"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"50"
+					"fov_wpn_focus"				"57"
+				}
+				"weapon_m16a4"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"60"
+					"fov_wpn_focus"				"57"
+				}
+				"weapon_m249"
+				{
+					"fov_wpn_scope"				"10"
+					"fov_wpn_ironsight"			"60"
+					"fov_wpn_focus"				"57"
+				}
+			}
+			"world_attachments"
+			{
+				"Scope"
+				{
+					"model"					"models/weapons/upgrades/w_scope_m40.mdl"
+				}
+			}
+		}
+		"sec_bipod"
+		{
+			"import"				"base_bipod"
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_m249"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"Bipod_M14"
+				{
+					"model"					"models/weapons/upgrades/a_bipod_m14.mdl"
+					"weapons"
+					{
+						"weapon"				"weapon_m14"
+					}
+				}
+				"Bipod_M40"
+				{
+					"model"					"models/weapons/upgrades/a_bipod_m40.mdl"
+					"weapons"
+					{
+						"weapon"				"weapon_m40a1"
+					}
+				}
+			}
+		}
+		"sec_flashlight_rail"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_ump45"
+			}
+		}
+		"sec_flashlight_pistol"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"sec_flashlight_shotgun"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"sec_flashlight_band"
+		{
+			"upgrade_cost"				"0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_m249"
+			}
+		}
+		"sec_lasersight_band"
+		{
+			"upgrade_cost"				"0"
+		}
+		"sec_lasersight_shotgun"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"sec_foregrip"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"sec_foregrip2"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_m590"
+			}
+			"viewmodel_attachments"
+			{
+				"Foregrip"
+				{
+					"model"					"models/weapons/upgrades/a_foregrip_sec2.mdl"
+					"Gesture"				"delta_foregrip"
+					"ActSuffix"				"_FOREGRIP"
+					
+					"scales"
+					{
+						"weapon_m14"				"0.45"
+						"weapon_mini14"				"0.45"
+						"weapon_m590"				"0.55"
+					}
+					"weapons"
+					{
+						"weapon"				"weapon_m14"
+						"weapon"				"weapon_mini14"
+						"weapon"				"weapon_m590"
+					}
+					
+				}
+			}
+		}
+		"sec_lasersight_rail"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_ump45"
+			}
+			
+		}
+		"sec_lasersight_pistol"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"sec_silencer"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		"sec_silencer_heavy"
+		{
+			"class_restricted"			"1"
+		}
+		"m249_762_conversion"
+		{
+			"upgrade_slot"				"barrel"
+			"upgrade_cost"				"0"
+			"print_name"				"7.62mm Conversion"
+			"print_desc"				"Swaps barrel, bolt, feed tray and magazines to fire 7.62x51mm NATO."
+			"weight"				"40"
+			"ammo_type_override"			"762_m13_ap"
+			"clip_max_rounds_override"		"100"
+			// "lock_slot"					"ammo"
+			"class_restricted"			"0"
+			"length"				"0"
+			"weapon_abilities"			"silencer"
+			"rounds_per_minute"			"600"
+			"recoil"
+			{
+				"recoil_lateral_frac"			"1.1"
+				"recoil_vertical_frac"			"1.2"
+			}
+			"sway"
+			{
+				"sway_speed_frac"			"1.0"
+			}
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m249"
+			}
+		}
+		"sec_silencer2"
+		{
+			"class_restricted"			"0"
+			"import"				"base_silencer"
+			"upgrade_cost"				"0"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_mk18"
+			}
+			"viewmodel_attachments"
+			{
+				"Suppressor"
+				{
+					"model"					"models/weapons/upgrades/a_suppressor_sec2.mdl"
+				}
+			}
+			"world_attachments"
+			{
+				"Silencer"
+				{
+					"model"					"models/weapons/upgrades/w_sil_sec2.mdl"
+				}
+			}
+		}
+		"sec_silencer_pistol"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		"underbarrel_m203_base"
+		{
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m4a1"
+			}
+		}
+		"underbarrel_m203_he"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"underbarrel_m203_smoke"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+			
+		}
+	}
+}

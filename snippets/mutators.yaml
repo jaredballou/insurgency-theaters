@@ -1,0 +1,23 @@
+---
+item_cost:
+  weapon_upgrades:
+    upgrade_cost: 0
+  weapons:
+    weapon_cost: 0
+  player_gear:
+    gear_cost: 0
+class_restriction:
+  weapon_upgrades:
+    class_restricted: 0
+  weapon:
+    class_restricted: 0
+  player_gear:
+    class_restricted: 0
+weapon_weight:
+  weapons:
+    weapon_weight: 0
+  player_gear:
+    gear_weight: 0
+weapon_barrel:
+  weapons:
+    barrel_length: 0

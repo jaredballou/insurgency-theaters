@@ -1,0 +1,9 @@
+boltaction:
+  - weapon_m40a1
+  - weapon_moisin
+battlerifle:
+  - weapon_m14
+  - weapon_fal
+lmg:
+  - weapon_m249
+  - weapon_rpk
