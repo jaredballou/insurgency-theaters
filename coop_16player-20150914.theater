@@ -816,11 +816,11 @@
 	{
 		"grenade_m203_he"
 		{
-			"carry"					"6"
+			"carry"					"3"
 		}
 		"grenade_m203_smoke"
 		{
-			"carry"					"6"
+			"carry"					"3"
 		}
 		// 7.62x51mm NATO in M13 split-link belt (MK48)
 		"762_m13"
