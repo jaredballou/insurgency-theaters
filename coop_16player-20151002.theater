@@ -796,7 +796,7 @@
 	{
 		"grenade_m203_he"
 		{
-			"carry"					"12"
+			"carry"					"6"
 		}
 		"grenade_m203_hedp"
 		{
@@ -930,16 +930,6 @@
 	}
 	"weapons"
 	{
-		"weapon_m203_he"
-		{
-			"ammo_clip"
-			{
-				"ammo_type"     	"grenade_m203_he"
-				"clip_max_rounds"       "1"
-//				"clip_max"      	"12"
-//				"clip_default"  	"6"
-			}
-		}
 		"weapon_m203_hedp"
 		{
 			"import"				"weapon_m203_he"
