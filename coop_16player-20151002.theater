@@ -796,7 +796,7 @@
 	{
 		"grenade_m203_he"
 		{
-			"carry"					"3"
+			"carry"					"12"
 		}
 		"grenade_m203_hedp"
 		{
@@ -1614,7 +1614,7 @@
 		}
 		"underbarrel_m203_base"
 		{
-			"lock_slot"				""
+                        "lock_slot"                             ""
 			"allowed_weapons"
 			{
 				"weapon"				"weapon_m16a4"
