@@ -934,10 +934,10 @@
 		{
 			"ammo_clip"
 			{
-				"ammo_type"     "grenade_m203_he"
+				"ammo_type"     	"grenade_m203_he"
 				"clip_max_rounds"       "1"
-				"clip_max"      "24"
-				"clip_default"  "12"
+//				"clip_max"      	"12"
+//				"clip_default"  	"6"
 			}
 		}
 		"weapon_m203_hedp"
