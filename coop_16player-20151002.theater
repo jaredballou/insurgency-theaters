@@ -797,7 +797,6 @@
 		"grenade_m203_hedp"
 		{
 			"import"				"grenade_m203_he"
-			"carry"					"6"
 		}
 		// 7.62x51mm NATO in M13 split-link belt (MK48)
 		"762_m13"
@@ -939,6 +938,8 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"grenade_m203_hedp"
+				"clip_max"				"12"
+				"clip_default"				"6"
 			}
 		}
 		"weapon_base"
