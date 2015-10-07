@@ -1631,6 +1631,7 @@
 			"import"				"underbarrel_m203_he"
 			"print_name"				"M203 (HEDP)"
 			"print_desc"				"Better penetration but less high explosive effect than standard HE"
+			"attach_weapon"				"weapon_m203_hedp"
 		}
 		"underbarrel_m203_smoke"
 		{
