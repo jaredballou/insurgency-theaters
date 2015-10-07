@@ -796,7 +796,7 @@
 	{
 		"grenade_m203_he"
 		{
-			"carry"					"6"
+			"carry"					"3"
 		}
 		"grenade_m203_hedp"
 		{
