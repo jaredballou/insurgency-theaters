@@ -932,6 +932,7 @@
 	{
 		"weapon_m203_hedp"
 		{
+			"import"				"weapon_m203_he"
 			"print_name"				"M203 (HEDP)"
 			"print_desc"				"High explosive dual purpose"
 			"explosives"
@@ -1628,6 +1629,8 @@
 		"underbarrel_m203_hedp"
 		{
 			"import"				"underbarrel_m203_he"
+			"print_name"				"M203 (HEDP)"
+			"print_desc"				"Better penetration but less high explosive effect than standard HE"
 		}
 		"underbarrel_m203_smoke"
 		{
