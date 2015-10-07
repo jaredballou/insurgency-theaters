@@ -938,8 +938,6 @@
 			"ammo_clip"
 			{
 				"ammo_type"				"grenade_m203_hedp"
-				"clip_max"				"12"
-				"clip_default"				"6"
 			}
 		}
 		"weapon_base"
