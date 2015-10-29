@@ -784,7 +784,7 @@
 	}
 	"ammo"
 	{
-		"grenade_m67"
+//		"grenade_m67"
 //		{
 //			"carry"					"6"
 //		}
