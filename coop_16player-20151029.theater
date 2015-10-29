@@ -784,6 +784,19 @@
 	}
 	"ammo"
 	{
+		"grenade_m67"
+		{
+			"carry"					"6"
+		}
+		"grenade_m203_he"
+		{
+			"carry"					"6"
+		}
+		"grenade_m203_smoke"
+		{
+			"carry"					"6"
+		}
+
 		"grenade_m203_hedp"
 		{
 			"import"				"grenade_m203_he"
