@@ -733,7 +733,7 @@
 			{
 				"primary"				"2"
 				"secondary"				"2"
-				"explosive"				"0"
+				"explosive"				"1"
 			}
 			"weapon_slots"
 			{
@@ -752,11 +752,11 @@
 			{
 				"primary"				"3"
 				"secondary"				"4"
-				"explosive"				"0"
+				"explosive"				"1"
 			}
 			"weapon_slots"
 			{
-				"explosive"				"3"
+				"explosive"				"4"
 			}
 			"team_access"				"security"
 		}
