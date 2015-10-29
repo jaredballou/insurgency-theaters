@@ -784,6 +784,7 @@
 	}
 	"ammo"
 	{
+/*
 		"grenade_m67"
 		{
 			"carry"					"6"
@@ -796,11 +797,11 @@
 		{
 			"carry"					"6"
 		}
-
 		"grenade_m203_hedp"
 		{
 			"import"				"grenade_m203_he"
 		}
+*/
 		// 7.62x51mm NATO in M13 split-link belt (MK48)
 		"ammo_762_m13"
 		{
@@ -858,6 +859,7 @@
 			"ImpactDetonation"			"1"
 			"ArmDelay"				"0.15"
 		}
+/*
 		"grenade_m203_hedp"
 		{
 			"import"				"grenade_m203_he"
@@ -868,6 +870,7 @@
 			"ImpactDetonation"			"1"
 			"ArmDelay"				"0.15"
 		}
+*/
 		"grenade_m67"
 		{
 			"DetonateDamage"			"240"
@@ -929,6 +932,7 @@
 	}
 	"weapons"
 	{
+/*
 		"weapon_m203_hedp"
 		{
 			"import"				"weapon_m203_he"
@@ -943,6 +947,7 @@
 				"ammo_type"				"grenade_m203_hedp"
 			}
 		}
+*/
 		"weapon_base"
 		{
 			"player_restrictions"
@@ -1522,13 +1527,15 @@
 			"upgrade_cost"				"0"
 			"class_restricted"			"0"
 		}
-//		"underbarrel_m203_hedp"
-//		{
-//			"import"				"underbarrel_m203_he"
-//			"print_name"				"M203 (HEDP)"
-//			"print_desc"				"Better penetration but less high explosive effect than standard HE"
-//			"attach_weapon"				"weapon_m203_hedp"
-//		}
+/*
+		"underbarrel_m203_hedp"
+		{
+			"import"				"underbarrel_m203_he"
+			"print_name"				"M203 (HEDP)"
+			"print_desc"				"Better penetration but less high explosive effect than standard HE"
+			"attach_weapon"				"weapon_m203_hedp"
+		}
+*/
 		"underbarrel_m203_smoke"
 		{
 			"lock_slot"				""
