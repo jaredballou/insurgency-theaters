@@ -515,7 +515,7 @@
 				"gear"					"sec_heavy_armor"
 				"gear"					"sec_chest_carrier"
 				"weapon"				"weapon_m249"
-				"weapon_upgrade"			"barrel_m249_762"
+				"weapon_upgrade"			"762_conversion"
 				"weapon_upgrade"			"underbarrel_foregrip_sec2"
 				"weapon_upgrade"			"siderail_lasersight_band"
 				"weapon_upgrade"			"optic_elcan"
@@ -532,7 +532,7 @@
 				"weapon"				"weapon_m249"
 				"weapon"				"weapon_m67"
 				"weapon"				"weapon_m9"
-				"weapon_upgrade"			"barrel_m249_762"
+				"weapon_upgrade"			"762_conversion"
 			}
 		}
 		// Insurgents
@@ -1450,7 +1450,7 @@
 		{
 			"class_restricted"			"1"
 		}
-		"barrel_m249_762"
+		"762_conversion"
 		{
 			"upgrade_slot"				"barrel"
 			"magsize_override"			"100"
