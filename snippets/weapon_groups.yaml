@@ -1,9 +1,58 @@
-boltaction:
-  - weapon_m40a1
-  - weapon_moisin
-battlerifle:
-  - weapon_m14
-  - weapon_fal
-lmg:
-  - weapon_m249
-  - weapon_rpk
+---
+name: Weapon Groups
+desc: "Make changes to the loadouts for groups of weapons. The four options are:<ul><li>Ignore: Do nothing</li><li>Disable: Remove these weapons from all loadouts</li><li>AllClasses: Add these weapons to all classes</li><li>OnlyThese: Set all classes to carry only these weapons</li></ul>"
+settings:
+  battlerifle:
+    - weapon_fal
+    - weapon_l1a1
+    - weapon_m14
+  boltaction:
+    - weapon_m40a1
+    - weapon_moisin
+  carbine:
+    - weapon_aks74u
+    - weapon_m1a1
+    - weapon_m4a1
+    - weapon_mini14
+    - weapon_sks
+    - weapon_mk18
+  explosive:
+    - weapon_anm14
+    - weapon_c4_clicker
+    - weapon_c4_ied
+    - weapon_f1
+    - weapon_m18
+    - weapon_m67
+    - weapon_m84
+    - weapon_molotov
+  launcher:
+    - weapon_at4
+    - weapon_gp25_he
+    - weapon_gp25_smoke
+    - weapon_m203_he
+    - weapon_m203_smoke
+    - weapon_rpg7
+  lmg:
+    - weapon_m249
+    - weapon_rpk
+  rifle:
+    - weapon_ak74
+    - weapon_akm
+    - weapon_galil
+    - weapon_m16a4
+  secondary:
+    - weapon_m1911
+    - weapon_m45
+    - weapon_m9
+    - weapon_makarov
+    - weapon_model10
+    - weapon_p2a1
+  shotgun:
+    - weapon_m590
+    - weapon_toz
+  smg:
+    - weapon_mp40
+    - weapon_mp5
+    - weapon_sterling
+    - weapon_ump45
+...

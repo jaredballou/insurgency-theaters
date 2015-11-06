@@ -1,23 +1,39 @@
 ---
-item_cost:
-  weapon_upgrades:
-    upgrade_cost: 0
-  weapons:
-    weapon_cost: 0
-  player_gear:
-    gear_cost: 0
-class_restriction:
-  weapon_upgrades:
-    class_restricted: 0
-  weapon:
-    class_restricted: 0
-  player_gear:
-    class_restricted: 0
-weapon_weight:
-  weapons:
-    weapon_weight: 0
-  player_gear:
-    gear_weight: 0
-weapon_barrel:
-  weapons:
-    barrel_length: 0
+name: Mutators
+desc: "These are scripts that take a theater file and apply a transformation. Rather than create a static theater file with all the desired settings, these will read the theater you chose and make the changes based upon the contents of the theater."
+settings:
+  class_restriction:
+    name: Class Restrictions
+    desc: Set the class restrictions for all items
+    settings:
+      player_gear:
+        class_restricted: 0
+      weapon:
+        class_restricted: 0
+      weapon_upgrades:
+        class_restricted: 0
+  item_cost:
+    name: Item Cost
+    desc: Set a fixed cost for all items
+    settings:
+      player_gear:
+        gear_cost: 0
+      weapons:
+        weapon_cost: 0
+      weapon_upgrades:
+        upgrade_cost: 0
+  item_weight:
+    name: Item Weight
+    desc: Set a fixed weight for all items
+    settings:
+      player_gear:
+        gear_weight: 0
+      weapons:
+        weapon_weight: 0
+  weapon_barrel:
+    name: Weapon Barrel
+    desc: Set a fixed length for all weapon barrels
+    settings:
+      weapons:
+        barrel_length: 0
+...

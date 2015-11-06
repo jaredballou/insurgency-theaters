@@ -136,46 +136,4 @@
 			}
 		}
 	}
-	"player_gear"
-	{
-		"sec_chest_carrier"
-		{
-			"IsBase"				"1"
-		}
-		"sec_chest_rig"
-		{
-			"IsBase"				"1"
-		}
-		"sec_heavy_armor"
-		{
-			"IsBase"				"1"
-		}
-		"sec_light_armor"
-		{
-			"IsBase"				"1"
-		}
-	}
-	"weapon_upgrades"
-	{
-		"optic_scope_mk4"
-		{
-			"upgrade_cost"					"5"
-			"class_restricted"				"0"
-		}
-		"optic_scope_7x"
-		{
-			"upgrade_cost"					"5"
-			"class_restricted"				"0"
-		}
-		"sec_silencer"
-		{
-			"upgrade_cost"					"5"
-			"class_restricted"				"0"
-		}
-		"ins_silencer"
-		{
-			"upgrade_cost"					"5"
-			"class_restricted"				"0"
-		}
-	}
 }
