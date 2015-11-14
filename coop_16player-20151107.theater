@@ -382,7 +382,7 @@
 			"weapon_slots"
 			{
 				"explosive"				"2"
-				"demolitions"				"1"
+//				"demolitions"				"1"
 			}
 			"team_access"				"security"
 		}
@@ -399,7 +399,7 @@
 			"weapon_slots"
 			{
 				"explosive"				"1"
-				"demolitions"				"1"
+//				"demolitions"				"1"
 			}
 			"team_access"				"security"
 		}
@@ -546,7 +546,7 @@
 		"weapon_anm14"
 		{
 			"weapon_cost"				"0"
-			"weapon_slot"				"demolitions"
+//			"weapon_slot"				"demolitions"
 			"player_restrictions"
 			{
 				"allow_sprint"				"1"
@@ -560,7 +560,7 @@
 			"weapon_cost"				"0"
 			"weapon_weight"				"64"
 			"team_access"				"security"
-			"weapon_slot"				"demolitions"
+//			"weapon_slot"				"demolitions"
 			"player_restrictions"
 			{
 				"allow_sprint"				"1"
@@ -572,14 +572,14 @@
 		"weapon_c4_ied"
 		{
 			"weapon_cost"				"0"
-			"weapon_slot"				"demolitions"
+//			"weapon_slot"				"demolitions"
 		}
 		"weapon_c4_clicker"
 		{
 			"weapon_cost"				"0"
 			"weapon_weight"				"32"
 			"team_access"				"security"
-			"weapon_slot"				"demolitions"
+//			"weapon_slot"				"demolitions"
 			"player_restrictions"
 			{
 				"allow_sprint"				"1"
@@ -782,7 +782,7 @@
 		}
 		"weapon_m203_he"
 		{
-			"weapon_slot"				"demolitions"
+//			"weapon_slot"				"demolitions"
 		}
 		"weapon_m203_hedp"
 		{
@@ -796,7 +796,7 @@
 		}
 		"weapon_m203_smoke"
 		{
-			"weapon_slot"				"demolitions"
+//			"weapon_slot"				"demolitions"
 		}
 		"weapon_m249"
 		{
@@ -967,7 +967,7 @@
 		}
 		"weapon_rpg7"
 		{
-			"weapon_slot"				"demolitions"
+//			"weapon_slot"				"demolitions"
 		}
 		"weapon_ump45"
 		{
@@ -1250,7 +1250,7 @@
 		}
 		"underbarrel_m203_base"
 		{
-			"lock_slot"				"demolitions"
+//			"lock_slot"				"demolitions"
 		}
 		"underbarrel_m203_he"
 		{
