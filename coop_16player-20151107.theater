@@ -543,6 +543,11 @@
 	}
 	"weapons"
 	{
+		"weapon_ak74"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
 		"weapon_anm14"
 		{
 			"weapon_cost"				"0"
@@ -588,115 +593,29 @@
 				"allow_sway"				"0"
 			}
 		}
-		// ========================================
-		// GALIL SPECIFIC UPGRADES
-		// ========================================
+		"weapon_fal"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
 		"weapon_galil"
 		{
-			"import"					"ballistic_base"
-			"weapon_class"				"rifle_automatic_fire"
-			"print_name"				"#weapon_galil"
-			"print_desc"				"#weapon_galil_desc"
-			"view_model"				"models/weapons/v_galil.mdl"
-			"world_model"				"models/weapons/w_galil.mdl"
-			"rounds_per_minute"			"650"
-			"weapon_slot"				"primary"
-			"act_table"					"shortrifle"
-			"weapon_abilities"			"ironsight"
-			"weapon_weight"				"178"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
-			"weapon_cost"				"3"
+			"weapon_weight"				"96"
+			"weapon_cost"				"0"
 			"barrel_length"				"28"
-			
-			"viewmodel_attachments"
-			{
-				"standard_galil"
-				{
-					"model"						"models/weapons/upgrades/a_standard_galil.mdl"
-					"fallback_for_slot"			"underbarrel"
-				}
-				
-				"standard_magazine"
-				{
-					"model"						"models/weapons/upgrades/a_magazine_galil_35.mdl"
-					"fallback_for_slot"			"magazine"
-				}
-			}
-			
-			"world_attachments"
-			{
-				"standard_magazine"
-				{
-					"model"						"models/weapons/upgrades/w_magazine_galil_35.mdl"
-					"fallback_for_slot"			"magazine"
-				}
-			}
-			
-			"fov"
-			{
-				"fov_wpn_default"			"65"
-				"fov_wpn_ironsight"			"68"
-				"fov_wpn_focus"				"73"
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
-			}
-			
-			"sounds"
-			{
-				"shot_single"				"Weapon_Galil.Single"
-				"shot_single_local"			"Weapon_Galil.SingleLocal"
-				"shot_silent"				"Weapon_Galil.SingleSilenced"
-				"shot_silent_local"			"Weapon_Galil.SingleSilencedLocal"
-				"empty"					    "Weapon_Galil.Empty"
-				"clipin"				    "Weapon_Galil.Magin"
-				"clipout"				    "Weapon_Galil.Magout"
-				"boltback"				    "Weapon_Galil.Boltback"
-				"boltrelease"				"Weapon_Galil.Boltrelease"
-				"rofdown"				    "Weapon_Galil.ROF"
-				"rofup"					    "Weapon_Galil.ROF"
-			}
-			"particles"
-			{
-				"particle_muzzleflash_1st"		"muzzleflash_m16_1p"
-				"particle_muzzleflash_3rd"		"muzzleflash_m16_3rd"
-				"particle_tracer"				"weapon_tracers"
-			}
-			"recoil"
-			{
-				"recoil_lateral_range"			"-1 1.4"
-				"recoil_vertical_range"			"2.5 3.2"
-				"recoil_aim_punch"				"0.4 0.7"
-				"recoil_rest_rate"				"5"
-				"recoil_rest_delay"				"0.12"
-				"recoil_roll_range"				"-1.5 -1.5"
-				"recoil_roll_rest_rate"			"150"
-				"recoil_freeaim_frac"			"0.3"
-				
-				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
-				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
-				"recoil_shot_max_shots"				"8"		// Max number of shots to account for for the additional rest (default = 5)
-				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
-			}
 			"ballistics"
 			{
-				"spread"				"0.18 0.18 0.18"
-				"FireModes"				"semi, full"
-				"bulletcount"			"1"
+				"spread"				"0.15 0.15 0.15"
+				"FireModes"				"semi, burst, full"
+				"bulletcount"				"1"
 				"maxrange"				"10000"
 			}
 			"ammo_clip"
 			{
 				"ammo_type"				"556_35box"
 				"clip_max"				"12"
-				"clip_max_rounds"		"30"
-				"clip_default"			"3"
-			}
-			"attachments"
-			{
-				"attachment_addon"		"primary"
-			}
-			"kitui_offset"
-			{
-				"position"				"24 0 3"
+				"clip_max_rounds"			"35"
+				"clip_default"				"6"
 			}
 			"team_access"				"security, insurgent"
 		}
@@ -704,35 +623,9 @@
 		{
 			"class_restricted"			"0"
 			"rounds_per_minute"			"650"
-			"weapon_abilities"			"ironsight"
-			"weapon_weight"				"178"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
+			"weapon_weight"				"128"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
 			"weapon_cost"				"0"
 			"barrel_length"				"24"
-			"fov"
-			{
-				"fov_wpn_default"			"65"
-				"fov_wpn_ironsight"			"68"
-				"fov_wpn_focus"				"73"
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
-			}
-			
-			"recoil"
-			{
-				"recoil_lateral_range"			"-1 1.4"
-				"recoil_vertical_range"			"2.5 3.2"
-				"recoil_aim_punch"			"0.4 0.7"
-				"recoil_rest_rate"			"5"
-				"recoil_rest_delay"			"0.12"
-				"recoil_roll_range"			"-1.5 -1.5"
-				"recoil_roll_rest_rate"			"150"
-				"recoil_freeaim_frac"			"0.3"
-				
-				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
-				"recoil_shot_reset_time"			"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
-				"recoil_shot_max_shots"				"8"		// Max number of shots to account for for the additional rest (default = 5)
-				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
-			}
 			"ballistics"
 			{
 				"spread"				"0.15 0.15 0.15"
@@ -744,8 +637,8 @@
 			{
 				"ammo_type"				"556_35box"
 				"clip_max"				"12"
-				"clip_max_rounds"		"35"
-				"clip_default"			"4"
+				"clip_max_rounds"			"35"
+				"clip_default"				"6"
 			}
 			"team_access"				"security, insurgent"
 		}
@@ -780,6 +673,11 @@
 		{
 			"team_access"				"insurgent"
 		}
+		"weapon_m1a1"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
 		"weapon_m203_he"
 		{
 //			"weapon_slot"				"demolitions"
@@ -800,37 +698,10 @@
 		}
 		"weapon_m249"
 		{
-			"import"				"ballistic_base"
-			"weapon_class"				"lmg"
 			"weapon_cost"				"0"
-			"print_name"				"#weapon_m249"
-			"print_desc"				"#weapon_m249_desc"
-			"view_model"				"models/weapons/v_m249.mdl"
-			"world_model"				"models/weapons/w_m249.mdl"
 			"rounds_per_minute"			"880"
-			"weapon_slot"				"primary"
-			"act_table"				"lmg"
-			"weapon_abilities"			"ironsight, bipod"
-			"weapon_weight"				"240"	// (7.5kg[weapon] + (2.5kg[ammo] * (1+1)[mags]) )*10[kg->hg for int]  +150[encumbrance]
-			"closed_bolt"				"0"
-			"barrel_length"				"28"
-			
-			"fov"
-			{
-				"fov_plr_ironsight"			"-25"
-				"fov_plr_focus"				"-12"
-				"fov_plr_bipod"				"-10"
-				"fov_wpn_default"			"60"
-				"fov_wpn_sprint"			"60"
-				"fov_wpn_ironsight"			"68"
-				"fov_wpn_focus"				"70"
-				"fov_wpn_bipod"				"54"
-			}
-			"viewmodel_offsets"
-			{
-				// x back, y left, z down
-				"VMOffsetProne"				"0.50 0.00 1.50"
-			}
+			"weapon_weight"				"240"
+			"barrel_length"				"22"
 			"sounds"
 			{
 				"shot_single"				"Weapon_M249.Single"
@@ -845,64 +716,20 @@
 				"bipodin"				"Weapon_M249.BipodDeploy"
 				"bipodout"				"Weapon_M249.BipodRetract"
 			}
-			
-			"particles"
-			{
-				"particle_muzzleflash_1st"		"muzzleflash_m249_1p"
-				"particle_muzzleflash_3rd"		"muzzleflash_m249_3rd"
-				"particle_tracer"			"weapon_tracers"
-			}
-			"recoil"
-			{
-				"recoil_lateral_range"			"-1.2 2.1"
-				"recoil_vertical_range"			"1.65 3.3"
-				"recoil_aim_punch"			"0.5 0.65"
-				"recoil_rest_rate"			"20"
-				"recoil_rest_delay"			".09"
-				"recoil_roll_range"			"-2 -2"	// Vibration strength
-				"recoil_roll_rest_rate"			"200"	// Vibration Speed
-				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
-				"recoil_shot_reset_time"		"0.6"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
-				"recoil_shot_max_shots"			"5"	// Max number of shots to account for for the additional rest (default = 5)
-				"recoil_punch_additive_factor"		"0.92"	// How much of the view punch from the previous shot(s) get added to any additional shot fired. 1 = all, 0 = none, 0.5 = half (default = 1.0)
-				
-				"RecoilIronSightFracByWeight"
-				{
-					"0"					"0.7"
-				}
-				
-				"RecoilBipodFracByWeight"
-				{
-					"0"					"0.3"
-				}
-				
-				"RecoilCrouchFracByWeight"
-				{
-					"0"					"0.80"
-				}
-			}
 			"ballistics"
 			{
-				"spread"				"0.24 0.24 0.24"
+				"spread"				"0.2 0.2 0.2"
 				"FireModes"				"full"
 				"bulletcount"				"1"
-				"maxrange"				"8000"
+				"maxrange"				"10000"
 				"LowAmmoCount"				"15"
 			}
 			"ammo_clip"
 			{
 				"ammo_type"				"556_m27_ap"
-				"clip_max"				"4"
+				"clip_max"				"8"
 				"clip_max_rounds"			"200"
-				"clip_default"				"1"
-			}
-			"attachments"
-			{
-				"attachment_addon"			"primary"
-			}
-			"kitui_offset"
-			{
-				"position"				"28 -2 3"
+				"clip_default"				"4"
 			}
 			"team_access"				"security, insurgent"
 		}
@@ -949,6 +776,11 @@
 		{
 			"team_access"				"insurgent"
 		}
+		"weapon_mini14"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
 		"weapon_mk18"
 		{
 			"ammo_clip"
@@ -968,6 +800,11 @@
 		"weapon_rpg7"
 		{
 //			"weapon_slot"				"demolitions"
+		}
+		"weapon_rpk"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
 		}
 		"weapon_ump45"
 		{
