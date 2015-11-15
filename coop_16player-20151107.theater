@@ -114,7 +114,7 @@
 				"weapon"				"weapon_m16a4"
 				"weapon_upgrade"			"ammo_ap_m16a4"
 				"weapon_upgrade"			"underbarrel_m203_he"
-				"weapon_upgrade"			"optic_2xaimpoint_sec"
+				"weapon_upgrade"			"optic_2xaimpoint"
 				"weapon_upgrade"			"heavybarrel"
 				"weapon"				"weapon_m9"
 				"weapon_upgrade"			"sec_flashlight_pistol"
@@ -165,7 +165,7 @@
 				"weapon"				"weapon_m16a4"
 				"weapon_upgrade"			"ammo_ap_m16a4"
 				"weapon_upgrade"			"underbarrel_m203_he"
-				"weapon_upgrade"			"optic_2xaimpoint_sec"
+				"weapon_upgrade"			"optic_2xaimpoint"
 				"weapon_upgrade"			"heavybarrel"
 				"weapon"				"weapon_m9"
 				"weapon"				"weapon_kabar"
@@ -1028,7 +1028,7 @@
 			"magsize_override"			"75"
 			"maxcarry_override"			"6"
 		}
-		"optic_2xaimpoint_sec"
+		"optic_2xaimpoint"
 		{
 			"class_restricted"			"0"
 			"upgrade_cost"				"0"
