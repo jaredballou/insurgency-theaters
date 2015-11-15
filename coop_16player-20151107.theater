@@ -829,16 +829,31 @@
 	}
 	"weapon_upgrades"
 	{
+		"100rd_cloth_mag"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+			"team_acces"				"security, insurgent"
+			"weight"				"-64"
+			"print_name"				"100rnd Cloth Magazine"
+			"print_desc"				"Smaller magazine for enhanced maneuverability"
+			"magsize_override"			"100"
+			"maxcarry_override"			"8"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m249"
+			}
+		}
 		"762_conversion"
 		{
-			"upgrade_slot"				"barrel"
+			"upgrade_slot"				"magazine"
 			"magsize_override"			"100"
 			"upgrade_cost"				"0"
 			"print_name"				"7.62mm Conversion"
 			"print_desc"				"Swaps barrel, bolt, feed tray and magazines to fire 7.62x51mm NATO."
 			"weight"				"64"
 			"ammo_type_override"			"ammo_762_m13"
-			"lock_slot"				"magazine"
 			"class_restricted"			"0"
 			"length"				"0"
 			"weapon_abilities"			"silencer"
@@ -1002,22 +1017,6 @@
 						"weapon"		"weapon_l1a1"
 					}
 				}
-			}
-		}
-		"magazine_m249_100rd"
-		{
-			"upgrade_slot"				"magazine"
-			"upgrade_cost"				"0"
-			"class_restricted"			"0"
-			"team_acces"				"security, insurgent"
-			"weight"				"-64"
-			"print_name"				"100rnd Cloth Magazine"
-			"print_desc"				"Smaller magazine for enhanced maneuverability"
-			"magsize_override"			"100"
-			"maxcarry_override"			"8"
-			"allowed_weapons"
-			{
-				"weapon"				"weapon_m249"
 			}
 		}
 		"magazine_drum_75rd"
