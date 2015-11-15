@@ -57,6 +57,7 @@
 			
 			"buy_order"
 			{
+				"weapon"				"weapon_kabar"
 				"gear"					"sec_light_armor"
 				"gear"					"sec_chest_rig"
 				"weapon"				"weapon_m14"
@@ -100,6 +101,7 @@
 			"team"					"security"
 			"buy_order"
 			{
+				"weapon"				"weapon_kabar"
 				"gear"					"sec_heavy_armor"
 				"gear"					"sec_chest_carrier"
 				"weapon"				"weapon_m16a4"
@@ -151,6 +153,7 @@
 			"team"					"security"
 			"buy_order"
 			{
+				"weapon"				"weapon_kabar"
 				"gear"					"sec_heavy_armor"
 				"gear"					"sec_chest_carrier"
 				"weapon"				"weapon_m16a4"
@@ -197,6 +200,7 @@
 			"team"					"security"
 			"buy_order"
 			{
+				"weapon"				"weapon_kabar"
 				"gear"					"sec_heavy_armor"
 				"gear"					"sec_chest_carrier"
 				"weapon"				"weapon_m14"
@@ -250,6 +254,7 @@
 			"team"					"security"
 			"buy_order"
 			{
+				"weapon"				"weapon_kabar"
 				"gear"					"sec_heavy_armor"
 				"gear"					"sec_chest_carrier"
 				"weapon"				"weapon_m249"
