@@ -11,32 +11,32 @@
 				// assault squad
 				"#Fireteam_Alpha"	// small arms
 				{
-					"#Squad_Fireteam_Leader_Recon"		"template_recon_security_coop"
-					"#Squad_Fireteam_Specialist"		"template_specialist_security_coop"
-					"#Squad_Fireteam_Specialist"		"template_specialist_security_coop"
-					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security_coop"
-					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_coop"
-					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_coop"
-					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_coop"
-					"#Squad_Fireteam_Support"		"template_support_security_coop"
+					"#Squad_Fireteam_Leader_Recon"		"template_recon_security_training"
+					"#Squad_Fireteam_Specialist"		"template_specialist_security_training"
+					"#Squad_Fireteam_Specialist"		"template_specialist_security_training"
+					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security_training"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
+					"#Squad_Fireteam_Support"		"template_support_security_training"
 				}
 				"#Fireteam_Bravo"	// small arms
 				{
-					"#Squad_Fireteam_Leader_Recon"		"template_recon_security_coop"
-					"#Squad_Fireteam_Specialist"		"template_specialist_security_coop"
-					"#Squad_Fireteam_Specialist"		"template_specialist_security_coop"
-					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security_coop"
-					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_coop"
-					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_coop"
-					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_coop"
-					"#Squad_Fireteam_Support"		"template_support_security_coop"
+					"#Squad_Fireteam_Leader_Recon"		"template_recon_security_training"
+					"#Squad_Fireteam_Specialist"		"template_specialist_security_training"
+					"#Squad_Fireteam_Specialist"		"template_specialist_security_training"
+					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security_training"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
+					"#Squad_Fireteam_Support"		"template_support_security_training"
 				}
 			}
 		}
 	}
 	"player_templates"
 	{
-		"template_designated_marksman_security_coop"
+		"template_designated_marksman_security_training"
 		{
 			"team"					"security"
 			"print_name"				"#Squad_Fireteam_Designated_Marksman"
@@ -57,6 +57,7 @@
 			
 			"buy_order"
 			{
+				"weapon"				"weapon_kabar"
 				"gear"					"sec_light_armor"
 				"gear"					"sec_chest_rig"
 				"weapon"				"weapon_m14"
@@ -80,19 +81,10 @@
 				"weapon"		"weapon_m67"
 				"weapon"		"weapon_m84"
 				"weapon_upgrade"			"optic_scope_mk4"
-				"weapon_upgrade"			"barrel_silencer_sec1"
-				"weapon_upgrade"			"barrel_silencer_sec2"
-				"weapon_upgrade"			"barrel_silencer_pistol"
-				"weapon_upgrade"			"barrel_silencer_ins1"
-				"weapon_upgrade"			"barrel_silencer_heavy"
-				"weapon_upgrade"			"barrel_silencer_integrated"
-				"weapon_upgrade"			"underbarrel_bipod"
 				"weapon_upgrades"			"underbarrel_bipod"
-				"weapon_upgrade"			"underbarrel_foregrip_ins2"
-				"weapon_upgrade"			"underbarrel_woodgrip"
 			}
 		}
-		"template_recon_security_coop"
+		"template_recon_security_training"
 		{
 			"models"
 			{
@@ -109,6 +101,7 @@
 			"team"					"security"
 			"buy_order"
 			{
+				"weapon"				"weapon_kabar"
 				"gear"					"sec_heavy_armor"
 				"gear"					"sec_chest_carrier"
 				"weapon"				"weapon_m16a4"
@@ -143,7 +136,7 @@
 				"weapon"		"weapon_m84"
 			}
 		}
-		"template_rifleman_security_coop"
+		"template_rifleman_security_training"
 		{
 			"models"
 			{
@@ -160,6 +153,7 @@
 			"team"					"security"
 			"buy_order"
 			{
+				"weapon"				"weapon_kabar"
 				"gear"					"sec_heavy_armor"
 				"gear"					"sec_chest_carrier"
 				"weapon"				"weapon_m16a4"
@@ -189,7 +183,7 @@
 				"weapon_upgrade"			"underbarrel_m203_he"
 			}
 		}
-		"template_specialist_security_coop"
+		"template_specialist_security_training"
 		{
 			"models"
 			{
@@ -206,6 +200,7 @@
 			"team"					"security"
 			"buy_order"
 			{
+				"weapon"				"weapon_kabar"
 				"gear"					"sec_heavy_armor"
 				"gear"					"sec_chest_carrier"
 				"weapon"				"weapon_m14"
@@ -227,7 +222,7 @@
 				"weapon"		"weapon_m16"
 				"weapon"		"weapon_m4a1"
 				"weapon"		"weapon_mk18"
-				"weapon"		"weapon_ump-45"
+				"weapon"		"weapon_ump45"
 				"weapon"		"weapon_l1a1"
 				"weapon"		"weapon_m9"
 				"weapon"		"weapon_mp5"
@@ -242,7 +237,7 @@
 				"weapon_upgrade"			"underbarrel_m203_he"
 			}
 		}
-		"template_support_security_coop"
+		"template_support_security_training"
 		{
 			"models"
 			{
@@ -259,6 +254,7 @@
 			"team"					"security"
 			"buy_order"
 			{
+				"weapon"				"weapon_kabar"
 				"gear"					"sec_heavy_armor"
 				"gear"					"sec_chest_carrier"
 				"weapon"				"weapon_m249"
@@ -449,6 +445,16 @@
 	}
 	"ammo"
 	{
+		"556x45_car_ap"
+		{
+			"import"				"556x45_ap"
+			"Damage"
+			{
+				"10"					"110"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
+				"2700"					"80"
+				"12000"					"46"
+			}
+		}
 		"ammo_762_m13"
 		{
 			"import"				"762x51"
@@ -561,40 +567,20 @@
 		"weapon_anm14"
 		{
 			"weapon_cost"				"0"
-//			"weapon_slot"				"demolitions"
-			"player_restrictions"
-			{
-				"allow_sprint"				"1"
-				"allow_lean"				"1"
-				"allow_jump"				"1"
-				"allow_sway"				"0"
-			}
 		}
 		"weapon_at4"
 		{
 			"weapon_cost"				"0"
 			"weapon_weight"				"64"
-			"team_access"				"security"
-//			"weapon_slot"				"demolitions"
 		}
 		"weapon_c4_ied"
 		{
 			"weapon_cost"				"0"
-//			"weapon_slot"				"demolitions"
 		}
 		"weapon_c4_clicker"
 		{
 			"weapon_cost"				"0"
 			"weapon_weight"				"32"
-			"team_access"				"security"
-//			"weapon_slot"				"demolitions"
-			"player_restrictions"
-			{
-				"allow_sprint"				"1"
-				"allow_lean"				"1"
-				"allow_jump"				"1"
-				"allow_sway"				"0"
-			}
 		}
 		"weapon_fal"
 		{
