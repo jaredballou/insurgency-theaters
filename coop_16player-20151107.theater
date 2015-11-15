@@ -174,7 +174,7 @@
 			{
 				"weapon"		"weapon_m14"
 				"weapon"		"weapon_m16"
-				"weapon"		"weapon_m4"
+				"weapon"		"weapon_m4a1"
 				"weapon"		"weapon_mk18"
 				"weapon"		"weapon_l1a1"
 				"weapon"		"weapon_galil_sar"
@@ -225,7 +225,7 @@
 			{
 				"weapon"		"weapon_m14"
 				"weapon"		"weapon_m16"
-				"weapon"		"weapon_m4"
+				"weapon"		"weapon_m4a1"
 				"weapon"		"weapon_mk18"
 				"weapon"		"weapon_ump-45"
 				"weapon"		"weapon_l1a1"
@@ -998,7 +998,6 @@
 
 					"weapons"
 					{
-						"weapon"		"weapon_m14"
 						"weapon"		"weapon_fal"
 						"weapon"		"weapon_l1a1"
 					}
