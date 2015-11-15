@@ -548,6 +548,16 @@
 			"class_restricted"			"1"
 			"team_access"				"insurgent"
 		}
+		"weapon_akm"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
+		"weapon_aks74u"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
 		"weapon_anm14"
 		{
 			"weapon_cost"				"0"
@@ -806,6 +816,11 @@
 			"class_restricted"			"1"
 			"team_access"				"insurgent"
 		}
+		"weapon_sterling"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
 		"weapon_ump45"
 		{
 			"weapon_cost"				"0"
@@ -934,11 +949,20 @@
 		{
 			"class_restricted"			"0"
 			"upgrade_cost"				"0"
-			"weight"				"32"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_galil"
+				"weapon"				"weapon_galil_sar"
+			}
 		}
 		"barrel_silencer_heavy"
 		{
-			"class_restricted"			"1"
+			"IsBase"				"1"
 		}
 		"barrel_silencer_pistol"
 		{
