@@ -567,20 +567,48 @@
 		"weapon_anm14"
 		{
 			"weapon_cost"				"0"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
 		}
 		"weapon_at4"
 		{
 			"weapon_cost"				"0"
 			"weapon_weight"				"64"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
 		}
 		"weapon_c4_ied"
 		{
 			"weapon_cost"				"0"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
 		}
 		"weapon_c4_clicker"
 		{
 			"weapon_cost"				"0"
 			"weapon_weight"				"32"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
 		}
 		"weapon_fal"
 		{
@@ -789,6 +817,13 @@
 		"weapon_rpg7"
 		{
 //			"weapon_slot"				"demolitions"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
 		}
 		"weapon_rpk"
 		{
