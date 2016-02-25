@@ -1,5 +1,4 @@
-#ammo_coop.theater - Ammo settings for base coop mod
-#
+//ammo/vnf.theater - Ammo settings for base coop mod
 "theater"
 {
 	"ammo"

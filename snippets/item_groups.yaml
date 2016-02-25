@@ -1,0 +1,108 @@
+---
+name: Item Groups
+desc: "Make changes to the loadouts for groups of items. The four options are:<ul><li>Ignore: Do nothing</li><li>Disable: Remove these items from all loadouts</li><li>AllClasses: Add these items to all classes</li><li>OnlyThese: Set all classes to carry only these items</li></ul>"
+settings:
+  battlerifle:
+    filters:
+      weapon_class: "= rifle_automatic_fire,rifle_controlled_fire"
+      barrel_length: ">= 28"
+    weapons:
+      - weapon_fal
+      - weapon_l1a1
+      - weapon_m14
+  carbine:
+    filters:
+      weapon_class: "= rifle_automatic_fire,rifle_controlled_fire"
+      barrel_length: "<= 22"
+    weapons:
+      - weapon_aks74u
+      - weapon_m1a1
+      - weapon_m4a1
+      - weapon_mini14
+      - weapon_sks
+      - weapon_mk18
+  demolitions:
+    filters:
+      weapon_class: "= grenade_incendiary,other_explosive"
+    weapons:
+      - weapon_anm14
+      - weapon_c4_clicker
+      - weapon_c4_ied
+      - weapon_molotov
+  grenades:
+    filters:
+      weapon_class: "= grenade_flash,grenade_frag,grenade_incendiary,grenade_smoke"
+    weapons:
+      - weapon_anm14
+      - weapon_f1
+      - weapon_m18
+      - weapon_m67
+      - weapon_m84
+      - weapon_molotov
+  grenade_launchers:
+    filters:
+      upgrade_slot: "= underbarrel"
+      lock_slot: "= explosive"
+    weapon_upgrades:
+      - underbarrel_gp25_he
+      - underbarrel_gp25_smoke
+      - underbarrel_m203_he
+      - underbarrel_m203_smoke
+
+  launcher:
+    filters:
+      weapon_class: "= launcher"
+    weapons:
+      - weapon_at4
+      - weapon_rpg7
+  lmg:
+    filters:
+      weapon_class: "= lmg"
+    weapons:
+      - weapon_m249
+      - weapon_rpk
+  melee:
+    filters:
+      weapon_class: "= melee"
+    weapons:
+      - weapon_kabar
+      - weapon_gurkha
+  rifle:
+    filters:
+      weapon_class: "= rifle_automatic_fire,rifle_controlled_fire"
+    weapons:
+      - weapon_ak74
+      - weapon_akm
+      - weapon_galil
+      - weapon_m16a4
+  secondary:
+    filters:
+      weapon_class: "= pistol"
+    weapons:
+      - weapon_m1911
+      - weapon_m45
+      - weapon_m9
+      - weapon_makarov
+      - weapon_model10
+      - weapon_p2a1
+  shotgun:
+    filters:
+      weapon_class: "= shotgun"
+    weapons:
+      - weapon_m590
+      - weapon_toz
+  smg:
+    filters:
+      weapon_class: "= smg"
+    weapons:
+      - weapon_mp40
+      - weapon_mp5
+      - weapon_sterling
+      - weapon_ump45
+  sniper_rifle:
+    filters:
+      weapon_class: "= sniper_rifle"
+    weapons:
+      - weapon_m40a1
+      - weapon_moisin
+...

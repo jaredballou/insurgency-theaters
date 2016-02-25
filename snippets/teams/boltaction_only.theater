@@ -1,4 +1,4 @@
-#teams_boltaction_only.theater - Set teams to be four squads of four snipers on each side
+//teams_boltaction_only.theater - Set teams to be four squads of four snipers on each side
 "theater"
 {
 	"teams"
