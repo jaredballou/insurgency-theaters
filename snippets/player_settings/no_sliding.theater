@@ -1,4 +1,4 @@
-//player/no_sliding.theater - Disable all sliding
+// Disable all sliding
 "theater"
 {
 	"player_settings"

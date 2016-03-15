@@ -1,18 +1,19 @@
-//ammo/vnf.theater - Ammo settings for base coop mod
+// Very Not Fun Mod
 "theater"
 {
 	"ammo"
 	{
-		"grenade_m203_he"
+		"556x45_car_ap"
 		{
-			"carry"					"6"
+			"import"				"556x45_ap"
+			"Damage"
+			{
+				"10"					"110"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
+				"2700"					"80"
+				"12000"					"46"
+			}
 		}
-		"grenade_m203_smoke"
-		{
-			"carry"					"6"
-		}
-		// 7.62x51mm NATO in M13 split-link belt (MK48)
-		"762_m13"
+		"ammo_762_m13"
 		{
 			"import"				"762x51"
 			"carry"					"8"
@@ -27,54 +28,61 @@
 				"2700"					"120"
 				"12000"					"100"
 			}
-			"PenetrationPower"	// Maybe offer or imply Mk318 rounds which are like combined HP and AP at high cost?
-			{
-				"10"					"1200"	// NATO Ball (M855) can penetrate up to 3 mm (about 1/8 in) of steel at 600 meters
-				"12000"					"400"
-			}
-		}
-		"762_m13_hp"
-		{
-			"import"				"762_m13"
-			"Damage"
-			{
-				"10"					"200"
-				"2700"					"160"
-				"12000"					"150"
-			}
-		}
-		"762_m13_ap"
-		{
-			"import"				"762_m13"
 			"PenetrationPower"
 			{
 				"10"					"2400"	// NATO Ball (M855) can penetrate up to 3 mm (about 1/8 in) of steel at 600 meters
 				"12000"					"800"
 			}
 		}
-		"grenade_mine"
-		{
-			"carry"					"3"
-		}
 	}
 	"explosives"
 	{
+		"grenade_m203_he"
+		{
+			"DetonateDamage"			"200"
+			"DetonatePenetrationRadius"		"20"
+			"DetonateDamageRadius"			"800"
+			"FuseTime"				"0"
+			"ImpactDetonation"			"1"
+			"ArmDelay"				"0.2"
+		}
+		"grenade_m203_hedp"
+		{
+			"import"				"grenade_m203_he"
+			"DetonateDamage"			"300"
+			"DetonatePenetrationRadius"		"80"
+			"DetonateDamageRadius"			"450"
+			"FuseTime"				"0"
+			"ImpactDetonation"			"1"
+			"ArmDelay"				"0.15"
+		}
+		"grenade_m67"
+		{
+			"DetonateDamage"			"200"
+			"DetonatePenetrationRadius"		"20"
+			"DetonateDamageRadius"			"900"
+			"FuseTime"				"4"
+			"RocketStartSpeed"			"2000"
+			"Health"				"50"
+			"ReactExplosions"			"0"
+			"ReactBullets"				"0"
+		}
 		"rocket_at4"
 		{
 			"DetonateDamage"			"300"
-			"DetonateDamageRadius"			"1200"
-			"DetonatePenetrationRadius"		"500"
+			"DetonateDamageRadius"			"600"
+			"DetonatePenetrationRadius"		"400"
 			"RocketTopSpeed"			"3500"	// you cannot go faster than 3500
 			"RocketStartSpeed"			"200"
 			"RocketAcceleration"			"400"
-			"RocketWobble"				"1"
-			"RocketWobbleFrequency"			"0.25"
+			"RocketWobble"				"0"
+			"RocketWobbleFrequency"			"1"
 		}
 		"rocket_rpg7"
 		{
-			"DetonateDamage"			"150"
+			"DetonateDamage"			"250"
 			"DetonateDamageRadius"			"600"
-			"DetonatePenetrationRadius"		"600"
+			"DetonatePenetrationRadius"		"100"
 			"RocketTopSpeed"			"3500"	// you cannot go faster than 3500
 			"RocketStartSpeed"			"200"
 			"RocketAcceleration"			"400"
@@ -83,25 +91,16 @@
 		}
 		"grenade_c4"
 		{
-			"DetonateDamage"			"400"
-			"DetonateDamageRadius"			"1000"
-			"DetonatePenetrationRadius"		"400"
+			"DetonateDamage"			"300"
+			"DetonateDamageRadius"			"600"
+			"DetonatePenetrationRadius"		"300"
 		}
 		"grenade_ied"
 		{
 			"DetonateDamage"			"600"
 			"DetonateDamageRadius"			"1600"
-			"DetonatePenetrationRadius"		"320"
+			"DetonatePenetrationRadius"		"120"
 			"Health"				"50"
-			"ReactExplosions"			"1"
-			"ReactBullets"				"1"
-		}
-		"grenade_mine"
-		{
-			"import"				"grenade_c4"
-			"DetonateDamage"			"200"
-			"DetonateDamageRadius"			"400"
-			"DetonatePenetrationRadius"		"400"
 			"ReactExplosions"			"1"
 			"ReactBullets"				"1"
 		}

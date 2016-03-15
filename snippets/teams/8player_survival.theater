@@ -1,4 +1,4 @@
-//teams/8player_survival.theater - 8 player slots on Survival mode
+// 8 player slots on Survival mode
 "theater"
 {	
 	"teams"
@@ -20,88 +20,5 @@
 				}
 			}
 		}		
-		"security"
-		{
-			"squads"
-			{
-				"#Fireteam_Alpha"
-				{
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-				}	
-				"#Fireteam_Bravo"
-				{
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-				}	
-				"#Fireteam_Charlie"
-				{
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-				}	
-				"#Fireteam_Delta"
-				{
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-				}		
-				"#Fireteam_Echo"
-				{
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-				}		
-				"#Fireteam_Foxtrot"
-				{
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-				}		
-				"#Fireteam_Golf"
-				{
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-					"#Squad_Fireteam_Specialist"					"template_specialist_security"
-				}		
-			}
-		}
 	}
 }

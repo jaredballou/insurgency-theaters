@@ -1,4 +1,4 @@
-//weapons/training.theater - Create two squads of eight men on each side, allow them access to most primary weapons.
+// Create two squads of eight men on each side, allow them access to most primary weapons.
 "theater"
 {
 	"teams"

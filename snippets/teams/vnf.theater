@@ -1,0 +1,285 @@
+// Coop. Two eight-man squads, 1x recon 2x specialist 1x DM 3x riflemen 2x support per squad.
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				// assault squad
+				"#Fireteam_Alpha"	// small arms
+				{
+					"#Squad_Fireteam_Leader_Recon"		"template_recon_security_training"
+					"#Squad_Fireteam_Specialist"		"template_specialist_security_training"
+					"#Squad_Fireteam_Specialist"		"template_specialist_security_training"
+					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security_training"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
+					"#Squad_Fireteam_Support"		"template_support_security_training"
+				}
+				"#Fireteam_Bravo"	// small arms
+				{
+					"#Squad_Fireteam_Leader_Recon"		"template_recon_security_training"
+					"#Squad_Fireteam_Specialist"		"template_specialist_security_training"
+					"#Squad_Fireteam_Specialist"		"template_specialist_security_training"
+					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security_training"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
+					"#Squad_Fireteam_Support"		"template_support_security_training"
+				}
+			}
+		}
+	}
+	"player_templates"
+	{
+		"template_designated_marksman_security_training"
+		{
+			"team"					"security"
+			"print_name"				"#Squad_Fireteam_Designated_Marksman"
+			
+			"models"
+			{
+				"player"				"models/characters/security_light.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
+
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_helmet_head.mdl"
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+				"gear"					"sec_light_armor"
+				"gear"					"sec_chest_rig"
+				"weapon"				"weapon_m14"
+				"weapon_upgrade"			"optic_elcan"
+				"weapon_upgrade"			"ammo_ap_m14"
+				"weapon"				"weapon_kabar"
+				"weapon"				"weapon_m9"
+				"weapon"				"weapon_m18"
+			}
+			"allowed_items"
+			{
+				"weapon"		"weapon_m14"
+				"weapon"		"weapon_m16"
+				"weapon"		"weapon_l1a1"
+				"weapon"		"weapon_m40a1"
+				"weapon"		"weapon_m9"
+				"weapon"		"weapon_m45"
+				"weapon"		"weapon_galil_sar"
+				"weapon"		"weapon_model10"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_m67"
+				"weapon"		"weapon_m84"
+				"weapon_upgrade"			"optic_scope_mk4"
+				"weapon_upgrades"			"underbarrel_bipod"
+			}
+		}
+		"template_recon_security_training"
+		{
+			"models"
+			{
+				"player"				"models/characters/security_light.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
+				"attachments"
+				{
+					"cap"
+					{
+						"model"			"models/characters/us_cap_specialist.mdl"
+					}
+				}
+			}
+			"team"					"security"
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+				"gear"					"sec_heavy_armor"
+				"gear"					"sec_chest_carrier"
+				"weapon"				"weapon_m16a4"
+				"weapon_upgrade"			"ammo_ap_m16a4"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"optic_2xaimpoint"
+				"weapon_upgrade"			"heavybarrel"
+				"weapon"				"weapon_m9"
+				"weapon_upgrade"			"sec_flashlight_pistol"
+				"weapon_upgrade"			"sec_suppressor_pistol"
+				"weapon_upgrade"			"ammo_ap_m9"
+				"weapon"				"weapon_at4"
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_kabar"
+			}
+			"allowed_weapons"
+			{
+				"weapon"		"weapon_m14"
+				"weapon"		"weapon_m16"
+				"weapon"		"weapon_m4a1"
+				"weapon"		"weapon_ump45"
+				"weapon"		"weapon_l1a1"
+				"weapon"		"weapon_galil_sar"
+				"weapon"		"weapon_m9"
+				"weapon"		"weapon_m45"
+				"weapon"		"weapon_model10"
+				"weapon"		"weapon_at4"
+				"weapon"		"weapon_c4_clicker"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_m67"
+				"weapon"		"weapon_m84"
+			}
+		}
+		"template_rifleman_security_training"
+		{
+			"models"
+			{
+				"player"				"models/characters/security_rifleman.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_helmet_head.mdl"
+					}
+				}
+			}
+			"team"					"security"
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+				"gear"					"sec_heavy_armor"
+				"gear"					"sec_chest_carrier"
+				"weapon"				"weapon_m16a4"
+				"weapon_upgrade"			"ammo_ap_m16a4"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"optic_2xaimpoint"
+				"weapon_upgrade"			"heavybarrel"
+				"weapon"				"weapon_m9"
+				"weapon"				"weapon_kabar"
+			}
+			"allowed_weapons"
+			{
+				"weapon"		"weapon_m14"
+				"weapon"		"weapon_m16"
+				"weapon"		"weapon_m4a1"
+				"weapon"		"weapon_mk18"
+				"weapon"		"weapon_l1a1"
+				"weapon"		"weapon_galil_sar"
+				"weapon"		"weapon_m9"
+				"weapon"		"weapon_m45"
+				"weapon"		"weapon_model10"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_m67"
+				"weapon"		"weapon_m84"
+				"weapon"		"weapon_anm14"
+				"weapon_upgrade"			"underbarrel_m203_he"
+			}
+		}
+		"template_specialist_security_training"
+		{
+			"models"
+			{
+				"player"				"models/characters/security_specialist.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
+				"attachments"
+				{
+					"cap"
+					{
+						"model"			"models/characters/us_cap_specialist.mdl"
+					}
+				}
+			}
+			"team"					"security"
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+				"gear"					"sec_heavy_armor"
+				"gear"					"sec_chest_carrier"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_galil_sar"
+				"weapon_upgrade"			"ammo_ap_m14"
+				"weapon_upgrade"			"optic_scope_mk4"
+				"weapon_upgrade"			"sec_foregrip2"
+				"weapon_upgrade"			"sec_silencer"
+				"weapon"				"weapon_m590"
+				"weapon_upgrade"			"sec_flashlight_shotgun"
+				"weapon"				"weapon_c4_clicker"
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_kabar"
+				"weapon_upgrade"			"underbarrel_m203_he"
+			}
+			"allowed_weapons"
+			{
+				"weapon"		"weapon_m14"
+				"weapon"		"weapon_m16"
+				"weapon"		"weapon_m4a1"
+				"weapon"		"weapon_mk18"
+				"weapon"		"weapon_ump45"
+				"weapon"		"weapon_l1a1"
+				"weapon"		"weapon_m9"
+				"weapon"		"weapon_m590"
+				"weapon"		"weapon_m45"
+				"weapon"		"weapon_model10"
+				"weapon"		"weapon_at4"
+				"weapon"		"weapon_c4_clicker"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_m67"
+				"weapon"		"weapon_m84"
+				"weapon_upgrade"			"underbarrel_m203_he"
+			}
+		}
+		"template_support_security_training"
+		{
+			"models"
+			{
+				"player"				"models/characters/security_heavy.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_m.mdl"
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_helmet_head.mdl"
+					}
+				}
+			}
+			"team"					"security"
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+				"gear"					"sec_heavy_armor"
+				"gear"					"sec_chest_carrier"
+				"weapon"				"weapon_m249"
+				"weapon_upgrade"			"sec_foregrip2"
+				"weapon_upgrade"			"sec_lasersight_band"
+				"weapon_upgrade"			"optic_elcan"
+				"weapon_upgrade"			"heavybarrel"
+				"weapon"				"weapon_m9"
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_kabar"
+			}
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_galil_sar"
+				"weapon"				"weapon_m16"
+				"weapon"				"weapon_m9"
+				"weapon"				"weapon_m45"
+				"weapon"				"weapon_model10"
+				"weapon"				"weapon_m18"
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_anm14"
+				"weapon"				"weapon_m84"
+				"weapon_upgrade"			"762_conversion"
+				"weapon_upgrade"			"magazine_drum_75rd"
+				"weapon_upgrade"			"magazine_m249_100rd"
+				"weapon_upgrade"			"magazine_m249_200rd"
+			}
+		}
+	}
+}
