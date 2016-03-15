@@ -1,6 +1,6 @@
 ---
 name: Mutators
-desc: "These are scripts that take a theater file and apply a transformation. Rather than create a static theater file with all the desired settings, these will read the theater you chose and make the changes based upon the contents of the theater."
+desc: "These are scripts that apply a simple transformation to all matching objects in the theater. It does not yet support anything except straight values, but if there is demand I may add a simple math parser to this. Rather than create a static theater file with all the desired settings, these will be run after all the theater merging and includes are finished, and then run over the resulting theater."
 settings:
   class_restriction:
     name: Class Restrictions

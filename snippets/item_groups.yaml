@@ -1,6 +1,6 @@
 ---
 name: Item Groups
-desc: "Make changes to the loadouts for groups of items. The four options are:<ul><li>Ignore: Do nothing</li><li>Disable: Remove these items from all loadouts</li><li>AllClasses: Add these items to all classes</li><li>OnlyThese: Set all classes to carry only these items</li></ul>"
+desc: "Make changes to groups of items in player loadouts. These settings will modify all player classes after the other theaters have finished being merged. The four options are:<ul><li>Ignore: Make no changes to this group</li><li>Disable: Remove these items from all loadouts</li><li>AllClasses: Add these items to all classes</li><li>OnlyThese: Set all classes to carry only these items</li></ul>Note: These do not yet include things like weapon upgrades when a weapon is added, reccomend using the class restriction mutator until I add that functionality."
 settings:
   battlerifle:
     filters:
