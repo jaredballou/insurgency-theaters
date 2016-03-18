@@ -61,6 +61,7 @@ settings:
     weapons:
       - weapon_m249
       - weapon_rpk
+      - weapon_galil_sar
   melee:
     filters:
       weapon_class: "= melee"
@@ -74,6 +75,7 @@ settings:
       - weapon_ak74
       - weapon_akm
       - weapon_galil
+      - weapon_galil_sar
       - weapon_m16a4
   secondary:
     filters:
