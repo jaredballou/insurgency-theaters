@@ -67,7 +67,7 @@
 				"weapon"				"weapon_m67"
 				"weapon"				"weapon_kabar"
 			}
-			"allowed_weapons"
+			"allowed_items"
 			{
 				"weapon"				"weapon_m14"
 				"weapon"				"weapon_kabar"
@@ -110,7 +110,7 @@
 				"weapon"				"weapon_m67"
 				"weapon"				"weapon_kabar"
 			}
-			"allowed_weapons"
+			"allowed_items"
 			{
 				"weapon"				"weapon_at4"
 				"weapon"				"weapon_c4_clicker"
@@ -154,7 +154,7 @@
 				"weapon"				"weapon_m9"
 				"weapon"				"weapon_kabar"
 			}
-			"allowed_weapons"
+			"allowed_items"
 			{
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_m16a4"
@@ -196,7 +196,7 @@
 				"weapon"				"weapon_m67"
 				"weapon"				"weapon_kabar"
 			}
-			"allowed_weapons"
+			"allowed_items"
 			{
 				"weapon"				"weapon_kabar"
 				"weapon"				"weapon_m249"
