@@ -10,32 +10,32 @@
 				// assault squad
 				"#Fireteam_Alpha"	// small arms
 				{
-					"#Squad_Fireteam_Leader_Recon"		"template_recon_security_training"
-					"#Squad_Fireteam_Specialist"		"template_specialist_security_training"
-					"#Squad_Fireteam_Specialist"		"template_specialist_security_training"
-					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security_training"
-					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
-					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
-					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
-					"#Squad_Fireteam_Support"		"template_support_security_training"
+					"#Squad_Fireteam_Leader_Recon"		"template_squadleader_security_vnf"
+					"#Squad_Fireteam_Specialist"		"template_specialist_security_vnf"
+					"#Squad_Fireteam_Specialist"		"template_specialist_security_vnf"
+					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security_vnf"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_vnf"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_vnf"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_vnf"
+					"#Squad_Fireteam_Support"		"template_support_security_vnf"
 				}
 				"#Fireteam_Bravo"	// small arms
 				{
-					"#Squad_Fireteam_Leader_Recon"		"template_recon_security_training"
-					"#Squad_Fireteam_Specialist"		"template_specialist_security_training"
-					"#Squad_Fireteam_Specialist"		"template_specialist_security_training"
-					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security_training"
-					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
-					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
-					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
-					"#Squad_Fireteam_Support"		"template_support_security_training"
+					"#Squad_Fireteam_Leader_Recon"		"template_squadleader_security_vnf"
+					"#Squad_Fireteam_Specialist"		"template_specialist_security_vnf"
+					"#Squad_Fireteam_Specialist"		"template_specialist_security_vnf"
+					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security_vnf"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_vnf"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_vnf"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_vnf"
+					"#Squad_Fireteam_Support"		"template_support_security_vnf"
 				}
 			}
 		}
 	}
 	"player_templates"
 	{
-		"template_designated_marksman_security_training"
+		"template_designated_marksman_security_vnf"
 		{
 			"team"					"security"
 			"print_name"				"#Squad_Fireteam_Designated_Marksman"
@@ -83,7 +83,7 @@
 				"weapon_upgrades"			"underbarrel_bipod"
 			}
 		}
-		"template_recon_security_training"
+		"template_squadleader_security_vnf"
 		{
 			"models"
 			{
@@ -134,7 +134,7 @@
 				"weapon"		"weapon_m84"
 			}
 		}
-		"template_rifleman_security_training"
+		"template_rifleman_security_vnf"
 		{
 			"models"
 			{
@@ -180,7 +180,7 @@
 				"weapon_upgrade"			"underbarrel_m203_he"
 			}
 		}
-		"template_specialist_security_training"
+		"template_specialist_security_vnf"
 		{
 			"models"
 			{
@@ -233,7 +233,7 @@
 				"weapon_upgrade"			"underbarrel_m203_he"
 			}
 		}
-		"template_support_security_training"
+		"template_support_security_vnf"
 		{
 			"models"
 			{
