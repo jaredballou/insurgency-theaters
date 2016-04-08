@@ -1,0 +1,562 @@
+"#base" "doi.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"?checkpoint_security_attack"
+			{
+				"squads"
+				{
+					"#squad_american_special"
+					{
+						"#class_american_assault"		"template_american_assault_mod"
+						"#class_american_assault"		"template_american_assault_mod"
+						"#class_american_assault"		"template_american_assault_mod"
+						"#class_american_assault"		"template_american_assault_mod"
+						"#class_american_assault"		"template_american_assault_mod"
+						"#class_american_assault"		"template_american_assault_mod"
+						"#class_american_assault"		"template_american_assault_mod"
+						"#class_american_assault"		"template_american_assault_mod"
+					}
+				}
+			}
+			"?conquer_security_attack"
+			{
+				"squads"
+				{
+					"#squad_american_special"
+					{
+						"#class_american_assault"		"template_american_assault_mod"
+						"#class_american_assault"		"template_american_assault_mod"
+						"#class_american_assault"		"template_american_assault_mod"
+						"#class_american_assault"		"template_american_assault_mod"
+						"#class_american_assault"		"template_american_assault_mod"
+						"#class_american_assault"		"template_american_assault_mod"
+						"#class_american_assault"		"template_american_assault_mod"
+						"#class_american_assault"		"template_american_assault_mod"
+					}
+				}
+			}
+			"?checkpoint_security_defend"
+			{
+				"squads"
+				{
+					"#squad_american_rifle"
+					{
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+					}
+					"#squad_american_assault"
+					{
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+					}
+					"#squad_american_support"
+					{
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+					}
+					"#squad_american_support"
+					{
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+					}
+				}
+			}
+			"?conquer_security_defend"
+			{
+				"squads"
+				{
+					"#squad_american_rifle"
+					{
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+					}
+					"#squad_american_assault"
+					{
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+					}
+					"#squad_american_support"
+					{
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+					}
+					"#squad_american_support"
+					{
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+						"#class_american_rifleman"		"template_american_rifleman_mod"
+					}
+				}
+			}
+		}
+		"insurgents"
+		{
+			"?checkpoint_insurgents_attack"
+			{
+				"squads"
+				{
+					"#squad_german_special"
+					{
+						"#class_german_assault"			"template_german_assault_mod"
+						"#class_german_assault"			"template_german_assault_mod"
+						"#class_german_assault"			"template_german_assault_mod"
+						"#class_german_assault"			"template_german_assault_mod"
+						"#class_german_assault"			"template_german_assault_mod"
+						"#class_german_assault"			"template_german_assault_mod"
+						"#class_german_assault"			"template_german_assault_mod"
+						"#class_german_assault"			"template_german_assault_mod"
+					}
+				}
+			}
+			"?conquer_insurgents_attack"
+			{
+				"squads"
+				{
+					"#squad_german_special"
+					{
+						"#class_german_assault"			"template_german_assault_mod"
+						"#class_german_assault"			"template_german_assault_mod"
+						"#class_german_assault"			"template_german_assault_mod"
+						"#class_german_assault"			"template_german_assault_mod"
+						"#class_german_assault"			"template_german_assault_mod"
+						"#class_german_assault"			"template_german_assault_mod"
+						"#class_german_assault"			"template_german_assault_mod"
+						"#class_german_assault"			"template_german_assault_mod"
+					}
+				}
+			}
+			"?checkpoint_insurgents_defend"
+			{
+				"squads"
+				{
+					"#squad_german_rifle"
+					{
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+					}
+					
+					"#squad_german_assault"
+					{
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+					}
+					
+					"#squad_german_support"
+					{
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+					}
+					
+					"#squad_german_support"
+					{
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+					}
+				}
+			}
+			"?conquer_insurgents_defend"
+			{
+				"squads"
+				{
+					"#squad_german_rifle"
+					{
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+					}
+					
+					"#squad_german_assault"
+					{
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+					}
+					
+					"#squad_german_support"
+					{
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+					}
+					
+					"#squad_german_support"
+					{
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+						"#class_german_rifleman"		"template_german_rifleman_mod"
+					}
+				}
+			}
+		}
+	}
+	"player_templates"
+	{
+		"template_american_assault_mod"
+		{
+			"team"						"security"
+			"print_name"				"#class_american_assault"
+			
+			"models"
+			{
+				"player"				"models/characters/ww2/american_rifleman.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_us.mdl"
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ww2/american_helmet.mdl"
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+				"weapon"				"weapon_thompson"
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_smoke"
+				"weapon"				"weapon_smoke"
+				"gear"					"american_chest_rig"
+				"weapon_upgrade"		"optic_scope_7x"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_m1carbine"
+				"weapon"				"weapon_thompson"
+				"weapon"				"weapon_m1garand"
+				"weapon"				"weapon_bar"
+				"weapon"				"weapon_m1919"
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_mk2"
+				"weapon"				"weapon_smoke"
+				"weapon_upgrade"		"magazine_extended_pistol"
+				"weapon_upgrade"		"magazine_extended_carbine_30rd"
+				"weapon_upgrade"		"default_bayonet"
+				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"magazine_extended_thompson_50rd"
+			}
+		}
+
+		"template_german_assault_mod"
+		{
+			"team"					"insurgents"
+			"print_name"			"#class_german_assault"
+			
+			"models"
+			{
+				"player"				"models/characters/ww2/german_assault.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ger.mdl"
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ww2/german_helmet.mdl"
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_gurkha"
+				"weapon"				"weapon_mp40"
+				"weapon"				"weapon_stielhandgranate"
+				"weapon"				"weapon_stielhandgranate"
+				"gear"					"german_ammo_belt"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_mp40"
+				"weapon"				"weapon_stg44"
+				"weapon"				"weapon_g43"
+				"weapon"				"weapon_mg42"
+				"weapon"				"weapon_p38"
+				"weapon"				"weapon_stielhandgranate"
+				"weapon"				"weapon_smoke"
+				"weapon_upgrade"		"default_bayonet"
+				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"optic_scope_7x"
+				"weapon"				"weapon_luger"
+				"weapon"				"weapon_ppk"
+			}
+		}
+		
+		"template_american_rifleman_mod"
+		{
+			"team"						"security"
+			"print_name"				"#class_american_rifleman"
+			
+			"models"
+			{
+				"player"				"models/characters/ww2/american_rifleman.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_us.mdl"
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ww2/american_helmet.mdl"
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+				"weapon"				"weapon_springfield"
+				"weapon"				"weapon_mk2"
+				"gear"					"american_chest_rig"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_springfield"
+				"weapon"				"weapon_m1garand"
+				"weapon"				"weapon_bar"
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_mk2"
+				"weapon"				"weapon_smoke"
+				"weapon_upgrade"		"default_bayonet"
+				"weapon_upgrade"		"default_sling"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m1911"			"1"
+					"weapon_springfield"	"-1"
+					"weapon_bar"			"1"
+				}
+			}
+		}
+		"template_american_support_mod"
+		{
+			"team"						"security"
+			"print_name"				"#class_american_support"
+			
+			"models"
+			{
+				"player"				"models/characters/ww2/american_rifleman.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_us.mdl"
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ww2/american_helmet.mdl"
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+				"weapon"				"weapon_m1919"
+				"weapon"				"weapon_m1911"
+				"gear"					"american_chest_rig"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_m1garand"
+				"weapon"				"weapon_bar"
+				"weapon"				"weapon_m1919"
+				"weapon"				"weapon_thompson"
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_mk2"
+				"weapon"				"weapon_smoke"
+				"weapon_upgrade"		"default_sling"
+				"weapon_upgrade"		"magazine_extended_thompson_50rd"
+			}
+			"cost_modifiers"
+			{
+				"gear"
+				{
+					"american_ammo_belt"	"-1"
+					"american_chest_rig"	"-1"
+				}
+			}
+		}
+		"template_german_rifleman_mod"
+		{
+			"team"					"insurgents"
+			"print_name"			"#class_german_rifleman"
+			
+			"models"
+			{
+				"player"				"models/characters/ww2/german_assault.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ger.mdl"
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ww2/german_helmet.mdl"
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_gurkha"
+				"weapon"				"weapon_k98"
+				"weapon"				"weapon_stielhandgranate"
+				"gear"					"german_chest_rig"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_k98"
+				"weapon"				"weapon_g43"
+				"weapon"				"weapon_p38"
+				"weapon"				"weapon_stielhandgranate"
+				"weapon"				"weapon_smoke"
+				"weapon_upgrade"		"default_bayonet"
+				"weapon_upgrade"		"default_sling"
+			}
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_p38"			"1"
+					"weapon_g43"			"1"
+				}
+			}
+		}
+		"template_german_machinegunner_mod"
+		{
+			"team"					"insurgents"
+			"print_name"			"#class_german_machinegunner"
+			
+			"models"
+			{
+				"player"				"models/characters/ww2/german_assault.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_ger.mdl"
+				
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/ww2/german_helmet.mdl"
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_gurkha"
+				"weapon"				"weapon_mg42"
+				"weapon"				"weapon_p38"
+				"gear"					"german_chest_rig"
+			}
+			"allowed_items"
+			{
+				"weapon"				"weapon_mg42"
+				"weapon"				"weapon_p38"
+				"weapon"				"weapon_smoke"
+			}
+			"cost_modifiers"
+			{
+				"gear"
+				{
+					"german_ammo_belt"	"-1"
+					"german_chest_rig"	"-1"
+				}
+			}
+		}		
+	}
+}

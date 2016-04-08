@@ -1,0 +1,1145 @@
+"#base" "default_checkpoint.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				// assault squad
+				"#Fireteam_Alpha"	// small arms
+				{
+					"#Squad_Fireteam_Leader_Recon"		"template_recon_security_training"
+					"#Squad_Fireteam_Specialist"		"template_specialist_security_training"
+					"#Squad_Fireteam_Specialist"		"template_specialist_security_training"
+					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security_training"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
+					"#Squad_Fireteam_Support"		"template_support_security_training"
+				}
+				"#Fireteam_Bravo"	// small arms
+				{
+					"#Squad_Fireteam_Leader_Recon"		"template_recon_security_training"
+					"#Squad_Fireteam_Specialist"		"template_specialist_security_training"
+					"#Squad_Fireteam_Specialist"		"template_specialist_security_training"
+					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security_training"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
+					"#Squad_Fireteam_Rifleman"		"template_rifleman_security_training"
+					"#Squad_Fireteam_Support"		"template_support_security_training"
+				}
+			}
+		}
+	}
+	"player_templates"
+	{
+		"template_designated_marksman_security_training"
+		{
+			"team"					"security"
+			"print_name"				"#Squad_Fireteam_Designated_Marksman"
+			
+			"models"
+			{
+				"player"				"models/characters/security_light.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
+
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_helmet_head.mdl"
+					}
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+				"gear"					"sec_light_armor"
+				"gear"					"sec_chest_rig"
+				"weapon"				"weapon_m14"
+				"weapon_upgrade"			"optic_elcan"
+				"weapon_upgrade"			"ammo_ap_m14"
+				"weapon"				"weapon_kabar"
+				"weapon"				"weapon_m9"
+				"weapon"				"weapon_m18"
+			}
+			"allowed_items"
+			{
+				"weapon"		"weapon_m14"
+				"weapon"		"weapon_m16"
+				"weapon"		"weapon_l1a1"
+				"weapon"		"weapon_m40a1"
+				"weapon"		"weapon_m9"
+				"weapon"		"weapon_m45"
+				"weapon"		"weapon_galil_sar"
+				"weapon"		"weapon_model10"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_m67"
+				"weapon"		"weapon_m84"
+				"weapon_upgrade"			"optic_scope_mk4"
+				"weapon_upgrades"			"underbarrel_bipod"
+			}
+		}
+		"template_recon_security_training"
+		{
+			"models"
+			{
+				"player"				"models/characters/security_light.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
+				"attachments"
+				{
+					"cap"
+					{
+						"model"			"models/characters/us_cap_specialist.mdl"
+					}
+				}
+			}
+			"team"					"security"
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+				"gear"					"sec_heavy_armor"
+				"gear"					"sec_chest_carrier"
+				"weapon"				"weapon_m16a4"
+				"weapon_upgrade"			"ammo_ap_m16a4"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"optic_2xaimpoint"
+				"weapon_upgrade"			"heavybarrel"
+				"weapon"				"weapon_m9"
+				"weapon_upgrade"			"sec_flashlight_pistol"
+				"weapon_upgrade"			"sec_suppressor_pistol"
+				"weapon_upgrade"			"ammo_ap_m9"
+				"weapon"				"weapon_at4"
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_kabar"
+			}
+			"allowed_weapons"
+			{
+				"weapon"		"weapon_m14"
+				"weapon"		"weapon_m16"
+				"weapon"		"weapon_m4a1"
+				"weapon"		"weapon_ump45"
+				"weapon"		"weapon_l1a1"
+				"weapon"		"weapon_galil_sar"
+				"weapon"		"weapon_m9"
+				"weapon"		"weapon_m45"
+				"weapon"		"weapon_model10"
+				"weapon"		"weapon_at4"
+				"weapon"		"weapon_c4_clicker"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_m67"
+				"weapon"		"weapon_m84"
+			}
+		}
+		"template_rifleman_security_training"
+		{
+			"models"
+			{
+				"player"				"models/characters/security_rifleman.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_helmet_head.mdl"
+					}
+				}
+			}
+			"team"					"security"
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+				"gear"					"sec_heavy_armor"
+				"gear"					"sec_chest_carrier"
+				"weapon"				"weapon_m16a4"
+				"weapon_upgrade"			"ammo_ap_m16a4"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"optic_2xaimpoint"
+				"weapon_upgrade"			"heavybarrel"
+				"weapon"				"weapon_m9"
+				"weapon"				"weapon_kabar"
+			}
+			"allowed_weapons"
+			{
+				"weapon"		"weapon_m14"
+				"weapon"		"weapon_m16"
+				"weapon"		"weapon_m4a1"
+				"weapon"		"weapon_mk18"
+				"weapon"		"weapon_l1a1"
+				"weapon"		"weapon_galil_sar"
+				"weapon"		"weapon_m9"
+				"weapon"		"weapon_m45"
+				"weapon"		"weapon_model10"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_m67"
+				"weapon"		"weapon_m84"
+				"weapon"		"weapon_anm14"
+				"weapon_upgrade"			"underbarrel_m203_he"
+			}
+		}
+		"template_specialist_security_training"
+		{
+			"models"
+			{
+				"player"				"models/characters/security_specialist.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
+				"attachments"
+				{
+					"cap"
+					{
+						"model"			"models/characters/us_cap_specialist.mdl"
+					}
+				}
+			}
+			"team"					"security"
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+				"gear"					"sec_heavy_armor"
+				"gear"					"sec_chest_carrier"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_galil_sar"
+				"weapon_upgrade"			"ammo_ap_m14"
+				"weapon_upgrade"			"optic_scope_mk4"
+				"weapon_upgrade"			"sec_foregrip2"
+				"weapon_upgrade"			"sec_silencer"
+				"weapon"				"weapon_m590"
+				"weapon_upgrade"			"sec_flashlight_shotgun"
+				"weapon"				"weapon_c4_clicker"
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_kabar"
+				"weapon_upgrade"			"underbarrel_m203_he"
+			}
+			"allowed_weapons"
+			{
+				"weapon"		"weapon_m14"
+				"weapon"		"weapon_m16"
+				"weapon"		"weapon_m4a1"
+				"weapon"		"weapon_mk18"
+				"weapon"		"weapon_ump45"
+				"weapon"		"weapon_l1a1"
+				"weapon"		"weapon_m9"
+				"weapon"		"weapon_m590"
+				"weapon"		"weapon_m45"
+				"weapon"		"weapon_model10"
+				"weapon"		"weapon_at4"
+				"weapon"		"weapon_c4_clicker"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_m67"
+				"weapon"		"weapon_m84"
+				"weapon_upgrade"			"underbarrel_m203_he"
+			}
+		}
+		"template_support_security_training"
+		{
+			"models"
+			{
+				"player"				"models/characters/security_heavy.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_m.mdl"
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_helmet_head.mdl"
+					}
+				}
+			}
+			"team"					"security"
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+				"gear"					"sec_heavy_armor"
+				"gear"					"sec_chest_carrier"
+				"weapon"				"weapon_m249"
+				"weapon_upgrade"			"sec_foregrip2"
+				"weapon_upgrade"			"sec_lasersight_band"
+				"weapon_upgrade"			"optic_elcan"
+				"weapon_upgrade"			"heavybarrel"
+				"weapon"				"weapon_m9"
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_kabar"
+			}
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_galil_sar"
+				"weapon"				"weapon_m16"
+				"weapon"				"weapon_m9"
+				"weapon"				"weapon_m45"
+				"weapon"				"weapon_model10"
+				"weapon"				"weapon_m18"
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_anm14"
+				"weapon"				"weapon_m84"
+				"weapon_upgrade"			"762_conversion"
+				"weapon_upgrade"			"magazine_drum_75rd"
+				"weapon_upgrade"			"magazine_m249_100rd"
+				"weapon_upgrade"			"magazine_m249_200rd"
+			}
+		}
+	}
+	"player_settings"
+	{
+		"damage"
+		{
+			"damage_decay_rate"			"20"
+			"explosion_deafen_radius_factor"	"4"
+			"default_penetration_power"		"10"
+			"max_penetration_distance"		"800"
+
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"3"	// death
+				"HITGROUP_CHEST"			"3.00"
+				"HITGROUP_STOMACH"			"2.50"
+				"HITGROUP_LEFTARM"			"1.60"
+				"HITGROUP_RIGHTARM"			"1.65"
+				"HITGROUP_LEFTLEG"			"0.70"
+				"HITGROUP_RIGHTLEG"			"0.75"
+			}
+			"VelocityHitgroups"
+			{
+				"HITGROUP_LEFTLEG"			"0.20"
+				"HITGROUP_RIGHTLEG"			"0.20"
+				"HITGROUP_CHEST"			"0.60"
+				"HITGROUP_STOMACH"			"0.60"
+			}
+			"BulletPenetrationPower"
+			{
+				"CHAR_TEX_CONCRETE"			"50"
+				"CHAR_TEX_BRICK"			"50"
+				"CHAR_TEX_PLASTER"			"50"
+				"CHAR_TEX_DIRT"				"40"
+				"CHAR_TEX_FLESH"			"35"
+				"CHAR_TEX_GRASS"			"60"
+				"CHAR_TEX_PLASTIC"			"10"
+				"CHAR_TEX_METAL"			"60"
+				"CHAR_TEX_SAND"				"60"
+				"CHAR_TEX_FOLIAGE"			"30"
+				"CHAR_TEX_COMPUTER"			"20"
+				"CHAR_TEX_ASPHALT"			"18"
+				"CHAR_TEX_SLOSH"			"12"
+				"CHAR_TEX_TILE"				"13"
+				"CHAR_TEX_CARDBOARD"			"5"
+				"CHAR_TEX_VENT"				"8"
+				"CHAR_TEX_WOOD"				"30"
+				"CHAR_TEX_GLASS"			"2"
+				"CHAR_TEX_ROCK"				"60"
+				"CHAR_TEX_RUBBER"			"8"
+				"CHAR_TEX_SHEETROCK"			"5"
+				"CHAR_TEX_CARPET"			"15"
+			}
+		}
+		"health"
+		{
+		}
+		"slide"
+		{
+			"min_sprint_time"			"1000"
+			"post_sprint_grace"			"0"
+			
+			"DistanceByWeight"
+			{
+				"60"					"0"
+				"640"					"0"
+			}
+			
+			"SpeedByWeight"
+			{
+				"60"					"0"
+				"640"					"0"
+			}
+		}
+		"suppression"
+		{
+			"suppression_resistance"		"0.15"
+			"suppression_recovery_rate"		"25"
+		}
+	}
+	"player_gear"
+	{
+		"sec_chest_carrier"
+		{
+			"gear_cost"				"2"
+			"gear_weight"				"32"	// 50 (5.0kg) + 50 encumbrance
+			"extra_ammo"
+			{
+				"primary"				"3"
+				"secondary"				"4"
+			}
+			"weapon_slots"
+			{
+				"explosive"				"2"
+//				"demolitions"				"1"
+			}
+			"team_access"				"security"
+		}
+		"sec_chest_rig"
+		{
+			"gear_slot"				"vest"
+			"gear_cost"				"1"
+			"gear_weight"				"0"	// 22 (2.2kg) + 24 encumbrance
+			"extra_ammo"
+			{
+				"primary"				"2"
+				"secondary"				"2"
+			}
+			"weapon_slots"
+			{
+				"explosive"				"1"
+//				"demolitions"				"1"
+			}
+			"team_access"				"security"
+		}
+		"sec_light_armor"
+		{
+			"print_name"				"#gear_light_armor"
+			"print_desc"				"#gear_light_armor_desc"
+			"gear_slot"				"armor"
+			"gear_cost"				"0"
+			"gear_weight"				"32"	// 25 (2.5kg) + 75 encumbrance
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"1.00"
+				"HITGROUP_CHEST"			"0.40"
+				"HITGROUP_STOMACH"			"0.40"
+				"HITGROUP_LEFTARM"			"1.00"
+				"HITGROUP_RIGHTARM"			"1.00"
+				"HITGROUP_LEFTLEG"			"1.00"
+				"HITGROUP_RIGHTLEG"			"1.00"
+			}
+			
+			"team_access"				"security"
+		}
+		
+		"sec_heavy_armor"
+		{
+			"print_name"				"#gear_heavy_armor"
+			"print_desc"				"#gear_heavy_armor_desc"
+			"gear_slot"				"armor"
+			"gear_cost"				"0"
+			"gear_weight"				"64"	// 75 (7.5kg) + 250 encumbrance
+			
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"				"1.00"	// death
+				"HITGROUP_CHEST"			"0.10"
+				"HITGROUP_STOMACH"			"0.10"
+				"HITGROUP_LEFTARM"			"1.00"
+				"HITGROUP_RIGHTARM"			"1.00"
+				"HITGROUP_LEFTLEG"			"1.00"
+				"HITGROUP_RIGHTLEG"			"1.00"
+			}
+			
+			"team_access"				"security"
+		}
+	}
+	"ammo"
+	{
+		"556x45_car_ap"
+		{
+			"import"				"556x45_ap"
+			"Damage"
+			{
+				"10"					"110"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
+				"2700"					"80"
+				"12000"					"46"
+			}
+		}
+		"ammo_762_m13"
+		{
+			"import"				"762x51"
+			"carry"					"8"
+			"magsize"				"100"
+			"clip_max_rounds"			"100"
+			"tracer_frequency"			"4"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"9"
+			"Damage"
+			{
+				"10"					"150"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
+				"2700"					"120"
+				"12000"					"100"
+			}
+			"PenetrationPower"
+			{
+				"10"					"2400"	// NATO Ball (M855) can penetrate up to 3 mm (about 1/8 in) of steel at 600 meters
+				"12000"					"800"
+			}
+		}
+	}
+	"explosives"
+	{
+		"grenade_m203_he"
+		{
+			"DetonateDamage"			"200"
+			"DetonatePenetrationRadius"		"20"
+			"DetonateDamageRadius"			"800"
+			"FuseTime"				"0"
+			"ImpactDetonation"			"1"
+			"ArmDelay"				"0.2"
+		}
+		"grenade_m203_hedp"
+		{
+			"import"				"grenade_m203_he"
+			"DetonateDamage"			"300"
+			"DetonatePenetrationRadius"		"80"
+			"DetonateDamageRadius"			"450"
+			"FuseTime"				"0"
+			"ImpactDetonation"			"1"
+			"ArmDelay"				"0.15"
+		}
+		"grenade_m67"
+		{
+			"DetonateDamage"			"200"
+			"DetonatePenetrationRadius"		"20"
+			"DetonateDamageRadius"			"900"
+			"FuseTime"				"4"
+			"RocketStartSpeed"			"2000"
+			"Health"				"50"
+			"ReactExplosions"			"0"
+			"ReactBullets"				"0"
+		}
+		"rocket_at4"
+		{
+			"DetonateDamage"			"300"
+			"DetonateDamageRadius"			"600"
+			"DetonatePenetrationRadius"		"400"
+			"RocketTopSpeed"			"3500"	// you cannot go faster than 3500
+			"RocketStartSpeed"			"200"
+			"RocketAcceleration"			"400"
+			"RocketWobble"				"0"
+			"RocketWobbleFrequency"			"1"
+		}
+		"rocket_rpg7"
+		{
+			"DetonateDamage"			"250"
+			"DetonateDamageRadius"			"600"
+			"DetonatePenetrationRadius"		"100"
+			"RocketTopSpeed"			"3500"	// you cannot go faster than 3500
+			"RocketStartSpeed"			"200"
+			"RocketAcceleration"			"400"
+			"RocketWobble"				"1"
+			"RocketWobbleFrequency"			"0.25"
+		}
+		"grenade_c4"
+		{
+			"DetonateDamage"			"300"
+			"DetonateDamageRadius"			"600"
+			"DetonatePenetrationRadius"		"300"
+		}
+		"grenade_ied"
+		{
+			"DetonateDamage"			"600"
+			"DetonateDamageRadius"			"1600"
+			"DetonatePenetrationRadius"		"120"
+			"Health"				"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"1"
+		}
+	}
+	"weapons"
+	{
+		"weapon_ak74"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
+		"weapon_akm"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
+		"weapon_aks74u"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
+		"weapon_anm14"
+		{
+			"weapon_cost"				"0"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_at4"
+		{
+			"weapon_cost"				"0"
+			"weapon_weight"				"64"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_c4_ied"
+		{
+			"weapon_cost"				"0"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_c4_clicker"
+		{
+			"weapon_cost"				"0"
+			"weapon_weight"				"32"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_fal"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
+		"weapon_galil"
+		{
+			"weapon_weight"				"96"
+			"weapon_cost"				"0"
+			"barrel_length"				"28"
+			"ballistics"
+			{
+				"spread"				"0.15 0.15 0.15"
+				"FireModes"				"semi, burst, full"
+				"bulletcount"				"1"
+				"maxrange"				"10000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"556_35box"
+				"clip_max"				"12"
+				"clip_max_rounds"			"35"
+				"clip_default"				"6"
+			}
+			"team_access"				"security, insurgent"
+		}
+		"weapon_galil_sar"
+		{
+			"class_restricted"			"0"
+			"rounds_per_minute"			"650"
+			"weapon_weight"				"128"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
+			"weapon_cost"				"0"
+			"barrel_length"				"24"
+			"ballistics"
+			{
+				"spread"				"0.15 0.15 0.15"
+				"FireModes"				"semi, burst, full"
+				"bulletcount"			"1"
+				"maxrange"				"10000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"556_35box"
+				"clip_max"				"12"
+				"clip_max_rounds"			"35"
+				"clip_default"				"6"
+			}
+			"team_access"				"security, insurgent"
+		}
+		"weapon_m14"
+		{
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+		"weapon_m16a4"
+		{
+			"class_restricted"			"0"
+			"ammo_clip"
+			{
+				"clip_max"				"12"
+				"clip_default"				"6"
+			}
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+		"weapon_m18"
+		{
+			"weapon_cost"				"0"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_m1911"
+		{
+			"team_access"				"insurgent"
+		}
+		"weapon_m1a1"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
+		"weapon_m203_he"
+		{
+//			"weapon_slot"				"demolitions"
+		}
+		"weapon_m203_hedp"
+		{
+			"import"				"weapon_m203_he"
+			"print_name"				"M203 (HEDP)"
+			"print_desc"				"Smaller radius but higher damage. Good for indoors or accurate shooters."
+			"explosives"
+			{
+				"entity"				"grenade_m203_hedp"
+			}
+		}
+		"weapon_m203_smoke"
+		{
+//			"weapon_slot"				"demolitions"
+		}
+		"weapon_m249"
+		{
+			"weapon_cost"				"0"
+			"rounds_per_minute"			"880"
+			"weapon_weight"				"240"
+			"barrel_length"				"22"
+			"sounds"
+			{
+				"shot_single"				"Weapon_M249.Single"
+				"shot_single_local"			"Weapon_M249.SingleLocal"
+				"shot_silent"				"Weapon_FnFAL.Single"
+				"shot_silent_local"			"Weapon_FnFAL.SingleLocal"
+				"empty"					"Weapon_M249.Empty"
+				"clipin"				"Weapon_M249.Magin"
+				"clipout"				"Weapon_M249.Magout"
+				"boltback"				"Weapon_M249.Boltback"
+				"boltrelease"				"Weapon_M249.Boltrelease"
+				"bipodin"				"Weapon_M249.BipodDeploy"
+				"bipodout"				"Weapon_M249.BipodRetract"
+			}
+			"ballistics"
+			{
+				"spread"				"0.2 0.2 0.2"
+				"FireModes"				"full"
+				"bulletcount"				"1"
+				"maxrange"				"10000"
+				"LowAmmoCount"				"15"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"556_m27_ap"
+				"clip_max"				"8"
+				"clip_max_rounds"			"200"
+				"clip_default"				"4"
+			}
+			"team_access"				"security, insurgent"
+		}
+		"weapon_m4a1"
+		{
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+		"weapon_m590"
+		{
+			"weapon_slot"				"secondary"
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+		"weapon_m67"
+		{
+			"weapon_cost"				"0"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_m84"
+		{
+			"weapon_cost"				"0"
+			"team_access"				"security, insurgent"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_m9"
+		{
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+		"weapon_makarov"
+		{
+			"team_access"				"insurgent"
+		}
+		"weapon_mini14"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
+		"weapon_mk18"
+		{
+			"ammo_clip"
+			{
+				"clip_max"				"12"
+				"clip_default"				"6"
+			}
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+		"weapon_mp5"
+		{
+			"weapon_cost"				"0"
+			"team_access"				"security"
+			"weapon_slot"				"secondary"
+		}
+		"weapon_rpg7"
+		{
+//			"weapon_slot"				"demolitions"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_rpk"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
+		"weapon_sterling"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
+		"weapon_ump45"
+		{
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+	}
+	"weapon_upgrades"
+	{
+		"100rd_cloth_mag"
+		{
+			"upgrade_slot"				"magazine"
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+			"team_acces"				"security, insurgent"
+			"weight"				"-64"
+			"print_name"				"100rnd Cloth Magazine"
+			"print_desc"				"Smaller magazine for enhanced maneuverability"
+			"magsize_override"			"100"
+			"maxcarry_override"			"8"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m249"
+			}
+		}
+		"762_conversion"
+		{
+			"upgrade_slot"				"magazine"
+			"magsize_override"			"100"
+			"upgrade_cost"				"0"
+			"print_name"				"7.62mm Conversion"
+			"print_desc"				"Swaps barrel, bolt, feed tray and magazines to fire 7.62x51mm NATO."
+			"weight"				"64"
+			"ammo_type_override"			"ammo_762_m13"
+			"class_restricted"			"0"
+			"length"				"0"
+			"weapon_abilities"			"silencer"
+			"rounds_per_minute"			"600"
+			"recoil"
+			{
+				"recoil_lateral_frac"			"1.1"
+				"recoil_vertical_frac"			"1.2"
+			}
+			"sway"
+			{
+				"sway_speed_frac"			"1.0"
+			}
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m249"
+			}
+		}
+		"ammo_ap_galil"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_ap_m14"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_ap_m16a4"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_ap_m249"
+		{
+			"class_restricted"			"1"
+			"upgrade_cost"				"40"
+		}
+		"ammo_ap_m4"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_ap_m9"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_ap_mp5"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_ap_ump45"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_hp_galil"
+		{
+			"class_restricted"			"1"
+			"upgrade_cost"				"40"
+		}
+		"ammo_hp_m14"
+		{
+			"class_restricted"			"1"
+			"upgrade_cost"				"40"
+		}
+		"ammo_hp_m16a4"
+		{
+			"class_restricted"			"1"
+			"upgrade_cost"				"40"
+		}
+		"ammo_hp_m249"
+		{
+			"class_restricted"			"1"
+			"upgrade_cost"				"40"
+		}
+		"ammo_hp_m4"
+		{
+			"class_restricted"			"1"
+			"upgrade_cost"				"40"
+		}
+		"ammo_hp_m9"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_hp_mp5"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_hp_ump45"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_slugs"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_tracer_m16a4"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_tracer_m4"
+		{
+			"class_restricted"			"1"
+			"upgrade_cost"				"40"
+		}
+		"ammo_tracer_mp5"
+		{
+			"class_restricted"			"1"
+			"upgrade_cost"				"40"
+		}
+		"barrel_heavybarrel"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_galil"
+				"weapon"				"weapon_galil_sar"
+			}
+		}
+		"barrel_silencer_heavy"
+		{
+			"IsBase"				"1"
+		}
+		"barrel_silencer_pistol"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		"barrel_silencer_sec1"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		"barrel_silencer_sec2"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		"magazine_extended_rifle_30rd"
+		{
+			"magsize_override"			"30"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_fal"
+				"weapon"				"weapon_l1a1"
+			}
+
+			"viewmodel_attachments"
+			{
+				"magazine_fal"
+				{
+					"model"				"models/weapons/upgrades/a_magazine_fal_l1a1_30.mdl"
+					"Main"				"1"
+
+					"weapons"
+					{
+						"weapon"		"weapon_fal"
+						"weapon"		"weapon_l1a1"
+					}
+				}
+			}
+		}
+		"magazine_drum_75rd"
+		{
+			"upgrade_cost"				"3"
+			"class_restricted"			"1"
+			"team_access"				"security, insurgent"
+			"weight"				"48"
+			"magsize_override"			"75"
+			"maxcarry_override"			"6"
+		}
+		"optic_2xaimpoint"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		"optic_aimpoint"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		"optic_elcan"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		
+		"optic_eotech"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		"optic_scope_mk4"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		"siderail_flashlight_rail"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"siderail_flashlight_pistol"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"siderail_flashlight_band"
+		{
+			"upgrade_cost"				"0"
+		}
+		"siderail_flashlight_shotgun"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"siderail_lasersight_band"
+		{
+			"upgrade_cost"				"0"
+		}
+		"siderail_lasersight_pistol"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"siderail_lasersight_rail"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"			
+		}
+		"siderail_lasersight_shotgun_sec"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"underbarrel_bipod"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"underbarrel_foregrip_sec1"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"underbarrel_foregrip_sec2"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"underbarrel_m203_base"
+		{
+//			"lock_slot"				"demolitions"
+		}
+		"underbarrel_m203_he"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"m203_hedp"
+		{
+			"import"				"underbarrel_m203_he"
+			"print_name"				"M203 (HEDP)"
+			"print_desc"				"Smaller radius but higher damage. Good for indoors or accurate shooters."
+			"attach_weapon"				"weapon_m203_hedp"
+		}
+		"underbarrel_m203_smoke"
+		{
+			"lock_slot"				""
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+			
+		}
+	}
+}

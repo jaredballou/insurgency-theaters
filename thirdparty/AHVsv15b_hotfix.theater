@@ -1,0 +1,1027 @@
+"#base"	"m2h_base.theater"
+
+//v54b implimented initializer for gear objects that increases user control
+//VSv4	implimenting new modular theater system
+
+"theater"
+{	
+	//========================================
+	//TEAM DEFINITIONS
+	//========================================
+	"teams"
+	{
+		"security"
+		{
+			"name"		"TEAM AMERICA"
+			"logo"		"gameui/fac_sec"
+			"squads"
+			{
+				// assault squad
+				"Fireteam Alpha"	// small arms, big guns
+				{
+					"#Squad_Fireteam_Leader_Recon"			"template_recon_security_m2h"
+					"#Squad_Fireteam_Specialist"			"template_specialist_security_m2h"
+					"#Squad_Fireteam_Rifleman"				"template_rifleman_security_m2h"
+					"#Squad_Fireteam_Support"				"template_support_security_m2h"
+					"#Squad_Fireteam_Breacher"				"template_breacher_security_m2h"
+					"#Squad_Fireteam_Demolitions"			"template_demolitions_security_m2h"
+					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security_m2h"
+					"#Squad_Fireteam_Sniper"				"template_sniper_security_m2h"
+				}
+				"Fireteam Bravo"	// small arms, big guns
+				{
+					"#Squad_Fireteam_Leader_Recon"			"template_recon_security_m2h"
+					"#Squad_Fireteam_Specialist"			"template_specialist_security_m2h"
+					"#Squad_Fireteam_Rifleman"				"template_rifleman_security_m2h"
+					"#Squad_Fireteam_Support"				"template_support_security_m2h"
+					"#Squad_Fireteam_Breacher"				"template_breacher_security_m2h"
+					"#Squad_Fireteam_Demolitions"			"template_demolitions_security_m2h"
+					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security_m2h"
+					"#Squad_Fireteam_Sniper"				"template_sniper_security_m2h"
+				}
+				"Fireteam Charlie"	// Cool kids
+				{
+					"#Squad_Fireteam_Leader_Recon"			"template_recon_security_m2h"
+					"#Squad_Fireteam_Specialist"			"template_specialist_security_m2h"
+					"#Squad_Fireteam_Rifleman"				"template_rifleman_security_m2h"
+					"#Squad_Fireteam_Support"				"template_support_security_m2h"
+					"#Squad_Fireteam_Breacher"				"template_breacher_security_m2h"
+					"#Squad_Fireteam_Demolitions"			"template_demolitions_security_m2h"
+					"#Squad_Fireteam_Designated_Marksman"	"template_designated_marksman_security_m2h"
+					"#Squad_Fireteam_Sniper"				"template_sniper_security_m2h"
+				}
+			}
+		}
+		"insurgents"
+		{
+			"name"		"TERRORIZERS"
+			"logo"		"gameui/fac_ins"
+			"squads"
+			{
+				"Group One"	// 8 
+				{
+					// role name							preset
+					"Apex Muja"					"template_leader_a_insurgent"
+					"Stalker"					"template_specialist_a_insurgent"
+					"Fighter"					"template_fighter_a_insurgent"
+					"Machinegunner"				"template_machinegunner_a_insurgent"
+					"Striker"					"template_striker_a_insurgent"
+					"Suicide Bomber"			"template_suicide_insurgent"
+					"Sharpshooter"				"template_sharpshooter_a_insurgent"
+					"Sniper"					"template_sniper_a_insurgent"	
+				}
+				"Group Two"	// 16 
+				{
+					// role name							preset
+					"Apex Muja"					"template_leader_a_insurgent"
+					"Stalker"					"template_specialist_a_insurgent"
+					"Fighter"					"template_fighter_a_insurgent"
+					"Machinegunner"				"template_machinegunner_a_insurgent"
+					"Striker"					"template_striker_a_insurgent"
+					"Suicide Bomber"			"template_suicide_insurgent"
+					"Sharpshooter"				"template_sharpshooter_a_insurgent"
+					"Sniper"					"template_sniper_a_insurgent"	
+				}
+				"Group Three"	// 24 
+				{
+					// role name							preset
+					"Apex Muja"					"template_leader_a_insurgent"
+					"Stalker"					"template_specialist_a_insurgent"
+					"Fighter"					"template_fighter_a_insurgent"
+					"Machinegunner"				"template_machinegunner_a_insurgent"
+					"Striker"					"template_striker_a_insurgent"
+					"Suicide Bomber"			"template_suicide_insurgent"
+					"Sharpshooter"				"template_sharpshooter_a_insurgent"
+					"Sniper"					"template_sniper_a_insurgent"	
+				}
+			}
+		}
+	}//end of teams
+	
+	//========================================
+	//CLASS DEFINITIONS
+	//========================================
+	
+	"player_templates"
+	{
+		"template_recon_security_m2h"
+		{
+			"models"
+			{
+				"player"			"models/characters/security_specialist.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
+				"attachments"
+				{
+					"cap"
+					{
+						"model"			"models/characters/us_cap_specialist.mdl"
+					}
+				}
+			}
+			"team"			"security"
+			"print_name"	"Recon"
+			"buy_order"
+			{
+				"weapon"		"weapon_why"
+				"weapon"		"weapon_m93r"
+				"gear"			"sec_heavy_armor"			
+				"weapon"		"weapon_m67"
+			}
+			"allowed_items"
+			{
+			//PRIMARIES
+				"weapon"		"weapon_g3a3"
+				"weapon"		"weapon_ksg"
+				"weapon"		"weapon_m16a4"			
+				"weapon"		"weapon_acr"
+				"weapon"		"weapon_m4a1"
+			//SECONDARIES
+				"weapon"		"weapon_m93r"
+				"weapon"		"weapon_uzi"
+				"weapon"		"weapon_deagle"
+				"weapon"		"weapon_mp5"
+				"weapon"		"weapon_m500"
+			//EXPLOSIVES
+				"weapon"		"weapon_m67"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_anm14"
+				"weapon"		"weapon_m84"
+				"weapon"		"weapon_breachingcharge"
+			//EXTRAS
+				"weapon"		"weapon_why"
+			}
+		}
+		
+		"template_specialist_security_m2h"
+		{
+			"team"			"security"
+			"print_name"	"Specialist"
+			"models"
+			{
+				"player"			"models/characters/security_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
+				"attachments"
+				{
+					"cap"
+					{
+						"model"			"models/characters/us_cap_specialist.mdl"
+						"fallback_for_slot"			"accessory"
+					}
+				}
+			}
+			"buy_order"
+			{
+				"weapon"		"weapon_why"
+				"gear"			"sec_heavy_armor"
+				"gear"			"sec_chest_carrier"
+				"weapon"		"weapon_ump45"
+				"weapon"		"weapon_breachingcharge"
+				"weapon"		"weapon_m67"
+			}
+			"allowed_items"
+			{
+			//PRIMARIES
+				"weapon"		"weapon_mk18"
+				"weapon"		"weapon_saiga12"
+				"weapon"		"weapon_ump45"
+				"weapon"		"weapon_spas12"
+				"weapon"		"weapon_acr"
+				
+			//SECONDARIES
+				"weapon"		"weapon_aks74u"
+				"weapon"		"weapon_mp40"
+				"weapon"		"weapon_deagle"
+				"weapon"		"weapon_uzi"
+				"weapon"		"weapon_ao_1911a1"
+			//EXPLOSIVES
+				"weapon"		"weapon_m67"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_m84"
+				"weapon"		"weapon_anm14"
+				"weapon"		"weapon_breachingcharge"
+			//EXTRAS
+				"weapon"		"weapon_why"
+			}
+		}
+		
+		"template_rifleman_security_m2h"
+		{
+			"team"			"security"
+			"print_name"	"Rifleman"
+			"models"
+			{
+				"player"			"models/characters/security_rifleman.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_cap_light.mdl"
+						"fallback_for_slot"			"accessory"
+					}
+				}
+			}
+			"buy_order"
+			{
+				"weapon"		"weapon_why"
+				"gear"			"sec_heavy_armor"
+				"gear"			"sec_chest_rig"
+				"weapon"		"weapon_m16a4"
+				"weapon_upgrade"	"underbarrel_m203_he"
+				"weapon"		"weapon_mp7"
+				"weapon"		"weapon_m18"
+			}
+			"allowed_items"
+			{
+			//PRIMARIES
+				"weapon"		"weapon_m16a4"
+				"weapon"		"weapon_acr"
+				"weapon"		"weapon_g3a3"
+				"weapon"		"weapon_mk18"
+				"weapon"		"weapon_m4a1"
+			//SECONDARIES
+				"weapon"		"weapon_m500"
+				"weapon"		"weapon_mp7"
+				"weapon"		"weapon_uzi"
+				"weapon"		"weapon_deagle"
+				"weapon"		"weapon_m45"
+			//EXPLOSIVES
+				"weapon"		"weapon_m67"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_anm14"
+				"weapon"		"weapon_m84"
+				"weapon"		"weapon_breachingcharge"
+			//EXTRAS
+				"weapon"		"weapon_why"
+			}
+		}
+		
+		"template_support_security_m2h"
+		{
+			"team"			"security"
+			"print_name"	"Support"
+			"models"
+			{
+				"player"			"models/characters/security_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_m.mdl"
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_cap_light.mdl"
+						"fallback_for_slot"			"accessory"
+					}
+				}
+			}
+			"buy_order"
+			{
+				"weapon"		"weapon_why"
+				"gear"			"sec_heavy_armor"
+				"gear"			"sec_chest_rig"
+				"weapon"		"weapon_m249"
+				"weapon"		"weapon_m45"
+				"weapon"		"weapon_at4"
+			}
+			"allowed_items"
+			{
+			//PRIMARIES
+				"weapon"		"weapon_m249"
+				"weapon"		"weapon_rpk"
+				"weapon"		"weapon_ksg"
+				"weapon"		"weapon_ak12u"
+				"weapon"		"weapon_ump45"
+			//SECONDARIES
+				"weapon"		"weapon_mp5"
+				"weapon"		"weapon_mp7"
+				"weapon"		"weapon_deagle"
+				"weapon"		"weapon_m93r"
+				"weapon"		"weapon_uzi"
+			//EXPLOSIVES
+				"weapon"		"weapon_m67"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_anm14"
+				"weapon"		"weapon_m84"
+				"weapon"		"weapon_at4"
+			//EXTRAS
+				"weapon"		"weapon_why"
+			}
+		}
+		
+		"template_breacher_security_m2h"
+		{
+			"team"			"security"
+			"print_name"	"Breacher"
+			"models"
+			{
+				"player"			"models/characters/security_rifleman.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_l.mdl"
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_cap_light.mdl"
+						"fallback_for_slot"			"accessory"
+					}
+				}
+			}
+			"buy_order"
+			{
+				"weapon"		"weapon_why"
+				"gear"			"sec_heavy_armor"
+				"gear"			"sec_chest_rig"
+				"gear"			"Kevlar Helmet"
+				"weapon"		"weapon_saiga12"
+				"weapon"		"weapon_m93r"
+				"weapon"		"weapon_breachingcharge"
+			}
+			"allowed_items"
+			{
+			//PRIMARIES
+				"weapon"		"weapon_saiga12"
+				"weapon"		"weapon_m590"
+				"weapon"		"weapon_ksg"			
+				"weapon"		"weapon_ump45"
+				"weapon"		"weapon_spas12"
+			//SECONDARIES
+				"weapon"		"weapon_sotoz"
+				"weapon"		"weapon_m500"
+				"weapon"		"weapon_uzi"
+				"weapon"		"weapon_m45"
+				"weapon"		"weapon_m93r"
+			//EXPLOSIVES
+				"weapon"		"weapon_anm14"
+				"weapon"		"weapon_breachingcharge"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_m67"
+				"weapon"		"weapon_m84"
+			//EXTRAS
+				"weapon"		"weapon_why"
+			}
+		}
+		
+		"template_demolitions_security_m2h"
+		{	
+			"team"			"security"
+			"print_name"	"Demolitions"
+			"models"
+			{
+				"player"			"models/characters/security_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_m.mdl"
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_cap_light.mdl"
+						"fallback_for_slot"			"accessory"
+					}
+				}
+			}
+			"buy_order"
+			{
+				"weapon"		"weapon_why"
+				"gear"			"sec_heavy_armor"
+				"gear"			"sec_chest_carrier"
+				"weapon"		"weapon_m4a1"
+				"weapon"		"weapon_mp7"
+				"weapon"		"weapon_at4"
+				"gear"			"Kevlar Helmet"
+			}
+			"allowed_items"
+			{
+			//PRIMARIES
+				"weapon"		"weapon_ump45"
+				"weapon"		"weapon_m4a1"
+				"weapon"		"weapon_acr"
+				"weapon"		"weapon_g3a3"
+				"weapon"		"weapon_ksg"
+			//SECONDARIES
+				"weapon"		"weapon_mp7"
+				"weapon"		"weapon_deagle"
+				"weapon"		"weapon_uzi"
+				"weapon"		"weapon_m45"
+				"weapon"		"weapon_m93r"
+			//EXPLOSIVES
+				"weapon"		"weapon_c4_clicker"
+				"weapon"		"weapon_SMAW_NE"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_m67"
+				"weapon"		"weapon_anm14"
+			//EXTRAS
+				"weapon"		"weapon_why"
+			}	
+		}
+		
+		"template_designated_marksman_security_m2h"
+		{
+			"team"			"security"
+			"print_name"	"Designated Marksman"
+			"models"
+			{
+				"player"			"models/characters/security_heavy.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_m.mdl"
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_cap_light.mdl"
+						"fallback_for_slot"			"accessory"
+					}
+				}
+			}
+			"buy_order"
+			{
+				"weapon"		"weapon_why"
+				"gear"			"sec_heavy_armor"
+				"gear"			"sec_chest_carrier"
+				"weapon"		"weapon_mini14"
+				"gear"			"Kevlar Helmet"
+			}
+			"allowed_items"
+			{
+			//PRIMARIES
+				"weapon"		"weapon_mini14"
+				"weapon"		"weapon_m14"
+				"weapon"		"weapon_g3a3"
+				"weapon"		"weapon_acr"
+				"weapon"		"weapon_m16a4"
+			//SECONDARIES
+				"weapon"		"weapon_mp7"
+				"weapon"		"weapon_uzi"
+				"weapon"		"weapon_m45"
+				"weapon"		"weapon_deagle"
+				"weapon"		"weapon_ao_1911a1"
+			//EXPLOSIVES
+				"weapon"		"weapon_m67"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_anm14"
+				"weapon"		"weapon_m84"
+				"weapon"		"weapon_breachingcharge"
+			//EXTRAS
+				"weapon"		"weapon_why"
+			}
+		}
+		
+		"template_sniper_security_m2h"
+		{
+			"team"			"security"
+			"print_name"	"Sniper"
+			"models"
+			{
+				"player"			"models/characters/security_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_sec_m.mdl"
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_cap_light.mdl"
+						"fallback_for_slot"			"accessory"
+					}
+				}
+			}
+			"buy_order"
+			{
+				"weapon"		"weapon_why"
+				"gear"			"sec_heavy_armor"
+				"gear"			"sec_chest_rig"
+				"weapon"		"weapon_m40a1"
+				"weapon"		"weapon_mp40"
+				"weapon"		"weapon_m67"
+			}
+			"allowed_items"
+			{
+			//PRIMARIES
+				"weapon"		"weapon_m16a4"
+				"weapon"		"weapon_m14"
+				"weapon"		"weapon_fal"
+				"weapon"		"weapon_m40a1"
+				"weapon"		"weapon_ar15"
+			//SECONDARIES
+				"weapon"		"weapon_sotoz"
+				"weapon"		"weapon_mp40"
+				"weapon"		"weapon_m93r"
+				"weapon"		"weapon_deagle"
+				"weapon"		"weapon_m45"
+			//EXPLOSIVES
+				"weapon"		"weapon_m67"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_anm14"
+				"weapon"		"weapon_m84"
+				"weapon"		"weapon_breachingcharge"
+			//EXTRAS
+				"weapon"		"weapon_why"
+			}
+		}
+		
+		//INSURGENTS
+		
+		"template_suicide_insurgent"
+		{
+			"team"			"insurgents"
+			"print_name"	"Suicide Bomber"
+			"models"
+			{
+				"player"			"models/characters/insurgent_sapper.mdl"
+				"viewmodel_hands" 	"models/weapons/v_hands_ins_l.mdl"
+			}
+			"buy_order" 
+			{
+				"weapon"		"weapon_suicidevest"
+				"weapon"		"weapon_makarov"
+				"weapon"		"weapon_why"
+				"gear"			"ins_light_armor"
+				"gear"			"bullet_proof_shemagh"	
+			}
+			"allowed_items"
+			{
+				//PRIMARIES
+				//SECONDARIES
+				"weapon"		"weapon_makarov"
+				//EXPLOSIVES				
+				"weapon"		"weapon_c4_ied"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_f1"
+				"weapon"		"weapon_molotov"
+				"weapon"		"weapon_suicidevest"
+				//EXTRAS
+				"weapon"		"weapon_why"
+				"gear"			"bullet_proof_shemagh"
+			}
+		}
+		
+		"template_machinegunner_a_insurgent"
+		{
+			"team"			"insurgents"
+			"print_name"	"Machinegunner"
+			"models"
+			{
+				"player"			"models/characters/insurgent_machinegunner.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+			}
+			"buy_order" 
+			{
+				"weapon"		"weapon_rpk"
+				"weapon"		"weapon_mp40"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_why"
+				"gear"			"ins_heavy_armor"
+				"gear"			"ins_chest_carrier"
+			}
+			"allowed_items"
+			{
+			//PRIMARIES
+				"weapon"		"weapon_akm"
+				"weapon"		"weapon_m1a1"
+				"weapon"		"weapon_ak74"
+				"weapon"		"weapon_rpk"
+				"weapon"		"weapon_ak12u"
+			//SECONDARIES
+				"weapon"		"weapon_tokarev"
+				"weapon"		"weapon_ao_1911a1"
+				"weapon"		"weapon_deagle"
+				"weapon"		"weapon_uzi"
+				"weapon"		"weapon_mp40"
+			//EXPLOSIVES
+				"weapon"		"weapon_f1"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_suicidevest"
+				"weapon"		"weapon_molotov"
+			//EXTRAS
+				"weapon"		"weapon_why"
+			}
+		}
+		
+		"template_striker_a_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Striker"
+			"models"
+			{
+				"player"			"models/characters/insurgent_sapper.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_l.mdl"
+			}
+			"buy_order" 
+			{
+				"gear"				"ins_chest_carrier"
+				"gear"				"ins_heavy_armor"
+				"weapon"		"weapon_akm"
+				"weapon"		"weapon_sotoz"
+				"weapon"		"weapon_rpg7"
+				"weapon"		"weapon_why"
+			}
+			"allowed_items"
+			{
+			//PRIMARIES
+				"weapon"		"weapon_m1a1"
+				"weapon"		"weapon_saiga12"
+				"weapon"		"weapon_akm"
+				"weapon"		"weapon_vz58"
+				"weapon"		"weapon_spas12"
+				
+			//SECONDARIES
+				"weapon"		"weapon_uzi"
+				"weapon"		"weapon_deagle"
+				"weapon"		"weapon_sotoz"
+				"weapon"		"weapon_m500"
+				"weapon"		"weapon_tokarev"
+			//EXPLOSIVES
+				"weapon"		"weapon_f1"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_rpg7_og7v"
+				"weapon"		"weapon_c4_ied"
+				"weapon"		"weapon_rpg7"
+			//EXTRAS
+				"weapon"		"weapon_why"
+			}
+		}
+		"template_fighter_a_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Fighter"
+			"models"
+			{
+				"player"			"models/characters/insurgent_fighter.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+			}
+			"buy_order" 
+			{
+				"gear"				"ins_chest_carrier"
+				"gear"				"ins_heavy_armor"
+				"weapon"			"weapon_why"
+				"weapon"			"weapon_ak74"
+			}
+			"allowed_items"
+			{
+			//PRIMARIES
+				"weapon"		"weapon_akm"
+				"weapon"		"weapon_m1a1"
+				"weapon"		"weapon_ak74"
+				"weapon"		"weapon_sks"
+				"weapon"		"weapon_g3a3"
+			//SECONDARIES
+				"weapon"		"weapon_aks74u"
+				"weapon"		"weapon_tokarev"
+				"weapon"		"weapon_mp40"
+				"weapon"		"weapon_uzi"
+				"weapon"		"weapon_m9"
+			//EXPLOSIVES
+				"weapon"		"weapon_f1"
+				"weapon"		"weapon_m67"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_m84"
+				"weapon"		"weapon_molotov"
+			//EXTRAS
+				"weapon"		"weapon_why"
+			}
+		}
+		"template_leader_a_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Apex Muja"
+			"models"
+			{
+				"player"			"models/characters/insurgent_standard.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+			}
+			
+			"buy_order" 
+			{
+				"gear"				"ins_chest_carrier"
+				"gear"				"ins_heavy_armor"
+				"weapon"			"weapon_why"
+				"weapon"			"weapon_m84"
+				"weapon"			"weapon_fal"
+				"weapon_upgrade"	"ammo_ap_fal"
+			}
+			"allowed_items"
+			{
+			//PRIMARIES
+				"weapon"		"weapon_akm"
+				"weapon"		"weapon_fal"
+				"weapon"		"weapon_m4a1"
+				"weapon"		"weapon_toz"
+				"weapon"		"weapon_spas12"
+			//SECONDARIES
+				"weapon"		"weapon_ao_1911a1"
+				"weapon"		"weapon_uzi"
+				"weapon"		"weapon_deagle"
+				"weapon"		"weapon_tokarev"
+				"weapon"		"weapon_mp40"
+			//EXPLOSIVES
+				"weapon"		"weapon_f1"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_rpg7"
+				"weapon"		"weapon_m84"
+				"weapon"		"weapon_c4_ied"
+			//EXTRAS
+				"weapon"		"weapon_why"
+			}
+		}
+		
+		"template_specialist_a_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Stalker"
+			"models"
+			{
+				"player"			"models/characters/civilian_vip.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+			}
+			"buy_order" 
+			{
+				"gear"				"ins_chest_carrier"
+				"weapon"			"weapon_why"
+				"weapon"			"weapon_m18"
+			}
+			"allowed_items"
+			{
+			//PRIMARIES
+				"weapon"		"weapon_akm"
+				"weapon"		"weapon_toz"
+				"weapon"		"weapon_zastava"
+				"weapon"		"weapon_acr"
+				"weapon"		"weapon_vz58"
+			//SECONDARIES
+				"weapon"		"weapon_deagle"
+				"weapon"		"weapon_m93r"
+				"weapon"		"weapom_sotoz"
+				"weapon"		"weapon_uzi"
+				"weapon"		"weapon_tokarev"
+			//EXPLOSIVES
+				"weapon"		"weapon_f1"
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_m84"
+				"weapon"		"weapon_rpg7_og7v"
+				"weapon"		"weapon_c4_ied"
+			//EXTRAS
+				"weapon"		"weapon_why"
+			}
+		}
+		"template_sharpshooter_a_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Sniper"
+			"models"
+			{
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+			}
+			"buy_order" 
+			{
+				"gear"				"ins_chest_carrier"
+				"weapon"			"weapon_why"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_mp40"
+				"weapon_upgrade"	"ins_silencer"
+			}
+			"allowed_items"
+			{
+			//PRIMARIES
+				"weapon"		"weapon_g3a3"
+				"weapon"		"weapon_fal"
+				"weapon"		"weapon_vz58"
+				"weapon"		"weapon_sks"
+				"weapon"		"weapon_zastava"
+			//SECONDARIES
+				"weapon"		"weapon_aks74u"
+				"weapon"		"weapon_uzi"
+				"weapon"		"weapon_m1911"
+				"weapon"		"weapon_mp40"
+				"weapon"		"weapon_tokarev"
+			//EXPLOSIVES
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_f1"
+				"weapon"		"weapon_molotov"
+			//EXTRAS
+				"weapon"		"weapon_why"
+			}
+		}
+		"template_sniper_a_insurgent"
+		{	
+			"team"			"insurgents"
+			"print_name"	"Sniper"
+			"models"
+			{
+				"player"			"models/characters/insurgent_light.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ins_m.mdl"
+			}
+			"buy_order" 
+			{
+				"gear"				"ins_chest_carrier"
+				"gear"				"ins_heavy_armor"
+				"weapon"			"weapon_why"
+				"weapon"			"weapon_mosin"
+				"weapon"			"weapon_mp40"
+				"weapon_upgrade"	"ins_silencer"
+			}
+			"allowed_items"
+			{
+			//PRIMARIES
+				"weapon"		"weapon_zastava"
+				"weapon"		"weapon_fal"
+				"weapon"		"weapon_mosin"
+				"weapon"		"weapon_sks"
+				"weapon"		"weapon_vz58"
+			//SECONDARIES
+				"weapon"		"weapon_tokarev"
+				"weapon"		"weapon_makarov"
+				"weapon"		"weapon_mp40"
+				"weapon"		"weapon_uzi"
+				"weapon"		"weapon_deagle"
+			//EXPLOSIVES
+				"weapon"		"weapon_m18"
+				"weapon"		"weapon_f1"
+				"weapon"		"weapon_molotov"
+			//EXTRAS
+				"weapon"		"weapon_why"
+			}
+		}
+	}//end of player template definitions
+	
+	//========================================
+	//GEAR DEFINITIONS
+	//========================================
+	
+	"player_gear"
+	{
+		"sec_chest_carrier"
+		{
+			"gear_cost"		"0"
+		}
+		"sec_chest_rig"
+		{
+			"gear_cost"		"0"
+		}
+		"sec_heavy_armor"
+		{
+			"gear_cost"		"0"
+		}
+		"sec_light_armor"
+		{
+			"gear_cost"		"0"
+		}
+		"ins_chest_carrier"
+		{
+			"gear_cost"		"0"
+		}
+		"ins_chest_rig"
+		{
+			"gear_cost"		"0"
+		}
+		"ins_heavy_armor"
+		{
+			"gear_cost"		"0"
+		}
+		"ins_light_armor"
+		{
+			"gear_cost"		"0"
+		}
+	}
+	//========================================
+	//AMMO DEFINITIONS
+	//========================================	
+	"ammo"
+	{
+		//========================================
+		// Single Load reinitialize [these Ammo types like these must be reinitialized between theaters] (This includes at least one full ammo type)
+		//========================================	
+		"00buck"	//REINITIALIZE NON EXPLOSIVE AMMUNITION (so you can reini explosives. stop askking, just accept it)
+		{
+			"bulletcount"	"12"
+		}
+	//EXPLOSIVES
+		"rocket_rpg7"
+		{
+			"carry"						"1"
+		}
+		"grenade_m67"
+		{
+			"carry"						"4"
+		}
+    	"grenade_f1"
+		{
+			"carry"						"3"
+		}
+		"grenade_m18"
+		{
+			"carry"						"8"
+		}
+		"grenade_m84"
+		{
+			"carry"						"3"
+		}
+		"grenade_c4"
+		{
+			"carry"						"2"
+		}
+		"grenade_m203_he"
+		{
+			"carry"						"4"
+		}
+		"grenade_anm14"
+		{
+			"carry"						"6"
+		}
+		"grenade_molotov"
+		{
+			"carry"						"6"
+		}
+	//CUSTOM
+		"grenade_breachingcharge"
+		{
+			"carry"		"6"
+		}
+		//m203+gp25 flash
+		"grenade_universal_flash"
+		{
+			"carry"		"6"
+		}
+		//m203+gp25 incendiary
+		"grenade_universal_incendiary"
+		{
+			"carry"		"6"
+		}
+		
+		"762x51mm"
+		{
+			"import"					"762x51"
+			"carry"						"120"
+      		"flags_clear"				"AMMO_USE_MAGAZINES" 
+		}
+		"762x51mm_ap"
+		{
+			"import"					"762x51_ap"
+			"carry"						"120"
+      		"flags_clear"				"AMMO_USE_MAGAZINES" 
+		}
+		"762x54mm"
+		{
+			"import"					"762x54"
+			"carry"						"120"
+      		"flags_clear"				"AMMO_USE_MAGAZINES" 
+		}
+		"762x54mm_ap"
+		{
+			"import"					"762x54_ap"
+			"carry"						"120"
+      		"flags_clear"				"AMMO_USE_MAGAZINES" 
+		}
+		"buckshot"
+		{
+			"import"   					"00buck"
+			"carry"						"72"	
+      		"flags_clear"				"AMMO_USE_MAGAZINES"   
+		}		
+		"slugs"
+		{
+			"import"					"slug"				
+			"carry"						"72"		
+      		"flags_clear"				"AMMO_USE_MAGAZINES" 
+		}
+
+		//sawed off
+		"buckshot10"
+		{
+			"import"   					"10gauge"
+			"carry"						"72"	
+			"flags_clear"				"AMMO_USE_MAGAZINES"  
+		}
+		//m590
+		"buckshot12"
+		{
+			"import"   					"12gauge"
+			"carry"						"72"	
+			"flags_clear"				"AMMO_USE_MAGAZINES"   
+		}
+	}
+	//========================================
+	//WEAPON DEFINITIONS
+	//========================================
+	"weapons"
+	{	
+		"weapon_rpg7"
+		{
+			"print_desc"		"Careful mate, there's an HE-AT Warhead in this one"
+			"weapon_cost"		"0"
+			"team_access"		"security, insurgent"
+			"single_use"		"0"
+			"ammo_clip"
+			{
+				"ammo_type"			"rocket_rpg7"
+				"clip_max_rounds"	"1" // 1 rpg per mag
+				"clip_default"		"1"//1 RPG is default without a vest
+			}
+			"player_restrictions"
+			{
+				"allow_lean"		"1"
+				"allow_sprint"		"1"
+				"allow_jump"		"0"
+			}
+		}
+		"weapon_ak12u"
+		{
+			"Weapon_slot"					"primary"
+			"weapon_max_subslot"			"1"
+		}
+	}
+}
+//M2H-Absolutelyharam series- A Theater hackup by Gypsy, Special thanks to SPC.Ballou.J
