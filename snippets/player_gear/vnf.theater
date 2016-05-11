@@ -3,38 +3,150 @@
 {
 	"player_gear"
 	{
-		"sec_chest_carrier"
+		"sec_nightvision"
+		{
+			"print_name"				"#gear_nvg"
+			"print_desc"				"#gear_nvg_desc"
+			"gear_slot"				"accessory"
+			"gear_cost"				"1"
+			"gear_weight"				"0"
+			"entity"				"nvg"
+			"model"					"models/characters/a_nightvision.mdl"
+				
+			"settings"
+			{
+				"material"				"dev/sec_nightvision"
+				"sound_on"				"Weapon_NVG.NvgOn"
+				"sound_off"				"Weapon_NVG.NvgOff"
+				"chromatic_aberation"			"0"
+				"dust_power"				"1.2"
+					
+				"fade_in_time"				"0.3"
+				"fade_in_hold"				"0.1"
+				"fade_in_tonemap"			"170"
+					
+				"fade_out_time"				"0.5"
+				"fade_out_hold"				"0.1"
+			}
+
+			"team_access"				"security"
+		}
+		"sec_chest_base"
 		{
 			"gear_cost"				"2"
+			"gear_slot"				"vest"
 			"gear_weight"				"32"	// 50 (5.0kg) + 50 encumbrance
 			"extra_ammo"
 			{
-				"primary"				"3"
+				"primary"				"4"
 				"secondary"				"4"
+				"explosive"				"2"
 			}
 			"weapon_slots"
 			{
 				"explosive"				"2"
-//				"demolitions"				"1"
 			}
 			"team_access"				"security"
 		}
-		"sec_chest_rig"
+		"sec_chest_carrier" // Rifleman: Three explosive, 2 extra on 2-3, medium weight
 		{
-			"gear_slot"				"vest"
+			"import"				"sec_chest_base"
+		}
+		"sec_chest_rig" // Assault: Three explosive, 1 extra on 2-3, lightweight
+		{
+			"import"				"sec_chest_base"
+			"gear_cost"				"1"
+			"gear_weight"				"0"	// 22 (2.2kg) + 24 encumbrance
+			"weapon_slots"
+			{
+				"explosive"				"1"
+			}
+		}
+		"sec_chest_sniper" //Sniper: Two explosive slots, no extra ammo, no weight
+		{
+			"import"				"sec_chest_base"
+			"print_name"				"Sniper"
+			"print_desc"				"Two explosive slots, no extra ammo, lightweight"
 			"gear_cost"				"1"
 			"gear_weight"				"0"	// 22 (2.2kg) + 24 encumbrance
 			"extra_ammo"
 			{
-				"primary"				"2"
-				"secondary"				"2"
+				"primary"				"6"
+				"secondary"				"6"
+				"explosive"				"0"
 			}
+
 			"weapon_slots"
 			{
 				"explosive"				"1"
-//				"demolitions"				"1"
 			}
-			"team_access"				"security"
+		}
+		"sec_chest_demo" // Demolitions: Three explosive and heavy demo, 3 extra on 2-3, heavy weight
+		{
+			"import"				"sec_chest_base"
+			"print_name"				"Demolitions"
+			"print_desc"				"Three explosive and heavy demo, 3 extra on 2-3, heavy weight"
+			"gear_cost"				"1"
+			"gear_weight"				"0"
+			"extra_ammo"
+			{
+				"primary"				"4"
+				"secondary"				"4"
+				"explosive"
+				{
+					"1"					"3"
+					"2"					"3"
+				}
+			}
+			"weapon_slots"
+			{
+				"explosive"				"2"
+				"heavydemo"				"1"
+			}
+		}
+		"sec_chest_gren_light" // Grenadier Light: One explosive slot, 3 extra, 12x 203 rounds, heavy weight
+		{
+			"import"				"sec_chest_base"
+			"print_name"				"Grenadier Light"
+			"print_desc"				"One explosive slot, 3 extra, 12x 203 rounds, heavy weight"
+			"gear_cost"				"3"
+			"gear_weight"				"64"
+			"extra_ammo"
+			{
+				"primary"				"4"
+				"secondary"				"4"
+				"explosive"
+				{
+					"0"					"3"
+					"6"					"9"
+				}
+			}
+			"weapon_slots"
+			{
+				"explosive"				"0"
+			}
+		}
+		"sec_chest_gren_heavy" //Grenadier Heavy: No explosive slots, 24x 203 rounds, heavy weight
+		{
+			"import"				"sec_chest_base"
+			"print_name"				"Grenadier Heavy"
+			"print_desc"				"No explosive slots, 24x 203 rounds, heavy weight"
+			"gear_cost"				"3"
+			"gear_weight"				"64"
+			"extra_ammo"
+			{
+				"primary"				"4"
+				"secondary"				"4"
+				"explosive"
+				{
+					"6"					"21"
+				}
+			}
+			"lock_slot"					"explosive"
+			"weapon_slots"
+			{
+				"explosive"				"0"
+			}
 		}
 		"sec_light_armor"
 		{
