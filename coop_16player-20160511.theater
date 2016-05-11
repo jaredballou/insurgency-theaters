@@ -64,8 +64,13 @@
 				"weapon_upgrade"			"optic_elcan"
 				"weapon_upgrade"			"ammo_ap_m14"
 				"weapon"				"weapon_kabar"
-				"weapon"				"weapon_m9"
-				"weapon"				"weapon_m18"
+				"weapon"				"weapon_m45"
+				"weapon_upgrade"			"ammo_ap_m45"
+				"weapon_upgrade"			"barrel_silencer_pistol"
+				"weapon_upgrade"			"magazine_extended_pistol"
+				"weapon_upgrade"			"siderail_flashlight_pistol"
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_m67"
 			}
 			"allowed_items"
 			{
@@ -105,14 +110,16 @@
 				"gear"					"sec_heavy_armor"
 				"gear"					"sec_chest_carrier"
 				"weapon"				"weapon_m16a4"
+				"weapon_upgrade"			"siderail_flashlight_rail"
 				"weapon_upgrade"			"ammo_ap_m16a4"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"optic_2xaimpoint"
-				"weapon_upgrade"			"heavybarrel"
-				"weapon"				"weapon_m9"
-				"weapon_upgrade"			"sec_flashlight_pistol"
-				"weapon_upgrade"			"sec_suppressor_pistol"
-				"weapon_upgrade"			"ammo_ap_m9"
+				"weapon_upgrade"			"barrel_heavybarrel"
+				"weapon"				"weapon_m45"
+				"weapon_upgrade"			"ammo_ap_m45"
+				"weapon_upgrade"			"barrel_silencer_pistol"
+				"weapon_upgrade"			"magazine_extended_pistol"
+				"weapon_upgrade"			"siderail_flashlight_pistol"
 				"weapon"				"weapon_at4"
 				"weapon"				"weapon_m67"
 				"weapon"				"weapon_kabar"
@@ -156,11 +163,16 @@
 				"gear"					"sec_heavy_armor"
 				"gear"					"sec_chest_carrier"
 				"weapon"				"weapon_m16a4"
+				"weapon_upgrade"			"siderail_flashlight_rail"
 				"weapon_upgrade"			"ammo_ap_m16a4"
 				"weapon_upgrade"			"underbarrel_m203_he"
 				"weapon_upgrade"			"optic_2xaimpoint"
-				"weapon_upgrade"			"heavybarrel"
-				"weapon"				"weapon_m9"
+				"weapon_upgrade"			"barrel_heavybarrel"
+				"weapon"				"weapon_m45"
+				"weapon_upgrade"			"ammo_ap_m45"
+				"weapon_upgrade"			"barrel_silencer_pistol"
+				"weapon_upgrade"			"magazine_extended_pistol"
+				"weapon_upgrade"			"siderail_flashlight_pistol"
 				"weapon"				"weapon_kabar"
 			}
 			"allowed_weapons"
@@ -202,7 +214,6 @@
 				"gear"					"sec_heavy_armor"
 				"gear"					"sec_chest_carrier"
 				"weapon"				"weapon_m14"
-				"weapon"				"weapon_galil_sar"
 				"weapon_upgrade"			"ammo_ap_m14"
 				"weapon_upgrade"			"optic_scope_mk4"
 				"weapon_upgrade"			"sec_foregrip2"
@@ -258,8 +269,12 @@
 				"weapon_upgrade"			"sec_foregrip2"
 				"weapon_upgrade"			"sec_lasersight_band"
 				"weapon_upgrade"			"optic_elcan"
-				"weapon_upgrade"			"heavybarrel"
-				"weapon"				"weapon_m9"
+				"weapon_upgrade"			"barrel_heavybarrel"
+				"weapon"				"weapon_m45"
+				"weapon_upgrade"			"ammo_ap_m45"
+				"weapon_upgrade"			"barrel_silencer_pistol"
+				"weapon_upgrade"			"magazine_extended_pistol"
+				"weapon_upgrade"			"siderail_flashlight_pistol"
 				"weapon"				"weapon_m67"
 				"weapon"				"weapon_m67"
 				"weapon"				"weapon_kabar"
@@ -285,12 +300,119 @@
 	}
 	"player_settings"
 	{
+		"scoring"
+		{
+			"kill"					"10"
+			"kill_offensive"			"25"
+			"kill_defensive"			"25"
+			"kill_headshot_bonus"			"10"
+			"kill_savior"				"20"
+			"kill_bonus_domination"			"10"
+			"kill_bonus_revenge"			"10"
+			"assist"				"25"
+			
+			"obj_captured"				"0"	// points given when capture zone changes ownership
+			"obj_neutralized"			"0"	// not actually used by any built-in modes
+			"obj_reset"				"0"	// points given when defenders reset the progress to 0% (if progress got to at least 50%)
+			"obj_capture_tick"			"0"	// attacking points given every 10%
+			"obj_reset_tick"			"0"	// defending points given every 10%
+			"cache_destroyed"			"0"
+			"intel_captured"			"0"
+			"vip_killed"				"100"
+			"safehouse_secured"			"100"
+			"wave_complete"				"100"
+		}
+		"weight"
+		{
+			"min_weight"				"60"
+			"max_weight"				"640"
+		}
+		"speed"
+		{
+			"frac_side_move"			"0.60"
+			"frac_back_move"			"0.65"
+			"frac_side_step"			"0.6"
+			"speed_prone"				"54"
+			"speed_crouch_walk"			"46"
+			"speed_crouch_run"			"108"
+			"speed_walk"				"80"
+			"speed_run"				"170"
+			"speed_sprint"				"288"
+			"AccelerationByWeight"
+			{
+				"60"					"4.20"
+				"640"					"4.10"
+			}
+			
+			"DecelerationByWeight"
+			{
+				"60"					"300.0"	// these are much higher than acceleration values because it's loss in velocity per second
+				"640"					"450.0"
+			}
+			
+			"FrictionByWeight"
+			{
+				"60"					"4.20"
+				"640"					"5.00"
+			}
+		}
+		"turning"
+		{
+			"frac_turn_sprint"			"0.85"
+			"frac_turn_lean"			"0.95"
+			"frac_turn_crawl"			"0.5"
+			"frac_turn_prone_limit"		"0.0"
+			"prone_yaw_limit_amount"	"80"
+			"prone_yaw_limit_approach"	"20"
+		}
+		"stamina"
+		{
+			"StaminaMaxByWeight"
+			{
+				"60"					"120"
+				"640"					"40"
+			}
+			"stamina_regain"			"2.50"
+			"stamina_sprint_take"			"2.50"
+			"stamina_jump_take"			"15"
+			"stamina_dmg_take"			"0.25"
+			
+			"land_viewpunch_minvel"			"150"
+			"land_viewpunch_basepitch"		"0.75"
+			"land_viewpunch_jumppitch"		"0.05"
+			"land_viewpunch_landpitch"		"0.01"
+			"land_viewpunch_maxangle"		"50.0"
+			"land_viewpunch_freeaim"		"1.0"
+			"land_viewpunch_viewkick"		"1.0"
+			
+		}
+		"focus"
+		{
+			"FocusTimeStamina"
+			{
+				"0"					"2.0"
+				"100"					"5.0"
+			}
+			
+			"FocusCooldownStamina"
+			{
+				"0"					"2.5"
+				"100"					"1.5"
+			}
+			
+			"FocusEffectivenessStamina"
+			{
+				"0"					"0.3"
+				"50"					"0.5"
+				"75"					"1.0"
+			}
+		}
 		"damage"
 		{
 			"damage_decay_rate"			"20"
-			"explosion_deafen_radius_factor"	"4"
+			"explosion_deafen_radius_factor"	"5"
 			"default_penetration_power"		"10"
-			"max_penetration_distance"		"800"
+			"max_penetration_distance"		"1200"
 
 			"DamageHitgroups"
 			{
