@@ -840,6 +840,7 @@
 		"weapon_c4_clicker"
 		{
 //			"weapon_slot"				"heavydemo"
+			"weapon_max_subslot"			"0"
 			"weapon_cost"				"0"
 			"weapon_weight"				"32"
 			"player_restrictions"
@@ -848,6 +849,19 @@
 				"allow_lean"				"1"
 				"allow_jump"				"1"
 				"allow_sway"				"0"
+			}
+			"explosives"
+			{
+				"entity"				"grenade_c4"
+				"RadioSignalDistance"			"10000"
+				"GrenadeRollSpeed"			"300"
+				"GrenadeRollSpeedProne"			"250"
+				"GrenadeRollUpSpeed"			"150"
+				"GrenadeRollUpSpeedProne"		"100"
+				"GrenadeThrowSpeed"			"400"
+				"GrenadeThrowSpeedProne"		"350"
+				"RemoteDetonation"			"1"
+				"AllowPlant"				"1"
 			}
 		}
 		"weapon_fal"
