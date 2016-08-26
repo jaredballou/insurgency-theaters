@@ -1,4 +1,4 @@
-"#base"	"default.theater"
+"#base"   "default.theater"
 "theater"
 {
 	"teams"
@@ -465,7 +465,7 @@
 				{
 					"weapon_no77"     "-1"
 					"weapon_webley"   "-1"
-					"weapon_hipower"   "-1"
+					"weapon_hipower"  "-1"
 					"weapon_enfield"  "1"
 					"weapon_sten_mk2" "-1"
 				}
@@ -531,7 +531,7 @@
 					"weapon_no36"     "-1"
 					"weapon_no69"     "-1"
 					"weapon_webley"   "-1"
-					"weapon_hipower"   "-1"
+					"weapon_hipower"  "-1"
 					"weapon_sten_mk2" "-1"
 					"weapon_bren_mk2" "2"
 				}
@@ -600,8 +600,8 @@
 			{
 				"weapon"
 				{
-					"weapon_webley" "-1"
-					"weapon_hipower"   "-1"
+					"weapon_webley"  "-1"
+					"weapon_hipower" "-1"
 				}
 			}
 		}
@@ -633,7 +633,7 @@
 			{
 				"weapon"
 				{
-					"weapon_smoke"  "-1"
+					"weapon_smoke"   "-1"
 					"weapon_hipower" "-1"
 				}
 			}
@@ -670,8 +670,8 @@
 			{
 				"weapon"
 				{
-					"weapon_webley" "-1"
-					"weapon_hipower"   "-1"
+					"weapon_webley"  "-1"
+					"weapon_hipower" "-1"
 				}
 				"gear"
 				{
@@ -1686,11 +1686,11 @@
 		}
 		"weapon_hipower"
 		{
-			"import"                "weapon_luger"
-			"print_name"            "#weapon_hipower"
-			"print_desc"            "#weapon_hipower_desc"
-			"view_model"            "models/weapons/v_m1911.mdl"
-			"world_model"           "models/weapons/w_1911.mdl"
+			"import"           "weapon_luger"
+			"print_name"       "#weapon_hipower"
+			"print_desc"       "#weapon_hipower_desc"
+			"view_model"       "models/weapons/v_m1911.mdl"
+			"world_model"      "models/weapons/w_1911.mdl"
 			"ammo_clip"
 			{
 				"ammo_type"       "9x19mm_hipower"
@@ -1698,11 +1698,11 @@
 				"clip_max_rounds" "13"
 				"clip_default"    "4"
 			}
-			"weapon_weight"         "25"
-			"weapon_cost"           "2"
-			"class_restricted"      "1"
-			"barrel_length"         "10"
-			"team_access"           "commonwealth"
+			"weapon_weight"    "25"
+			"weapon_cost"      "2"
+			"class_restricted" "1"
+			"barrel_length"    "10"
+			"team_access"      "commonwealth"
 		}
 		"weapon_springfield"
 		{
@@ -6172,7 +6172,6 @@
 			"import"  "45acp"
 			"magsize" "20"
 		}
-
 		"762x63mm"
 		{
 			"import"           "default"
@@ -6218,7 +6217,6 @@
 				"12000" "500"
 			}
 		}
-
 		"762x63mm_bar_20rnd"
 		{
 			"import"  "762x63mm"
@@ -6250,7 +6248,7 @@
 		}
 		"792x33mm_stg44_30rnd"
 		{
-			"import"	"792x33mm"
+			"import"  "792x33mm"
 			"carry"   "10"
 			"magsize" "30"
 		}
@@ -6793,10 +6791,10 @@
 		}
 		"optic_scope_4x"
 		{
-			"import"                "optic_scope_7x"
-			"print_name"            "4x Scope"
-			"print_desc"            "4x magnification scope"
-			"upgrade_cost"          "1"
+			"import"              "optic_scope_7x"
+			"print_name"          "4x Scope"
+			"print_desc"          "4x magnification scope"
+			"upgrade_cost"        "1"
 			"optics_fov_override"
 			{
 				"fov_wpn_scope"      "14"
