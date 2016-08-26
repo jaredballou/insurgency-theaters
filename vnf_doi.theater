@@ -16,13 +16,13 @@
 						"human_squad" "1"
 						"classes"
 						{
-							"template_german_officer"       "3"
-							"template_german_rifleman"      "-1"
-							"template_german_assault"       "-1"
-							"template_german_engineer"      "-1"
-							"template_german_support"       "-1"
-							"template_german_machinegunner" "-1"
-							"template_german_sniper"        "-1"
+							"template_german_officer_vnf"       "3"
+							"template_german_rifleman_vnf"      "-1"
+							"template_german_assault_vnf"       "-1"
+							"template_german_engineer_vnf"      "-1"
+							"template_german_support_vnf"       "-1"
+							"template_german_machinegunner_vnf" "-1"
+							"template_german_sniper_vnf"        "-1"
 						}
 					}
 				}
@@ -38,13 +38,13 @@
 						"human_squad" "1"
 						"classes"
 						{
-							"template_german_officer"       "3"
-							"template_german_rifleman"      "-1"
-							"template_german_assault"       "-1"
-							"template_german_engineer"      "-1"
-							"template_german_support"       "-1"
-							"template_german_machinegunner" "-1"
-							"template_german_sniper"        "-1"
+							"template_german_officer_vnf"       "3"
+							"template_german_rifleman_vnf"      "-1"
+							"template_german_assault_vnf"       "-1"
+							"template_german_engineer_vnf"      "-1"
+							"template_german_support_vnf"       "-1"
+							"template_german_machinegunner_vnf" "-1"
+							"template_german_sniper_vnf"        "-1"
 						}
 					}
 				}
@@ -60,13 +60,13 @@
 						"human_squad" "1"
 						"classes"
 						{
-							"template_german_officer"       "3"
-							"template_german_rifleman"      "-1"
-							"template_german_assault"       "-1"
-							"template_german_engineer"      "-1"
-							"template_german_support"       "-1"
-							"template_german_machinegunner" "-1"
-							"template_german_sniper"        "-1"
+							"template_german_officer_vnf"       "3"
+							"template_german_rifleman_vnf"      "-1"
+							"template_german_assault_vnf"       "-1"
+							"template_german_engineer_vnf"      "-1"
+							"template_german_support_vnf"       "-1"
+							"template_german_machinegunner_vnf" "-1"
+							"template_german_sniper_vnf"        "-1"
 						}
 					}
 				}
@@ -85,13 +85,13 @@
 						"human_squad" "1"
 						"classes"
 						{
-							"template_american_officer"       "3"
-							"template_american_rifleman"      "-1"
-							"template_american_assault"       "-1"
-							"template_american_engineer"      "-1"
-							"template_american_support"       "-1"
-							"template_american_machinegunner" "-1"
-							"template_american_sniper"        "-1"
+							"template_american_officer_vnf"       "3"
+							"template_american_rifleman_vnf"      "-1"
+							"template_american_assault_vnf"       "-1"
+							"template_american_engineer_vnf"      "-1"
+							"template_american_support_vnf"       "-1"
+							"template_american_machinegunner_vnf" "-1"
+							"template_american_sniper_vnf"        "-1"
 						}
 					}
 				}
@@ -107,13 +107,13 @@
 						"human_squad" "1"
 						"classes"
 						{
-							"template_american_officer"       "3"
-							"template_american_rifleman"      "-1"
-							"template_american_assault"       "-1"
-							"template_american_engineer"      "-1"
-							"template_american_support"       "-1"
-							"template_american_machinegunner" "-1"
-							"template_american_sniper"        "-1"
+							"template_american_officer_vnf"       "3"
+							"template_american_rifleman_vnf"      "-1"
+							"template_american_assault_vnf"       "-1"
+							"template_american_engineer_vnf"      "-1"
+							"template_american_support_vnf"       "-1"
+							"template_american_machinegunner_vnf" "-1"
+							"template_american_sniper_vnf"        "-1"
 						}
 					}
 				}
@@ -129,13 +129,13 @@
 						"human_squad" "1"
 						"classes"
 						{
-							"template_american_officer"       "3"
-							"template_american_rifleman"      "-1"
-							"template_american_assault"       "-1"
-							"template_american_engineer"      "-1"
-							"template_american_support"       "-1"
-							"template_american_machinegunner" "-1"
-							"template_american_sniper"        "-1"
+							"template_american_officer_vnf"       "3"
+							"template_american_rifleman_vnf"      "-1"
+							"template_american_assault_vnf"       "-1"
+							"template_american_engineer_vnf"      "-1"
+							"template_american_support_vnf"       "-1"
+							"template_american_machinegunner_vnf" "-1"
+							"template_american_sniper_vnf"        "-1"
 						}
 					}
 				}
@@ -154,13 +154,13 @@
 						"human_squad" "1"
 						"classes"
 						{
-							"template_british_officer"       "3"
-							"template_british_rifleman"      "-1"
-							"template_british_assault"       "-1"
-							"template_british_engineer"      "-1"
-							"template_british_support"       "-1"
-							"template_british_machinegunner" "-1"
-							"template_british_sniper"        "-1"
+							"template_british_officer_vnf"       "3"
+							"template_british_rifleman_vnf"      "-1"
+							"template_british_assault_vnf"       "-1"
+							"template_british_engineer_vnf"      "-1"
+							"template_british_support_vnf"       "-1"
+							"template_british_machinegunner_vnf" "-1"
+							"template_british_sniper_vnf"        "-1"
 						}
 					}
 				}
@@ -176,13 +176,13 @@
 						"human_squad" "1"
 						"classes"
 						{
-							"template_british_officer"       "3"
-							"template_british_rifleman"      "-1"
-							"template_british_assault"       "-1"
-							"template_british_engineer"      "-1"
-							"template_british_support"       "-1"
-							"template_british_machinegunner" "-1"
-							"template_british_sniper"        "-1"
+							"template_british_officer_vnf"       "3"
+							"template_british_rifleman_vnf"      "-1"
+							"template_british_assault_vnf"       "-1"
+							"template_british_engineer_vnf"      "-1"
+							"template_british_support_vnf"       "-1"
+							"template_british_machinegunner_vnf" "-1"
+							"template_british_sniper_vnf"        "-1"
 						}
 					}
 				}
@@ -198,13 +198,13 @@
 						"human_squad" "1"
 						"classes"
 						{
-							"template_british_officer"       "3"
-							"template_british_rifleman"      "-1"
-							"template_british_assault"       "-1"
-							"template_british_engineer"      "-1"
-							"template_british_support"       "-1"
-							"template_british_machinegunner" "-1"
-							"template_british_sniper"        "-1"
+							"template_british_officer_vnf"       "3"
+							"template_british_rifleman_vnf"      "-1"
+							"template_british_assault_vnf"       "-1"
+							"template_british_engineer_vnf"      "-1"
+							"template_british_support_vnf"       "-1"
+							"template_british_machinegunner_vnf" "-1"
+							"template_british_sniper_vnf"        "-1"
 						}
 					}
 				}
@@ -213,8 +213,9 @@
 	}
 	"player_templates"
 	{
-		"template_american_officer"
+		"template_american_officer_vnf"
 		{
+			"import"         "template_american_officer"
 			"buy_order"
 			{
 				"weapon"         "weapon_garand_bayonet"
@@ -254,8 +255,9 @@
 				}
 			}
 		}
-		"template_american_rifleman"
+		"template_american_rifleman_vnf"
 		{
+			"import"        "template_american_rifleman"
 			"buy_order"
 			{
 				"weapon"         "weapon_garand_bayonet"
@@ -278,8 +280,9 @@
 				"gear"           "gear_radio"
 			}
 		}
-		"template_american_assault"
+		"template_american_assault_vnf"
 		{
+			"import"         "template_american_assault"
 			"buy_order"
 			{
 				"weapon"         "weapon_etool_us"
@@ -310,8 +313,9 @@
 				}
 			}
 		}
-		"template_american_support"
+		"template_american_support_vnf"
 		{
+			"import"         "template_american_support"
 			"buy_order"
 			{
 				"weapon" "weapon_etool_us"
@@ -343,7 +347,7 @@
 				}
 			}
 		}
-		"template_american_machinegunner"
+		"template_american_machinegunner_vnf"
 		{
 			"buy_order"
 			{
@@ -368,8 +372,9 @@
 					"weapon_m1911" "-1"
 				}
 			}
+			"import"         "template_american_machinegunner"
 		}
-		"template_american_sniper"
+		"template_american_sniper_vnf"
 		{
 			"buy_order"
 			{
@@ -395,8 +400,9 @@
 					"weapon_m1911" "-1"
 				}
 			}
+			"import"         "template_american_sniper"
 		}
-		"template_american_engineer"
+		"template_american_engineer_vnf"
 		{
 			"buy_order"
 			{
@@ -429,8 +435,9 @@
 					"gear_radio" "-1"
 				}
 			}
+			"import"         "template_american_engineer"
 		}
-		"template_british_officer"
+		"template_british_officer_vnf"
 		{
 			"buy_order"
 			{
@@ -470,8 +477,9 @@
 					"weapon_sten_mk2" "-1"
 				}
 			}
+			"import"         "template_british_officer"
 		}
-		"template_british_rifleman"
+		"template_british_rifleman_vnf"
 		{
 			"buy_order"
 			{
@@ -496,8 +504,9 @@
 				"weapon_upgrade" "magazine_stripper_clips"
 				"gear"           "gear_radio_commonwealth"
 			}
+			"import"        "template_british_rifleman"
 		}
-		"template_british_assault"
+		"template_british_assault_vnf"
 		{
 			"buy_order"
 			{
@@ -536,8 +545,9 @@
 					"weapon_bren_mk2" "2"
 				}
 			}
+			"import"         "template_british_assault"
 		}
-		"template_british_support"
+		"template_british_support_vnf"
 		{
 			"buy_order"
 			{
@@ -576,8 +586,9 @@
 					"gear_radio_commonwealth" "-1"
 				}
 			}
+			"import"         "template_british_support"
 		}
-		"template_british_machinegunner"
+		"template_british_machinegunner_vnf"
 		{
 			"buy_order"
 			{
@@ -604,8 +615,9 @@
 					"weapon_hipower" "-1"
 				}
 			}
+			"import"         "template_british_machinegunner"
 		}
-		"template_british_sniper"
+		"template_british_sniper_vnf"
 		{
 			"buy_order"
 			{
@@ -637,8 +649,9 @@
 					"weapon_hipower" "-1"
 				}
 			}
+			"import"         "template_british_sniper"
 		}
-		"template_british_engineer"
+		"template_british_engineer_vnf"
 		{
 			"buy_order"
 			{
@@ -678,8 +691,9 @@
 					"gear_radio_commonwealth" "-1"
 				}
 			}
+			"import"         "template_british_engineer"
 		}
-		"template_british_commando"
+		"template_british_commando_vnf"
 		{
 			"buy_order"
 			{
@@ -708,8 +722,9 @@
 				"weapon_upgrade" "optic_scope_4x"
 				"gear"           "gear_fuel_tank"
 			}
+			"import"        "template_british_commando"
 		}
-		"template_german_officer"
+		"template_german_officer_vnf"
 		{
 			"buy_order"
 			{
@@ -746,8 +761,9 @@
 					"weapon_k98"   "-1"
 				}
 			}
+			"import"         "template_german_officer"
 		}
-		"template_german_rifleman"
+		"template_german_rifleman_vnf"
 		{
 			"buy_order"
 			{
@@ -777,8 +793,9 @@
 					"weapon_g43" "1"
 				}
 			}
+			"import"         "template_german_rifleman"
 		}
-		"template_german_assault"
+		"template_german_assault_vnf"
 		{
 			"buy_order"
 			{
@@ -810,8 +827,9 @@
 					"weapon_stg44"            "1"
 				}
 			}
+			"import"         "template_german_assault"
 		}
-		"template_german_support"
+		"template_german_support_vnf"
 		{
 			"buy_order"
 			{
@@ -849,8 +867,9 @@
 					"gear_radio_german" "-1"
 				}
 			}
+			"import"         "template_german_support"
 		}
-		"template_german_machinegunner"
+		"template_german_machinegunner_vnf"
 		{
 			"buy_order"
 			{
@@ -876,8 +895,9 @@
 					"weapon_mg34"  "-2"
 				}
 			}
+			"import"         "template_german_machinegunner"
 		}
-		"template_german_sniper"
+		"template_german_sniper_vnf"
 		{
 			"buy_order"
 			{
@@ -908,8 +928,9 @@
 					"weapon_g43"   "1"
 				}
 			}
+			"import"         "template_german_sniper"
 		}
-		"template_german_engineer"
+		"template_german_engineer_vnf"
 		{
 			"buy_order"
 			{
@@ -943,6 +964,7 @@
 					"gear_radio_commonwealth" "-1"
 				}
 			}
+			"import"         "template_german_engineer"
 		}
 	}
 	"player_settings"
