@@ -1,3 +1,4 @@
+"#base"	"default.theater"
 "theater"
 {
 	"teams"
@@ -6792,7 +6793,7 @@
 		}
 		"optic_scope_4x"
 		{
-			"import"                "optic_scope_4x"
+			"import"                "optic_scope_7x"
 			"print_name"            "4x Scope"
 			"print_desc"            "4x magnification scope"
 			"upgrade_cost"          "1"
