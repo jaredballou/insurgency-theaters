@@ -429,38 +429,6 @@
 				}
 			}
 		}
-		"template_american_engineer_coop"
-		{
-			"buy_order"
-			{
-				"weapon" "weapon_kabar"
-				"weapon" "weapon_flamethrower_american"
-				"gear"   "gear_fuel_tank"
-			}
-			"allowed_items"
-			{
-				"weapon"         "weapon_m1carbine"
-				"weapon"         "weapon_m1garand"
-				"weapon"         "weapon_flamethrower_american"
-				"weapon"         "weapon_m1911"
-				"weapon"         "weapon_mk2"
-				"weapon"         "weapon_bazooka"
-				"weapon"         "weapon_m3"
-				"weapon_upgrade" "default_sling"
-				"gear"           "gear_fuel_tank"
-				"gear"           "gear_radio"
-			}
-			"cost_modifiers"
-			{
-				"weapon"
-				{
-				}
-				"gear"
-				{
-					"gear_radio" "-1"
-				}
-			}
-		}
 		"template_british_officer"
 		{
 			"buy_order"
@@ -688,7 +656,7 @@
 				"weapon"         "weapon_no76"
 				"weapon"         "weapon_no77"
 				"weapon"         "weapon_hipower"
-				"weapon"         "weapon_bazooka"
+				"weapon"         "weapon_piat"
 				"weapon"         "weapon_flamethrower"
 				"weapon_upgrade" "default_bayonet"
 				"weapon_upgrade" "default_sling"
@@ -972,36 +940,6 @@
 				"gear"
 				{
 					"gear_radio_commonwealth" "-1"
-				}
-			}
-		}
-		"template_german_engineer_coop"
-		{
-			"buy_order"
-			{
-				"weapon" "weapon_etool"
-				"weapon" "weapon_flamethrower_german"
-				"gear"   "gear_fuel_tank_german"
-			}
-			"allowed_items"
-			{
-				"weapon"         "weapon_k98"
-				"weapon"         "weapon_flamethrower_german"
-				"weapon"         "weapon_p38"
-				"weapon"         "weapon_stielhandgranate"
-				"weapon"         "weapon_smoke"
-				"weapon"         "weapon_panzerfaust"
-				"weapon_upgrade" "magazine_stripper_clips"
-				"weapon_upgrade" "underbarrel_rifle_grenade_k98"
-				"gear"           "gear_fuel_tank_german"
-				"gear"           "gear_radio_german"
-			}
-			"cost_modifiers"
-			{
-				"weapon"
-				{
-					"weapon_ppk" "1"
-					"weapon_p38" "1"
 				}
 			}
 		}
@@ -1756,7 +1694,7 @@
 			{
 				"ammo_type"       "9x19mm_hipower"
 				"clip_max"        "10"
-				"clip_max_rounds" "8"
+				"clip_max_rounds" "13"
 				"clip_default"    "4"
 			}
 			"weapon_weight"         "25"
@@ -1860,7 +1798,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"       "762x54mm"
+				"ammo_type"       "762x63mm_springfield"
 				"clip_max"        "60"
 				"clip_max_rounds" "5"
 				"clip_default"    "15"
@@ -1962,7 +1900,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"          "762x63_clip"
+				"ammo_type"          "762x63mm_garand"
 				"clip_max"           "12"
 				"clip_max_rounds"    "8"
 				"clip_default"       "8"
@@ -2277,7 +2215,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"       "762x51_box_20rnd"
+				"ammo_type"       "762x63mm_bar_20rnd"
 				"clip_max"        "12"
 				"clip_max_rounds" "20"
 				"clip_default"    "3"
@@ -2369,7 +2307,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"       "30-06_belt"
+				"ammo_type"       "762x63mm_belt"
 				"clip_max"        "2"
 				"clip_max_rounds" "250"
 				"clip_default"    "1"
@@ -3486,7 +3424,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"       "762x54mm"
+				"ammo_type"       "792x57mm_k98"
 				"clip_max"        "60"
 				"clip_max_rounds" "5"
 				"clip_default"    "15"
@@ -3582,7 +3520,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"       "792x57_fg42"
+				"ammo_type"       "792x57mm_fg42_20rnd"
 				"clip_max"        "12"
 				"clip_max_rounds" "10"
 				"clip_default"    "5"
@@ -3663,7 +3601,7 @@
 			}
 			"ammo_clip"
 			{
-				"ammo_type"       "762x33"
+				"ammo_type"       "762x33mm_stg44_30rnd"
 				"clip_max"        "12"
 				"clip_max_rounds" "30"
 				"clip_default"    "3"
@@ -3746,9 +3684,9 @@
 			}
 			"recoil"
 			{
-				"recoil_lateral_range"            "-2.15 2.55"
-				"recoil_vertical_range"           "1.9 2.6"
-				"recoil_aim_punch"                "0.3 0.4"
+				"recoil_lateral_range"            "-2.5 2.75"
+				"recoil_vertical_range"           "2.1 2.9"
+				"recoil_aim_punch"                "0.4 0.5"
 				"recoil_rest_rate"                "7"
 				"recoil_rest_delay"               "0.12"
 				"recoil_roll_range"               "-2.0 -2.0"
@@ -3781,22 +3719,22 @@
 			}
 			"sway"
 			{
-				"sway_radius_stand_frac"  "1.25"
-				"sway_radius_crouch_frac" "0.75"
+				"sway_radius_stand_frac"  "1.75"
+				"sway_radius_crouch_frac" "1.25"
 			}
 			"ballistics"
 			{
-				"spread"      "0.25 0.25 0.25"
+				"spread"      "0.2 0.2 0.2"
 				"FireModes"   "full"
 				"bulletcount" "1"
 				"maxrange"    "10000"
 			}
 			"ammo_clip"
 			{
-				"ammo_type"       "792x57_belt"
-				"clip_max"        "2"
+				"ammo_type"       "792x57mm_belt"
+				"clip_max"        "6"
 				"clip_max_rounds" "250"
-				"clip_default"    "1"
+				"clip_default"    "3"
 			}
 			"sounds"
 			{
@@ -3837,7 +3775,7 @@
 			"view_model"        "models/weapons/v_mg34.mdl"
 			"world_model"       "models/weapons/w_mg34.mdl"
 			"weapon_class"      "lmg"
-			"weapon_cost"       "4"
+			"weapon_cost"       "3"
 			"print_name"        "#weapon_mg34"
 			"print_desc"        "#weapon_mg34_desc"
 			"rounds_per_minute" "820"
@@ -3893,22 +3831,22 @@
 			}
 			"sway"
 			{
-				"sway_radius_stand_frac"  "1.2"
-				"sway_radius_crouch_frac" "0.75"
+				"sway_radius_stand_frac"  "1.0"
+				"sway_radius_crouch_frac" "0.5"
 			}
 			"ballistics"
 			{
-				"spread"      "0.25 0.25 0.25"
+				"spread"      "0.2 0.2 0.2"
 				"FireModes"   "full, semi"
 				"bulletcount" "1"
 				"maxrange"    "10000"
 			}
 			"ammo_clip"
 			{
-				"ammo_type"       "792x57_drum"
-				"clip_max"        "4"
+				"ammo_type"       "792x57mm_drum"
+				"clip_max"        "12"
 				"clip_max_rounds" "50"
-				"clip_default"    "2"
+				"clip_default"    "8"
 			}
 			"sounds"
 			{
@@ -6057,52 +5995,6 @@
 				"10000" "46"
 			}
 		}
-		"762x39"
-		{
-			"import"           "default"
-			"brass_model"      "models/weapons/shells/762x39.mdl"
-			"Damage"
-			{
-				"10"    "100"
-				"12000" "80"
-			}
-			"PenetrationPower"
-			{
-				"10"    "750"
-				"12000" "350"
-			}
-		}
-		"762x33"
-		{
-			"import"           "762x39"
-			"brass_model"      "models/weapons/shells/762x33.mdl"
-			"PenetrationPower"
-			{
-				"10"    "600"
-				"12000" "175"
-			}
-		}
-		"762x51"
-		{
-			"import"               "default"
-			"SuppressionIncrement" "90"
-			"brass_model"          "models/weapons/shells/762x51.mdl"
-			"Damage"
-			{
-				"10"    "160"
-				"20000" "100"
-			}
-			"PenetrationPower"
-			{
-				"10"    "1100"
-				"20000" "600"
-			}
-		}
-		"762x54"
-		{
-			"import"      "762x51"
-			"brass_model" "models/weapons/shells/762x54.mdl"
-		}
 		"00buck"
 		{
 			"import"           "default"
@@ -6159,15 +6051,6 @@
 			"carry"   "10"
 			"magsize" "15"
 		}
-		"762x38_box"
-		{
-			"import" "762x39"
-		}
-		"762x51_box_20rnd"
-		{
-			"import"  "762x51"
-			"magsize" "20"
-		}
 		"556_35box"
 		{
 			"import"  "556x45_car"
@@ -6184,64 +6067,11 @@
 				"16000" "32"
 			}
 		}
-		"45acp_ump"
-		{
-			"import"  "45acp"
-			"carry"   "12"
-			"magsize" "25"
-		}
-		"762x51_mag"
-		{
-			"import"  "762x51"
-			"magsize" "20"
-		}
-		"556_box"
-		{
-			"import"  "556x45"
-			"carry"   "12"
-			"magsize" "20"
-		}
 		"30_carbine"
 		{
-			"import"  "762x33"
+			"import"  "762x33mm"
 			"carry"   "12"
 			"magsize" "15"
-		}
-		"762x38mm_clip"
-		{
-			"import"  "762x39"
-			"carry"   "12"
-			"magsize" "20"
-		}
-		"556_m27"
-		{
-			"import"           "556x45"
-			"carry"            "6"
-			"magsize"          "200"
-			"tracer_frequency" "4"
-			"tracer_type"      "whiz_with_line"
-			"tracer_lowammo"   "9"
-		}
-		"762x38_drum"
-		{
-			"import"           "762x39"
-			"carry"            "6"
-			"magsize"          "75"
-			"tracer_frequency" "3"
-			"tracer_type"      "whiz_with_line"
-			"tracer_lowammo"   "7"
-		}
-		"762x51mm"
-		{
-			"import"      "762x51"
-			"carry"       "120"
-			"flags_clear" "AMMO_USE_MAGAZINES"
-		}
-		"762x54mm"
-		{
-			"import"      "762x54"
-			"carry"       "120"
-			"flags_clear" "AMMO_USE_MAGAZINES"
 		}
 		"buckshot"
 		{
@@ -6288,44 +6118,23 @@
 		}
 		"grenade_rifle"
 		{
-			"carry" "3"
+			"carry" "4"
 		}
 		"rocket_bazooka"
 		{
-			"carry" "1"
+			"carry" "2"
 		}
 		"rocket_panzerfaust"
 		{
-			"carry" "1"
+			"carry" "2"
 		}
 		"mortar_piat"
 		{
-			"carry" "2"
+			"carry" "3"
 		}
 		"flame"
 		{
 			"carry" "500"
-		}
-		"762x63mm"
-		{
-			"import"           "default"
-			"brass_model"      "models/weapons/shells/762x39.mdl"
-			"Damage"
-			{
-				"10"    "100"
-				"12000" "70"
-			}
-			"PenetrationPower"
-			{
-				"10"    "1000"
-				"20000" "500"
-			}
-		}
-		"762x63_clip"
-		{
-			"import"  "762x63mm"
-			"carry"   "12"
-			"magsize" "8"
 		}
 		"30_m1carbine"
 		{
@@ -6348,18 +6157,6 @@
 			"carry"   "12"
 			"magsize" "15"
 		}
-		"792x57_clip"
-		{
-			"import"  "762x38mm_clip"
-			"carry"   "12"
-			"magsize" "10"
-		}
-		"792x57_fg42"
-		{
-			"import"  "762x38mm_clip"
-			"carry"   "12"
-			"magsize" "20"
-		}
 		"9x19mm_mp40"
 		{
 			"import" "9x19mm_smg"
@@ -6374,33 +6171,23 @@
 			"import"  "45acp"
 			"magsize" "20"
 		}
-		"30-06"
+
+		"762x63mm"
 		{
 			"import"           "default"
-			"brass_model"      "models/weapons/shells/762x39.mdl"
+			"brass_model"      "models/weapons/shells/762x54.mdl"
 			"Damage"
 			{
-				"10"   "85"
-				"8000" "40"
+				"10"    "100"
+				"12000" "70"
 			}
 			"PenetrationPower"
 			{
-				"10"    "1100"
-				"20000" "600"
+				"10"    "1000"
+				"20000" "500"
 			}
 		}
-		"30-06_belt"
-		{
-			"import"           "30-06"
-			"carry"            "2"
-			"magsize"          "250"
-			"tracer_frequency" "5"
-			"tracer_type"      "whiz_with_line"
-			"tracer_lowammo"   "15"
-			"10"               "1050"
-			"12000"            "600"
-		}
-		"792x33"
+		"792x33mm"
 		{
 			"import"           "default"
 			"brass_model"      "models/weapons/shells/762x39.mdl"
@@ -6415,10 +6202,10 @@
 				"6000" "500"
 			}
 		}
-		"792x57"
+		"792x57mm"
 		{
 			"import"           "default"
-			"brass_model"      "models/weapons/shells/762x39.mdl"
+			"brass_model"      "models/weapons/shells/762x54.mdl"
 			"Damage"
 			{
 				"10"   "75"
@@ -6430,23 +6217,71 @@
 				"12000" "500"
 			}
 		}
-		"792x57_drum"
+
+		"762x63mm_bar_20rnd"
 		{
-			"import"           "792x57"
-			"carry"            "4"
-			"magsize"          "75"
+			"import"  "762x63mm"
+			"carry"   "10"
+			"magsize" "20"
+		}
+		"762x63mm_garand"
+		{
+			"import"  "762x63mm"
+			"carry"   "12"
+			"magsize" "8"
+		}
+		"762x63mm_belt"
+		{
+			"import"           "762x63mm"
+			"carry"            "2"
+			"magsize"          "250"
+			"tracer_frequency" "5"
+			"tracer_type"      "whiz_with_line"
+			"tracer_lowammo"   "15"
+			"10"               "1050"
+			"12000"            "600"
+		}
+		"762x63mm_springfield"
+		{
+			"import"      "762x63mm"
+			"carry"       "120"
+			"flags_clear" "AMMO_USE_MAGAZINES"
+		}
+		"792x33mm_stg44_30rnd"
+		{
+			"import"	"792x33mm"
+			"carry"   "10"
+			"magsize" "30"
+		}
+		"792x57mm_drum"
+		{
+			"import"           "792x57mm"
+			"carry"            "8"
+			"magsize"          "50"
 			"tracer_frequency" "10"
 			"tracer_type"      "whiz_with_line"
 			"tracer_lowammo"   "10"
 		}
-		"792x57_belt"
+		"792x57mm_belt"
 		{
-			"import"           "792x57"
-			"carry"            "2"
+			"import"           "792x57mm"
+			"carry"            "3"
 			"magsize"          "250"
 			"tracer_frequency" "10"
 			"tracer_type"      "whiz_with_line"
 			"tracer_lowammo"   "20"
+		}
+		"792x57mm_fg42_20rnd"
+		{
+			"import"  "792x57mm"
+			"carry"   "12"
+			"magsize" "20"
+		}
+		"792x57mm_k98"
+		{
+			"import"      "792x57mm"
+			"carry"       "120"
+			"flags_clear" "AMMO_USE_MAGAZINES"
 		}
 		"50cal_us"
 		{
