@@ -1121,6 +1121,7 @@
 				"weapon_upgrade" "optic_scope_7x"
 				"weapon"         "weapon_m1911"
 				"weapon"         "weapon_smoke"
+				"weapon"         "weapon_mk2"
 			}
 			"cost_modifiers"
 			{
@@ -1301,7 +1302,7 @@
 				"weapon"         "weapon_kabar"
 				"weapon"         "weapon_thompson_m1928a1"
 				"weapon_upgrade" "magazine_extended_thompson_30rd"
-				"weapon"         "weapon_webley"
+				"weapon"         "weapon_hipower"
 				"weapon"         "weapon_no77"
 				"weapon"         "weapon_no77"
 				"gear"           "commonwealth_light_kit"
@@ -1312,6 +1313,7 @@
 				"weapon"         "weapon_sten_mk2"
 				"weapon"         "weapon_enfield"
 				"weapon"         "weapon_webley"
+				"weapon"         "weapon_hipower"
 				"weapon"         "weapon_no36"
 				"weapon"         "weapon_no69"
 				"weapon"         "weapon_no77"
@@ -1434,7 +1436,7 @@
 			{
 				"weapon"         "weapon_etool_brit"
 				"weapon"         "weapon_sten_mk2"
-				"weapon"         "weapon_webley"
+				"weapon"         "weapon_hipower"
 				"weapon_upgrade" "magazine_speedloader"
 				"weapon"         "weapon_no36"
 				"weapon"         "weapon_no36"
@@ -1446,6 +1448,7 @@
 				"weapon"         "weapon_ithaca"
 				"weapon"         "weapon_bren_mk2"
 				"weapon"         "weapon_webley"
+				"weapon"         "weapon_hipower"
 				"weapon"         "weapon_no36"
 				"weapon"         "weapon_no69"
 				"weapon"         "weapon_no77"
@@ -1515,6 +1518,7 @@
 				"weapon"         "weapon_enfield"
 				"weapon"         "weapon_thompson_m1928a1"
 				"weapon"         "weapon_webley"
+				"weapon"         "weapon_hipower"
 				"weapon"         "weapon_no36"
 				"weapon"         "weapon_no69"
 				"weapon"         "weapon_no77"
@@ -1573,12 +1577,14 @@
 			"buy_order"
 			{
 				"weapon" "weapon_etool_brit"
-				"weapon" "weapon_lewis"
-				"weapon" "weapon_webley"
+				"weapon" "weapon_vickers"
+				"weapon"         "weapon_hipower"
 				"gear"   "commonwealth_heavy_kit"
 			}
 			"allowed_items"
 			{
+				"weapon" "weapon_vickers"
+				"weapon"         "weapon_hipower"
 				"weapon" "weapon_lewis"
 				"weapon" "weapon_bren_mk2"
 				"weapon" "weapon_webley"
@@ -1590,6 +1596,7 @@
 				"weapon"
 				{
 					"weapon_webley"   "-1"
+					"weapon_hipower"   "-1"
 					"weapon_bren_mk2" "-1"
 				}
 			}
@@ -1623,7 +1630,7 @@
 				"weapon"         "weapon_kabar"
 				"weapon"         "weapon_enfield"
 				"weapon_upgrade" "optic_scope_7x"
-				"weapon"         "weapon_webley"
+				"weapon"         "weapon_hipower"
 				"weapon"         "weapon_no77"
 				"gear"           "commonwealth_light_kit"
 			}
@@ -1631,7 +1638,10 @@
 			{
 				"weapon"         "weapon_enfield"
 				"weapon"         "weapon_webley"
+				"weapon"         "weapon_hipower"
 				"weapon"         "weapon_welrod"
+				"weapon"         "weapon_no36"
+				"weapon"         "weapon_no69"
 				"weapon"         "weapon_no77"
 				"weapon_upgrade" "optic_scope_7x"
 			}
@@ -1641,6 +1651,7 @@
 				{
 					"weapon_smoke"  "-1"
 					"weapon_webley" "-1"
+					"weapon_hipower" "-1"
 				}
 				"gear"
 				{
@@ -1684,7 +1695,7 @@
 			{
 				"weapon" "weapon_etool_brit"
 				"weapon" "weapon_flamethrower"
-				"weapon" "weapon_webley"
+				"weapon" "weapon_hipower"
 				"weapon" "weapon_no76"
 				"gear"   "commonwealth_light_kit"
 			}
@@ -1693,6 +1704,7 @@
 				"weapon"         "weapon_ithaca"
 				"weapon"         "weapon_enfield"
 				"weapon"         "weapon_webley"
+				"weapon" "weapon_hipower"
 				"weapon"         "weapon_no69"
 				"weapon"         "weapon_no76"
 				"weapon"         "weapon_no77"
@@ -1764,6 +1776,7 @@
 				"weapon"         "weapon_enfield"
 				"weapon"         "weapon_bren_mk2"
 				"weapon"         "weapon_ithaca"
+				"weapon" "weapon_hipower"
 				"weapon"         "weapon_piat"
 				"weapon"         "weapon_flamethrower"
 				"weapon"         "weapon_webley"
@@ -4640,6 +4653,22 @@
 			}
 			"team_access"       "axis"
 		}
+		"weapon_hipower"
+		{
+			"import"            "weapon_luger"
+			"print_name"        "#weapon_hipower"
+			"print_desc"        "#weapon_hipower_desc"
+			"view_model"        "models/weapons/v_m1911.mdl"
+			"world_model"       "models/weapons/w_1911.mdl"
+			"ammo_clip"
+			{
+				"ammo_type"       "9x19mm_hipower"
+				"clip_max"        "10"
+				"clip_max_rounds" "13"
+				"clip_default"    "4"
+			}
+			"team_access"       "commonwealth"
+		}
 		"weapon_luger"
 		{
 			"import"            "pistol_base"
@@ -5357,9 +5386,9 @@
 			"ammo_clip"
 			{
 				"ammo_type"       "792x57_drum"
-				"clip_max"        "4"
+				"clip_max"        "10"
 				"clip_max_rounds" "50"
-				"clip_default"    "2"
+				"clip_default"    "5"
 			}
 			"sounds"
 			{
@@ -7650,6 +7679,12 @@
 			"import"  "9x19"
 			"carry"   "10"
 			"magsize" "15"
+		}
+		"9x19mm_hipower"
+		{
+			"import"  "9x19"
+			"carry"   "10"
+			"magsize" "13"
 		}
 		"762x38_box"
 		{
