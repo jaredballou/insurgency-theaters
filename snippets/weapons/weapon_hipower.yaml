@@ -1,0 +1,59 @@
+#Hi Power
+# Adds "9x19mm_hipower_13rnd" ammo
+# Adds "weapon_hipower" weapons
+# Adds "weapon_hipower" to allowed_weapons for all British player_templates
+---
+"theater":
+  "ammo":
+    "9x19mm_hipower_13rnd":
+      "import": "9x19"
+      "carry": "10"
+      "magsize": "13"
+  "player_templates":
+    "template_british_officer":
+	  "allowed_items":
+	    "weapon": "weapon_hipower"
+    "template_british_rifleman":
+	  "allowed_items":
+	    "weapon": "weapon_hipower"
+    "template_british_assault":
+	  "allowed_items":
+	    "weapon": "weapon_hipower"
+    "template_british_support":
+	  "allowed_items":
+	    "weapon": "weapon_hipower"
+    "template_british_machinegunner":
+	  "allowed_items":
+	    "weapon": "weapon_hipower"
+    "template_british_sniper":
+	  "allowed_items":
+	    "weapon": "weapon_hipower"
+    "template_british_engineer":
+	  "allowed_items":
+	    "weapon": "weapon_hipower"
+    "template_british_commando":
+	  "allowed_items":
+	    "weapon": "weapon_hipower"
+    "template_british_engineer_coop_1":
+	  "allowed_items":
+	    "weapon": "weapon_hipower"
+    "template_british_engineer_coop_2":
+	  "allowed_items":
+	    "weapon": "weapon_hipower"
+  "weapons":
+    "weapon_hipower":
+      "import": "weapon_luger"
+      "print_name": "#weapon_hipower"
+      "print_desc": "#weapon_hipower_desc"
+      "view_model": "models/weapons/v_m1911.mdl"
+      "world_model": "models/weapons/w_1911.mdl"
+      "weapon_cost": "2"
+      "barrel_length": "26"
+      "weapon_weight": 128
+      "ammo_clip":
+        "ammo_type": "9x19mm_hipower_13rnd"
+        "clip_max": "10"
+        "clip_max_rounds": "13"
+        "clip_default": "5"
+      "team_access": "commonwealth"
+...

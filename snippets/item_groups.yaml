@@ -5,7 +5,7 @@ settings:
   battlerifle:
     filters:
       weapon_class: "= rifle_automatic_fire,rifle_controlled_fire"
-      barrel_length: ">= 28"
+      barrel_length: "> 27"
     weapons:
       - weapon_fal
       - weapon_l1a1
@@ -13,7 +13,7 @@ settings:
   carbine:
     filters:
       weapon_class: "= rifle_automatic_fire,rifle_controlled_fire"
-      barrel_length: "<= 22"
+      barrel_length: "< 21 and < 28"
     weapons:
       - weapon_aks74u
       - weapon_m1a1

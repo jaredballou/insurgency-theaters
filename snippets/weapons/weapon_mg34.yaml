@@ -1,0 +1,8 @@
+#MG34
+---
+"theater":
+  "weapons":
+    "weapon_mg34":
+      "ammo_clip":
+        "clip_max": "12"
+        "clip_default": "8"

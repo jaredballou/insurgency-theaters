@@ -1,0 +1,5 @@
+# Bayonets for all classes
+"theater":
+  "weapon_upgrades":
+    "default_bayonet":
+      "class_restricted": "0"

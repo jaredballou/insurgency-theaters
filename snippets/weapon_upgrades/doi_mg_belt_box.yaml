@@ -1,0 +1,46 @@
+# Add 50 round box or 250 round belt to both MG42 and MG34.
+# TODO:
+# [ ] Make the 50rnd box ammo_clip for both MGs
+# [ ] Make the 250rnd belt in buy_order for weapon_upgrade for machinegunner class
+# [ ] See about animations
+"theater":
+  "weapon_upgrades":
+    "magazine_german_mg_50rnd":
+      "upgrade_slot": "magazine"
+      "upgrade_cost": "0"
+      "class_restricted": "0"
+      "team_access": "axis, americans, commonwealth"
+      "print_name": "50rnd Box"
+      "print_desc": "#weapon_mg34_desc"
+      "magsize_override": "50"
+      "allowed_weapons":
+        "weapon":
+          - "weapon_mg34"
+          - "weapon_mg42"
+    "magazine_german_mg_250rnd":
+      "upgrade_slot": "magazine"
+      "upgrade_cost": "2"
+      "class_restricted": "0"
+      "team_access": "axis, americans, commonwealth"
+      "print_name": "250rnd Belt"
+      "print_desc": "#weapon_mg42_desc"
+      "magsize_override": "250"
+      "allowed_weapons":
+        "weapon":
+          - "weapon_mg34"
+          - "weapon_mg42"
+#      "viewmodel_attachments":
+#        "magazine_thompson":
+#          "model": "models/weapons/upgrades/a_thompson_mag_30.mdl"
+#          "weapons":
+#            "weapon":
+#              - "weapon_mg34"
+#              - "weapon_mg42"
+#      "world_attachments":
+#        "magazine_thompson_30":
+#          "model": "models/weapons/upgrades/w_thompson_mag_30.mdl"
+#          "weapons":
+#            "weapon":
+#              - "weapon_mg34"
+#              - "weapon_mg42"
+    

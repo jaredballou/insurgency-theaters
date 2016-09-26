@@ -1,0 +1,42 @@
+#FG42
+# Adds "792x57mm_fg42_20rnd" ammo
+# Adds "weapon_fg42" weapon
+# Adds "weapon_fg42" to allowed_items for German Officer, Assault, Support, and Sniper
+---
+"theater":
+  "ammo":
+    "792x57mm_fg42_20rnd":
+      "import": "762x54mm"
+      "carry": "8"
+      "magsize": "20"
+  "player_templates":
+    "template_german_officer":
+      "allowed_items":
+        "weapon": "weapon_fg42"
+    "template_german_assault":
+      "allowed_items":
+        "weapon": "weapon_fg42"
+    "template_german_support":
+    "template_german_sniper":
+  "weapons":
+    "weapon_fg42":
+      "import": "weapon_g43"
+       "weapon_class": "rifle_automatic_fire"
+       "ballistics":
+         "spread": "0.6 0.6 0.6"
+         "FireModes": "semi, full"
+      "print_name": "#weapon_fg42"
+      "print_desc": "#weapon_fg42_desc"
+      "weapon_cost": "4"
+      "barrel_length": "26"
+      "weapon_weight": "128"
+      "ammo_clip":
+        "ammo_type": "792x57mm_fg42_20rnd"
+        "clip_max": "12"
+        "clip_max_rounds": "20"
+        "clip_default": "8"
+  "weapon_upgrades":
+    "optic_scope_4x":
+      "allowed_weapons":
+        "weapon":
+          - "weapon_fg42"
