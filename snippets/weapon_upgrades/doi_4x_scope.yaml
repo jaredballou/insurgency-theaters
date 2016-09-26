@@ -2,28 +2,30 @@
 "theater":
   "weapon_upgrades":
     "optic_scope_4x":
-	  "allowed_weapons":
-	    "weapon":
-		  - "weapon_g43"
-		  - "weapon_stg44"
-		  - "weapon_k98"
-		  - "weapon_springfield"
-		  - "weapon_enfield"
-		 "viewmodel_attachments":
-		   "4xscope_other":
-		     "model": "models/weapons/upgrades/a_optic_zf4.mdl"
-		     "AnimIronSights": "scope_zoom"
-		     "AnimIdle": "scope_idle"
-		     "Gesture": "delta_scope"
-		     "Main": "1"
-		     "excluded_weapons":
-		       "weapon": "weapon_g43"
-		   "world_attachments":
-		     "Scope":
-		       "model": "models/weapons/upgrades/w_scope_mosin.mdl"
-		       "excluded_weapons":
-		         "weapon": "weapon_g43"
-		   "optics_fov_override":
-		     "fov_wpn_scope": "15"
-		     "fov_wpn_ironsight": "37"
-		     "fov_wpn_focus": "43"
+      "allowed_weapons":
+        "weapon":
+          - "weapon_g43"
+          - "weapon_stg44"
+          - "weapon_k98"
+          - "weapon_springfield"
+          - "weapon_enfield"
+      "viewmodel_attachments":
+        "4xscope_other":
+          "model": "models/weapons/upgrades/a_optic_zf4.mdl"
+          "AnimIronSights": "scope_zoom"
+          "AnimIdle": "scope_idle"
+          "Gesture": "delta_scope"
+          "Main": "1"
+          "excluded_weapons":
+            "weapon":
+              - "weapon_g43"
+      "world_attachments":
+        "Scope":
+          "model": "models/weapons/upgrades/w_scope_mosin.mdl"
+          "excluded_weapons":
+            "weapon":
+              - "weapon_g43"
+      "optics_fov_override":
+        "fov_wpn_scope": "15"
+        "fov_wpn_ironsight": "37"
+        "fov_wpn_focus": "43"

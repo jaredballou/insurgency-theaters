@@ -11,35 +11,35 @@
       "magsize": "13"
   "player_templates":
     "template_british_officer":
-	  "allowed_items":
-	    "weapon": "weapon_hipower"
+      "allowed_items":
+        "weapon": "weapon_hipower"
     "template_british_rifleman":
-	  "allowed_items":
-	    "weapon": "weapon_hipower"
+      "allowed_items":
+        "weapon": "weapon_hipower"
     "template_british_assault":
-	  "allowed_items":
-	    "weapon": "weapon_hipower"
+      "allowed_items":
+        "weapon": "weapon_hipower"
     "template_british_support":
-	  "allowed_items":
-	    "weapon": "weapon_hipower"
+      "allowed_items":
+        "weapon": "weapon_hipower"
     "template_british_machinegunner":
-	  "allowed_items":
-	    "weapon": "weapon_hipower"
+      "allowed_items":
+        "weapon": "weapon_hipower"
     "template_british_sniper":
-	  "allowed_items":
-	    "weapon": "weapon_hipower"
+      "allowed_items":
+        "weapon": "weapon_hipower"
     "template_british_engineer":
-	  "allowed_items":
-	    "weapon": "weapon_hipower"
+      "allowed_items":
+        "weapon": "weapon_hipower"
     "template_british_commando":
-	  "allowed_items":
-	    "weapon": "weapon_hipower"
+      "allowed_items":
+        "weapon": "weapon_hipower"
     "template_british_engineer_coop_1":
-	  "allowed_items":
-	    "weapon": "weapon_hipower"
+      "allowed_items":
+        "weapon": "weapon_hipower"
     "template_british_engineer_coop_2":
-	  "allowed_items":
-	    "weapon": "weapon_hipower"
+      "allowed_items":
+        "weapon": "weapon_hipower"
   "weapons":
     "weapon_hipower":
       "import": "weapon_luger"

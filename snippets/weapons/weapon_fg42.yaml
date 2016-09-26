@@ -21,10 +21,10 @@
   "weapons":
     "weapon_fg42":
       "import": "weapon_g43"
-       "weapon_class": "rifle_automatic_fire"
-       "ballistics":
-         "spread": "0.6 0.6 0.6"
-         "FireModes": "semi, full"
+      "weapon_class": "rifle_automatic_fire"
+      "ballistics":
+        "spread": "0.6 0.6 0.6"
+        "FireModes": "semi, full"
       "print_name": "#weapon_fg42"
       "print_desc": "#weapon_fg42_desc"
       "weapon_cost": "4"

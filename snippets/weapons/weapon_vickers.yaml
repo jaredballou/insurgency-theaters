@@ -3,8 +3,6 @@
 "theater":
   "player_templates":
     "template_british_machinegunner":
-	  "allowed_items":
-	    "weapon": "weapon_vickers"
-  "weapons":
-    "weapon_vickers":
+      "allowed_items":
+        "weapon": "weapon_vickers"
 ...

@@ -1,35 +1,15 @@
 ---
-game: doi
-version: 2.5.0.5
-base:
-  - default.theater
-snippets:
-  - teams/vnf_doi.theater
-theater:
-  weapons:
-    weapon_mg34:
-      #add belt feed
-      #decrease recoil
-    weapon_mg42:
-      #decrease bipod recoil
-    weapon_vickers:
-      import: weapon_m1919
-    weapon_hipower:
-      import: weapon_luger
-      model: m1911
-  classes:
-    @all:
-      @all:
-        weapons_allow:
-          - @bayonet
-      sniper:
-        weapons_allow:
-          - @grenades_explosive
-    commonwealth:
-      @all:
-        weapons_allow:
-          - weapon_hipower
-      machinegunner:
-        weapons_allow:
-          - weapon_vickers
+"game": "doi"
+"version": "2.5.0.5"
+"base":
+  - "default.theater"
+"snippets":
+  - "teams/vnf_doi.yaml"
+  - "weapon_upgrades/doi_bayonet_for_all.yaml"
+  - "weapon_upgrades/doi_4x_scope.yaml"
+  - "weapon_upgrades/doi_mg_belt_box.yaml"
+  - "weapons/weapon_hipower.yaml"
+  - "weapons/weapon_mg34.yaml"
+  - "weapons/weapon_fg42.yaml"
+  - "weapons/weapon_vickers.yaml"
 ...
