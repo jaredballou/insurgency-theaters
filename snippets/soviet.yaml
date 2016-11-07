@@ -1,0 +1,69 @@
+---
+"theater":
+  "teams":
+    "soviets":
+      "squads":
+        "#squad_soviet_assault":
+          "ai_squad": "1"
+          "classes":
+            "template_soviet_assault": "4"
+            "template_soviet_engineer": "4"
+            "template_soviet_officer": "1"
+            "template_soviet_machinegunner": "3"
+            "template_soviet_rifleman": "-1"
+            "template_soviet_sniper": "3"
+            "template_soviet_support": "3"
+          "human_squad": "1"
+          "size": "16"
+  "player_templates":
+    "template_soviet_assault":
+      "import": "template_american_assault"
+    "template_soviet_machinegunner":
+      "import": "template_american_machinegunner"
+    "template_soviet_engineer":
+      "import": "template_american_engineer"
+    "template_soviet_officer":
+      "import": "template_american_officer"
+    "template_soviet_rifleman":
+      "import": "template_american_rifleman"
+    "template_soviet_sniper":
+      "import": "template_american_sniper"
+    "template_soviet_support":
+      "import": "template_american_support"
+  "weapons":
+    //NR-40 Knife (Clone Kabar)
+    "weapon_nr40":
+      import: "weapon_kabar"
+    //Mosin (clone K98)
+    "weapon_mosin":
+      import: "weapon_k98"
+    //SVT-40 (Clone G43)
+    "weapon_svt40":
+      import: "weapon_g43"
+    //PPSH-41 (Clone Thompson) (900rpm, 35 round box, 71 round drum)
+    "weapon_ppsh41":
+      import: "weapon_thompson"
+    //Tokarev TT-33 (Clone M1911) (8-round mag)
+    "weapon_tt33":
+      import: "weapon_1911"
+    //Nagant 1895 (Clone Webley)
+    "weapon_nagant_1895":
+      import: "weapon_webley"
+    //F1 grenade (clone MK2)
+    "weapon_f1":
+      import: "weapon_mk2"
+    //Support MG: DP-28 (Clone Lewis) (550rpm, 47-round pan)
+    "weapon_dp28":
+      import: "weapon_lewis"
+    //Heavy MG: SG-43 (Clone M1919) (500-700rpm, 200/250rnd belts)
+    "weapon_sg43":
+      import: "weapon_m1919"
+    //IZH-43 (Clone Ithaca)
+    "weapon_izh43":
+      import: "weapon_ithaca"
+    //ROKS-3 flamethrower (Clone M2)
+    "weapon_roks3":
+      import: "weapon_flamethrower_american"
+
+
+

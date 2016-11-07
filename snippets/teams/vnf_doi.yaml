@@ -59,18 +59,3 @@
             "template_british_support": "2"
           "human_squad": "0"
           "size": "16"
-    "soviets":
-      "squads":
-        "#squad_soviet_assault":
-          "ai_squad": "1"
-          "classes":
-            "template_soviet_assault": "3"
-            "template_soviet_engineer": "1"
-            "template_soviet_engineer_coop_1": "1"
-            "template_soviet_engineer_coop_2": "1"
-            "template_soviet_officer": "1"
-            "template_soviet_rifleman": "-1"
-            "template_soviet_sniper": "1"
-            "template_soviet_support": "2"
-          "human_squad": "0"
-          "size": "16"
