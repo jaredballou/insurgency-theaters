@@ -1,0 +1,170 @@
+"theater"
+{
+	"player_templates"
+	{
+		"template_rifleman_security_vnf"
+		{
+			"models"
+			{
+				"player"				"models/characters/security_rifleman.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_helmet_head.mdl"
+					}
+				}
+			}
+			"team"					"security"
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+				"gear"					"sec_heavy_armor"
+				"gear"					"sec_chest_demo"
+				"weapon"				"weapon_m16a4"
+				"weapon_upgrade"			"siderail_flashlight_rail"
+				"weapon_upgrade"			"ammo_ap_m16a4"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"optic_2xaimpoint"
+				"weapon_upgrade"			"barrel_heavybarrel"
+				"weapon"				"weapon_m45"
+				"weapon_upgrade"			"ammo_ap_m45"
+				"weapon_upgrade"			"barrel_silencer_pistol"
+				"weapon_upgrade"			"magazine_extended_pistol"
+				"weapon_upgrade"			"siderail_flashlight_pistol"
+				"weapon"				"weapon_kabar"
+			}
+			"allowed_weapons"
+			{
+				"weapon"		"weapon_m14"
+				"weapon"		"weapon_m16"
+				"weapon"		"weapon_m4a1"
+				"weapon"		"weapon_mk18"
+				"weapon"		"weapon_l1a1"
+				"weapon"		"weapon_galil_sar"
+				"weapon"		"weapon_m9"
+				"weapon"		"weapon_m45"
+				"weapon"		"weapon_model10"
+				//"weapon"		"weapon_m18"
+				"weapon"		"weapon_m67"
+				//"weapon"		"weapon_m84"
+				"weapon"		"weapon_anm14"
+				"weapon_upgrade"			"optic_scope_mk4"
+				"weapon_upgrades"			"underbarrel_bipod"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"magazine_drum_75rd"
+			}
+		}
+		"template_specialist_security_vnf"
+		{
+			"models"
+			{
+				"player"				"models/characters/security_specialist.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_l.mdl"
+				"attachments"
+				{
+					"cap"
+					{
+						"model"			"models/characters/us_cap_specialist.mdl"
+					}
+				}
+			}
+			"team"					"security"
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+				"gear"					"sec_heavy_armor"
+				"gear"					"sec_chest_demo"
+				"weapon"				"weapon_m14"
+				"weapon_upgrade"			"ammo_ap_m14"
+				"weapon_upgrade"			"optic_scope_mk4"
+				"weapon_upgrade"			"sec_foregrip2"
+				"weapon_upgrade"			"sec_silencer"
+				"weapon"				"weapon_m590"
+				"weapon_upgrade"			"sec_flashlight_shotgun"
+				"weapon"				"weapon_c4_clicker"
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_kabar"
+				"weapon_upgrade"			"underbarrel_m203_he"
+			}
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_galil_sar"
+				"weapon"		"weapon_m14"
+				"weapon"		"weapon_m16"
+				"weapon"		"weapon_m40a1"
+				"weapon"		"weapon_m4a1"
+				"weapon"		"weapon_mk18"
+				"weapon"		"weapon_ump45"
+				"weapon"		"weapon_l1a1"
+				"weapon"		"weapon_m9"
+				"weapon"		"weapon_m590"
+				"weapon"		"weapon_m45"
+				"weapon"		"weapon_model10"
+				"weapon"		"weapon_at4"
+				"weapon"		"weapon_c4_clicker"
+				//"weapon"		"weapon_m18"
+				"weapon"		"weapon_m67"
+				//"weapon"		"weapon_m84"
+				"weapon_upgrade"			"optic_scope_mk4"
+				"weapon_upgrades"			"underbarrel_bipod"
+				"weapon_upgrade"			"underbarrel_m203_he"
+				"weapon_upgrade"			"magazine_drum_75rd"
+
+			}
+		}
+		"template_support_security_vnf"
+		{
+			"models"
+			{
+				"player"				"models/characters/security_heavy.mdl"
+				"viewmodel_hands"			"models/weapons/v_hands_sec_m.mdl"
+				"attachments"
+				{
+					"helmet"
+					{
+						"model"			"models/characters/us_helmet_head.mdl"
+					}
+				}
+			}
+			"team"					"security"
+			"buy_order"
+			{
+				"weapon"				"weapon_kabar"
+				"gear"					"sec_heavy_armor"
+				"gear"					"sec_chest_demo"
+				"weapon"				"weapon_m249"
+				"weapon_upgrade"			"sec_foregrip2"
+				"weapon_upgrade"			"sec_lasersight_band"
+				"weapon_upgrade"			"optic_elcan"
+				"weapon_upgrade"			"barrel_heavybarrel"
+				"weapon"				"weapon_m45"
+				"weapon_upgrade"			"ammo_ap_m45"
+				"weapon_upgrade"			"barrel_silencer_pistol"
+				"weapon_upgrade"			"magazine_extended_pistol"
+				"weapon_upgrade"			"siderail_flashlight_pistol"
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_kabar"
+			}
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_galil_sar"
+				"weapon"				"weapon_m16"
+				"weapon"				"weapon_m9"
+				"weapon"				"weapon_m45"
+				"weapon"				"weapon_model10"
+				//"weapon"				"weapon_m18"
+				"weapon"				"weapon_m67"
+				"weapon"				"weapon_anm14"
+				//"weapon"				"weapon_m84"
+				"weapon_upgrade"			"762_conversion"
+				"weapon_upgrade"			"magazine_drum_75rd"
+				"weapon_upgrade"			"magazine_m249_100rd"
+				"weapon_upgrade"			"magazine_m249_200rd"
+			}
+		}
+	}
+}

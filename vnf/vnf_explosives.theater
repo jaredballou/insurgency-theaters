@@ -1,0 +1,79 @@
+"theater"
+{
+	"explosives"
+	{
+		"grenade_m203_he"
+		{
+			"DetonateDamage"			"200"
+			"DetonatePenetrationRadius"		"20"
+			"DetonateDamageRadius"			"800"
+			"FuseTime"				"0"
+			"ImpactDetonation"			"1"
+			"ArmDelay"				"0.2"
+			"ImpactDamage"
+			{
+				"0"					"0"
+				"1000"					"100"
+				"4000"					"400"
+			}
+		}
+		"grenade_m203_hedp"
+		{
+			"import"				"grenade_m203_he"
+			"DetonateDamage"			"300"
+			"DetonatePenetrationRadius"		"80"
+			"DetonateDamageRadius"			"450"
+			"FuseTime"				"0"
+			"ImpactDetonation"			"1"
+			"ArmDelay"				"0.15"
+		}
+		"grenade_m67"
+		{
+			"DetonateDamage"			"200"
+			"DetonatePenetrationRadius"		"20"
+			"DetonateDamageRadius"			"900"
+			"FuseTime"				"4"
+			"RocketStartSpeed"			"2000"
+			"Health"				"50"
+			"ReactExplosions"			"0"
+			"ReactBullets"				"0"
+		}
+		"rocket_at4"
+		{
+			"DetonateDamage"			"300"
+			"DetonateDamageRadius"			"600"
+			"DetonatePenetrationRadius"		"400"
+			"RocketTopSpeed"			"3500"	// you cannot go faster than 3500
+			"RocketStartSpeed"			"200"
+			"RocketAcceleration"			"400"
+			"RocketWobble"				"0"
+			"RocketWobbleFrequency"			"1"
+		}
+		"rocket_rpg7"
+		{
+			"DetonateDamage"			"250"
+			"DetonateDamageRadius"			"600"
+			"DetonatePenetrationRadius"		"100"
+			"RocketTopSpeed"			"3500"	// you cannot go faster than 3500
+			"RocketStartSpeed"			"200"
+			"RocketAcceleration"			"400"
+			"RocketWobble"				"1"
+			"RocketWobbleFrequency"			"0.25"
+		}
+		"grenade_c4"
+		{
+			"DetonateDamage"			"300"
+			"DetonateDamageRadius"			"600"
+			"DetonatePenetrationRadius"		"300"
+		}
+		"grenade_ied"
+		{
+			"DetonateDamage"			"600"
+			"DetonateDamageRadius"			"1600"
+			"DetonatePenetrationRadius"		"120"
+			"Health"				"50"
+			"ReactExplosions"			"1"
+			"ReactBullets"				"1"
+		}
+	}
+}

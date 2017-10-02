@@ -1,0 +1,316 @@
+"theater"
+{
+	"weapons"
+	{
+		"weapon_ak74"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
+		"weapon_akm"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
+		"weapon_aks74u"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
+		"weapon_anm14"
+		{
+			"weapon_cost"				"0"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_at4"
+		{
+//			"weapon_slot"				"heavydemo"
+			"weapon_cost"				"0"
+			"weapon_weight"				"64"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_c4_ied"
+		{
+//			"weapon_slot"				"heavydemo"
+			"weapon_cost"				"0"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_c4_clicker"
+		{
+//			"weapon_slot"				"heavydemo"
+			"weapon_max_subslot"			"0"
+			"weapon_cost"				"0"
+			"weapon_weight"				"32"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+			"explosives"
+			{
+				"entity"				"grenade_c4"
+				"RadioSignalDistance"			"10000"
+				"GrenadeRollSpeed"			"300"
+				"GrenadeRollSpeedProne"			"250"
+				"GrenadeRollUpSpeed"			"150"
+				"GrenadeRollUpSpeedProne"		"100"
+				"GrenadeThrowSpeed"			"400"
+				"GrenadeThrowSpeedProne"		"350"
+				"RemoteDetonation"			"1"
+				"AllowPlant"				"1"
+			}
+		}
+		"weapon_fal"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
+		"weapon_galil"
+		{
+			"weapon_weight"				"96"
+			"weapon_cost"				"0"
+			"barrel_length"				"28"
+			"ballistics"
+			{
+				"spread"				"0.15 0.15 0.15"
+				"FireModes"				"semi, burst, full"
+				"bulletcount"				"1"
+				"maxrange"				"10000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"556_35box"
+				"clip_max"				"12"
+				"clip_max_rounds"			"35"
+				"clip_default"				"6"
+			}
+			"team_access"				"security, insurgent"
+		}
+		"weapon_galil_sar"
+		{
+			"class_restricted"			"0"
+			"rounds_per_minute"			"650"
+			"weapon_weight"				"128"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
+			"weapon_cost"				"0"
+			"barrel_length"				"24"
+			"ballistics"
+			{
+				"spread"				"0.15 0.15 0.15"
+				"FireModes"				"semi, burst, full"
+				"bulletcount"			"1"
+				"maxrange"				"10000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"556_35box"
+				"clip_max"				"12"
+				"clip_max_rounds"			"35"
+				"clip_default"				"6"
+			}
+			"team_access"				"security, insurgent"
+		}
+		"weapon_m14"
+		{
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+		"weapon_m16a4"
+		{
+			"class_restricted"			"0"
+			"ammo_clip"
+			{
+				"clip_max"				"12"
+				"clip_default"				"6"
+			}
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+		"weapon_m18"
+		{
+			"class_restricted"			"1"
+			"weapon_cost"				"0"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_m1911"
+		{
+			"team_access"				"insurgent"
+		}
+		"weapon_m1a1"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
+		"weapon_m203_he"
+		{
+//			"weapon_slot"				"heavydemo"
+		}
+		"weapon_m203_hedp"
+		{
+			"import"				"weapon_m203_he"
+			"print_name"				"M203 (HEDP)"
+			"print_desc"				"Smaller radius but higher damage. Good for indoors or accurate shooters."
+			"explosives"
+			{
+				"entity"				"grenade_m203_hedp"
+			}
+		}
+		"weapon_m203_smoke"
+		{
+//			"weapon_slot"				"heavydemo"
+		}
+		"weapon_m249"
+		{
+			"weapon_cost"				"0"
+			"rounds_per_minute"			"880"
+			"weapon_weight"				"200"
+			"barrel_length"				"20"
+			"sounds"
+			{
+				"shot_single"				"Weapon_M249.Single"
+				"shot_single_local"			"Weapon_M249.SingleLocal"
+				"shot_silent"				"Weapon_FnFAL.Single"
+				"shot_silent_local"			"Weapon_FnFAL.SingleLocal"
+				"empty"					"Weapon_M249.Empty"
+				"clipin"				"Weapon_M249.Magin"
+				"clipout"				"Weapon_M249.Magout"
+				"boltback"				"Weapon_M249.Boltback"
+				"boltrelease"				"Weapon_M249.Boltrelease"
+				"bipodin"				"Weapon_M249.BipodDeploy"
+				"bipodout"				"Weapon_M249.BipodRetract"
+			}
+			"ballistics"
+			{
+				"spread"				"0.2 0.2 0.2"
+				"FireModes"				"full"
+				"bulletcount"				"1"
+				"maxrange"				"10000"
+				"LowAmmoCount"				"15"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"556_m27_ap"
+				"clip_max"				"8"
+				"clip_max_rounds"			"200"
+				"clip_default"				"4"
+			}
+			"team_access"				"security"
+		}
+		"weapon_m4a1"
+		{
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+		"weapon_m590"
+		{
+			"weapon_slot"				"secondary"
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+		"weapon_m67"
+		{
+			"weapon_cost"				"0"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_m84"
+		{
+			"class_restricted"			"1"
+			"weapon_cost"				"0"
+			"team_access"				"security, insurgent"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_m9"
+		{
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+		"weapon_makarov"
+		{
+			"team_access"				"insurgent"
+		}
+		"weapon_mini14"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
+		"weapon_mk18"
+		{
+			"ammo_clip"
+			{
+				"clip_max"				"12"
+				"clip_default"				"6"
+			}
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+		"weapon_mp5"
+		{
+			"weapon_cost"				"0"
+			"team_access"				"security"
+			"weapon_slot"				"secondary"
+		}
+		"weapon_rpg7"
+		{
+//			"weapon_slot"				"heavydemo"
+			"player_restrictions"
+			{
+				"allow_sprint"				"1"
+				"allow_lean"				"1"
+				"allow_jump"				"1"
+				"allow_sway"				"0"
+			}
+		}
+		"weapon_rpk"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
+		"weapon_sterling"
+		{
+			"class_restricted"			"1"
+			"team_access"				"insurgent"
+		}
+		"weapon_ump45"
+		{
+			"weapon_cost"				"0"
+			"team_access"				"security"
+		}
+	}
+}

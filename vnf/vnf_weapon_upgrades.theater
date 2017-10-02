@@ -1,0 +1,291 @@
+"theater"
+{
+	"weapon_upgrades"
+	{
+		"762_conversion"
+		{
+			"upgrade_slot"				"magazine"
+			"magsize_override"			"100"
+			"upgrade_cost"				"0"
+			"print_name"				"7.62mm Conversion"
+			"print_desc"				"Swaps barrel, bolt, feed tray and magazines to fire 7.62x51mm NATO."
+			"weight"				"64"
+			"ammo_type_override"			"ammo_762_m13"
+			"class_restricted"			"0"
+			"length"				"0"
+			"weapon_abilities"			"silencer"
+			"rounds_per_minute"			"600"
+			"recoil"
+			{
+				"recoil_lateral_frac"			"1.1"
+				"recoil_vertical_frac"			"1.2"
+			}
+			"sway"
+			{
+				"sway_speed_frac"			"1.0"
+			}
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m249"
+			}
+		}
+		"ammo_ap_galil"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_ap_m14"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_ap_m16a4"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_ap_m249"
+		{
+			"class_restricted"			"1"
+			"upgrade_cost"				"40"
+		}
+		"ammo_ap_m4"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_ap_m9"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_ap_mp5"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_ap_ump45"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_hp_galil"
+		{
+			"class_restricted"			"1"
+			"upgrade_cost"				"40"
+		}
+		"ammo_hp_m14"
+		{
+			"class_restricted"			"1"
+			"upgrade_cost"				"40"
+		}
+		"ammo_hp_m16a4"
+		{
+			"class_restricted"			"1"
+			"upgrade_cost"				"40"
+		}
+		"ammo_hp_m249"
+		{
+			"class_restricted"			"1"
+			"upgrade_cost"				"40"
+		}
+		"ammo_hp_m4"
+		{
+			"class_restricted"			"1"
+			"upgrade_cost"				"40"
+		}
+		"ammo_hp_m9"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_hp_mp5"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_hp_ump45"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_slugs"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_tracer_m16a4"
+		{
+			"upgrade_cost"				"0"
+		}
+		"ammo_tracer_m4"
+		{
+			"class_restricted"			"1"
+			"upgrade_cost"				"40"
+		}
+		"ammo_tracer_mp5"
+		{
+			"class_restricted"			"1"
+			"upgrade_cost"				"40"
+		}
+		"barrel_heavybarrel"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_galil"
+				"weapon"				"weapon_galil_sar"
+			}
+		}
+		"barrel_silencer_heavy"
+		{
+			"IsBase"				"1"
+		}
+		"barrel_silencer_pistol"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		"barrel_silencer_sec1"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		"barrel_silencer_sec2"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		"magazine_extended_rifle_30rd"
+		{
+			"magsize_override"			"30"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_fal"
+				"weapon"				"weapon_l1a1"
+			}
+
+			"viewmodel_attachments"
+			{
+				"magazine_fal"
+				{
+					"model"				"models/weapons/upgrades/a_magazine_fal_l1a1_30.mdl"
+					"Main"				"1"
+
+					"weapons"
+					{
+						"weapon"		"weapon_fal"
+						"weapon"		"weapon_l1a1"
+					}
+				}
+			}
+		}
+		"magazine_drum_75rd"
+		{
+			"upgrade_cost"				"3"
+			"class_restricted"			"1"
+			"team_access"				"security, insurgent"
+			"weight"					"48"
+			"magsize_override"			"75"
+			"maxcarry_override"			"6"
+		}
+		"optic_2xaimpoint"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		"optic_aimpoint"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		"optic_elcan"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		
+		"optic_eotech"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		"optic_scope_mk4"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"0"
+		}
+		"siderail_flashlight_rail"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"siderail_flashlight_pistol"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"siderail_flashlight_band"
+		{
+			"upgrade_cost"				"0"
+		}
+		"siderail_flashlight_shotgun"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"siderail_lasersight_band"
+		{
+			"upgrade_cost"				"0"
+		}
+		"siderail_lasersight_pistol"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"siderail_lasersight_rail"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"			
+		}
+		"siderail_lasersight_shotgun_sec"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"underbarrel_bipod"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"underbarrel_foregrip_sec1"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"underbarrel_foregrip_sec2"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"underbarrel_m203_base"
+		{
+			"lock_slot"				"heavydemo"
+		}
+		"underbarrel_m203_he"
+		{
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+		}
+		"m203_hedp"
+		{
+			"import"				"underbarrel_m203_he"
+			"print_name"				"M203 (HEDP)"
+			"print_desc"				"Smaller radius but higher damage. Good for indoors or accurate shooters."
+			"attach_weapon"				"weapon_m203_hedp"
+		}
+		"underbarrel_m203_smoke"
+		{
+			"lock_slot"				""
+			"upgrade_cost"				"0"
+			"class_restricted"			"0"
+			
+		}
+	}
+}

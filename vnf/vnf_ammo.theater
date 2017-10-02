@@ -1,0 +1,37 @@
+"theater"
+{
+	"ammo"
+	{
+		"556x45_car_ap"
+		{
+			"import"				"556x45_ap"
+			"Damage"
+			{
+				"10"					"110"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
+				"2700"					"80"
+				"12000"					"46"
+			}
+		}
+		"ammo_762_m13"
+		{
+			"import"				"762x51"
+			"carry"					"8"
+			"magsize"				"100"
+			"clip_max_rounds"			"100"
+			"tracer_frequency"			"4"
+			"tracer_type"				"whiz_with_line"
+			"tracer_lowammo"			"9"
+			"Damage"
+			{
+				"10"					"150"	// bullets fragment at under 60m dealing more damage. (truly more like 150m but compromise for gameplay)
+				"2700"					"120"
+				"12000"					"100"
+			}
+			"PenetrationPower"
+			{
+				"10"					"2400"	// NATO Ball (M855) can penetrate up to 3 mm (about 1/8 in) of steel at 600 meters
+				"12000"					"800"
+			}
+		}
+	}
+}

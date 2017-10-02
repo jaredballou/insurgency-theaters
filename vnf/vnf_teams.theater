@@ -1,0 +1,34 @@
+"theater"
+{
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				"#Fireteam_Alpha"
+				{
+					"#Squad_Fireteam_Leader_Recon"		"template_specialist_security_vnf"
+					"#Squad_Fireteam_Rifleman"			"template_rifleman_security_vnf"
+					"#Squad_Fireteam_Rifleman"			"template_rifleman_security_vnf"
+					"#Squad_Fireteam_Rifleman"			"template_rifleman_security_vnf"
+					"#Squad_Fireteam_Specialist"		"template_specialist_security_vnf"
+					"#Squad_Fireteam_Specialist"		"template_specialist_security_vnf"
+					"#Squad_Fireteam_Support"			"template_support_security_vnf"
+					"#Squad_Fireteam_Support"			"template_support_security_vnf"
+				}
+				"#Fireteam_Bravo"
+				{
+					"#Squad_Fireteam_Leader_Recon"		"template_specialist_security_vnf"
+					"#Squad_Fireteam_Rifleman"			"template_rifleman_security_vnf"
+					"#Squad_Fireteam_Rifleman"			"template_rifleman_security_vnf"
+					"#Squad_Fireteam_Rifleman"			"template_rifleman_security_vnf"
+					"#Squad_Fireteam_Specialist"		"template_specialist_security_vnf"
+					"#Squad_Fireteam_Specialist"		"template_specialist_security_vnf"
+					"#Squad_Fireteam_Support"			"template_support_security_vnf"
+					"#Squad_Fireteam_Support"			"template_support_security_vnf"
+				}
+			}
+		}
+	}
+}
